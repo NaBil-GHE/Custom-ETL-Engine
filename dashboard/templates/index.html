@@ -1,318 +1,610 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Custom ETL Engine – Dashboard</title>
+  <title>Custom ETL Engine</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
     :root {
-      --primary: #2563eb;
-      --accent:  #10b981;
-      --danger:  #ef4444;
-      --bg:      #f1f5f9;
-      --card:    #ffffff;
-      --text:    #1e293b;
-      --muted:   #64748b;
+      --primary : #2563eb;
+      --accent  : #10b981;
+      --warning : #f59e0b;
+      --danger  : #ef4444;
+      --bg      : #f1f5f9;
+      --card    : #ffffff;
+      --text    : #1e293b;
+      --muted   : #64748b;
+      --border  : #e2e8f0;
     }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); }
+    *{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:'Segoe UI',sans-serif;background:var(--bg);color:var(--text);}
 
-    /* ── Header ── */
-    header {
-      background: var(--primary);
-      color: white;
-      padding: 1rem 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    header h1 { font-size: 1.4rem; }
-    header span { font-size: 0.85rem; opacity: 0.8; }
+    header{background:var(--primary);color:#fff;padding:.9rem 2rem;display:flex;align-items:center;justify-content:space-between;}
+    header h1{font-size:1.3rem;} header span{font-size:.8rem;opacity:.8;}
 
-    /* ── Main layout ── */
-    main { max-width: 1280px; margin: 2rem auto; padding: 0 1.5rem; }
+    .tabs{display:flex;gap:0;background:#fff;border-bottom:2px solid var(--border);padding:0 2rem;}
+    .tab-btn{padding:.8rem 1.6rem;border:none;background:none;cursor:pointer;font-size:.9rem;font-weight:600;color:var(--muted);border-bottom:3px solid transparent;margin-bottom:-2px;transition:all .2s;}
+    .tab-btn.active{color:var(--primary);border-bottom-color:var(--primary);}
+    .tab-btn:hover{color:var(--primary);}
 
-    /* ── KPI Cards ── */
-    .kpi-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 1rem;
-      margin-bottom: 2rem;
-    }
-    .kpi-card {
-      background: var(--card);
-      border-radius: 12px;
-      padding: 1.2rem 1.5rem;
-      box-shadow: 0 1px 4px rgba(0,0,0,.07);
-    }
-    .kpi-card .label { font-size: 0.78rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
-    .kpi-card .value { font-size: 2rem; font-weight: 700; color: var(--primary); margin-top: .3rem; }
+    .tab-content{display:none;max-width:1280px;margin:1.5rem auto;padding:0 1.5rem;}
+    .tab-content.active{display:block;}
 
-    /* ── Action Bar ── */
-    .action-bar { display: flex; gap: 1rem; margin-bottom: 2rem; }
-    .btn {
-      padding: .6rem 1.4rem;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      font-size: .9rem;
-      font-weight: 600;
-      transition: opacity .2s;
-    }
-    .btn:hover { opacity: .85; }
-    .btn-primary { background: var(--primary); color: white; }
-    .btn-success { background: var(--accent);  color: white; }
+    .card{background:var(--card);border-radius:12px;padding:1.4rem;box-shadow:0 1px 4px rgba(0,0,0,.07);margin-bottom:1.2rem;}
+    .card h3{font-size:.95rem;color:var(--muted);margin-bottom:1rem;text-transform:uppercase;letter-spacing:.05em;}
 
-    /* ── Charts row ── */
-    .charts-row {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1.5rem;
-      margin-bottom: 2rem;
-    }
-    .chart-card {
-      background: var(--card);
-      border-radius: 12px;
-      padding: 1.2rem;
-      box-shadow: 0 1px 4px rgba(0,0,0,.07);
-    }
-    .chart-card h3 { font-size: .95rem; color: var(--muted); margin-bottom: 1rem; }
-    canvas { max-height: 250px; }
+    .kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1rem;margin-bottom:1.2rem;}
+    .kpi-card{background:var(--card);border-radius:12px;padding:1.1rem 1.3rem;box-shadow:0 1px 4px rgba(0,0,0,.07);}
+    .kpi-card .label{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;}
+    .kpi-card .value{font-size:1.9rem;font-weight:700;color:var(--primary);margin-top:.25rem;}
 
-    /* ── Data Table ── */
-    .table-card {
-      background: var(--card);
-      border-radius: 12px;
-      padding: 1.2rem;
-      box-shadow: 0 1px 4px rgba(0,0,0,.07);
-      overflow-x: auto;
-    }
-    .table-card h3 { font-size: .95rem; color: var(--muted); margin-bottom: 1rem; }
-    table { width: 100%; border-collapse: collapse; font-size: .85rem; }
-    th { background: var(--bg); padding: .6rem .8rem; text-align: left; font-weight: 600; font-size: .78rem; text-transform: uppercase; color: var(--muted); }
-    td { padding: .55rem .8rem; border-bottom: 1px solid #e2e8f0; }
-    tr:hover td { background: #f8fafc; }
+    .charts-row{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-bottom:1.2rem;}
+    canvas{max-height:230px;}
 
-    /* ── Pagination ── */
-    .pagination { display: flex; gap: .5rem; justify-content: center; margin-top: 1rem; }
-    .page-btn { padding: .4rem .9rem; border: 1px solid #e2e8f0; border-radius: 6px; cursor: pointer; background: white; font-size: .85rem; }
-    .page-btn.active { background: var(--primary); color: white; border-color: var(--primary); }
+    .table-wrap{overflow-x:auto;}
+    table{width:100%;border-collapse:collapse;font-size:.83rem;}
+    th{background:var(--bg);padding:.55rem .75rem;text-align:left;font-weight:600;font-size:.75rem;text-transform:uppercase;color:var(--muted);}
+    td{padding:.5rem .75rem;border-bottom:1px solid var(--border);}
+    tr:hover td{background:#f8fafc;}
+    .pagination{display:flex;gap:.4rem;justify-content:center;margin-top:1rem;}
+    .page-btn{padding:.35rem .8rem;border:1px solid var(--border);border-radius:6px;cursor:pointer;background:#fff;font-size:.82rem;}
+    .page-btn.active{background:var(--primary);color:#fff;border-color:var(--primary);}
 
-    /* ── Status ── */
-    #status-bar { padding: .7rem 1rem; border-radius: 8px; margin-bottom: 1rem; display: none; font-size: .9rem; }
-    .status-ok   { background: #d1fae5; color: #065f46; }
-    .status-err  { background: #fee2e2; color: #991b1b; }
-    .status-info { background: #dbeafe; color: #1e40af; }
+    .btn{padding:.55rem 1.3rem;border:none;border-radius:8px;cursor:pointer;font-size:.88rem;font-weight:600;transition:opacity .2s;}
+    .btn:hover{opacity:.85;}
+    .btn-primary{background:var(--primary);color:#fff;}
+    .btn-success{background:var(--accent);color:#fff;}
+    .btn-warning{background:var(--warning);color:#fff;}
+    .btn-danger {background:var(--danger);color:#fff;}
+    .btn-outline{background:#fff;color:var(--primary);border:1.5px solid var(--primary);}
+    .btn-sm{padding:.35rem .9rem;font-size:.8rem;}
 
-    @media (max-width: 700px) {
-      .charts-row { grid-template-columns: 1fr; }
+    #status-bar,#wizard-status{padding:.65rem 1rem;border-radius:8px;margin-bottom:1rem;display:none;font-size:.88rem;}
+    .status-ok  {background:#d1fae5;color:#065f46;}
+    .status-err {background:#fee2e2;color:#991b1b;}
+    .status-info{background:#dbeafe;color:#1e40af;}
+    .status-warn{background:#fef3c7;color:#92400e;}
+
+    .wizard-steps{display:flex;gap:0;margin-bottom:1.8rem;position:relative;}
+    .wizard-step{flex:1;text-align:center;position:relative;}
+    .wizard-step::after{content:'';position:absolute;top:18px;left:50%;width:100%;height:2px;background:var(--border);z-index:0;}
+    .wizard-step:last-child::after{display:none;}
+    .step-circle{width:36px;height:36px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:.88rem;position:relative;z-index:1;border:2px solid var(--border);background:#fff;color:var(--muted);}
+    .wizard-step.done   .step-circle{background:var(--accent);color:#fff;border-color:var(--accent);}
+    .wizard-step.active .step-circle{background:var(--primary);color:#fff;border-color:var(--primary);}
+    .step-label{font-size:.75rem;color:var(--muted);margin-top:.3rem;}
+    .wizard-step.active .step-label{color:var(--primary);font-weight:600;}
+
+    .wizard-panel{display:none;}
+    .wizard-panel.active{display:block;}
+
+    .file-list{display:flex;flex-direction:column;gap:.5rem;margin-top:.8rem;}
+    .file-item{display:flex;align-items:center;justify-content:space-between;padding:.6rem .9rem;background:var(--bg);border-radius:8px;font-size:.85rem;}
+    .file-item .file-name{font-weight:600;}
+    .file-item .file-meta{color:var(--muted);font-size:.78rem;}
+    .file-item .badge{padding:.2rem .6rem;border-radius:12px;font-size:.72rem;font-weight:700;}
+    .badge-csv {background:#dbeafe;color:#1d4ed8;}
+    .badge-json{background:#d1fae5;color:#065f46;}
+    .badge-db  {background:#fef3c7;color:#92400e;}
+
+    .source-row{display:grid;grid-template-columns:90px 1fr auto auto;gap:.6rem;align-items:center;padding:.6rem .8rem;background:var(--bg);border-radius:8px;margin-bottom:.5rem;font-size:.85rem;}
+    .source-row select,.source-row input{padding:.35rem .5rem;border:1px solid var(--border);border-radius:6px;font-size:.83rem;background:#fff;}
+
+    .form-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:.8rem;}
+    .form-group label{display:block;font-size:.8rem;font-weight:600;color:var(--muted);margin-bottom:.3rem;}
+    .form-group select,.form-group input{width:100%;padding:.45rem .6rem;border:1px solid var(--border);border-radius:8px;font-size:.85rem;}
+
+    #drop-zone{border:2px dashed var(--border);border-radius:12px;padding:2.5rem;text-align:center;cursor:pointer;transition:border-color .2s,background .2s;}
+    #drop-zone:hover,#drop-zone.drag-over{border-color:var(--primary);background:#eff6ff;}
+    #drop-zone .icon{font-size:2.5rem;}
+    #drop-zone p{color:var(--muted);margin-top:.5rem;font-size:.9rem;}
+
+    @media(max-width:750px){
+      .charts-row{grid-template-columns:1fr;}
+      .form-row{grid-template-columns:1fr;}
+      .source-row{grid-template-columns:1fr 1fr;}
     }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>⚙️ Custom ETL Engine – Dashboard</h1>
-  <span>Business Intelligence | USTO Oran</span>
+  <h1>&#9881; Custom ETL Engine</h1>
+  <span>Business Intelligence &middot; USTO Oran 2025-2026</span>
 </header>
 
-<main>
-  <!-- Status bar -->
+<!-- Tabs -->
+<div class="tabs">
+  <button class="tab-btn active" onclick="switchTab('dashboard')">&#128202; Dashboard</button>
+  <button class="tab-btn"        onclick="switchTab('wizard')">&#129497; Setup Wizard</button>
+</div>
+
+<!-- ═══════ TAB 1 – DASHBOARD ═══════ -->
+<div id="tab-dashboard" class="tab-content active">
   <div id="status-bar"></div>
 
-  <!-- Actions -->
-  <div class="action-bar">
-    <button class="btn btn-primary" onclick="loadStats()">🔄 Refresh Stats</button>
-    <button class="btn btn-success" onclick="runETL()">▶ Run ETL Pipeline</button>
+  <div style="display:flex;gap:.8rem;margin-bottom:1.2rem;flex-wrap:wrap;">
+    <button class="btn btn-primary" onclick="loadStats()">&#128260; Refresh</button>
+    <button class="btn btn-success" onclick="triggerETL()">&#9654; Run ETL</button>
   </div>
 
-  <!-- KPI Cards -->
   <div class="kpi-grid">
-    <div class="kpi-card">
-      <div class="label">Total Rows</div>
-      <div class="value" id="kpi-rows">—</div>
-    </div>
-    <div class="kpi-card">
-      <div class="label">Total Columns</div>
-      <div class="value" id="kpi-cols">—</div>
-    </div>
-    <div class="kpi-card">
-      <div class="label">Null Values</div>
-      <div class="value" id="kpi-nulls">—</div>
-    </div>
-    <div class="kpi-card">
-      <div class="label">Data Sources</div>
-      <div class="value" id="kpi-sources">—</div>
-    </div>
+    <div class="kpi-card"><div class="label">Total Rows</div>   <div class="value" id="kpi-rows">&mdash;</div></div>
+    <div class="kpi-card"><div class="label">Total Columns</div><div class="value" id="kpi-cols">&mdash;</div></div>
+    <div class="kpi-card"><div class="label">Null Values</div>  <div class="value" id="kpi-nulls">&mdash;</div></div>
+    <div class="kpi-card"><div class="label">Sources</div>      <div class="value" id="kpi-sources">&mdash;</div></div>
   </div>
 
-  <!-- Charts -->
   <div class="charts-row">
-    <div class="chart-card">
-      <h3>Null Values per Column</h3>
-      <canvas id="nullChart"></canvas>
-    </div>
-    <div class="chart-card">
-      <h3>Source Breakdown</h3>
-      <canvas id="sourceChart"></canvas>
-    </div>
+    <div class="card"><h3>Null Values per Column</h3><canvas id="nullChart"></canvas></div>
+    <div class="card"><h3>Source Breakdown</h3><canvas id="sourceChart"></canvas></div>
   </div>
 
-  <!-- Data Table -->
-  <div class="table-card">
-    <h3>ETL Results – Data Preview</h3>
-    <table id="data-table">
-      <thead id="table-head"></thead>
-      <tbody id="table-body"></tbody>
-    </table>
+  <div class="card">
+    <h3>Data Preview</h3>
+    <div class="table-wrap">
+      <table><thead id="table-head"></thead><tbody id="table-body"></tbody></table>
+    </div>
     <div class="pagination" id="pagination"></div>
   </div>
-</main>
+</div>
+
+<!-- ═══════ TAB 2 – SETUP WIZARD ═══════ -->
+<div id="tab-wizard" class="tab-content">
+  <div id="wizard-status"></div>
+
+  <div class="wizard-steps">
+    <div class="wizard-step active" id="ws1"><div class="step-circle">1</div><div class="step-label">Upload Files</div></div>
+    <div class="wizard-step"        id="ws2"><div class="step-circle">2</div><div class="step-label">Configure Sources</div></div>
+    <div class="wizard-step"        id="ws3"><div class="step-circle">3</div><div class="step-label">Cleaning &amp; Rules</div></div>
+    <div class="wizard-step"        id="ws4"><div class="step-circle">4</div><div class="step-label">Output &amp; Run</div></div>
+  </div>
+
+  <!-- Panel 1: Upload -->
+  <div id="panel1" class="wizard-panel active">
+    <div class="card">
+      <h3>Step 1 &ndash; Upload Your Data Files</h3>
+      <div id="drop-zone" onclick="document.getElementById('file-input').click()">
+        <div class="icon">&#128194;</div>
+        <p><strong>Click to browse</strong> or drag &amp; drop files here</p>
+        <p style="font-size:.78rem;margin-top:.3rem;">Supported: CSV, JSON, SQLite (.db)</p>
+      </div>
+      <input type="file" id="file-input" multiple accept=".csv,.json,.db" style="display:none" onchange="handleFileSelect(event)"/>
+      <div class="file-list" id="file-list"></div>
+    </div>
+    <div style="display:flex;justify-content:flex-end;gap:.8rem;">
+      <button class="btn btn-primary" onclick="goStep(2)" id="btn-next-1" disabled>Next &rarr;</button>
+    </div>
+  </div>
+
+  <!-- Panel 2: Configure Sources -->
+  <div id="panel2" class="wizard-panel">
+    <div class="card">
+      <h3>Step 2 &ndash; Configure Data Sources</h3>
+      <p style="font-size:.83rem;color:var(--muted);margin-bottom:1rem;">
+        For each file, choose the type and set options. Multiple files will be merged automatically.
+      </p>
+      <div id="source-config-rows"></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;gap:.8rem;">
+      <button class="btn btn-outline" onclick="goStep(1)">&larr; Back</button>
+      <button class="btn btn-primary" onclick="goStep(3)">Next &rarr;</button>
+    </div>
+  </div>
+
+  <!-- Panel 3: Cleaning & Validation -->
+  <div id="panel3" class="wizard-panel">
+    <div class="card">
+      <h3>Step 3 &ndash; Cleaning Strategy</h3>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Null / Missing Value Strategy</label>
+          <select id="null_strategy">
+            <option value="fill">Fill (replace with mean / "Unknown")</option>
+            <option value="drop_rows">Drop Rows with nulls</option>
+            <option value="report">Report only (keep nulls)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Duplicate Keep Strategy</label>
+          <select id="dedup_keep">
+            <option value="first">Keep First occurrence</option>
+            <option value="last">Keep Last occurrence</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Validation Rules <span style="font-weight:400;font-size:.8rem;">(optional)</span></h3>
+      <p style="font-size:.82rem;color:var(--muted);margin-bottom:.8rem;">Add rules per column. Leave empty to skip validation.</p>
+      <div id="validation-rows"></div>
+      <button class="btn btn-outline btn-sm" onclick="addValidationRow()" style="margin-top:.6rem;">+ Add Rule</button>
+    </div>
+    <div style="display:flex;justify-content:space-between;gap:.8rem;">
+      <button class="btn btn-outline" onclick="goStep(2)">&larr; Back</button>
+      <button class="btn btn-primary" onclick="goStep(4)">Next &rarr;</button>
+    </div>
+  </div>
+
+  <!-- Panel 4: Output & Run -->
+  <div id="panel4" class="wizard-panel">
+    <div class="card">
+      <h3>Step 4 &ndash; Output Settings</h3>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Pipeline / Config Name</label>
+          <input type="text" id="config_name" value="my_pipeline" placeholder="my_pipeline"/>
+        </div>
+        <div class="form-group">
+          <label>Output Table Name</label>
+          <input type="text" id="output_table" value="etl_results" placeholder="etl_results"/>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Also export to JSON?</label>
+          <select id="export_json">
+            <option value="false">No</option>
+            <option value="true">Yes</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="card" id="summary-card">
+      <h3>Pipeline Summary</h3>
+      <div id="summary-body" style="font-size:.85rem;line-height:1.8;color:var(--text);"></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;gap:.8rem;flex-wrap:wrap;">
+      <button class="btn btn-outline" onclick="goStep(3)">&larr; Back</button>
+      <div style="display:flex;gap:.8rem;">
+        <button class="btn btn-warning" onclick="generateConfig()">&#128190; Save Config</button>
+        <button class="btn btn-success" onclick="generateAndRun()">&#9654; Save &amp; Run ETL</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <script>
-  let currentPage = 1;
-  let nullChart, sourceChart;
+// ═══════ State ═══════
+let uploadedFiles = [];
+let nullChart, sourceChart;
 
-  function showStatus(msg, type = "info") {
-    const bar = document.getElementById("status-bar");
-    bar.textContent = msg;
-    bar.className = `status-${type}`;
-    bar.style.display = "block";
-    setTimeout(() => bar.style.display = "none", 5000);
+// ═══════ Tab switching ═══════
+function switchTab(name) {
+  document.querySelectorAll('.tab-btn').forEach((b,i)=>{
+    b.classList.toggle('active', ['dashboard','wizard'][i]===name);
+  });
+  document.querySelectorAll('.tab-content').forEach(el=>{
+    el.classList.toggle('active', el.id==='tab-'+name);
+  });
+  if (name==='dashboard') loadStats();
+  if (name==='wizard')    loadExistingFiles();
+}
+
+// ═══════ Status helpers ═══════
+function showStatus(msg, type, target) {
+  target = target || 'status-bar';
+  const bar = document.getElementById(target);
+  bar.textContent = msg;
+  bar.className   = 'status-'+type;
+  bar.style.display = 'block';
+  setTimeout(function(){ bar.style.display='none'; }, 6000);
+}
+
+// ═══════ DASHBOARD ═══════
+async function loadStats() {
+  showStatus('Loading...','info');
+  try {
+    const res = await fetch('/api/stats');
+    if (!res.ok) { showStatus('No data. Use the Setup Wizard or Run ETL first.','warn'); return; }
+    const d = await res.json();
+    document.getElementById('kpi-rows').textContent = d.total_rows.toLocaleString();
+    document.getElementById('kpi-cols').textContent = d.total_columns;
+    const totalNulls = Object.values(d.null_counts).reduce(function(a,b){return a+b;},0);
+    document.getElementById('kpi-nulls').textContent = totalNulls.toLocaleString();
+    renderNullChart(d.null_counts);
+    await loadSourceBreakdown();
+    await loadTableData(1);
+    showStatus('Loaded successfully.','ok');
+  } catch(e) {
+    showStatus('Error: '+e.message,'err');
   }
+}
 
-  async function loadStats() {
-    showStatus("Loading statistics...", "info");
+async function loadSourceBreakdown() {
+  const res  = await fetch('/api/source_breakdown');
+  const data = await res.json();
+  document.getElementById('kpi-sources').textContent = Object.keys(data).length || '\u2014';
+  renderSourceChart(data);
+}
+
+function renderNullChart(nc) {
+  const cols = Object.keys(nc).filter(function(k){return nc[k]>0;});
+  const vals = cols.map(function(k){return nc[k];});
+  if (nullChart) nullChart.destroy();
+  nullChart = new Chart(document.getElementById('nullChart'),{
+    type:'bar',
+    data:{labels:cols.length?cols:['No nulls'],datasets:[{label:'Nulls',data:cols.length?vals:[0],backgroundColor:'#fb923c'}]},
+    options:{responsive:true,plugins:{legend:{display:false}}}
+  });
+}
+
+function renderSourceChart(data) {
+  if (sourceChart) sourceChart.destroy();
+  var keys=Object.keys(data), vals=Object.values(data);
+  sourceChart = new Chart(document.getElementById('sourceChart'),{
+    type:'doughnut',
+    data:{labels:keys.length?keys:['No data'],datasets:[{data:keys.length?vals:[1],backgroundColor:['#2563eb','#10b981','#f59e0b','#ef4444','#8b5cf6']}]},
+    options:{responsive:true}
+  });
+}
+
+async function loadTableData(page) {
+  var res = await fetch('/api/data?page='+page+'&per_page=15');
+  if (!res.ok) return;
+  var result = await res.json();
+  var thead = document.getElementById('table-head');
+  var tbody = document.getElementById('table-body');
+  thead.innerHTML = tbody.innerHTML = '';
+  if (!result.data || !result.data.length) { tbody.innerHTML='<tr><td colspan="100" style="text-align:center;color:var(--muted)">No data</td></tr>'; return; }
+  var cols = Object.keys(result.data[0]).filter(function(c){return !c.startsWith('_');});
+  var trh = document.createElement('tr');
+  cols.forEach(function(c){ var th=document.createElement('th');th.textContent=c;trh.appendChild(th); });
+  thead.appendChild(trh);
+  result.data.forEach(function(row){
+    var tr=document.createElement('tr');
+    cols.forEach(function(c){ var td=document.createElement('td');td.textContent=(row[c]!==null&&row[c]!==undefined)?row[c]:'\u2014';tr.appendChild(td); });
+    tbody.appendChild(tr);
+  });
+  renderPagination(result.total, result.per_page, page);
+}
+
+function renderPagination(total, perPage, current) {
+  var pages = Math.ceil(total/perPage);
+  var container = document.getElementById('pagination');
+  container.innerHTML = '';
+  for(var i=1;i<=pages;i++){
+    var btn=document.createElement('button');
+    btn.textContent=i; btn.className='page-btn'+(i===current?' active':'');
+    btn.onclick=(function(p){return function(){loadTableData(p);};})(i);
+    container.appendChild(btn);
+  }
+}
+
+async function triggerETL() {
+  showStatus('Running ETL pipeline...','info');
+  var res    = await fetch('/api/run_etl',{method:'POST'});
+  var report = await res.json();
+  if (res.ok && report.status==='success')
+    showStatus('Done! '+report.rows_loaded+' rows loaded in '+report.elapsed_seconds+'s.','ok');
+  else
+    showStatus('ETL failed: '+(report.error||'Unknown'),'err');
+  loadStats();
+}
+
+// ═══════ WIZARD – Step navigation ═══════
+function goStep(n) {
+  [1,2,3,4].forEach(function(i){
+    document.getElementById('panel'+i).classList.toggle('active', i===n);
+    var ws = document.getElementById('ws'+i);
+    ws.classList.remove('active','done');
+    if (i < n)  ws.classList.add('done');
+    if (i === n) ws.classList.add('active');
+  });
+  if (n===2) buildSourceConfigRows();
+  if (n===4) buildSummary();
+}
+
+// ═══════ WIZARD – Step 1: Upload ═══════
+var dropZone = document.getElementById('drop-zone');
+dropZone.addEventListener('dragover',  function(e){ e.preventDefault(); dropZone.classList.add('drag-over'); });
+dropZone.addEventListener('dragleave', function(){ dropZone.classList.remove('drag-over'); });
+dropZone.addEventListener('drop', function(e){ e.preventDefault(); dropZone.classList.remove('drag-over'); uploadFiles(Array.from(e.dataTransfer.files)); });
+
+function handleFileSelect(e) { uploadFiles(Array.from(e.target.files)); }
+
+async function uploadFiles(files) {
+  for (var i=0; i<files.length; i++) {
+    var file = files[i];
+    showStatus('Uploading '+file.name+'...','info','wizard-status');
+    var form = new FormData();
+    form.append('file', file);
     try {
-      const res = await fetch("/api/stats");
-      if (!res.ok) { showStatus("No data found. Run the ETL pipeline first.", "err"); return; }
-      const data = await res.json();
-
-      document.getElementById("kpi-rows").textContent = data.total_rows.toLocaleString();
-      document.getElementById("kpi-cols").textContent = data.total_columns;
-
-      const totalNulls = Object.values(data.null_counts).reduce((a, b) => a + b, 0);
-      document.getElementById("kpi-nulls").textContent = totalNulls.toLocaleString();
-
-      renderNullChart(data.null_counts);
-      loadSourceBreakdown();
-      loadData(1);
-      showStatus("Statistics loaded successfully.", "ok");
-    } catch (e) {
-      showStatus("Error loading stats: " + e.message, "err");
+      var res  = await fetch('/api/upload', {method:'POST', body:form});
+      var data = await res.json();
+      if (!res.ok) { showStatus(data.error,'err','wizard-status'); continue; }
+      if (!uploadedFiles.find(function(f){return f.filename===data.filename;}))
+        uploadedFiles.push(data);
+      showStatus(data.filename+' uploaded ('+data.size_kb+' KB)','ok','wizard-status');
+    } catch(e) {
+      showStatus('Upload error: '+e.message,'err','wizard-status');
     }
   }
+  renderFileList();
+  document.getElementById('btn-next-1').disabled = uploadedFiles.length===0;
+}
 
-  async function loadSourceBreakdown() {
-    const res = await fetch("/api/source_breakdown");
-    const data = await res.json();
-    const keys = Object.keys(data);
-    document.getElementById("kpi-sources").textContent = keys.length || "—";
-    renderSourceChart(data);
-  }
+async function loadExistingFiles() {
+  var res   = await fetch('/api/list_uploads');
+  var files = await res.json();
+  files.forEach(function(f){ if (!uploadedFiles.find(function(x){return x.filename===f.filename;})) uploadedFiles.push(f); });
+  renderFileList();
+  document.getElementById('btn-next-1').disabled = uploadedFiles.length===0;
+}
 
-  function renderNullChart(nullCounts) {
-    const cols = Object.keys(nullCounts).filter(k => nullCounts[k] > 0);
-    const vals = cols.map(k => nullCounts[k]);
-    if (nullChart) nullChart.destroy();
-    nullChart = new Chart(document.getElementById("nullChart"), {
-      type: "bar",
-      data: {
-        labels: cols.length ? cols : ["No nulls found"],
-        datasets: [{ label: "Null Count", data: cols.length ? vals : [0],
-          backgroundColor: "#fb923c" }]
-      },
-      options: { responsive: true, plugins: { legend: { display: false } } }
-    });
-  }
+function renderFileList() {
+  var list = document.getElementById('file-list');
+  list.innerHTML = '';
+  uploadedFiles.forEach(function(f,idx){
+    var ext  = f.filename.split('.').pop().toUpperCase();
+    var item = document.createElement('div');
+    item.className = 'file-item';
+    item.innerHTML =
+      '<div><span class="file-name">'+f.filename+'</span><span class="file-meta"> &middot; '+f.size_kb+' KB</span></div>'+
+      '<div style="display:flex;align-items:center;gap:.6rem;">'+
+      '<span class="badge badge-'+ext.toLowerCase()+'">'+ext+'</span>'+
+      '<button class="btn btn-danger btn-sm" onclick="removeFile('+idx+')">&#10005;</button></div>';
+    list.appendChild(item);
+  });
+}
 
-  function renderSourceChart(breakdown) {
-    if (sourceChart) sourceChart.destroy();
-    const keys = Object.keys(breakdown);
-    const vals = Object.values(breakdown);
-    sourceChart = new Chart(document.getElementById("sourceChart"), {
-      type: "doughnut",
-      data: {
-        labels: keys.length ? keys : ["No data"],
-        datasets: [{ data: keys.length ? vals : [1],
-          backgroundColor: ["#2563eb","#10b981","#f59e0b","#ef4444"] }]
-      },
-      options: { responsive: true }
-    });
-  }
+function removeFile(idx) {
+  uploadedFiles.splice(idx,1);
+  renderFileList();
+  document.getElementById('btn-next-1').disabled = uploadedFiles.length===0;
+}
 
-  async function loadData(page) {
-    currentPage = page;
-    const res = await fetch(`/api/data?page=${page}&per_page=15`);
-    if (!res.ok) return;
-    const result = await res.json();
+// ═══════ WIZARD – Step 2: Source config ═══════
+function buildSourceConfigRows() {
+  var container = document.getElementById('source-config-rows');
+  container.innerHTML = '';
+  uploadedFiles.forEach(function(f,idx){
+    var ext  = f.filename.split('.').pop().toLowerCase();
+    var type = ext==='csv'?'CSV': ext==='json'?'JSON':'SQL';
+    var row  = document.createElement('div');
+    row.className = 'source-row';
+    row.id = 'src-row-'+idx;
 
-    const thead = document.getElementById("table-head");
-    const tbody = document.getElementById("table-body");
-    thead.innerHTML = "";
-    tbody.innerHTML = "";
-
-    if (!result.data || result.data.length === 0) {
-      tbody.innerHTML = "<tr><td colspan='100' style='text-align:center;color:#64748b'>No data</td></tr>";
-      return;
+    var opts = '';
+    if (type==='CSV') {
+      opts =
+        '<div><label style="font-size:.73rem;color:var(--muted);">Delimiter</label>'+
+        '<select class="src-delim"><option value=",">, (comma)</option><option value=";">; (semicolon)</option><option value="\\t">\\t (tab)</option></select></div>'+
+        '<div><label style="font-size:.73rem;color:var(--muted);">Encoding</label>'+
+        '<select class="src-enc"><option>utf-8</option><option>latin-1</option><option>utf-16</option></select></div>';
+    } else if (type==='JSON') {
+      opts =
+        '<div><label style="font-size:.73rem;color:var(--muted);">Record Path (nested)</label>'+
+        '<input class="src-rpath" type="text" placeholder="e.g. data (optional)"/></div><div></div>';
+    } else {
+      opts =
+        '<div><label style="font-size:.73rem;color:var(--muted);">Table Name</label>'+
+        '<input class="src-table" type="text" placeholder="e.g. orders"/></div><div></div>';
     }
 
-    // Headers
-    const cols = Object.keys(result.data[0]).filter(c => !c.startsWith("_"));
-    const tr = document.createElement("tr");
-    cols.forEach(c => { const th = document.createElement("th"); th.textContent = c; tr.appendChild(th); });
-    thead.appendChild(tr);
+    row.innerHTML =
+      '<div><span class="badge badge-'+ext+'" style="font-size:.8rem;">'+type+'</span><br>'+
+      '<span style="font-size:.75rem;color:var(--muted);word-break:break-all;">'+f.filename+'</span></div>'+
+      '<input type="hidden" class="src-path" value="'+f.path+'"/>'+ opts;
+    container.appendChild(row);
+  });
+}
 
-    // Rows
-    result.data.forEach(row => {
-      const tr = document.createElement("tr");
-      cols.forEach(c => {
-        const td = document.createElement("td");
-        td.textContent = row[c] !== null && row[c] !== undefined ? row[c] : "—";
-        tr.appendChild(td);
-      });
-      tbody.appendChild(tr);
-    });
-
-    // Pagination
-    renderPagination(result.total, result.per_page, page);
-  }
-
-  function renderPagination(total, perPage, current) {
-    const pages = Math.ceil(total / perPage);
-    const container = document.getElementById("pagination");
-    container.innerHTML = "";
-    for (let i = 1; i <= pages; i++) {
-      const btn = document.createElement("button");
-      btn.textContent = i;
-      btn.className = "page-btn" + (i === current ? " active" : "");
-      btn.onclick = () => loadData(i);
-      container.appendChild(btn);
+function collectSources() {
+  return uploadedFiles.map(function(f,idx){
+    var ext  = f.filename.split('.').pop().toLowerCase();
+    var type = ext==='csv'?'CSV': ext==='json'?'JSON':'SQL';
+    var el   = document.getElementById('src-row-'+idx);
+    var path = el ? (el.querySelector('.src-path')?.value || f.path) : f.path;
+    var src  = {type:type, path:path};
+    if (type==='CSV') {
+      src.delimiter = el?.querySelector('.src-delim')?.value || ',';
+      src.encoding  = el?.querySelector('.src-enc')?.value  || 'utf-8';
     }
-  }
-
-  async function runETL() {
-    showStatus("Running ETL pipeline... please wait.", "info");
-    try {
-      const res = await fetch("/api/run_etl", { method: "POST" });
-      const report = await res.json();
-      if (res.ok && report.status === "success") {
-        showStatus(
-          `✅ ETL Complete! ${report.rows_loaded} rows loaded in ${report.elapsed_seconds}s.`,
-          "ok"
-        );
-        loadStats();
-      } else {
-        showStatus("❌ ETL failed: " + (report.error || "Unknown error"), "err");
-      }
-    } catch (e) {
-      showStatus("Error: " + e.message, "err");
+    if (type==='JSON') {
+      var rp = el?.querySelector('.src-rpath')?.value;
+      if (rp) src.record_path = rp;
     }
-  }
+    if (type==='SQL') {
+      src.table = el?.querySelector('.src-table')?.value || '';
+    }
+    return src;
+  });
+}
 
-  // Auto-load on page open
-  window.onload = loadStats;
+// ═══════ WIZARD – Step 3: Validation ═══════
+function addValidationRow(col, rule, value) {
+  col   = col   || '';
+  rule  = rule  || 'required';
+  value = value || '';
+  var container = document.getElementById('validation-rows');
+  var row = document.createElement('div');
+  row.className = 'source-row';
+  row.style.gridTemplateColumns = '1fr 1fr 1fr auto';
+  row.innerHTML =
+    '<input type="text" class="vr-col" placeholder="column name" value="'+col+'"/>'+
+    '<select class="vr-rule">'+
+      '<option value="required"'      +(rule==='required'?      ' selected':'')+'>required (not null)</option>'+
+      '<option value="regex"'         +(rule==='regex'?         ' selected':'')+'>regex pattern</option>'+
+      '<option value="min_value"'     +(rule==='min_value'?     ' selected':'')+'>min value</option>'+
+      '<option value="max_value"'     +(rule==='max_value'?     ' selected':'')+'>max value</option>'+
+      '<option value="allowed_values"'+(rule==='allowed_values'?' selected':'')+'>allowed values (csv)</option>'+
+    '</select>'+
+    '<input type="text" class="vr-val" placeholder="value / pattern" value="'+value+'"/>'+
+    '<button class="btn btn-danger btn-sm" onclick="this.parentElement.remove()">&#10005;</button>';
+  container.appendChild(row);
+}
+
+function collectValidationRules() {
+  var rules = {};
+  document.querySelectorAll('#validation-rows .source-row').forEach(function(row){
+    var col  = row.querySelector('.vr-col').value.trim();
+    var rule = row.querySelector('.vr-rule').value;
+    var val  = row.querySelector('.vr-val').value.trim();
+    if (!col) return;
+    if (!rules[col]) rules[col] = {};
+    if (rule==='required')       rules[col].required = true;
+    else if (rule==='regex')     rules[col].regex = val;
+    else if (rule==='min_value') rules[col].min_value = parseFloat(val);
+    else if (rule==='max_value') rules[col].max_value = parseFloat(val);
+    else if (rule==='allowed_values') rules[col].allowed_values = val.split(',').map(function(v){return v.trim();});
+  });
+  return rules;
+}
+
+// ═══════ WIZARD – Step 4: Summary & Run ═══════
+function buildSummary() {
+  var sources   = collectSources();
+  var nullStrat = document.getElementById('null_strategy').value;
+  var dedupKeep = document.getElementById('dedup_keep').value;
+  var cfgName   = document.getElementById('config_name').value || 'my_pipeline';
+  var tblName   = document.getElementById('output_table').value || 'etl_results';
+  var fileNames = sources.map(function(s){return '<code>'+s.path.split('/').pop()+'</code> ('+s.type+')';}).join(', ');
+
+  document.getElementById('summary-body').innerHTML =
+    '<b>Pipeline name:</b> '+cfgName+'<br>'+
+    '<b>Sources:</b> '+sources.length+' file(s) &rarr; '+fileNames+'<br>'+
+    '<b>Null strategy:</b> '+nullStrat+'<br>'+
+    '<b>Dedup keep:</b> '+dedupKeep+'<br>'+
+    '<b>Output table:</b> '+tblName+'<br>'+
+    '<b>Output DB:</b> <code>data/processed/'+cfgName+'_output.db</code>';
+}
+
+function buildPayload() {
+  return {
+    config_name      : document.getElementById('config_name').value || 'my_pipeline',
+    output_table     : document.getElementById('output_table').value || 'etl_results',
+    null_strategy    : document.getElementById('null_strategy').value,
+    dedup_keep       : document.getElementById('dedup_keep').value,
+    export_json      : document.getElementById('export_json').value === 'true',
+    sources          : collectSources(),
+    validation_rules : collectValidationRules()
+  };
+}
+
+async function generateConfig() {
+  showStatus('Saving config...','info','wizard-status');
+  var res  = await fetch('/api/generate_config',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(buildPayload())});
+  var data = await res.json();
+  if (res.ok) showStatus(data.message,'ok','wizard-status');
+  else        showStatus(data.error,'err','wizard-status');
+}
+
+async function generateAndRun() {
+  await generateConfig();
+  showStatus('Running ETL pipeline...','info','wizard-status');
+  var res    = await fetch('/api/run_etl',{method:'POST'});
+  var report = await res.json();
+  if (res.ok && report.status==='success') {
+    showStatus('ETL complete! '+report.rows_loaded+' rows loaded in '+report.elapsed_seconds+'s. Switching to Dashboard...','ok','wizard-status');
+    setTimeout(function(){switchTab('dashboard');}, 2000);
+  } else {
+    showStatus('ETL failed: '+(report.error||'Unknown'),'err','wizard-status');
+  }
+}
+
+window.onload = loadStats;
 </script>
 </body>
 </html>
