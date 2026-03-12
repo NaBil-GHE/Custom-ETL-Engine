@@ -1,0 +1,8 @@
+2026-03-12 11:31:13 | INFO     | main | Loading config from: config/ecommerce_config.yaml
+2026-03-12 11:32:09 | INFO     | dashboard | File uploaded: data\raw\ecommerce_output.csv
+2026-03-12 11:32:10 | INFO     | dashboard | File uploaded: data\raw\ecommerce_output.db
+2026-03-12 11:32:34 | INFO     | dashboard | Config generated and activated: config\my_pipeline.yaml
+2026-03-12 11:33:27 | INFO     | dashboard | Config generated and activated: config\my_pipeline.yaml
+2026-03-12 11:34:39 | INFO     | dashboard | File uploaded: data\raw\ecommerce_output.db
+2026-03-12 11:34:54 | INFO     | dashboard | Config generated and activated: config\my_pipeline.yaml
+2026-03-12 11:35:04 | INFO     | dashboard | Config generated and activated: config\my_pipeline.yaml

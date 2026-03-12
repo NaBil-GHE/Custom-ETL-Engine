@@ -1,0 +1,24 @@
+sources:
+- type: SQL
+  path: data/raw/ecommerce_output.db
+  table: ''
+cleaning:
+  null_strategy: fill
+  null_values:
+  - N/A
+  - n/a
+  - 'null'
+  - 'NULL'
+  - None
+  - ''
+  - '-'
+  type_map: {}
+deduplication:
+  keep: first
+  use_hash: true
+validation_rules: {}
+output:
+  db_path: data/processed/my_pipeline_output.db
+  table_name: etl_results
+  export_csv: true
+  export_json: false
