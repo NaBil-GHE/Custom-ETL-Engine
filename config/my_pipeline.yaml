@@ -1,7 +1,25 @@
 sources:
+- type: CSV
+  path: data/raw/customers.csv
+  delimiter: ','
+  encoding: utf-8
+- type: CSV
+  path: data/raw/ecommerce_orders.csv
+  delimiter: ','
+  encoding: utf-8
+- type: CSV
+  path: data/raw/ecommerce_output.csv
+  delimiter: ','
+  encoding: utf-8
 - type: SQL
   path: data/raw/ecommerce_output.db
   table: ''
+- type: JSON
+  path: data/raw/products.json
+- type: CSV
+  path: data/raw/sales.csv
+  delimiter: ','
+  encoding: utf-8
 cleaning:
   null_strategy: fill
   null_values:
