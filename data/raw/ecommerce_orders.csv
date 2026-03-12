@@ -1,0 +1,1031 @@
+order_id,first_name,last_name,email,age,city,product,category,quantity,unit_price,total_amount,payment_method,status,order_date
+ORD0032,Ali,Cherif,ali.cherif501@email.com,26,Setif,Smartwatch,Electronics,2.0,95325.52,190651.04,BaridiMob,completed,2025-01-11
+ORD0110,Bilal,Boudiaf,bilal.boudiaf974@email.com,21,Annaba,Router,Peripherals,2.0,147148.69,294297.38,BaridiMob,returned,2025-11-12
+ORD0137,Amine,Ferhat,amine.ferhat594@email.com,48,Tlemcen,RAM 16GB,Networking,10.0,48819.63,488196.3,BaridiMob,pending,2025-08-03
+ORD0089,Amine,Mansouri,amine.mansouri502@email.com,47,Tiaret,Tablet,Storage,9.0,72909.04,656181.36,BaridiMob,returned,2025-09-13
+ORD0919,Ahmed,Cherif,ahmed.cherif458@email.com,34,Mostaganem,Mouse,Electronics,1.0,19757.99,19757.99,CIB,pending,2025-02-18
+ORD0965,Sara,Mansouri,sara.mansouri836@email.com,52,Oran,Router,Peripherals,4.0,109706.26,438825.04,BaridiMob,pending,2025-05-01
+ORD0871,Ahmed,Khelifi,ahmed.khelifi868@email.com,64,Sidi Bel Abbes,Mouse,Peripherals,4.0,31269.71,125078.84,Cash,pending,2025-11-23
+ORD0319,Lina,Boudiaf,lina.boudiaf558@email.com,38,Mostaganem,Webcam,Peripherals,10.0,75607.79,756077.9,Dahabia,shipped,2025-03-01
+ORD0262,Bilal,Saidi,bilal.saidi69@email.com,51,Setif,Laptop,Electronics,1.0,127452.41,127452.41,Cash,pending,2025-12-08
+ORD0536,Djamila,Khelifi,djamila.khelifi611@email.com,56,Annaba,Monitor,Electronics,6.0,12381.58,74289.48,Dahabia,pending,2025-09-28
+ORD0920,Sara,Meziane,sara.meziane128@email.com,51,Bejaia,Keyboard,Peripherals,9.0,26154.68,235392.12,Cash,pending,2025-05-02
+ORD0597,Sara,Mansouri,sara.mansouri271@email.com,65,Mostaganem,Router,Electronics,1.0,25556.26,25556.26,Dahabia,cancelled,2025-05-16
+ORD0077,Khaled,Taleb,khaled.taleb118@email.com,37,Bejaia,Monitor,Accessories,5.0,124081.36,620406.8,Cash,completed,2025-03-26
+ORD0108,Meriem,Meziane,meriem.meziane100@email.com,65,Annaba,Smartwatch,Networking,3.0,58602.55,-175807.65,BaridiMob,returned,2025-07-19
+ORD0425,Amine,Bouzid,amine.bouzid580@email.com,65,Djelfa,Mouse,Peripherals,7.0,25711.61,179981.27,BaridiMob,pending,2025-04-23
+ORD0585,Samira,Bouzid,samira.bouzid296@email.com,60,Tiaret,RAM 16GB,Accessories,3.0,2234.61,6703.83,Cash,pending,2025-12-16
+ORD0854,Youssef,Belkacem,youssef.belkacem744@email.com,24,Sidi Bel Abbes,Smartwatch,Accessories,8.0,61986.08,495888.64,Credit Card,completed,2025-06-03
+ORD0665,Lina,Bouzid,lina.bouzid55@email.com,50,Setif,Mouse,Storage,6.0,7782.88,46697.28,BaridiMob,returned,2025-11-03
+ORD0830,Mohamed,Khelifi,mohamed.khelifi55@email.com,23,Biskra,Power Bank,Peripherals,3.0,127799.64,383398.92,Credit Card,cancelled,2025-04-24
+ORD0421,Youssef,Hamidi,youssef.hamidi216@email.com,32,Sidi Bel Abbes,USB Cable,Peripherals,4.0,62191.85,248767.4,Credit Card,pending,2025-03-06
+ORD0598,Yasmine,Khelifi,yasmine.khelifi389@email.com,46,Biskra,USB Cable,Storage,8.0,39762.46,318099.68,Credit Card,cancelled,2025-01-10
+ORD0459,Meriem,Meziane,meriem.meziane265@email.com,18,Alger,Headphones,Accessories,4.0,120124.13,480496.52,Dahabia,shipped,2025-09-18
+ORD0313,Bilal,Cherif,bilal.cherif767@email.com,32,Bejaia,Monitor,Electronics,8.0,15735.15,125881.2,CIB,completed,2025-01-02
+ORD0650,Ali,Saidi,ali.saidi189@email.com,28,Annaba,Printer,Electronics,6.0,146714.37,880286.22,CIB,shipped,2025-08-18
+ORD0366,Mohamed,Zidane,mohamed.zidane733@email.com,18,Constantine,Power Bank,Electronics,8.0,50228.1,401824.8,CIB,shipped,2025-11-02
+ORD0322,Lina,Mebarki,lina.mebarki860@email.com,62,,Tablet,Accessories,4.0,89081.67,356326.68,BaridiMob,returned,2025-01-23
+ORD0630,Omar,Boudiaf,omar.boudiaf738@email.com,21,Annaba,RAM 16GB,Peripherals,5.0,30730.53,153652.65,CIB,completed,2025-12-19
+ORD0915,Youssef,Meziane,youssef.meziane501@email.com,62,Biskra,RAM 16GB,Networking,4.0,3942.5,15770.0,Credit Card,returned,2025-08-09
+ORD0469,Nour,Cherif,nour.cherif443@email.com,44,Tiaret,Headphones,Accessories,3.0,120105.6,360316.8,CIB,cancelled,2025-01-06
+ORD0599,Rachid,Mansouri,rachid.mansouri324@email.com,35,Bejaia,RAM 16GB,Electronics,2.0,137697.97,275395.94,BaridiMob,cancelled,2025-10-21
+ORD0395,Bilal,Mansouri,bilal.mansouri604@email.com,55,Bejaia,Tablet,Storage,1.0,79789.47,79789.47,Cash,returned,2025-07-27
+ORD0537,Meriem,Belkacem,meriem.belkacem666@email.com,44,Blida,Tablet,Storage,8.0,71340.11,570720.88,CIB,pending,2025-04-02
+ORD0721,Karim,Taleb,karim.taleb792@email.com,65,Chlef,Smartwatch,Storage,8.0,18217.6,145740.8,CIB,pending,2025-05-10
+ORD0334,Youssef,Saidi,youssef.saidi609@email.com,21,Djelfa,Smartwatch,Storage,1.0,64982.84,64982.84,CIB,returned,2025-07-06
+ORD0410,Nour,Mebarki,nour.mebarki219@email.com,59,Biskra,Mouse,Peripherals,6.0,44389.37,266336.22,Credit Card,returned,2025-08-18
+ORD0060,Khaled,Meziane,khaled.meziane607@email.com,54,Sidi Bel Abbes,Router,Accessories,2.0,104730.35,209460.7,BaridiMob,returned,2025-02-26
+ORD0257,Samira,Cherif,samira.cherif38@email.com,60,Mostaganem,Mouse,Networking,10.0,95907.96,959079.6,Cash,completed,2025-04-22
+ORD0970,Fatima,Belkacem,fatima.belkacem540@email.com,18,Constantine,USB Cable,Electronics,10.0,15409.63,154096.3,Dahabia,completed,2025-02-27
+ORD0686,Rachid,Larbi,rachid.larbi696@email.com,-5,Blida,Tablet,Peripherals,10.0,93673.28,936732.8,Cash,returned,2025-08-26
+ORD0343,Samira,Khelifi,samira.khelifi843@email.com,43,Biskra,Tablet,Networking,5.0,48302.55,241512.75,Cash,completed,2025-07-18
+ORD0636,Youssef,Benali,youssef.benali492@email.com,26,,Keyboard,Accessories,8.0,128759.36,1030074.88,Credit Card,completed,2025-08-15
+ORD0709,Samira,Hamidi,samira.hamidi884@email.com,48,Djelfa,Laptop,Storage,9.0,56518.4,508665.6,Cash,shipped,2025-09-14
+ORD0011,Omar,Cherif,omar.cherif506@email.com,42,Alger,Power Bank,Electronics,2.0,23349.78,46699.56,CIB,cancelled,2025-10-03
+ORD0486,Amina,Bouzid,amina.bouzid297@email.com,19,Alger,RAM 16GB,Storage,10.0,68188.7,681887.0,Credit Card,cancelled,2025-04-11
+ORD0210,Bilal,Hamidi,bilal.hamidi164@email.com,32,Batna,RAM 16GB,Networking,5.0,103698.41,518492.05,BaridiMob,shipped,2025-10-08
+ORD0140,Sara,Boudiaf,sara.boudiaf931@email.com,24,Mostaganem,SSD,Accessories,6.0,90948.37,545690.22,Credit Card,pending,2025-01-15
+ORD0389,Bilal,Meziane,bilal.meziane878@email.com,20,Tlemcen,Webcam,Peripherals,2.0,147110.28,294220.56,Cash,completed,2025-07-14
+ORD0623,Youssef,Mansouri,youssef.mansouri847@email.com,24,Mostaganem,Keyboard,Peripherals,7.0,1183.22,8282.54,CIB,pending,2025-02-17
+ORD0825,Khaled,Mansouri,khaled.mansouri600@email.com,32,Chlef,Power Bank,Peripherals,1.0,146308.74,146308.74,CIB,pending,2025-05-06
+ORD0718,Omar,Hamidi,omar.hamidi178@email.com,42,Biskra,SSD,Peripherals,5.0,30200.23,151001.15,Dahabia,shipped,2025-03-13
+ORD0846,Yasmine,Bouzid,yasmine.bouzid33@email.com,31,Tiaret,USB Cable,Networking,8.0,4512.36,36098.88,CIB,completed,2025-07-10
+ORD0688,Samira,Mebarki,samira.mebarki937@email.com,29,Alger,Headphones,Storage,6.0,128004.71,768028.26,Dahabia,cancelled,2025-01-02
+ORD0936,Samira,Belkacem,samira.belkacem548@email.com,61,Sidi Bel Abbes,Mouse,Accessories,9.0,102769.68,924927.12,Cash,returned,2025-08-06
+ORD0582,Amine,Benali,amine.benali627@email.com,53,Bejaia,Headphones,Accessories,5.0,9830.38,49151.9,Credit Card,completed,2025-01-23
+ORD0383,Meriem,Ferhat,meriem.ferhat583@email.com,61,,Webcam,Accessories,10.0,57272.74,572727.4,BaridiMob,returned,2025-01-28
+ORD0071,Meriem,Meziane,meriem.meziane894@email.com,48,Oran,SSD,Peripherals,8.0,72067.77,576542.16,BaridiMob,pending,2025-01-09
+ORD0261,Omar,Saidi,omar.saidi320@email.com,62,Blida,Webcam,Accessories,9.0,72697.44,654276.96,Dahabia,completed,2025-08-24
+ORD0801,Ahmed,Larbi,ahmed.larbi488@email.com,59,Oran,Smartwatch,Electronics,3.0,62267.87,186803.61,Dahabia,cancelled,2025-09-03
+ORD0454,Djamila,Bouzid,djamila.bouzid691@email.com,60,Oran,Mouse,Accessories,1.0,146359.06,146359.06,Cash,shipped,2025-07-12
+ORD0592,Sara,Belkacem,sara.belkacem946@email.com,21,Djelfa,USB Cable,Peripherals,10.0,39436.25,394362.5,Dahabia,returned,2025-03-19
+ORD0907,Khaled,Zidane,khaled.zidane751@email.com,37,Chlef,Power Bank,Accessories,1.0,138512.1,138512.1,CIB,cancelled,2025-12-13
+ORD0785,Rachid,Saidi,rachid.saidi554@email.com,63,Oran,RAM 16GB,Storage,5.0,97064.52,485322.6,CIB,completed,2025-10-21
+ORD0214,Khaled,Belkacem,khaled.belkacem598@email.com,47,Tlemcen,Smartphone,Networking,8.0,121399.47,971195.76,Dahabia,pending,2025-09-14
+ORD0097,Rachid,Larbi,rachid.larbi700@email.com,18,Annaba,Webcam,Networking,3.0,35212.17,105636.51,BaridiMob,cancelled,2025-05-22
+ORD0680,Hana,Boudiaf,hana.boudiaf615@email.com,22,Sidi Bel Abbes,Keyboard,Storage,4.0,83310.43,333241.72,BaridiMob,cancelled,2025-04-28
+ORD0850,Bilal,Hamidi,bilal.hamidi207@email.com,54,Oran,Tablet,Storage,2.0,123775.1,247550.2,Credit Card,pending,2025-09-11
+ORD0430,Karim,Meziane,karim.meziane407@email.com,46,Blida,Printer,Electronics,4.0,127273.29,509093.16,Credit Card,pending,2025-09-05
+ORD0881,Lina,Belkacem,lina.belkacem60@email.com,61,Biskra,Headphones,Storage,4.0,36731.75,146927.0,Cash,shipped,2025-11-23
+ORD0193,Ahmed,Larbi,ahmed.larbi486@email.com,51,Setif,RAM 16GB,Networking,10.0,34517.71,345177.1,Cash,returned,2025-08-06
+ORD0281,Lina,Zidane,lina.zidane65@email.com,36,Mostaganem,Printer,Storage,4.0,145235.22,580940.88,CIB,cancelled,2025-05-11
+ORD0534,Fatima,Bouzid,fatima.bouzid326@email.com,65,Tiaret,Smartwatch,Accessories,1.0,114932.53,114932.53,Dahabia,cancelled,2025-05-15
+ORD0683,Fatima,Khelifi,fatima.khelifi859@email.com,59,Batna,USB Cable,Storage,5.0,114840.14,574200.7,Credit Card,returned,2025-05-25
+ORD0618,Rachid,Saidi,rachid.saidi124@email.com,39,Biskra,SSD,Networking,3.0,48577.69,145733.07,CIB,completed,2025-10-06
+ORD0983,Meriem,Bouzid,meriem.bouzid944@email.com,53,Alger,Laptop,Peripherals,6.0,127388.35,764330.1,CIB,shipped,2025-08-05
+ORD0911,Khaled,Belkacem,khaled.belkacem667@email.com,28,Oran,Mouse,Networking,2.0,101908.51,203817.02,CIB,cancelled,2025-07-22
+ORD0185,Bilal,Boudiaf,bilal.boudiaf901@email.com,55,Setif,Webcam,Electronics,2.0,141812.3,283624.6,Credit Card,cancelled,2025-04-07
+ORD0031,Ali,Meziane,ali.meziane912@email.com,31,Alger,USB Cable,Networking,3.0,41216.06,123648.18,Credit Card,pending,2025-12-11
+ORD0329,Sara,Bouzid,sara.bouzid617@email.com,65,Blida,Smartwatch,Networking,4.0,96127.19,384508.76,Cash,cancelled,2025-03-11
+ORD0507,Bilal,Belkacem,bilal.belkacem682@email.com,60,Batna,Smartwatch,Electronics,3.0,118973.01,356919.03,Credit Card,cancelled,2025-09-11
+ORD0055,Amine,Mansouri,amine.mansouri28@email.com,38,Alger,RAM 16GB,Storage,3.0,130094.28,390282.84,CIB,completed,2025-05-13
+ORD0024,Rachid,Benali,rachid.benali400@email.com,36,Setif,Smartwatch,Storage,5.0,63739.62,318698.1,Credit Card,cancelled,2025-03-07
+ORD0102,Hana,Ferhat,hana.ferhat452@email.com,29,Oran,SSD,Peripherals,3.0,13974.94,41924.82,BaridiMob,shipped,2025-12-14
+ORD0550,Sara,Mansouri,sara.mansouri358@email.com,24,Oran,Tablet,Electronics,10.0,125783.16,1257831.6,BaridiMob,shipped,2025-02-02
+ORD0248,Ahmed,Meziane,ahmed.meziane363@email.com,42,Bejaia,Smartphone,Networking,10.0,117773.59,1177735.9,Dahabia,completed,2025-05-14
+ORD0004,Rachid,Meziane,rachid.meziane368@email.com,23,Tiaret,Mouse,Networking,5.0,121165.68,605828.4,Dahabia,returned,2025-02-13
+ORD0087,Meriem,Boudiaf,meriem.boudiaf250@email.com,22,Tlemcen,Printer,Accessories,7.0,28996.25,202973.75,Credit Card,returned,2025-12-05
+ORD0844,Omar,Bouzid,omar.bouzid976@email.com,22,Blida,SSD,Networking,10.0,86294.87,862948.7,Dahabia,cancelled,2025-04-13
+ORD0953,Mohamed,Khelifi,mohamed.khelifi293@email.com,37,Tlemcen,Keyboard,Networking,2.0,64920.68,129841.36,BaridiMob,cancelled,2025-06-11
+ORD0291,Hana,Khelifi,hana.khelifi531@email.com,25,Djelfa,Printer,Accessories,7.0,44683.54,312784.78,Cash,pending,2025-08-13
+ORD0211,Omar,Boudiaf,omar.boudiaf157@email.com,60,Tlemcen,USB Cable,Networking,6.0,62668.92,376013.52,Credit Card,cancelled,2025-09-26
+ORD0803,Ahmed,Meziane,ahmed.meziane474@email.com,40,Blida,Smartwatch,Accessories,8.0,1899.81,15198.48,Cash,shipped,2025-11-23
+ORD0175,Meriem,Cherif,meriem.cherif421@email.com,61,Mostaganem,Headphones,Networking,2.0,19236.35,38472.7,BaridiMob,completed,2025-08-15
+ORD0200,Ali,Belkacem,ali.belkacem491@email.com,65,Annaba,Monitor,Networking,5.0,139987.08,699935.4,BaridiMob,pending,2025-02-20
+ORD0903,Rachid,Larbi,rachid.larbi755@email.com,41,Oran,Keyboard,Electronics,10.0,80572.65,805726.5,Dahabia,cancelled,2025-06-25
+ORD0895,Ahmed,Mansouri,ahmed.mansouri369@email.com,23,Tiaret,Laptop,Peripherals,8.0,35417.02,283336.16,Dahabia,cancelled,2025-12-20
+ORD0064,Bilal,Larbi,bilal.larbi625@email.com,40,Biskra,Headphones,Peripherals,1.0,74398.82,74398.82,BaridiMob,pending,2025-08-07
+ORD0266,Bilal,Meziane,bilal.meziane269@email.com,43,Biskra,Router,Storage,9.0,144904.5,1304140.5,BaridiMob,returned,2025-07-20
+ORD0232,Ahmed,Hamidi,ahmed.hamidi567@email.com,54,Chlef,SSD,Networking,7.0,44631.25,312418.75,CIB,shipped,2025-04-13
+ORD0804,Khaled,Meziane,khaled.meziane836@email.com,49,Djelfa,RAM 16GB,Peripherals,4.0,35521.56,142086.24,Dahabia,shipped,2025-01-09
+ORD0626,Khaled,Taleb,khaled.taleb258@email.com,19,Blida,SSD,Storage,1.0,16110.95,16110.95,Cash,returned,2025-03-06
+ORD0569,Yasmine,Cherif,yasmine.cherif105@email.com,28,Annaba,Printer,Peripherals,9.0,48113.49,433021.41,CIB,shipped,2025-10-08
+ORD0855,Karim,Ferhat,karim.ferhat799@email.com,22,Blida,Headphones,Storage,3.0,38288.61,114865.83,Credit Card,completed,2025-08-01
+ORD0040,Rachid,Mebarki,rachid.mebarki591@email.com,22,Annaba,Keyboard,Electronics,7.0,752.85,5269.95,,pending,2025-06-14
+ORD0807,Ali,Mebarki,ali.mebarki584@email.com,61,Tiaret,Monitor,Networking,5.0,29181.81,145909.05,Cash,returned,2025-10-09
+ORD0169,Bilal,Saidi,bilal.saidi381@email.com,35,Tlemcen,Power Bank,Electronics,10.0,21085.42,210854.2,BaridiMob,cancelled,2025-06-21
+ORD0591,Ahmed,Boudiaf,,28,Bejaia,Smartwatch,Storage,10.0,110205.27,1102052.7,Dahabia,shipped,2025-05-10
+ORD0465,Meriem,Cherif,meriem.cherif34@email.com,62,Bejaia,Mouse,Storage,3.0,68850.81,206552.43,Cash,returned,2025-08-11
+ORD0999,Sara,Mebarki,sara.mebarki730@email.com,54,Mostaganem,RAM 16GB,Storage,4.0,31718.69,126874.76,Credit Card,returned,2025-02-05
+ORD0443,Djamila,Benali,djamila.benali899@email.com,18,Mostaganem,Printer,Networking,2.0,14431.9,28863.8,CIB,returned,2025-09-27
+ORD0909,Hana,Hamidi,hana.hamidi714@email.com,63,Chlef,Monitor,Networking,7.0,15049.28,105344.96,BaridiMob,returned,2025-01-28
+ORD0067,Nour,Hamidi,nour.hamidi680@email.com,62,Djelfa,Mouse,Storage,9.0,79872.83,718855.47,Dahabia,returned,2025-06-12
+ORD0308,Fatima,Cherif,fatima.cherif137@email.com,33,Biskra,Router,Storage,2.0,88988.42,177976.84,Cash,cancelled,2025-11-05
+ORD0068,Bilal,Hamidi,bilal.hamidi314@email.com,65,Setif,Monitor,Electronics,4.0,47674.42,190697.68,Credit Card,pending,2025-04-07
+ORD0199,Yasmine,Taleb,yasmine.taleb918@email.com,59,Batna,Router,Peripherals,3.0,43922.67,131768.01,BaridiMob,completed,2025-06-15
+ORD0529,Mohamed,Boudiaf,mohamed.boudiaf403@email.com,35,Sidi Bel Abbes,Tablet,Electronics,6.0,102804.55,616827.3,BaridiMob,shipped,2025-04-17
+ORD0482,Nour,Ferhat,nour.ferhat92@email.com,26,Tlemcen,Keyboard,Peripherals,7.0,39341.15,275388.05,null,completed,2025-01-17
+ORD0758,Amina,Larbi,amina.larbi504@email.com,40,Alger,Power Bank,Storage,8.0,45895.96,367167.68,CIB,returned,2025-01-01
+ORD0988,Sara,Larbi,sara.larbi770@email.com,34,Constantine,Printer,Accessories,1.0,59760.41,59760.41,Dahabia,cancelled,2025-09-23
+ORD0363,Youssef,Khelifi,youssef.khelifi364@email.com,36,Annaba,USB Cable,Peripherals,7.0,118319.52,828236.64,BaridiMob,shipped,2025-05-19
+ORD0845,Yasmine,Taleb,yasmine.taleb193@email.com,61,Tlemcen,Smartphone,Peripherals,10.0,144309.75,1443097.5,BaridiMob,completed,2025-03-04
+ORD0559,Khaled,Saidi,khaled.saidi854@email.com,47,Blida,Smartwatch,Storage,8.0,119689.53,957516.24,,cancelled,2025-03-21
+ORD0619,Youssef,Meziane,youssef.meziane281@email.com,55,Constantine,Power Bank,Storage,3.0,104596.22,313788.66,N/A,pending,2025-08-08
+ORD0353,Ahmed,Khelifi,ahmed.khelifi382@email.com,40,Tlemcen,SSD,Storage,3.0,144097.8,432293.4,Dahabia,returned,2025-09-12
+ORD0761,Karim,Larbi,karim.larbi686@email.com,24,Alger,USB Cable,Electronics,8.0,119948.54,959588.32,Cash,completed,2025-10-20
+ORD0930,Yasmine,Cherif,yasmine.cherif609@email.com,63,Chlef,Router,Storage,8.0,89050.36,712402.88,BaridiMob,completed,2025-11-17
+ORD0293,Samira,Saidi,samira.saidi560@email.com,20,Biskra,Tablet,Storage,2.0,2995.07,5990.14,Cash,completed,2025-05-07
+ORD0753,Sara,Boudiaf,sara.boudiaf410@email.com,51,Tlemcen,Printer,Networking,10.0,140324.5,1403245.0,Dahabia,pending,2025-12-02
+ORD0101,Nour,Larbi,nour.larbi822@email.com,20,Blida,Monitor,Accessories,10.0,37968.71,379687.1,CIB,completed,2025-11-21
+ORD0772,Ahmed,Mebarki,ahmed.mebarki816@email.com,64,Bejaia,SSD,Peripherals,4.0,124918.23,499672.92,BaridiMob,cancelled,2025-09-04
+ORD0706,Samira,Mebarki,samira.mebarki373@email.com,65,Biskra,RAM 16GB,Electronics,7.0,141502.74,990519.18,CIB,pending,2025-02-19
+ORD0809,Bilal,Boudiaf,bilal.boudiaf371@email.com,18,Bejaia,Power Bank,Electronics,4.0,7521.21,30084.84,Dahabia,returned,2025-08-11
+ORD0306,Ahmed,Saidi,ahmed.saidi2@email.com,21,Mostaganem,RAM 16GB,Storage,5.0,16040.38,80201.9,Credit Card,pending,2025-07-16
+ORD0629,Meriem,Larbi,meriem.larbi497@email.com,41,Oran,Smartwatch,Storage,3.0,32816.69,98450.07,Credit Card,cancelled,2025-03-13
+ORD0159,Sara,Mansouri,sara.mansouri397@email.com,58,Blida,Keyboard,Electronics,6.0,118383.74,-710302.44,BaridiMob,pending,2025-12-22
+ORD0552,Lina,Mebarki,lina.mebarki37@email.com,53,Alger,Power Bank,Peripherals,6.0,55601.13,333606.78,Dahabia,completed,2025-07-27
+ORD0003,Ali,Ferhat,ali.ferhat891@email.com,23,Oran,Power Bank,Accessories,7.0,51367.45,359572.15,CIB,pending,2025-06-04
+ORD0729,Karim,Saidi,karim.saidi447@email.com,46,Chlef,Tablet,Peripherals,8.0,114669.47,917355.76,CIB,returned,2025-11-21
+ORD0209,Ali,Saidi,ali.saidi310@email.com,25,Djelfa,USB Cable,Networking,1.0,39602.2,39602.2,BaridiMob,pending,2025-01-22
+ORD0300,Amina,Saidi,amina.saidi162@email.com,18,Setif,Power Bank,Electronics,10.0,101281.0,1012810.0,Cash,pending,2025-12-17
+ORD0851,Meriem,Boudiaf,meriem.boudiaf474@email.com,63,Djelfa,Laptop,Electronics,5.0,97121.72,485608.6,Dahabia,shipped,2025-12-27
+ORD0437,Fatima,Boudiaf,fatima.boudiaf692@email.com,26,Tlemcen,Webcam,Accessories,10.0,24606.32,246063.2,Dahabia,completed,2025-04-02
+ORD0870,Nour,Mebarki,nour.mebarki743@email.com,36,Djelfa,Webcam,Peripherals,3.0,42079.9,126239.7,Cash,returned,2025-07-21
+ORD0412,Fatima,Taleb,fatima.taleb263@email.com,49,Bejaia,USB Cable,Peripherals,1.0,136744.72,136744.72,BaridiMob,returned,2025-09-15
+ORD0615,Omar,Belkacem,omar.belkacem594@email.com,20,Annaba,Smartwatch,Electronics,1.0,110451.23,110451.23,Dahabia,completed,2025-08-20
+ORD0908,Amina,Benali,amina.benali562@email.com,64,Batna,Mouse,Storage,8.0,148551.99,1188415.92,Dahabia,cancelled,2025-02-17
+ORD0913,Rachid,Khelifi,rachid.khelifi35@email.com,42,Alger,Monitor,Storage,8.0,45752.1,366016.8,Credit Card,pending,2025-11-24
+ORD0997,Omar,Mansouri,omar.mansouri475@email.com,64,Alger,Smartwatch,Electronics,4.0,132718.11,530872.44,CIB,pending,2025-09-17
+ORD0963,Ali,Mebarki,,59,Setif,Router,Electronics,4.0,148435.67,593742.68,CIB,returned,2025-02-01
+ORD0701,Bilal,Hamidi,bilal.hamidi960@email.com,47,Biskra,Printer,Networking,7.0,140228.07,981596.49,Cash,returned,2025-04-12
+ORD0779,Omar,Boudiaf,omar.boudiaf729@email.com,65,Tlemcen,Tablet,Networking,9.0,18149.69,163347.21,CIB,cancelled,2025-08-02
+ORD0307,Omar,Belkacem,omar.belkacem287@email.com,55,Alger,Laptop,Accessories,9.0,62251.99,560267.91,BaridiMob,cancelled,2025-12-03
+ORD0924,Amina,Taleb,amina.taleb468@email.com,59,Alger,Keyboard,Storage,3.0,80617.7,241853.1,Cash,shipped,2025-11-23
+ORD0494,Ahmed,Benali,ahmed.benali596@email.com,23,Mostaganem,USB Cable,Storage,10.0,23671.3,236713.0,Cash,pending,2025-03-16
+ORD0424,Nour,Meziane,nour.meziane292@email.com,62,,Smartphone,Accessories,6.0,73136.25,438817.5,BaridiMob,returned,2025-11-10
+ORD0299,Ali,Cherif,ali.cherif66@email.com,54,Setif,USB Cable,Networking,2.0,74674.06,149348.12,Credit Card,shipped,2025-01-16
+ORD0468,Lina,Zidane,lina.zidane411@email.com,35,Setif,Webcam,Accessories,10.0,20105.31,201053.1,Credit Card,pending,2025-02-24
+ORD0885,Lina,Zidane,lina.zidane147@email.com,24,Setif,USB Cable,Accessories,7.0,105001.84,735012.88,Cash,pending,2025-08-01
+ORD0756,Nour,Larbi,nour.larbi931@email.com,61,Biskra,Mouse,Networking,8.0,20108.21,160865.68,BaridiMob,cancelled,2025-07-27
+ORD0107,Djamila,Khelifi,djamila.khelifi664@email.com,37,Alger,RAM 16GB,Storage,5.0,97561.3,487806.5,Cash,pending,2025-01-02
+ORD0859,Ahmed,Mansouri,ahmed.mansouri280@email.com,62,Constantine,Webcam,Peripherals,3.0,32892.53,98677.59,Cash,returned,2025-04-15
+ORD0056,Khaled,Boudiaf,khaled.boudiaf335@email.com,19,Blida,Power Bank,Storage,5.0,112925.47,564627.35,Dahabia,shipped,2025-02-16
+ORD0121,Youssef,Zidane,youssef.zidane88@email.com,53,Alger,Headphones,Electronics,6.0,121859.51,731157.06,Credit Card,completed,2025-10-18
+ORD0311,Bilal,Hamidi,bilal.hamidi475@email.com,38,Setif,Router,Electronics,2.0,24063.5,48127.0,BaridiMob,returned,2025-01-07
+ORD0026,Amina,Benali,amina.benali984@email.com,33,Bejaia,Smartphone,Accessories,2.0,89457.75,178915.5,CIB,cancelled,2025-02-19
+ORD0073,Hana,Meziane,,46,Alger,Printer,Storage,10.0,89620.96,896209.6,Credit Card,pending,2025-09-13
+ORD0531,Omar,Meziane,omar.meziane748@email.com,56,Batna,Printer,Networking,4.0,62891.33,251565.32,Credit Card,pending,2025-07-10
+ORD0045,Hana,Khelifi,hana.khelifi826@email.com,44,Annaba,Tablet,Electronics,1.0,37103.96,37103.96,Dahabia,returned,2025-02-15
+ORD0276,Samira,Bouzid,samira.bouzid631@email.com,56,Constantine,Power Bank,Accessories,4.0,120913.35,483653.4,Credit Card,shipped,2025-09-09
+ORD0479,Nour,Khelifi,nour.khelifi756@email.com,40,Setif,Webcam,Accessories,3.0,79247.98,237743.94,CIB,completed,2025-01-22
+ORD0315,Bilal,Ferhat,bilal.ferhat132@email.com,45,Alger,Smartwatch,Peripherals,2.0,6883.1,13766.2,Dahabia,completed,2025-03-19
+ORD0337,Djamila,Boudiaf,djamila.boudiaf205@email.com,43,Alger,Laptop,Accessories,3.0,95909.5,287728.5,Cash,cancelled,2025-02-10
+ORD0690,Amine,Mansouri,amine.mansouri503@email.com,43,Biskra,Printer,Networking,10.0,70737.85,707378.5,Credit Card,pending,2025-09-02
+ORD0431,Amina,Bouzid,amina.bouzid580@email.com,22,Djelfa,RAM 16GB,Accessories,8.0,140906.7,1127253.6,Cash,pending,2025-08-08
+ORD0951,Karim,Hamidi,karim.hamidi717@email.com,21,Biskra,Monitor,Accessories,6.0,64198.34,385190.04,Cash,returned,2025-07-21
+ORD0834,Lina,Hamidi,lina.hamidi564@email.com,47,Alger,Tablet,Electronics,5.0,66953.54,334767.7,BaridiMob,pending,2025-10-02
+ORD0589,Fatima,Larbi,fatima.larbi494@email.com,51,Sidi Bel Abbes,Smartphone,Accessories,9.0,147545.08,1327905.72,BaridiMob,cancelled,2025-09-03
+ORD0704,Bilal,Boudiaf,bilal.boudiaf574@email.com,35,Batna,Headphones,Electronics,4.0,24324.09,97296.36,CIB,completed,2025-05-26
+ORD0328,Amine,Zidane,amine.zidane180@email.com,54,Batna,Keyboard,Peripherals,3.0,27067.39,81202.17,N/A,returned,2025-07-28
+ORD0917,Yasmine,Bouzid,yasmine.bouzid416@email.com,51,Tiaret,USB Cable,Electronics,7.0,83630.99,585416.93,Credit Card,returned,2025-08-03
+ORD0604,Ali,Hamidi,ali.hamidi479@email.com,38,Biskra,Smartwatch,Electronics,8.0,138442.96,1107543.68,BaridiMob,cancelled,2025-12-22
+ORD0928,Fatima,Bouzid,fatima.bouzid540@email.com,62,Sidi Bel Abbes,Smartwatch,Peripherals,10.0,123290.82,1232908.2,Dahabia,completed,2025-09-12
+ORD0981,Nour,Taleb,nour.taleb429@email.com,55,Bejaia,Webcam,Networking,9.0,74143.91,667295.19,Credit Card,pending,2025-07-03
+ORD0972,Yasmine,Belkacem,yasmine.belkacem838@email.com,39,Blida,Router,Electronics,4.0,21314.9,85259.6,N/A,cancelled,2025-03-10
+ORD0763,Meriem,Belkacem,meriem.belkacem892@email.com,18,Alger,Tablet,Peripherals,6.0,122964.54,737787.24,Cash,pending,2025-08-14
+ORD0332,Lina,Cherif,lina.cherif385@email.com,20,Alger,Router,Storage,10.0,97819.95,978199.5,CIB,pending,2025-08-03
+ORD0061,Sara,Saidi,sara.saidi546@email.com,49,Batna,RAM 16GB,Peripherals,2.0,76141.14,152282.28,BaridiMob,completed,2025-07-27
+ORD0746,Bilal,Larbi,bilal.larbi828@email.com,45,Setif,Mouse,Accessories,4.0,28170.56,112682.24,Credit Card,shipped,2025-11-04
+ORD0372,Omar,Khelifi,omar.khelifi752@email.com,52,Oran,SSD,Networking,3.0,18912.72,56738.16,Cash,cancelled,2025-11-09
+ORD0093,Mohamed,Larbi,mohamed.larbi710@email.com,63,Batna,RAM 16GB,Electronics,6.0,127925.03,767550.18,Credit Card,cancelled,2025-06-21
+ORD0723,Omar,Benali,omar.benali298@email.com,47,Setif,Monitor,Networking,8.0,136145.57,1089164.56,BaridiMob,returned,2025-11-21
+ORD0491,Bilal,Belkacem,bilal.belkacem790@email.com,64,Alger,Printer,Accessories,8.0,58673.88,469391.04,BaridiMob,shipped,2025-03-21
+ORD0463,Djamila,Benali,djamila.benali783@email.com,35,Tiaret,Printer,Electronics,8.0,55993.88,447951.04,BaridiMob,cancelled,2025-10-28
+ORD0219,Ahmed,Ferhat,ahmed.ferhat24@email.com,27,Setif,Webcam,Networking,7.0,80024.07,560168.49,UNKNOWN,pending,2025-08-12
+ORD0514,Sara,Belkacem,sara.belkacem828@email.com,25,Djelfa,Headphones,Electronics,1.0,138319.79,138319.79,BaridiMob,shipped,2025-07-14
+ORD0621,Amina,Mebarki,amina.mebarki92@email.com,58,Sidi Bel Abbes,RAM 16GB,Networking,5.0,62725.23,313626.15,Dahabia,pending,2025-04-05
+ORD0426,Samira,Hamidi,samira.hamidi861@email.com,24,Blida,Tablet,Peripherals,8.0,69695.83,557566.64,BaridiMob,shipped,2025-08-18
+ORD0333,Hana,Benali,hana.benali327@email.com,53,Setif,Smartphone,Electronics,6.0,25930.73,155584.38,Dahabia,pending,2025-12-03
+ORD0860,Sara,Zidane,sara.zidane651@email.com,21,Mostaganem,Printer,Electronics,7.0,103706.83,725947.81,Dahabia,completed,2025-10-01
+ORD0990,Khaled,Taleb,khaled.taleb634@email.com,62,Oran,Monitor,Storage,3.0,123464.49,370393.47,Credit Card,returned,2025-02-27
+ORD0583,Lina,Meziane,,63,Setif,Router,Electronics,4.0,65041.47,260165.88,Credit Card,cancelled,2025-11-11
+ORD0356,Djamila,Ferhat,djamila.ferhat9@email.com,40,Annaba,Keyboard,Networking,5.0,107054.7,535273.5,BaridiMob,cancelled,2025-07-28
+ORD0483,Lina,Hamidi,lina.hamidi481@email.com,18,Bejaia,Laptop,Storage,8.0,45291.77,362334.16,Dahabia,shipped,2025-10-08
+ORD0546,Amina,Mebarki,amina.mebarki344@email.com,37,Djelfa,Router,Accessories,3.0,130388.37,391165.11,CIB,completed,2025-07-10
+ORD0111,Rachid,Hamidi,rachid.hamidi195@email.com,39,Alger,Router,Storage,2.0,99583.93,199167.86,Credit Card,completed,2025-01-26
+ORD0515,Nour,Belkacem,nour.belkacem669@email.com,54,Tiaret,SSD,Electronics,7.0,8592.13,60144.91,Credit Card,completed,2025-06-18
+ORD0603,Djamila,Mansouri,djamila.mansouri125@email.com,29,Sidi Bel Abbes,Smartphone,Electronics,10.0,19921.13,199211.3,Credit Card,pending,2025-02-23
+ORD0996,Fatima,Cherif,,28,Mostaganem,Tablet,Electronics,10.0,119512.36,1195123.6,Dahabia,returned,2025-01-10
+ORD0508,Amina,Cherif,amina.cherif615@email.com,58,Tlemcen,Smartwatch,Peripherals,6.0,82737.16,496422.96,BaridiMob,shipped,2025-07-25
+ORD0335,Fatima,Saidi,fatima.saidi211@email.com,21,Annaba,Headphones,Networking,9.0,40157.08,361413.72,BaridiMob,shipped,2025-04-04
+ORD0849,Hana,Taleb,hana.taleb838@email.com,63,Sidi Bel Abbes,RAM 16GB,Storage,3.0,90754.56,272263.68,BaridiMob,returned,2025-04-17
+ORD0295,Djamila,Bouzid,djamila.bouzid285@email.com,55,Alger,Keyboard,Electronics,9.0,138178.27,1243604.43,CIB,returned,2025-06-13
+ORD0287,Meriem,Meziane,,26,Batna,Smartphone,Electronics,2.0,47346.05,94692.1,BaridiMob,pending,2025-07-25
+ORD0939,Ali,Khelifi,ali.khelifi3@email.com,57,Sidi Bel Abbes,RAM 16GB,Networking,7.0,33010.75,231075.25,BaridiMob,returned,2025-01-15
+ORD0448,Ali,Mansouri,ali.mansouri407@email.com,53,Mostaganem,Monitor,Storage,9.0,117676.37,1059087.33,Dahabia,pending,2025-06-18
+ORD0693,Nour,Khelifi,nour.khelifi241@email.com,28,Biskra,Keyboard,Networking,2.0,136603.16,273206.32,Cash,shipped,2025-02-11
+ORD0653,Mohamed,Belkacem,mohamed.belkacem116@email.com,57,Sidi Bel Abbes,Webcam,Electronics,3.0,101862.25,305586.75,Cash,shipped,2025-01-13
+ORD0969,Amina,Zidane,amina.zidane404@email.com,43,Biskra,SSD,Accessories,2.0,21956.59,43913.18,Dahabia,pending,2025-08-21
+ORD0278,Sara,Hamidi,sara.hamidi888@email.com,49,Biskra,Tablet,Accessories,4.0,22363.39,89453.56,BaridiMob,pending,2025-11-13
+ORD0759,Ali,Saidi,ali.saidi694@email.com,32,,Tablet,Networking,1.0,121118.92,121118.92,BaridiMob,cancelled,2025-02-20
+ORD0138,Bilal,Mansouri,bilal.mansouri311@email.com,20,Mostaganem,Keyboard,Networking,1.0,53115.36,53115.36,Cash,shipped,2025-08-15
+ORD0502,Khaled,Meziane,khaled.meziane498@email.com,62,Annaba,Smartphone,Electronics,10.0,96441.87,964418.7,Dahabia,cancelled,2025-09-20
+ORD0405,Lina,Ferhat,lina.ferhat603@email.com,61,Bejaia,USB Cable,Networking,4.0,116533.94,466135.76,CIB,shipped,2025-08-06
+ORD0524,Mohamed,Khelifi,mohamed.khelifi758@email.com,64,Bejaia,Monitor,Accessories,9.0,78728.25,708554.25,BaridiMob,returned,2025-08-20
+ORD0781,Omar,Meziane,omar.meziane381@email.com,21,Setif,Mouse,Peripherals,5.0,73145.87,365729.35,CIB,pending,2025-10-14
+ORD0978,Lina,Mebarki,lina.mebarki272@email.com,42,Mostaganem,Smartwatch,Electronics,1.0,129326.24,129326.24,CIB,pending,2025-06-05
+ORD0581,Djamila,Larbi,djamila.larbi458@email.com,23,Annaba,Monitor,Peripherals,5.0,85756.32,428781.6,BaridiMob,cancelled,2025-12-12
+ORD0238,Omar,Khelifi,omar.khelifi197@email.com,47,Djelfa,Printer,Peripherals,6.0,40465.05,242790.3,Dahabia,completed,2025-06-13
+ORD0989,Amine,Cherif,amine.cherif314@email.com,65,Sidi Bel Abbes,Monitor,Storage,3.0,41138.23,123414.69,Cash,returned,2025-07-05
+ORD0216,Samira,Saidi,samira.saidi718@email.com,29,Alger,Printer,Electronics,2.0,147927.52,295855.04,Dahabia,completed,2025-05-14
+ORD0895,Ahmed,Mansouri,ahmed.mansouri369@email.com,23,Tiaret,Laptop,Peripherals,,35417.02,283336.16,Dahabia,cancelled,2025-12-20
+ORD0245,Meriem,Khelifi,meriem.khelifi365@email.com,33,Bejaia,Headphones,Storage,3.0,102114.38,306343.14,Dahabia,completed,2025-10-10
+ORD0553,Youssef,Hamidi,youssef.hamidi483@email.com,57,Constantine,Smartphone,Peripherals,6.0,79294.38,475766.28,Credit Card,pending,2025-12-07
+ORD0838,Mohamed,Hamidi,mohamed.hamidi310@email.com,-10,Sidi Bel Abbes,Router,Peripherals,4.0,105993.57,423974.28,CIB,returned,2025-05-01
+ORD0864,Lina,Saidi,lina.saidi178@email.com,35,Oran,Headphones,Peripherals,1.0,58683.41,58683.41,Dahabia,pending,2025-02-22
+ORD0668,Hana,Saidi,hana.saidi798@email.com,30,Tlemcen,Headphones,Peripherals,3.0,15811.47,47434.41,CIB,returned,2025-04-27
+ORD0622,Ali,Cherif,ali.cherif462@email.com,57,Batna,Monitor,Accessories,10.0,103905.2,1039052.0,Credit Card,pending,2025-12-16
+ORD0079,Meriem,Boudiaf,meriem.boudiaf83@email.com,54,Djelfa,Laptop,Storage,6.0,90755.19,544531.14,Cash,completed,2025-04-22
+ORD0030,Bilal,Zidane,bilal.zidane557@email.com,26,Sidi Bel Abbes,Keyboard,Networking,,1669.55,15025.95,Credit Card,shipped,2025-11-04
+ORD0451,Youssef,Zidane,youssef.zidane149@email.com,56,Tlemcen,Smartwatch,Networking,7.0,13677.03,95739.21,BaridiMob,pending,2025-06-03
+ORD0290,Omar,Khelifi,omar.khelifi284@email.com,60,Biskra,Smartphone,Accessories,9.0,90349.36,813144.24,Credit Card,shipped,2025-12-01
+ORD0050,Hana,Khelifi,hana.khelifi279@email.com,63,Blida,Mouse,Networking,2.0,21186.92,42373.84,CIB,cancelled,2025-12-05
+ORD0671,Amina,Belkacem,amina.belkacem312@email.com,31,Oran,USB Cable,Electronics,4.0,19742.81,78971.24,CIB,pending,2025-05-05
+ORD0799,Yasmine,Hamidi,yasmine.hamidi900@email.com,63,Batna,Monitor,Networking,9.0,143633.87,1292704.83,BaridiMob,shipped,2025-11-09
+ORD0987,Karim,Belkacem,karim.belkacem972@email.com,21,Setif,Webcam,Storage,6.0,66874.06,401244.36,Cash,shipped,2025-02-05
+ORD0166,Bilal,Larbi,,58,Batna,Tablet,Storage,6.0,67345.88,404075.28,BaridiMob,returned,2025-07-09
+ORD0931,Omar,Mansouri,omar.mansouri130@email.com,44,Constantine,Headphones,Networking,5.0,8403.26,42016.3,BaridiMob,pending,2025-11-20
+ORD0179,Amine,Bouzid,amine.bouzid176@email.com,20,Biskra,SSD,Networking,6.0,126458.24,758749.44,Credit Card,completed,2025-01-03
+ORD0694,Ahmed,Cherif,ahmed.cherif334@email.com,48,Oran,Webcam,Storage,10.0,77456.59,774565.9,Dahabia,shipped,2025-01-23
+ORD0066,Meriem,Cherif,meriem.cherif777@email.com,43,Annaba,USB Cable,Storage,8.0,67502.1,540016.8,Cash,completed,2025-05-08
+ORD0142,Amina,Saidi,amina.saidi382@email.com,39,Chlef,Keyboard,Storage,7.0,116282.49,813977.43,Credit Card,completed,2025-11-21
+ORD0986,Omar,Meziane,omar.meziane251@email.com,65,Alger,Laptop,Networking,7.0,22882.73,160179.11,CIB,cancelled,2025-12-05
+ORD0352,Sara,Mebarki,sara.mebarki370@email.com,61,Sidi Bel Abbes,Monitor,Peripherals,6.0,123614.19,741685.14,Credit Card,cancelled,2025-11-04
+ORD0862,Khaled,Mansouri,khaled.mansouri686@email.com,38,Alger,Monitor,Electronics,3.0,108739.72,326219.16,Cash,cancelled,2025-09-04
+ORD0441,Amina,Belkacem,amina.belkacem703@email.com,24,Blida,Smartwatch,Storage,10.0,88794.1,887941.0,CIB,cancelled,2025-07-05
+ORD0347,Amina,Hamidi,amina.hamidi413@email.com,48,Constantine,SSD,Networking,7.0,6297.99,44085.93,BaridiMob,pending,2025-01-24
+ORD0255,Khaled,Boudiaf,khaled.boudiaf817@email.com,60,Setif,Router,Electronics,7.0,101110.16,707771.12,CIB,shipped,2025-04-09
+ORD0695,Amine,Benali,amine.benali325@email.com,31,Batna,SSD,Storage,6.0,86094.53,516567.18,Dahabia,completed,2025-12-22
+ORD0345,Fatima,Taleb,fatima.taleb154@email.com,24,Constantine,SSD,Networking,10.0,113877.42,1138774.2,Cash,completed,2025-10-25
+ORD0222,Khaled,Ferhat,khaled.ferhat885@email.com,56,Mostaganem,Laptop,Accessories,9.0,149025.77,1341231.93,CIB,returned,2025-06-19
+ORD0236,Sara,Larbi,sara.larbi654@email.com,44,Biskra,Smartwatch,Networking,8.0,99063.01,792504.08,Cash,completed,2025-09-18
+ORD0548,Yasmine,Ferhat,yasmine.ferhat6@email.com,-1,Djelfa,Smartwatch,Storage,4.0,32922.64,131690.56,Dahabia,cancelled,2025-07-15
+ORD0500,Nour,Saidi,,36,Alger,RAM 16GB,Networking,7.0,28885.48,202198.36,Dahabia,returned,2025-03-20
+ORD0596,Omar,Zidane,omar.zidane508@email.com,40,Mostaganem,Headphones,Storage,4.0,99269.76,397079.04,CIB,pending,2025-10-24
+ORD0941,Rachid,Saidi,rachid.saidi10@email.com,49,Alger,Headphones,Storage,4.0,13169.2,52676.8,Credit Card,pending,2025-07-04
+ORD0250,Ali,Boudiaf,ali.boudiaf150@email.com,33,Alger,Tablet,Storage,5.0,63454.8,317274.0,Dahabia,completed,2025-06-09
+ORD0463,Djamila,Benali,djamila.benali783@email.com,35,Tiaret,Printer,Electronics,8.0,55993.88,447951.04,BaridiMob,cancelled,2025-10-28
+ORD0382,Samira,Mansouri,samira.mansouri908@email.com,55,Mostaganem,Tablet,Electronics,3.0,104577.4,313732.2,Cash,pending,2025-02-14
+ORD0072,Fatima,Zidane,fatima.zidane67@email.com,54,Batna,Webcam,Electronics,10.0,94602.13,946021.3,Cash,pending,2025-03-26
+ORD0095,Fatima,Ferhat,fatima.ferhat649@email.com,21,Sidi Bel Abbes,Router,Electronics,8.0,25371.54,202972.32,BaridiMob,completed,2025-01-11
+ORD0034,Amine,Cherif,amine.cherif152@email.com,33,Batna,Tablet,Electronics,5.0,55015.4,275077.0,Cash,shipped,2025-04-22
+ORD0260,Amine,Belkacem,amine.belkacem513@email.com,64,Constantine,Mouse,Electronics,8.0,16130.13,129041.04,Dahabia,completed,2025-02-27
+ORD0205,Sara,Benali,sara.benali306@email.com,50,Djelfa,SSD,Electronics,6.0,43041.97,258251.82,Credit Card,returned,2025-08-05
+ORD0360,Mohamed,Mansouri,mohamed.mansouri144@email.com,20,Sidi Bel Abbes,Laptop,Storage,5.0,39284.23,196421.15,Dahabia,cancelled,2025-07-24
+ORD0602,Lina,Khelifi,lina.khelifi743@email.com,31,Setif,Keyboard,Accessories,1.0,4043.22,4043.22,Cash,completed,2025-10-22
+ORD0399,Khaled,Khelifi,khaled.khelifi215@email.com,62,Djelfa,USB Cable,Peripherals,6.0,138218.17,829309.02,CIB,pending,2025-09-18
+ORD0078,Djamila,Belkacem,djamila.belkacem845@email.com,52,Djelfa,Smartwatch,Peripherals,8.0,19090.87,152726.96,BaridiMob,cancelled,2025-05-17
+ORD0085,Meriem,Meziane,meriem.meziane30@email.com,32,Biskra,SSD,Accessories,3.0,46957.15,140871.45,Cash,returned,2025-07-03
+ORD0320,Djamila,Khelifi,djamila.khelifi31@email.com,55,Chlef,Power Bank,Peripherals,1.0,121393.76,121393.76,Dahabia,returned,2025-06-25
+ORD0083,Ali,Saidi,ali.saidi119@email.com,30,Mostaganem,Headphones,Networking,1.0,98820.23,98820.23,Credit Card,cancelled,2025-07-02
+ORD0948,Omar,Belkacem,omar.belkacem524@email.com,63,Constantine,Monitor,Peripherals,2.0,129692.94,259385.88,CIB,cancelled,2025-04-16
+ORD0708,Mohamed,Zidane,mohamed.zidane599@email.com,46,Sidi Bel Abbes,Headphones,Accessories,7.0,33092.25,231645.75,Cash,pending,2025-04-09
+ORD0539,Bilal,Mebarki,bilal.mebarki253@email.com,65,Batna,Headphones,Electronics,10.0,110432.1,1104321.0,Dahabia,shipped,2025-07-20
+ORD0544,Amine,Mebarki,amine.mebarki730@email.com,63,Chlef,Monitor,Storage,2.0,37887.3,75774.6,CIB,completed,2025-02-04
+ORD0826,Ali,Belkacem,ali.belkacem179@email.com,19,Blida,Router,Networking,4.0,27191.94,108767.76,Cash,pending,2025-05-04
+ORD0429,Yasmine,Mebarki,yasmine.mebarki553@email.com,50,Tlemcen,RAM 16GB,Accessories,6.0,59178.5,355071.0,Credit Card,shipped,2025-03-15
+ORD0310,Amine,Meziane,amine.meziane160@email.com,31,Alger,Tablet,Storage,8.0,47447.98,379583.84,Cash,returned,2025-06-25
+ORD0006,Youssef,Zidane,youssef.zidane239@email.com,31,Tiaret,Smartphone,Storage,5.0,68284.84,341424.2,BaridiMob,pending,2025-06-12
+ORD0789,Sara,Boudiaf,sara.boudiaf883@email.com,34,Chlef,Laptop,Peripherals,7.0,27485.95,192401.65,Cash,returned,2025-06-13
+ORD0105,Rachid,Zidane,rachid.zidane824@email.com,61,Bejaia,Mouse,Electronics,7.0,2580.84,18065.88,Credit Card,completed,2025-08-12
+ORD0098,Bilal,Mebarki,bilal.mebarki295@email.com,45,Biskra,Printer,Accessories,2.0,66538.6,133077.2,BaridiMob,returned,2025-05-21
+ORD0297,Sara,Hamidi,sara.hamidi683@email.com,40,Sidi Bel Abbes,RAM 16GB,Accessories,,2393.41,4786.82,CIB,completed,2025-03-16
+ORD0409,Mohamed,Cherif,mohamed.cherif226@email.com,40,Constantine,Printer,Electronics,9.0,24325.89,-218933.01,Credit Card,returned,2025-07-03
+ORD0446,Ali,Khelifi,ali.khelifi6@email.com,31,Sidi Bel Abbes,USB Cable,Electronics,10.0,78619.82,786198.2,Credit Card,completed,2025-07-21
+ORD0904,Omar,Cherif,omar.cherif680@email.com,36,Djelfa,SSD,Accessories,2.0,59599.2,119198.4,Credit Card,cancelled,2025-06-05
+ORD0282,Mohamed,Cherif,mohamed.cherif592@email.com,47,Constantine,SSD,Storage,6.0,134176.12,805056.72,Cash,completed,2025-02-21
+ORD0267,Amine,Meziane,amine.meziane357@email.com,61,Blida,Router,Storage,10.0,26292.86,262928.6,BaridiMob,returned,2025-10-03
+ORD0740,Samira,Meziane,samira.meziane775@email.com,39,Batna,Power Bank,Peripherals,10.0,28360.2,283602.0,Dahabia,completed,2025-01-17
+ORD0887,Omar,Khelifi,omar.khelifi499@email.com,65,Constantine,Printer,Electronics,8.0,85280.27,682242.16,CIB,pending,2025-04-02
+ORD0535,Ali,Bouzid,ali.bouzid798@email.com,54,Annaba,Smartphone,Accessories,3.0,4416.63,13249.89,Credit Card,returned,2025-05-20
+ORD0433,Sara,Mansouri,sara.mansouri332@email.com,29,Alger,USB Cable,Networking,5.0,125313.4,626567.0,BaridiMob,returned,2025-09-19
+ORD0912,Sara,Meziane,sara.meziane365@email.com,58,Tlemcen,Tablet,Electronics,2.0,147051.38,294102.76,BaridiMob,returned,2025-07-05
+ORD0657,Hana,Saidi,hana.saidi360@email.com,28,Setif,Webcam,Networking,2.0,32746.43,65492.86,Dahabia,cancelled,2025-08-10
+ORD0119,Samira,Meziane,samira.meziane813@email.com,47,Sidi Bel Abbes,Smartphone,Networking,4.0,64795.46,259181.84,CIB,cancelled,2025-06-27
+ORD0406,Youssef,Bouzid,youssef.bouzid986@email.com,26,Constantine,USB Cable,Networking,2.0,56891.13,113782.26,Dahabia,shipped,2025-09-09
+ORD0251,Meriem,Larbi,meriem.larbi632@email.com,39,,Webcam,Electronics,3.0,46046.37,138139.11,Dahabia,shipped,2025-10-13
+ORD0378,Omar,Meziane,omar.meziane799@email.com,21,Bejaia,Smartphone,Electronics,5.0,96828.35,484141.75,Dahabia,shipped,2025-05-15
+ORD0616,Nour,Belkacem,nour.belkacem665@email.com,55,Constantine,Laptop,Accessories,1.0,135747.02,135747.02,Cash,cancelled,2025-10-06
+ORD0010,Ali,Bouzid,ali.bouzid253@email.com,32,Sidi Bel Abbes,Printer,Networking,5.0,112178.56,560892.8,Dahabia,returned,2025-07-12
+ORD0358,Yasmine,Mansouri,yasmine.mansouri609@email.com,-1,Djelfa,Keyboard,Peripherals,2.0,72519.89,145039.78,BaridiMob,shipped,2025-11-11
+ORD0197,Lina,Mansouri,lina.mansouri791@email.com,32,Tiaret,USB Cable,Peripherals,10.0,72884.93,728849.3,CIB,shipped,2025-09-10
+ORD0632,Djamila,Mebarki,djamila.mebarki175@email.com,48,Djelfa,Printer,Accessories,2.0,62048.57,124097.14,Credit Card,cancelled,2025-04-19
+ORD0082,Amina,Saidi,amina.saidi422@email.com,38,Sidi Bel Abbes,Webcam,Peripherals,7.0,122128.12,854896.84,Credit Card,completed,2025-08-03
+ORD0527,Lina,Zidane,lina.zidane111@email.com,56,Oran,Keyboard,Storage,4.0,146979.03,587916.12,Credit Card,completed,2025-06-16
+ORD0831,Meriem,Ferhat,meriem.ferhat680@email.com,47,Djelfa,Smartphone,Accessories,9.0,58523.32,526709.88,Credit Card,shipped,2025-08-17
+ORD0906,Fatima,Hamidi,fatima.hamidi869@email.com,63,Sidi Bel Abbes,SSD,Storage,4.0,74506.32,298025.28,Dahabia,completed,2025-06-05
+ORD0240,Ahmed,Belkacem,ahmed.belkacem176@email.com,31,Alger,Webcam,Storage,6.0,85095.57,510573.42,Cash,returned,2025-01-08
+ORD0324,Nour,Larbi,nour.larbi225@email.com,63,Oran,Printer,Storage,1.0,50094.23,50094.23,Credit Card,pending,2025-03-11
+ORD0212,Khaled,Ferhat,khaled.ferhat254@email.com,25,Biskra,Power Bank,Networking,2.0,79063.25,158126.5,Credit Card,shipped,2025-02-19
+ORD0847,Nour,Hamidi,nour.hamidi676@email.com,44,Bejaia,Smartphone,Storage,1.0,55613.51,55613.51,Cash,pending,2025-06-28
+ORD0549,Djamila,Larbi,djamila.larbi7@email.com,27,Annaba,Smartwatch,Networking,5.0,93155.02,465775.1,Credit Card,pending,2025-01-06
+ORD0498,Lina,Saidi,lina.saidi750@email.com,34,Tlemcen,Keyboard,Networking,9.0,24471.34,220242.06,,pending,2025-08-10
+ORD0228,Khaled,Ferhat,khaled.ferhat780@email.com,30,Djelfa,USB Cable,Networking,4.0,72169.43,288677.72,BaridiMob,shipped,2025-01-07
+ORD0892,Lina,Mansouri,lina.mansouri409@email.com,62,Batna,SSD,Electronics,6.0,131025.08,786150.48,Cash,completed,2025-08-28
+ORD0815,Sara,Hamidi,sara.hamidi871@email.com,18,Batna,Headphones,Electronics,10.0,112918.52,1129185.2,CIB,returned,2025-11-20
+ORD0829,Lina,Saidi,lina.saidi614@email.com,27,Batna,RAM 16GB,Accessories,1.0,114580.82,114580.82,Credit Card,pending,2025-09-10
+ORD0178,Ali,Khelifi,ali.khelifi651@email.com,55,Bejaia,Keyboard,Accessories,5.0,92357.03,461785.15,Cash,returned,2025-11-06
+ORD0975,Hana,Khelifi,hana.khelifi944@email.com,40,,RAM 16GB,Storage,2.0,74027.18,148054.36,Cash,pending,2025-02-10
+ORD0434,Rachid,Mansouri,rachid.mansouri388@email.com,40,Blida,SSD,Electronics,9.0,38112.17,343009.53,CIB,returned,2025-07-12
+ORD0944,Khaled,Meziane,khaled.meziane195@email.com,30,Setif,Laptop,Accessories,7.0,63447.84,444134.88,BaridiMob,completed,2025-03-22
+ORD0517,Youssef,Khelifi,youssef.khelifi443@email.com,21,Setif,Power Bank,Storage,3.0,20262.26,60786.78,Cash,cancelled,2025-10-24
+ORD0351,Omar,Ferhat,omar.ferhat872@email.com,47,Bejaia,Smartwatch,Networking,1.0,26473.73,26473.73,UNKNOWN,completed,2025-04-02
+ORD0519,Meriem,Taleb,meriem.taleb668@email.com,35,,Monitor,Networking,10.0,149563.28,1495632.8,Credit Card,pending,2025-04-03
+ORD0008,Ali,Mebarki,ali.mebarki656@email.com,38,Sidi Bel Abbes,Printer,Accessories,6.0,126506.36,759038.16,Cash,pending,2025-01-26
+ORD0156,Nour,Hamidi,nour.hamidi125@email.com,19,Oran,Monitor,Storage,10.0,68838.49,688384.9,Cash,cancelled,2025-10-18
+ORD0945,Meriem,Mansouri,meriem.mansouri273@email.com,64,Alger,Headphones,Storage,9.0,74587.36,671286.24,CIB,shipped,2025-07-17
+ORD0439,Karim,Taleb,karim.taleb614@email.com,48,Djelfa,RAM 16GB,Electronics,5.0,142114.45,710572.25,CIB,cancelled,2025-10-16
+ORD0330,Youssef,Khelifi,youssef.khelifi356@email.com,22,Blida,Tablet,Electronics,,67271.18,403627.08,BaridiMob,pending,2025-04-23
+ORD0543,Fatima,Bouzid,fatima.bouzid798@email.com,47,Djelfa,Smartwatch,Networking,3.0,59263.47,177790.41,BaridiMob,cancelled,2025-01-06
+ORD0440,Amina,Khelifi,amina.khelifi851@email.com,34,Batna,SSD,Accessories,10.0,123157.75,1231577.5,CIB,returned,2025-11-17
+ORD0810,Rachid,Khelifi,rachid.khelifi343@email.com,30,,Smartwatch,Networking,1.0,148544.56,148544.56,CIB,cancelled,2025-02-08
+ORD0901,Youssef,Mansouri,youssef.mansouri352@email.com,25,Batna,Smartwatch,Storage,9.0,144954.08,1304586.72,Dahabia,pending,2025-04-09
+ORD0371,Samira,Mebarki,samira.mebarki704@email.com,32,Constantine,Mouse,Storage,6.0,112642.28,675853.68,CIB,cancelled,2025-01-08
+ORD0605,Ali,Bouzid,ali.bouzid800@email.com,46,Alger,Keyboard,Electronics,7.0,58594.27,410159.89,Cash,shipped,2025-05-06
+ORD0974,Karim,Mebarki,karim.mebarki857@email.com,59,Batna,Tablet,Electronics,4.0,4088.13,16352.52,Dahabia,cancelled,2025-03-12
+ORD0594,Djamila,Hamidi,djamila.hamidi282@email.com,41,Tiaret,Keyboard,Electronics,2.0,90771.32,181542.64,Credit Card,pending,2025-11-15
+ORD0877,Omar,Cherif,omar.cherif745@email.com,48,Constantine,Keyboard,Storage,8.0,46224.17,369793.36,BaridiMob,cancelled,2025-09-20
+ORD0555,Ali,Cherif,ali.cherif589@email.com,29,Djelfa,Mouse,Accessories,10.0,84613.83,846138.3,Credit Card,cancelled,2025-08-26
+ORD0754,Ahmed,Taleb,ahmed.taleb591@email.com,57,Blida,Printer,Electronics,5.0,133985.14,669925.7,Dahabia,cancelled,2025-02-16
+ORD0874,Bilal,Hamidi,bilal.hamidi169@email.com,46,Sidi Bel Abbes,Monitor,Accessories,7.0,26877.11,-188139.77,CIB,shipped,2025-05-19
+ORD0533,Karim,Mebarki,karim.mebarki139@email.com,64,Batna,Smartwatch,Accessories,10.0,137608.26,1376082.6,BaridiMob,completed,2025-09-18
+ORD0867,Mohamed,Zidane,mohamed.zidane683@email.com,58,Tlemcen,Smartphone,Peripherals,1.0,91475.73,91475.73,Credit Card,cancelled,2025-07-17
+ORD0229,Fatima,Belkacem,fatima.belkacem773@email.com,36,Tlemcen,Smartwatch,Accessories,10.0,105713.4,-1057134.0,Dahabia,pending,2025-09-11
+ORD0391,Bilal,Saidi,bilal.saidi373@email.com,60,Tiaret,Laptop,Accessories,8.0,50129.91,401039.28,Credit Card,returned,2025-08-23
+ORD0760,Fatima,Cherif,fatima.cherif230@email.com,62,Tlemcen,Keyboard,Peripherals,6.0,115521.4,693128.4,null,shipped,2025-03-28
+ORD0213,Sara,Zidane,sara.zidane561@email.com,25,Chlef,Printer,Accessories,10.0,80730.69,807306.9,CIB,shipped,2025-09-15
+ORD0080,Amine,Benali,amine.benali784@email.com,46,Biskra,Router,Peripherals,10.0,6514.64,65146.4,CIB,cancelled,2025-09-21
+ORD0149,Nour,Boudiaf,nour.boudiaf626@email.com,61,Setif,Power Bank,Storage,4.0,80334.67,321338.68,BaridiMob,cancelled,2025-04-12
+ORD0303,Sara,Bouzid,,23,Mostaganem,Printer,Electronics,,10804.5,75631.5,Dahabia,shipped,2025-05-11
+ORD0449,Meriem,Hamidi,meriem.hamidi315@email.com,62,Djelfa,Mouse,Storage,3.0,128322.34,384967.02,Cash,pending,2025-08-26
+ORD0362,Yasmine,Bouzid,,59,Alger,Webcam,Accessories,5.0,108915.4,544577.0,Credit Card,pending,2025-11-11
+ORD0532,Mohamed,Boudiaf,mohamed.boudiaf556@email.com,63,Constantine,Monitor,Accessories,10.0,81432.4,814324.0,CIB,pending,2025-05-23
+ORD0530,Sara,Mansouri,sara.mansouri264@email.com,60,Chlef,Headphones,Electronics,9.0,142392.9,1281536.1,CIB,pending,2025-06-13
+ORD0044,Karim,Boudiaf,karim.boudiaf813@email.com,33,,Power Bank,Accessories,2.0,42926.07,85852.14,Credit Card,shipped,2025-02-27
+ORD0674,Ahmed,Ferhat,ahmed.ferhat99@email.com,19,Mostaganem,Smartphone,Networking,4.0,88346.66,353386.64,CIB,pending,2025-11-12
+ORD0134,Nour,Taleb,nour.taleb604@email.com,28,Batna,Printer,Electronics,7.0,130643.4,914503.8,BaridiMob,pending,2025-06-25
+ORD0576,Fatima,Saidi,fatima.saidi570@email.com,33,Biskra,Smartphone,Peripherals,9.0,69415.74,624741.66,Credit Card,cancelled,2025-04-20
+ORD0312,Omar,Meziane,omar.meziane729@email.com,43,Annaba,Mouse,Storage,9.0,7818.12,70363.08,BaridiMob,shipped,2025-03-01
+ORD0635,Bilal,Boudiaf,,59,Alger,Printer,Electronics,7.0,142515.12,997605.84,CIB,shipped,2025-05-08
+ORD0568,Hana,Hamidi,hana.hamidi546@email.com,57,Blida,Power Bank,Storage,2.0,41261.8,82523.6,CIB,shipped,2025-02-01
+ORD0821,Sara,Taleb,sara.taleb353@email.com,39,Annaba,Monitor,Accessories,2.0,51562.01,103124.02,Dahabia,cancelled,2025-10-23
+ORD0001,Fatima,Benali,fatima.benali760@email.com,20,Setif,Monitor,Accessories,3.0,110602.45,331807.35,Credit Card,completed,2025-10-14
+ORD0478,Sara,Benali,sara.benali790@email.com,-5,Batna,Printer,Electronics,2.0,39736.61,79473.22,CIB,completed,2025-11-13
+ORD0317,Sara,Larbi,sara.larbi635@email.com,35,Djelfa,Monitor,Peripherals,8.0,62092.83,496742.64,Credit Card,cancelled,2025-01-03
+ORD0738,Hana,Mansouri,hana.mansouri771@email.com,26,Biskra,Tablet,Electronics,5.0,73881.34,369406.7,Dahabia,shipped,2025-11-20
+ORD0573,Bilal,Meziane,bilal.meziane467@email.com,41,Setif,RAM 16GB,Storage,8.0,35138.28,281106.24,CIB,pending,2025-10-09
+ORD0381,Lina,Zidane,lina.zidane351@email.com,48,Constantine,Smartphone,Storage,7.0,144365.33,1010557.31,BaridiMob,cancelled,2025-12-28
+ORD0833,Sara,Khelifi,sara.khelifi225@email.com,28,Chlef,Monitor,Storage,4.0,59687.05,238748.2,BaridiMob,cancelled,2025-07-19
+ORD0973,Meriem,Bouzid,meriem.bouzid250@email.com,24,Oran,Printer,Peripherals,9.0,18899.79,170098.11,Cash,completed,2025-09-10
+ORD0962,Hana,Belkacem,hana.belkacem275@email.com,27,Bejaia,Smartphone,Accessories,4.0,7319.06,29276.24,CIB,shipped,2025-01-21
+ORD0173,Amina,Ferhat,amina.ferhat371@email.com,53,Bejaia,Monitor,Electronics,4.0,118913.82,475655.28,CIB,cancelled,2025-01-12
+ORD0126,Youssef,Bouzid,youssef.bouzid759@email.com,41,Biskra,Laptop,Electronics,9.0,32662.37,293961.33,Dahabia,cancelled,2025-06-06
+ORD0667,Hana,Hamidi,hana.hamidi702@email.com,51,Sidi Bel Abbes,USB Cable,Peripherals,2.0,80395.84,160791.68,BaridiMob,pending,2025-01-05
+ORD0487,Omar,Benali,omar.benali993@email.com,32,Bejaia,Laptop,Accessories,2.0,42676.12,85352.24,CIB,cancelled,2025-12-01
+ORD0835,Karim,Larbi,karim.larbi345@email.com,19,Batna,Webcam,Storage,7.0,61638.44,431469.08,Dahabia,shipped,2025-05-13
+ORD0940,Meriem,Benali,,29,Oran,SSD,Storage,,45103.42,270620.52,Cash,completed,2025-06-24
+ORD0091,Rachid,Taleb,rachid.taleb680@email.com,24,Mostaganem,Router,Accessories,8.0,144741.25,1157930.0,CIB,returned,2025-10-11
+ORD0979,Bilal,Belkacem,bilal.belkacem816@email.com,26,Mostaganem,Webcam,Electronics,2.0,86887.51,173775.02,BaridiMob,pending,2025-02-11
+ORD0182,Bilal,Khelifi,bilal.khelifi349@email.com,41,Djelfa,Tablet,Peripherals,6.0,110262.86,661577.16,BaridiMob,cancelled,2025-03-25
+ORD0364,Bilal,Zidane,bilal.zidane121@email.com,25,Tlemcen,Laptop,Networking,10.0,141673.0,1416730.0,Cash,cancelled,2025-04-17
+ORD0275,Bilal,Zidane,bilal.zidane121@email.com,58,Mostaganem,Power Bank,Accessories,4.0,121700.06,486800.24,Credit Card,shipped,2025-12-20
+ORD0965,Sara,Mansouri,sara.mansouri836@email.com,52,Oran,Router,Peripherals,4.0,109706.26,438825.04,BaridiMob,pending,2025-05-01
+ORD0070,Amina,Hamidi,,26,Sidi Bel Abbes,Printer,Accessories,5.0,7304.6,36523.0,Cash,returned,2025-05-23
+ORD0292,Nour,Boudiaf,nour.boudiaf654@email.com,54,Djelfa,Smartphone,Networking,1.0,148038.94,148038.94,BaridiMob,pending,2025-07-28
+ORD0132,Sara,Taleb,sara.taleb20@email.com,44,Tlemcen,Smartwatch,Electronics,6.0,86575.99,519455.94,Credit Card,cancelled,2025-12-21
+ORD0301,Sara,Zidane,sara.zidane884@email.com,63,Oran,Monitor,Electronics,8.0,54914.49,439315.92,CIB,pending,2025-01-18
+ORD0606,Youssef,Boudiaf,youssef.boudiaf951@email.com,45,Annaba,SSD,Storage,3.0,96999.73,290999.19,Cash,pending,2025-09-25
+ORD0327,Samira,Ferhat,samira.ferhat655@email.com,60,Tlemcen,RAM 16GB,Peripherals,3.0,106223.85,318671.55,Credit Card,returned,2025-06-08
+ORD0145,Mohamed,Zidane,mohamed.zidane131@email.com,41,Biskra,USB Cable,Networking,2.0,97080.71,194161.42,Dahabia,returned,2025-06-01
+ORD0899,Ahmed,Bouzid,ahmed.bouzid952@email.com,60,,Mouse,Storage,5.0,33446.22,167231.1,BaridiMob,cancelled,2025-11-04
+ORD0305,Meriem,Ferhat,meriem.ferhat795@email.com,40,Annaba,USB Cable,Networking,4.0,23009.67,92038.68,Dahabia,completed,2025-04-18
+ORD0669,Yasmine,Larbi,yasmine.larbi707@email.com,25,Tiaret,Printer,Networking,9.0,105488.6,949397.4,Cash,cancelled,2025-08-03
+ORD0136,Omar,Khelifi,omar.khelifi106@email.com,47,Constantine,Keyboard,Accessories,3.0,90558.65,271675.95,Cash,pending,2025-11-16
+ORD0452,Sara,Belkacem,,49,Chlef,Headphones,Networking,9.0,43327.15,389944.35,Credit Card,completed,2025-03-21
+ORD0165,Youssef,Taleb,youssef.taleb617@email.com,37,Tiaret,Tablet,Networking,5.0,48521.11,242605.55,Cash,shipped,2025-11-10
+ORD0029,Fatima,Meziane,fatima.meziane551@email.com,28,Annaba,Printer,Peripherals,3.0,140022.28,420066.84,Cash,pending,2025-06-10
+ORD0588,Nour,Belkacem,nour.belkacem514@email.com,41,Setif,Headphones,Networking,10.0,55362.02,553620.2,Cash,returned,2025-08-23
+ORD0194,Djamila,Ferhat,djamila.ferhat862@email.com,38,Batna,Tablet,Accessories,1.0,86099.26,86099.26,Cash,pending,2025-01-15
+ORD0430,Karim,Meziane,karim.meziane407@email.com,46,Blida,Printer,Electronics,4.0,127273.29,509093.16,Credit Card,pending,2025-09-05
+ORD0666,Khaled,Ferhat,,61,Constantine,Power Bank,Electronics,10.0,113017.96,1130179.6,Credit Card,shipped,2025-06-27
+ORD0987,Karim,Belkacem,karim.belkacem972@email.com,21,Setif,Webcam,Storage,6.0,66874.06,401244.36,Cash,shipped,2025-02-05
+ORD0170,Nour,Meziane,nour.meziane27@email.com,34,Sidi Bel Abbes,Tablet,Storage,9.0,58354.61,525191.49,Credit Card,completed,2025-05-25
+ORD0526,Hana,Khelifi,hana.khelifi809@email.com,35,Sidi Bel Abbes,SSD,Peripherals,1.0,70011.64,70011.64,Cash,completed,2025-07-22
+ORD0141,Mohamed,Belkacem,mohamed.belkacem87@email.com,57,Bejaia,RAM 16GB,Accessories,1.0,37537.69,37537.69,Dahabia,cancelled,2025-09-17
+ORD0174,Amine,Saidi,,64,Mostaganem,Printer,Accessories,10.0,132694.84,1326948.4,Cash,shipped,2025-07-23
+ORD0007,Ali,Belkacem,ali.belkacem960@email.com,42,Biskra,RAM 16GB,Electronics,10.0,95429.25,954292.5,Credit Card,pending,2025-03-15
+ORD0765,Lina,Mansouri,lina.mansouri681@email.com,47,Annaba,Tablet,Networking,7.0,118188.75,827321.25,CIB,cancelled,2025-07-14
+ORD0520,Samira,Saidi,samira.saidi702@email.com,38,Chlef,SSD,Electronics,2.0,100926.26,201852.52,Dahabia,shipped,2025-06-07
+ORD0679,Karim,Bouzid,karim.bouzid508@email.com,42,Mostaganem,Mouse,Peripherals,9.0,108459.42,976134.78,Cash,shipped,2025-08-04
+ORD0074,Bilal,Hamidi,bilal.hamidi881@email.com,31,Djelfa,Headphones,Peripherals,10.0,93343.58,933435.8,Credit Card,completed,2025-04-21
+ORD0714,Meriem,Boudiaf,meriem.boudiaf755@email.com,50,Batna,Smartwatch,Peripherals,7.0,131575.8,921030.6,Cash,pending,2025-12-09
+ORD0676,Youssef,Meziane,youssef.meziane840@email.com,52,Djelfa,Power Bank,Electronics,9.0,32941.21,296470.89,CIB,shipped,2025-03-25
+ORD0239,Amine,Khelifi,amine.khelifi714@email.com,21,Annaba,Keyboard,Electronics,1.0,14478.33,14478.33,Dahabia,cancelled,2025-09-16
+ORD0146,Hana,Bouzid,hana.bouzid974@email.com,24,Annaba,Mouse,Storage,4.0,34368.19,137472.76,CIB,pending,2025-02-10
+ORD0824,Rachid,Bouzid,rachid.bouzid846@email.com,46,Oran,Mouse,Electronics,2.0,54004.06,108008.12,Credit Card,completed,2025-03-10
+ORD0235,Sara,Ferhat,sara.ferhat7@email.com,41,Batna,Tablet,Accessories,2.0,106221.85,212443.7,Cash,pending,2025-09-15
+ORD0221,Youssef,Meziane,youssef.meziane609@email.com,52,Oran,Webcam,Networking,1.0,37087.76,37087.76,Cash,cancelled,2025-08-08
+ORD0215,Amine,Benali,amine.benali573@email.com,20,Tlemcen,RAM 16GB,Peripherals,1.0,59694.33,59694.33,Cash,pending,2025-10-03
+ORD0689,Yasmine,Mansouri,yasmine.mansouri882@email.com,25,Mostaganem,Keyboard,Accessories,8.0,64886.83,519094.64,BaridiMob,cancelled,2025-08-25
+ORD0133,Hana,Meziane,,24,Oran,Mouse,Accessories,10.0,69284.49,692844.9,BaridiMob,completed,2025-07-28
+ORD0549,Djamila,Larbi,djamila.larbi7@email.com,27,Annaba,Smartwatch,Networking,5.0,93155.02,465775.1,Credit Card,pending,2025-01-06
+ORD0458,Ali,Belkacem,ali.belkacem454@email.com,19,Batna,SSD,Storage,4.0,113742.26,454969.04,Dahabia,cancelled,2025-10-28
+ORD0685,Meriem,Boudiaf,meriem.boudiaf237@email.com,29,Biskra,Tablet,Electronics,2.0,110800.85,221601.7,Cash,cancelled,2025-11-01
+ORD0423,Hana,Mansouri,hana.mansouri69@email.com,59,Setif,Smartphone,Accessories,10.0,73334.97,733349.7,BaridiMob,shipped,2025-03-22
+ORD0186,Lina,Benali,lina.benali52@email.com,34,Setif,Webcam,Networking,8.0,43219.38,345755.04,Cash,completed,2025-07-05
+ORD0042,Yasmine,Bouzid,yasmine.bouzid197@email.com,18,Batna,RAM 16GB,Storage,3.0,92519.48,277558.44,BaridiMob,cancelled,2025-09-27
+ORD0639,Sara,Cherif,sara.cherif969@email.com,41,Chlef,RAM 16GB,Peripherals,1.0,17089.5,17089.5,BaridiMob,cancelled,2025-10-02
+ORD0109,Omar,Mebarki,omar.mebarki425@email.com,31,Biskra,Smartphone,Storage,10.0,61513.32,615133.2,BaridiMob,completed,2025-12-12
+ORD0617,Youssef,Zidane,youssef.zidane838@email.com,39,Alger,Smartphone,Storage,10.0,119976.7,1199767.0,CIB,completed,2025-04-14
+ORD0057,Yasmine,Benali,yasmine.benali975@email.com,27,Blida,Monitor,Electronics,1.0,113257.86,113257.86,CIB,pending,2025-01-20
+ORD0450,Amina,Meziane,amina.meziane220@email.com,18,Bejaia,Headphones,Peripherals,9.0,92296.79,830671.11,Cash,pending,2025-07-21
+ORD0774,Ahmed,Boudiaf,ahmed.boudiaf348@email.com,37,Annaba,Power Bank,Networking,10.0,107339.74,1073397.4,Credit Card,returned,2025-04-12
+ORD0590,Djamila,Meziane,djamila.meziane252@email.com,52,Tlemcen,RAM 16GB,Electronics,9.0,119815.69,1078341.21,BaridiMob,returned,2025-01-11
+ORD0896,Lina,Taleb,lina.taleb962@email.com,27,Chlef,Smartwatch,Storage,2.0,110274.52,-220549.04,BaridiMob,returned,2025-04-23
+ORD0436,Ali,Khelifi,ali.khelifi154@email.com,39,Constantine,Tablet,Peripherals,10.0,107736.75,1077367.5,Cash,pending,2025-07-26
+ORD0025,Khaled,Benali,khaled.benali594@email.com,51,Sidi Bel Abbes,Printer,Electronics,6.0,9046.21,54277.26,Credit Card,cancelled,2025-09-28
+ORD0811,Amina,Saidi,amina.saidi319@email.com,34,Alger,RAM 16GB,Electronics,1.0,72254.98,72254.98,Cash,returned,2025-11-11
+ORD0495,Djamila,Saidi,djamila.saidi954@email.com,49,Mostaganem,RAM 16GB,Electronics,1.0,53649.89,53649.89,CIB,returned,2025-02-05
+ORD0827,Omar,Taleb,omar.taleb671@email.com,41,Mostaganem,Smartwatch,Electronics,6.0,140449.06,842694.36,BaridiMob,cancelled,2025-04-12
+ORD0982,Samira,Cherif,samira.cherif592@email.com,53,Mostaganem,USB Cable,Accessories,2.0,35661.36,71322.72,Cash,pending,2025-01-12
+ORD0929,Amine,Zidane,amine.zidane289@email.com,40,Bejaia,Keyboard,Networking,2.0,134537.25,269074.5,CIB,shipped,2025-07-06
+ORD0966,Amine,Meziane,amine.meziane740@email.com,46,Sidi Bel Abbes,USB Cable,Storage,5.0,130568.86,652844.3,Credit Card,returned,2025-04-27
+ORD0339,Sara,Hamidi,sara.hamidi451@email.com,40,Tlemcen,Keyboard,Accessories,5.0,84854.86,424274.3,CIB,completed,2025-02-22
+ORD0052,Ahmed,Zidane,ahmed.zidane902@email.com,44,Mostaganem,SSD,Storage,8.0,1381.46,11051.68,BaridiMob,shipped,2025-07-28
+ORD0384,Omar,Boudiaf,omar.boudiaf943@email.com,61,Tlemcen,Smartphone,Storage,8.0,7372.86,58982.88,BaridiMob,shipped,2025-01-23
+ORD0540,Amine,Larbi,amine.larbi550@email.com,52,Bejaia,RAM 16GB,Electronics,9.0,16842.79,151585.11,Dahabia,completed,2025-04-17
+ORD0992,Fatima,Meziane,fatima.meziane372@email.com,31,Djelfa,Power Bank,Peripherals,1.0,36309.72,36309.72,CIB,returned,2025-02-03
+ORD0661,Hana,Boudiaf,hana.boudiaf573@email.com,58,Sidi Bel Abbes,Webcam,Accessories,1.0,118787.32,118787.32,CIB,shipped,2025-05-21
+ORD0964,Lina,Mansouri,lina.mansouri620@email.com,38,Blida,Mouse,Electronics,9.0,39973.71,359763.39,CIB,cancelled,2025-10-10
+ORD0265,Ali,Ferhat,,30,Mostaganem,Power Bank,Electronics,10.0,15711.93,157119.3,Credit Card,pending,2025-06-11
+ORD0955,Nour,Mansouri,nour.mansouri283@email.com,55,Annaba,SSD,Storage,2.0,133135.47,266270.94,CIB,returned,2025-02-02
+ORD0742,Youssef,Mebarki,youssef.mebarki821@email.com,36,Tlemcen,Keyboard,Accessories,3.0,102804.93,308414.79,BaridiMob,pending,2025-09-14
+ORD0713,Hana,Khelifi,hana.khelifi881@email.com,23,Chlef,Tablet,Storage,6.0,131980.35,791882.1,Dahabia,completed,2025-05-28
+ORD0445,Amine,Meziane,amine.meziane436@email.com,44,Constantine,Keyboard,Storage,4.0,136557.76,546231.04,Cash,shipped,2025-10-18
+ORD0396,Meriem,Mebarki,meriem.mebarki521@email.com,56,Mostaganem,Smartwatch,Accessories,10.0,26460.72,264607.2,CIB,completed,2025-07-22
+ORD0542,Bilal,Bouzid,bilal.bouzid433@email.com,50,Setif,SSD,Electronics,9.0,135599.51,1220395.59,Dahabia,cancelled,2025-02-24
+ORD0496,Nour,Saidi,nour.saidi572@email.com,26,Mostaganem,RAM 16GB,Peripherals,8.0,110111.73,880893.84,Cash,cancelled,2025-06-24
+ORD0019,Sara,Khelifi,sara.khelifi70@email.com,26,Chlef,Laptop,Peripherals,2.0,77366.34,154732.68,BaridiMob,cancelled,2025-04-18
+ORD0747,Yasmine,Benali,yasmine.benali6@email.com,56,Batna,Smartphone,Electronics,3.0,98542.25,295626.75,Dahabia,cancelled,2025-11-24
+ORD0523,Djamila,Mebarki,djamila.mebarki152@email.com,19,Tiaret,Router,Peripherals,1.0,51819.07,51819.07,Cash,shipped,2025-08-16
+ORD0595,Amina,Hamidi,amina.hamidi802@email.com,56,Sidi Bel Abbes,Monitor,Storage,3.0,120006.11,360018.33,Cash,shipped,2025-02-05
+ORD0480,Mohamed,Zidane,mohamed.zidane488@email.com,0,Tlemcen,Router,Networking,5.0,82507.52,412537.6,CIB,returned,2025-03-19
+ORD0368,Samira,Taleb,samira.taleb440@email.com,51,Tlemcen,Headphones,Electronics,1.0,80300.5,80300.5,BaridiMob,completed,2025-06-25
+ORD0084,Karim,Saidi,karim.saidi638@email.com,62,Mostaganem,Webcam,Storage,1.0,30931.96,30931.96,Credit Card,pending,2025-05-15
+ORD0062,Fatima,Taleb,fatima.taleb984@email.com,52,Blida,RAM 16GB,Storage,3.0,65605.33,196815.99,Credit Card,shipped,2025-10-26
+ORD0484,Yasmine,Saidi,yasmine.saidi194@email.com,34,Batna,Smartwatch,Networking,7.0,59515.44,416608.08,CIB,cancelled,2025-07-08
+ORD0273,Meriem,Cherif,meriem.cherif524@email.com,64,Alger,SSD,Electronics,5.0,116379.4,581897.0,BaridiMob,returned,2025-01-25
+ORD0286,Omar,Larbi,omar.larbi232@email.com,26,Bejaia,RAM 16GB,Storage,1.0,1705.35,1705.35,N/A,completed,2025-07-23
+ORD0361,Amine,Belkacem,amine.belkacem586@email.com,28,Tiaret,Monitor,Peripherals,4.0,103104.56,412418.24,Dahabia,shipped,2025-09-10
+ORD0355,Nour,Mansouri,nour.mansouri231@email.com,29,Biskra,Monitor,Peripherals,7.0,77235.54,540648.78,Cash,cancelled,2025-03-21
+ORD0612,Khaled,Hamidi,khaled.hamidi713@email.com,30,Batna,Smartwatch,Electronics,6.0,73232.28,439393.68,Dahabia,pending,2025-03-02
+ORD0279,Omar,Larbi,omar.larbi648@email.com,35,Setif,RAM 16GB,Storage,7.0,68072.76,476509.32,Cash,cancelled,2025-09-24
+ORD0013,Mohamed,Meziane,mohamed.meziane301@email.com,24,Batna,Tablet,Storage,1.0,143095.48,143095.48,BaridiMob,returned,2025-03-17
+ORD0183,Karim,Cherif,karim.cherif109@email.com,36,Blida,Monitor,Storage,2.0,40487.02,80974.04,CIB,pending,2025-02-02
+ORD0369,Khaled,Benali,khaled.benali693@email.com,42,Oran,RAM 16GB,Accessories,4.0,104181.95,416727.8,BaridiMob,shipped,2025-03-04
+ORD0528,Yasmine,Meziane,yasmine.meziane191@email.com,37,Annaba,Printer,Storage,9.0,138989.32,1250903.88,Cash,completed,2025-04-17
+ORD0644,Hana,Meziane,hana.meziane112@email.com,36,Constantine,Keyboard,Electronics,3.0,74701.15,224103.45,CIB,returned,2025-11-01
+ORD0224,Amina,Mansouri,amina.mansouri696@email.com,44,Batna,Printer,Storage,1.0,145857.39,145857.39,Dahabia,returned,2025-06-23
+ORD0600,Mohamed,Hamidi,mohamed.hamidi274@email.com,39,Mostaganem,Smartphone,Peripherals,10.0,58977.49,589774.9,CIB,returned,2025-04-17
+ORD0766,Karim,Ferhat,karim.ferhat699@email.com,38,Blida,Laptop,Storage,3.0,115637.7,346913.1,Credit Card,completed,2025-02-11
+ORD0707,Karim,Mebarki,karim.mebarki124@email.com,38,Bejaia,RAM 16GB,Networking,9.0,38145.3,343307.7,Cash,pending,2025-10-04
+ORD0571,Rachid,Benali,rachid.benali89@email.com,39,Batna,Headphones,Accessories,10.0,133745.75,1337457.5,Dahabia,returned,2025-06-10
+ORD0487,Omar,Benali,omar.benali993@email.com,32,Bejaia,Laptop,Accessories,2.0,42676.12,85352.24,CIB,cancelled,2025-12-01
+ORD0466,Ahmed,Benali,ahmed.benali691@email.com,34,Annaba,Headphones,Networking,2.0,49152.71,98305.42,UNKNOWN,shipped,2025-03-18
+ORD0933,Hana,Mansouri,hana.mansouri879@email.com,23,Alger,Keyboard,Storage,6.0,126864.22,761185.32,Cash,completed,2025-12-08
+ORD0637,Rachid,Bouzid,rachid.bouzid809@email.com,51,Tiaret,Mouse,Storage,1.0,129127.21,129127.21,Cash,cancelled,2025-12-11
+ORD0177,Fatima,Cherif,fatima.cherif157@email.com,23,Setif,Tablet,Accessories,6.0,140243.31,841459.86,CIB,shipped,2025-09-10
+ORD0696,Mohamed,Boudiaf,mohamed.boudiaf515@email.com,58,Mostaganem,Power Bank,Peripherals,3.0,92416.77,277250.31,BaridiMob,cancelled,2025-04-16
+ORD0656,Djamila,Cherif,djamila.cherif967@email.com,18,Oran,Smartwatch,Peripherals,7.0,22617.92,158325.44,,shipped,2025-07-12
+ORD0614,Ahmed,Benali,ahmed.benali348@email.com,52,Oran,Mouse,Electronics,7.0,18168.97,127182.79,Credit Card,cancelled,2025-11-28
+ORD0457,Amina,Taleb,amina.taleb519@email.com,54,Alger,Printer,Electronics,9.0,44490.65,400415.85,Cash,returned,2025-05-18
+ORD0545,Bilal,Mansouri,bilal.mansouri372@email.com,20,Alger,Printer,Storage,9.0,92004.84,828043.56,CIB,cancelled,2025-09-13
+ORD0394,Khaled,Boudiaf,khaled.boudiaf845@email.com,46,Mostaganem,Monitor,Peripherals,2.0,113693.83,227387.66,Cash,returned,2025-02-25
+ORD0164,Rachid,Saidi,rachid.saidi998@email.com,45,Constantine,Webcam,Storage,6.0,138684.41,832106.46,Credit Card,shipped,2025-02-24
+ORD0249,Youssef,Belkacem,youssef.belkacem923@email.com,37,Bejaia,Smartwatch,Accessories,10.0,78405.13,784051.3,Dahabia,pending,2025-03-09
+ORD0663,Meriem,Meziane,meriem.meziane614@email.com,25,Sidi Bel Abbes,Mouse,Networking,8.0,85053.4,680427.2,BaridiMob,cancelled,2025-12-27
+ORD0921,Hana,Mansouri,hana.mansouri547@email.com,50,Tlemcen,Tablet,Networking,8.0,104417.67,835341.36,Credit Card,shipped,2025-10-18
+ORD0998,Djamila,Mansouri,djamila.mansouri536@email.com,45,Chlef,Power Bank,Peripherals,8.0,117910.1,943280.8,BaridiMob,shipped,2025-06-20
+ORD0376,Khaled,Ferhat,khaled.ferhat270@email.com,49,,Printer,Accessories,6.0,105663.79,633982.74,BaridiMob,pending,2025-01-18
+ORD0413,Sara,Hamidi,sara.hamidi920@email.com,18,Biskra,Monitor,Peripherals,9.0,12810.64,115295.76,Cash,pending,2025-09-18
+ORD0075,Ali,Mansouri,ali.mansouri84@email.com,56,Constantine,Monitor,Accessories,9.0,11722.2,-105499.8,Cash,cancelled,2025-08-23
+ORD0917,Yasmine,Bouzid,yasmine.bouzid416@email.com,51,Tiaret,USB Cable,Electronics,7.0,83630.99,585416.93,Credit Card,returned,2025-08-03
+ORD0114,Omar,Benali,omar.benali367@email.com,65,Mostaganem,Power Bank,Accessories,10.0,48903.83,489038.3,CIB,shipped,2025-01-05
+ORD0501,Mohamed,Taleb,mohamed.taleb657@email.com,20,Blida,Smartphone,Electronics,9.0,99004.21,891037.89,Cash,pending,2025-03-28
+ORD0586,Samira,Bouzid,samira.bouzid87@email.com,47,Constantine,RAM 16GB,Storage,8.0,134090.58,1072724.64,Credit Card,cancelled,2025-10-06
+ORD0115,Samira,Cherif,samira.cherif117@email.com,50,Sidi Bel Abbes,Smartphone,Storage,8.0,116813.55,934508.4,Credit Card,returned,2025-02-15
+ORD0418,Lina,Mebarki,lina.mebarki515@email.com,60,Alger,Keyboard,Peripherals,10.0,13432.53,134325.3,Dahabia,cancelled,2025-07-27
+ORD0090,Mohamed,Zidane,mohamed.zidane194@email.com,48,Sidi Bel Abbes,Monitor,Networking,7.0,35417.59,247923.13,Dahabia,completed,2025-06-24
+ORD0959,Omar,Hamidi,omar.hamidi47@email.com,46,Djelfa,Laptop,Accessories,7.0,74506.37,521544.59,Credit Card,returned,2025-02-06
+ORD0902,Hana,Meziane,hana.meziane115@email.com,38,Alger,Mouse,Networking,4.0,111820.35,447281.4,Cash,returned,2025-06-05
+ORD0634,Ahmed,Taleb,ahmed.taleb46@email.com,24,Oran,Webcam,Networking,1.0,64141.8,64141.8,Dahabia,cancelled,2025-12-27
+ORD0678,Amina,Zidane,amina.zidane364@email.com,25,Batna,Headphones,Accessories,9.0,34519.35,310674.15,Cash,shipped,2025-02-15
+ORD0012,Rachid,Larbi,rachid.larbi480@email.com,59,Bejaia,Keyboard,Networking,1.0,102202.37,102202.37,Cash,returned,2025-05-25
+ORD0397,Djamila,Mebarki,djamila.mebarki330@email.com,36,Bejaia,Smartwatch,Storage,7.0,146935.36,1028547.52,CIB,shipped,2025-07-11
+ORD0558,Karim,Cherif,karim.cherif332@email.com,29,Mostaganem,Laptop,Electronics,6.0,51533.56,309201.36,Credit Card,returned,2025-01-27
+ORD0043,Hana,Hamidi,hana.hamidi216@email.com,31,Batna,Power Bank,Networking,10.0,98378.49,983784.9,Dahabia,cancelled,2025-08-22
+ORD0168,Bilal,Benali,bilal.benali130@email.com,61,Alger,Monitor,Peripherals,6.0,57736.73,346420.38,Credit Card,completed,2025-10-05
+ORD0417,Fatima,Cherif,fatima.cherif7@email.com,22,Biskra,USB Cable,Networking,2.0,113516.11,227032.22,Credit Card,completed,2025-12-28
+ORD0788,Nour,Zidane,nour.zidane723@email.com,55,Tiaret,Smartwatch,Networking,8.0,13154.87,105238.96,Credit Card,returned,2025-06-13
+ORD0427,Amina,Mansouri,amina.mansouri622@email.com,22,Alger,Router,Peripherals,3.0,133748.91,401246.73,CIB,shipped,2025-12-21
+ORD0918,Amine,Cherif,amine.cherif731@email.com,29,Tiaret,Power Bank,Electronics,4.0,144869.32,579477.28,Cash,pending,2025-10-23
+ORD0730,Sara,Khelifi,sara.khelifi153@email.com,49,Oran,Monitor,Accessories,1.0,70802.01,70802.01,CIB,cancelled,2025-07-04
+ORD0715,Youssef,Saidi,youssef.saidi431@email.com,29,Djelfa,USB Cable,Networking,6.0,68262.63,409575.78,Cash,completed,2025-11-21
+ORD0732,Hana,Bouzid,hana.bouzid855@email.com,51,Constantine,USB Cable,Networking,5.0,84705.48,423527.4,Credit Card,pending,2025-10-01
+ORD0258,Lina,Bouzid,lina.bouzid663@email.com,24,Djelfa,Laptop,Networking,7.0,145038.26,1015267.82,BaridiMob,cancelled,2025-02-01
+ORD0336,Rachid,Larbi,rachid.larbi563@email.com,60,Tiaret,Webcam,Accessories,1.0,54443.92,54443.92,Dahabia,completed,2025-05-27
+ORD0016,Meriem,Zidane,meriem.zidane71@email.com,56,Mostaganem,Printer,Accessories,3.0,99132.75,297398.25,Credit Card,pending,2025-05-17
+ORD0658,Samira,Belkacem,samira.belkacem918@email.com,0,Batna,Tablet,Networking,10.0,13368.66,133686.6,CIB,shipped,2025-08-28
+ORD0325,Amina,Mebarki,amina.mebarki822@email.com,51,Tiaret,Router,Peripherals,1.0,3775.98,3775.98,N/A,pending,2025-02-28
+ORD0790,Youssef,Meziane,youssef.meziane102@email.com,61,Bejaia,Tablet,Peripherals,3.0,27809.0,83427.0,Cash,pending,2025-05-14
+ORD0223,Mohamed,Khelifi,mohamed.khelifi310@email.com,65,Chlef,Tablet,Networking,4.0,62327.25,249309.0,BaridiMob,completed,2025-09-19
+ORD0180,Amine,Hamidi,amine.hamidi667@email.com,36,Annaba,Power Bank,Networking,7.0,92907.21,650350.47,Cash,cancelled,2025-11-18
+ORD0100,Hana,Benali,hana.benali850@email.com,36,Biskra,Headphones,Peripherals,1.0,85106.39,85106.39,Cash,returned,2025-12-16
+ORD0522,Sara,Mebarki,sara.mebarki838@email.com,33,Annaba,Monitor,Peripherals,3.0,113781.2,341343.6,Cash,completed,2025-12-02
+ORD0023,Yasmine,Zidane,yasmine.zidane16@email.com,28,Alger,Smartwatch,Accessories,3.0,61258.9,183776.7,Dahabia,pending,2025-07-02
+ORD0357,Bilal,Hamidi,bilal.hamidi224@email.com,41,Tlemcen,Keyboard,Networking,10.0,59874.3,598743.0,Cash,completed,2025-09-22
+ORD0697,Youssef,Zidane,,65,Bejaia,Monitor,Peripherals,5.0,7605.94,38029.7,Credit Card,cancelled,2025-04-20
+ORD0897,Karim,Mebarki,karim.mebarki586@email.com,47,,Router,Networking,1.0,19615.27,19615.27,Cash,shipped,2025-11-18
+ORD0341,Meriem,Larbi,meriem.larbi903@email.com,54,Annaba,Webcam,Peripherals,2.0,59523.25,119046.5,Cash,returned,2025-10-17
+ORD0432,Ali,Saidi,ali.saidi240@email.com,20,Oran,RAM 16GB,Accessories,9.0,136205.05,1225845.45,BaridiMob,cancelled,2025-08-15
+ORD0577,Yasmine,Bouzid,yasmine.bouzid998@email.com,39,Tlemcen,Headphones,Electronics,6.0,31631.6,189789.6,Credit Card,cancelled,2025-07-19
+ORD0868,Nour,Cherif,nour.cherif602@email.com,45,Sidi Bel Abbes,Laptop,Accessories,1.0,92644.13,92644.13,Cash,shipped,2025-04-24
+ORD0204,Sara,Mebarki,sara.mebarki944@email.com,36,Constantine,Headphones,Accessories,1.0,149577.18,149577.18,Dahabia,cancelled,2025-03-24
+ORD0737,Rachid,Hamidi,rachid.hamidi183@email.com,43,Annaba,Power Bank,Storage,2.0,3566.55,7133.1,CIB,pending,2025-07-25
+ORD0094,Meriem,Zidane,meriem.zidane555@email.com,45,Oran,SSD,Electronics,4.0,94858.57,379434.28,BaridiMob,pending,2025-12-03
+ORD0584,Rachid,Taleb,rachid.taleb391@email.com,41,Batna,Printer,Accessories,3.0,71493.28,-214479.84,CIB,returned,2025-07-27
+ORD0069,Meriem,Hamidi,meriem.hamidi742@email.com,41,Djelfa,Power Bank,Networking,10.0,42808.31,428083.1,Cash,pending,2025-05-08
+ORD0651,Yasmine,Hamidi,yasmine.hamidi125@email.com,65,Chlef,Laptop,Storage,8.0,115393.47,923147.76,Dahabia,shipped,2025-03-01
+ORD0285,Amina,Benali,amina.benali406@email.com,22,Biskra,Keyboard,Accessories,7.0,98495.04,689465.28,Cash,completed,2025-04-16
+ORD0837,Youssef,Ferhat,youssef.ferhat284@email.com,30,Chlef,Monitor,Electronics,2.0,11166.63,22333.26,Cash,returned,2025-04-11
+ORD0435,Meriem,Ferhat,meriem.ferhat494@email.com,50,Chlef,SSD,Electronics,9.0,132364.12,1191277.08,Dahabia,pending,2025-04-03
+ORD0154,Mohamed,Ferhat,mohamed.ferhat150@email.com,18,Constantine,Laptop,Peripherals,8.0,104562.76,836502.08,CIB,cancelled,2025-08-20
+ORD0076,Meriem,Hamidi,meriem.hamidi34@email.com,60,Annaba,Keyboard,Peripherals,8.0,11141.37,89130.96,CIB,shipped,2025-11-19
+ORD0762,Yasmine,Benali,yasmine.benali520@email.com,50,Alger,Tablet,Electronics,4.0,136692.37,546769.48,CIB,shipped,2025-12-15
+ORD0447,Mohamed,Taleb,mohamed.taleb371@email.com,57,Alger,Tablet,Storage,10.0,38418.09,384180.9,Credit Card,cancelled,2025-10-12
+ORD0189,Mohamed,Cherif,mohamed.cherif962@email.com,20,Blida,Power Bank,Accessories,4.0,90568.21,362272.84,Dahabia,returned,2025-01-02
+ORD0272,Ahmed,Ferhat,ahmed.ferhat780@email.com,65,Annaba,Keyboard,Electronics,5.0,34114.09,170570.45,BaridiMob,pending,2025-08-19
+ORD0237,Ahmed,Benali,ahmed.benali543@email.com,51,Sidi Bel Abbes,Keyboard,Networking,5.0,3062.82,15314.1,Dahabia,pending,2025-02-04
+ORD0488,Youssef,Bouzid,youssef.bouzid16@email.com,20,Tlemcen,Monitor,Peripherals,7.0,47080.71,329564.97,N/A,shipped,2025-08-23
+ORD0560,Yasmine,Mebarki,yasmine.mebarki344@email.com,38,Tlemcen,Power Bank,Storage,1.0,125348.31,125348.31,BaridiMob,returned,2025-12-22
+ORD0118,Ali,Larbi,ali.larbi649@email.com,56,Djelfa,Printer,Peripherals,7.0,149196.85,1044377.95,null,shipped,2025-08-17
+ORD0852,Hana,Taleb,hana.taleb628@email.com,60,Tiaret,Power Bank,Accessories,7.0,37745.66,264219.62,Credit Card,cancelled,2025-08-13
+ORD0513,Amine,Mebarki,amine.mebarki223@email.com,37,Sidi Bel Abbes,Smartphone,Peripherals,8.0,26348.92,210791.36,Credit Card,completed,2025-10-21
+ORD0579,Yasmine,Meziane,yasmine.meziane842@email.com,49,Tlemcen,Tablet,Peripherals,7.0,10906.34,76344.38,Cash,returned,2025-07-11
+ORD0828,Amina,Cherif,amina.cherif819@email.com,42,Djelfa,Smartwatch,Storage,2.0,18214.75,36429.5,CIB,pending,2025-04-18
+ORD0127,Hana,Belkacem,,61,Mostaganem,SSD,Networking,2.0,132559.66,265119.32,CIB,pending,2025-10-02
+ORD0117,Samira,Mansouri,samira.mansouri111@email.com,26,Tlemcen,USB Cable,Storage,2.0,134940.38,269880.76,BaridiMob,returned,2025-03-03
+ORD0474,Rachid,Larbi,rachid.larbi294@email.com,54,Tlemcen,RAM 16GB,Accessories,3.0,96266.81,-288800.43,BaridiMob,cancelled,2025-11-20
+ORD0724,Youssef,Benali,youssef.benali481@email.com,34,Constantine,Router,Peripherals,7.0,103184.44,722291.08,Dahabia,cancelled,2025-12-20
+ORD0058,Nour,Bouzid,nour.bouzid485@email.com,56,Biskra,Smartphone,Networking,4.0,70022.58,280090.32,BaridiMob,shipped,2025-03-20
+ORD0705,Yasmine,Bouzid,yasmine.bouzid660@email.com,22,Tiaret,Laptop,Storage,1.0,8771.43,8771.43,Cash,shipped,2025-10-10
+ORD0949,Fatima,Belkacem,fatima.belkacem748@email.com,26,Bejaia,SSD,Accessories,4.0,148886.47,595545.88,Credit Card,pending,2025-04-04
+ORD0370,Karim,Larbi,karim.larbi314@email.com,39,Constantine,Smartphone,Electronics,5.0,142295.27,711476.35,Dahabia,returned,2025-10-17
+ORD0269,Omar,Larbi,omar.larbi393@email.com,36,Batna,Tablet,Storage,9.0,104168.22,937513.98,CIB,returned,2025-03-16
+ORD0047,Karim,Boudiaf,karim.boudiaf52@email.com,38,Bejaia,Monitor,Electronics,8.0,20434.2,163473.6,Dahabia,returned,2025-09-20
+ORD0350,Meriem,Ferhat,meriem.ferhat529@email.com,43,Tiaret,Mouse,Electronics,9.0,118827.81,1069450.29,Cash,shipped,2025-12-17
+ORD0196,Khaled,Cherif,khaled.cherif333@email.com,52,Biskra,Webcam,Networking,7.0,47406.01,331842.07,CIB,cancelled,2025-09-11
+ORD0103,Khaled,Bouzid,khaled.bouzid806@email.com,48,Bejaia,Smartwatch,Peripherals,9.0,75518.32,679664.88,BaridiMob,pending,2025-05-27
+ORD0869,Nour,Larbi,nour.larbi82@email.com,20,Oran,Tablet,Peripherals,8.0,44843.9,358751.2,CIB,cancelled,2025-04-21
+ORD0722,Meriem,Taleb,meriem.taleb134@email.com,44,Batna,Router,Accessories,10.0,32727.21,327272.1,BaridiMob,pending,2025-07-06
+ORD0768,Karim,Hamidi,karim.hamidi430@email.com,35,Batna,Smartwatch,Networking,5.0,108371.88,541859.4,BaridiMob,shipped,2025-01-27
+ORD0264,Samira,Taleb,samira.taleb30@email.com,31,Sidi Bel Abbes,SSD,Accessories,8.0,89034.37,712274.96,Dahabia,completed,2025-12-07
+ORD0444,Samira,Cherif,samira.cherif431@email.com,65,Blida,Router,Electronics,9.0,64628.96,581660.64,Dahabia,cancelled,2025-06-19
+ORD0706,Samira,Mebarki,samira.mebarki373@email.com,65,Biskra,RAM 16GB,Electronics,7.0,141502.74,990519.18,CIB,pending,2025-02-19
+ORD0305,Meriem,Ferhat,meriem.ferhat795@email.com,40,Annaba,USB Cable,Networking,4.0,23009.67,92038.68,Dahabia,completed,2025-04-18
+ORD0342,Djamila,Bouzid,djamila.bouzid124@email.com,23,Mostaganem,Webcam,Accessories,3.0,145838.65,437515.95,CIB,pending,2025-01-14
+ORD0627,Meriem,Cherif,meriem.cherif119@email.com,61,Alger,Smartwatch,Accessories,8.0,89109.65,712877.2,BaridiMob,cancelled,2025-04-24
+ORD0686,Rachid,Larbi,rachid.larbi696@email.com,-5,Blida,Tablet,Peripherals,10.0,93673.28,936732.8,Cash,returned,2025-08-26
+ORD0150,Amine,Boudiaf,amine.boudiaf473@email.com,34,Mostaganem,Keyboard,Storage,9.0,79355.24,714197.16,N/A,pending,2025-10-05
+ORD0125,Ali,Benali,ali.benali185@email.com,43,Setif,USB Cable,Peripherals,6.0,52978.0,317868.0,CIB,pending,2025-10-22
+ORD0818,Ali,Saidi,ali.saidi432@email.com,37,Tlemcen,USB Cable,Networking,8.0,28295.55,226364.4,CIB,completed,2025-01-05
+ORD0856,Bilal,Taleb,bilal.taleb352@email.com,38,Sidi Bel Abbes,Headphones,Accessories,7.0,6147.31,43031.17,BaridiMob,completed,2025-12-05
+ORD0051,Khaled,Meziane,khaled.meziane425@email.com,55,Batna,Mouse,Networking,8.0,62658.25,501266.0,CIB,cancelled,2025-07-25
+ORD0354,Amina,Zidane,amina.zidane916@email.com,31,Setif,USB Cable,Electronics,5.0,4603.85,23019.25,Cash,pending,2025-10-25
+ORD0967,Nour,Saidi,nour.saidi276@email.com,23,Annaba,SSD,Storage,3.0,67185.36,201556.08,Dahabia,shipped,2025-03-16
+ORD0143,Youssef,Saidi,youssef.saidi97@email.com,55,Bejaia,RAM 16GB,Storage,5.0,38173.37,190866.85,Credit Card,pending,2025-06-03
+ORD0471,Sara,Taleb,sara.taleb102@email.com,39,Sidi Bel Abbes,Tablet,Electronics,4.0,122165.8,488663.2,Dahabia,completed,2025-08-24
+ORD0400,Mohamed,Belkacem,mohamed.belkacem119@email.com,45,Mostaganem,Mouse,Networking,8.0,87629.54,701036.32,Dahabia,returned,2025-05-28
+ORD0654,Nour,Boudiaf,nour.boudiaf366@email.com,35,Alger,Mouse,Electronics,10.0,96376.24,963762.4,Credit Card,returned,2025-04-26
+ORD0321,Nour,Bouzid,nour.bouzid103@email.com,42,Annaba,RAM 16GB,Accessories,5.0,80286.59,401432.95,Cash,pending,2025-10-28
+ORD0020,Amine,Larbi,amine.larbi485@email.com,44,Annaba,Power Bank,Storage,7.0,28966.28,202763.96,Cash,cancelled,2025-06-14
+ORD0843,Mohamed,Khelifi,mohamed.khelifi430@email.com,20,Batna,RAM 16GB,Storage,9.0,45295.76,407661.84,Credit Card,completed,2025-10-26
+ORD0947,Mohamed,Taleb,,57,Sidi Bel Abbes,Laptop,Storage,8.0,43775.26,350202.08,Dahabia,completed,2025-07-08
+ORD0842,Ahmed,Saidi,ahmed.saidi143@email.com,40,Djelfa,Router,Accessories,5.0,141531.42,707657.1,Cash,cancelled,2025-11-27
+ORD0408,Sara,Ferhat,sara.ferhat955@email.com,63,Biskra,SSD,Peripherals,8.0,118591.27,948730.16,Credit Card,shipped,2025-02-26
+ORD0538,Ahmed,Mebarki,ahmed.mebarki277@email.com,38,Batna,Monitor,Accessories,4.0,10387.38,41549.52,Dahabia,returned,2025-08-23
+ORD0880,Fatima,Taleb,,58,Djelfa,Tablet,Accessories,7.0,143585.98,1005101.86,BaridiMob,returned,2025-12-16
+ORD0039,Ali,Bouzid,ali.bouzid595@email.com,25,Setif,Laptop,Electronics,10.0,65467.28,654672.8,BaridiMob,cancelled,2025-10-17
+ORD0176,Karim,Saidi,karim.saidi132@email.com,21,Chlef,Router,Networking,10.0,27703.49,277034.9,CIB,cancelled,2025-09-28
+ORD0246,Youssef,Meziane,youssef.meziane275@email.com,46,Constantine,Headphones,Accessories,7.0,47843.4,334903.8,Cash,completed,2025-01-10
+ORD0938,Lina,Meziane,lina.meziane347@email.com,36,Chlef,RAM 16GB,Accessories,9.0,127691.17,1149220.53,Cash,shipped,2025-05-16
+ORD0698,Youssef,Belkacem,youssef.belkacem865@email.com,31,Djelfa,Smartphone,Networking,6.0,41368.06,248208.36,Credit Card,returned,2025-08-14
+ORD0786,Hana,Cherif,hana.cherif661@email.com,21,Alger,RAM 16GB,Networking,2.0,29267.8,58535.6,Credit Card,returned,2025-10-25
+ORD0894,Lina,Boudiaf,lina.boudiaf634@email.com,38,Biskra,RAM 16GB,Storage,9.0,62262.43,560361.87,CIB,completed,2025-11-27
+ORD0155,Youssef,Benali,youssef.benali263@email.com,36,Annaba,Router,Accessories,9.0,141063.78,1269574.02,Credit Card,returned,2025-07-04
+ORD0288,Omar,Meziane,omar.meziane544@email.com,61,Djelfa,Laptop,Networking,3.0,66294.86,198884.58,CIB,pending,2025-07-20
+ORD0631,Ali,Bouzid,ali.bouzid114@email.com,28,Tiaret,Webcam,Storage,7.0,26094.6,182662.2,BaridiMob,pending,2025-05-20
+ORD0570,Youssef,Hamidi,youssef.hamidi628@email.com,24,Chlef,Mouse,Networking,8.0,8083.56,64668.48,Cash,cancelled,2025-11-02
+ORD0775,Hana,Mansouri,hana.mansouri804@email.com,51,Tiaret,USB Cable,Networking,3.0,107295.47,321886.41,Credit Card,pending,2025-02-11
+ORD0018,Nour,Khelifi,nour.khelifi66@email.com,58,Blida,Laptop,Networking,9.0,34902.15,314119.35,CIB,completed,2025-02-23
+ORD0128,Youssef,Hamidi,youssef.hamidi454@email.com,40,Biskra,Headphones,Storage,10.0,66585.61,665856.1,BaridiMob,pending,2025-09-04
+ORD0323,Lina,Larbi,lina.larbi578@email.com,21,Constantine,SSD,Accessories,8.0,81547.63,652381.04,CIB,cancelled,2025-01-03
+ORD0256,Omar,Belkacem,omar.belkacem434@email.com,50,Mostaganem,Headphones,Electronics,8.0,148609.74,1188877.92,Dahabia,returned,2025-07-18
+ORD0993,Djamila,Benali,djamila.benali775@email.com,54,Chlef,Keyboard,Accessories,9.0,30658.03,275922.27,Cash,pending,2025-05-03
+ORD0538,Ahmed,Mebarki,ahmed.mebarki277@email.com,38,Batna,Monitor,Accessories,4.0,10387.38,41549.52,Dahabia,returned,2025-08-23
+ORD0191,Amina,Taleb,amina.taleb632@email.com,54,Sidi Bel Abbes,Router,Peripherals,10.0,50787.83,507878.3,Credit Card,returned,2025-08-23
+ORD0116,Nour,Larbi,nour.larbi45@email.com,43,Sidi Bel Abbes,Power Bank,Networking,5.0,68977.36,344886.8,Cash,completed,2025-08-28
+ORD0645,Samira,Mansouri,samira.mansouri555@email.com,19,Chlef,Tablet,Storage,6.0,63309.43,379856.58,Cash,shipped,2025-04-03
+ORD0607,Khaled,Larbi,khaled.larbi659@email.com,34,Alger,Smartwatch,Storage,5.0,15941.42,79707.1,Cash,completed,2025-10-24
+ORD0181,Hana,Boudiaf,hana.boudiaf251@email.com,48,Mostaganem,Power Bank,Storage,5.0,68304.85,341524.25,Cash,pending,2025-08-14
+ORD0302,Samira,Khelifi,samira.khelifi330@email.com,61,Annaba,Headphones,Peripherals,5.0,123986.55,619932.75,Credit Card,shipped,2025-02-17
+ORD0791,Amina,Benali,,38,Blida,Tablet,Electronics,1.0,45054.64,45054.64,Cash,shipped,2025-03-14
+ORD0744,Amine,Zidane,amine.zidane260@email.com,47,Blida,Keyboard,Networking,2.0,115412.69,230825.38,Cash,completed,2025-12-22
+ORD0755,Lina,Boudiaf,lina.boudiaf715@email.com,50,Batna,Laptop,Accessories,5.0,109068.27,545341.35,Dahabia,shipped,2025-08-08
+ORD0716,Bilal,Ferhat,bilal.ferhat657@email.com,28,Constantine,Laptop,Storage,4.0,94430.29,377721.16,BaridiMob,returned,2025-02-04
+ORD0793,Karim,Taleb,karim.taleb973@email.com,44,Alger,Keyboard,Electronics,6.0,69991.12,419946.72,Dahabia,completed,2025-08-01
+ORD0518,Yasmine,Taleb,yasmine.taleb269@email.com,30,Alger,Headphones,Networking,7.0,116186.86,813308.02,CIB,pending,2025-08-18
+ORD0373,Djamila,Benali,,25,Oran,RAM 16GB,Electronics,1.0,7711.14,7711.14,Cash,cancelled,2025-08-13
+ORD0046,Amine,Khelifi,amine.khelifi736@email.com,29,Sidi Bel Abbes,Headphones,Storage,7.0,36975.67,258829.69,Cash,completed,2025-07-08
+ORD0946,Rachid,Bouzid,rachid.bouzid113@email.com,21,Alger,Power Bank,Electronics,3.0,23753.53,71260.59,Credit Card,completed,2025-11-08
+ORD0158,Youssef,Cherif,youssef.cherif999@email.com,48,Blida,Smartphone,Networking,9.0,76345.49,687109.41,Credit Card,returned,2025-01-13
+ORD0961,Amine,Belkacem,amine.belkacem10@email.com,32,Chlef,Smartwatch,Networking,8.0,75820.76,606566.08,Credit Card,shipped,2025-05-28
+ORD0172,Youssef,Ferhat,youssef.ferhat699@email.com,63,Tiaret,Mouse,Peripherals,2.0,82724.57,165449.14,BaridiMob,shipped,2025-03-23
+ORD0017,Samira,Khelifi,samira.khelifi952@email.com,25,Bejaia,Power Bank,Accessories,5.0,60149.35,300746.75,BaridiMob,cancelled,2025-09-15
+ORD0512,Bilal,Saidi,bilal.saidi160@email.com,43,Constantine,Keyboard,Peripherals,10.0,37853.61,378536.1,BaridiMob,shipped,2025-02-19
+ORD0049,Bilal,Hamidi,bilal.hamidi770@email.com,63,Annaba,Router,Peripherals,9.0,72947.25,656525.25,CIB,shipped,2025-08-03
+ORD0056,Khaled,Boudiaf,khaled.boudiaf335@email.com,19,Blida,Power Bank,Storage,5.0,112925.47,564627.35,Dahabia,shipped,2025-02-16
+ORD0875,Khaled,Hamidi,khaled.hamidi884@email.com,50,Mostaganem,Webcam,Electronics,6.0,60037.55,-360225.3,CIB,cancelled,2025-08-14
+ORD0516,Omar,Saidi,omar.saidi515@email.com,50,Sidi Bel Abbes,Monitor,Accessories,1.0,101208.47,101208.47,Dahabia,cancelled,2025-10-19
+ORD0717,Nour,Cherif,nour.cherif731@email.com,65,,Router,Accessories,10.0,103020.13,1030201.3,BaridiMob,cancelled,2025-08-28
+ORD0481,Bilal,Mansouri,bilal.mansouri767@email.com,52,Biskra,Smartwatch,Networking,7.0,78757.24,551300.68,Credit Card,shipped,2025-06-16
+ORD0284,Hana,Bouzid,hana.bouzid896@email.com,59,Chlef,Smartwatch,Peripherals,2.0,98360.9,196721.8,BaridiMob,completed,2025-06-22
+ORD0750,Yasmine,Khelifi,yasmine.khelifi89@email.com,65,Setif,Power Bank,Storage,3.0,71361.37,214084.11,Cash,completed,2025-03-05
+ORD0866,Amine,Bouzid,amine.bouzid258@email.com,62,,SSD,Peripherals,7.0,101846.13,712922.91,CIB,shipped,2025-03-21
+ORD0226,Sara,Cherif,sara.cherif423@email.com,23,Batna,Printer,Networking,3.0,58568.65,175705.95,BaridiMob,pending,2025-06-21
+ORD0027,Amine,Larbi,amine.larbi41@email.com,63,Djelfa,Smartphone,Storage,10.0,85001.43,850014.3,BaridiMob,shipped,2025-04-22
+ORD0814,Sara,Mebarki,sara.mebarki822@email.com,53,Tlemcen,Laptop,Peripherals,10.0,94114.69,941146.9,Cash,completed,2025-11-02
+ORD0438,Amine,Larbi,amine.larbi165@email.com,29,Constantine,RAM 16GB,Networking,1.0,133674.25,133674.25,CIB,completed,2025-03-09
+ORD0991,Bilal,Boudiaf,bilal.boudiaf321@email.com,24,Biskra,RAM 16GB,Storage,7.0,25141.24,175988.68,BaridiMob,cancelled,2025-04-09
+ORD0365,Rachid,Cherif,rachid.cherif306@email.com,27,Batna,Laptop,Accessories,3.0,148856.0,446568.0,BaridiMob,cancelled,2025-10-15
+ORD0230,Rachid,Boudiaf,rachid.boudiaf547@email.com,64,Biskra,Mouse,Peripherals,5.0,54266.87,271334.35,Dahabia,cancelled,2025-02-26
+ORD0038,Rachid,Saidi,rachid.saidi286@email.com,25,Tiaret,Smartphone,Peripherals,6.0,96401.52,578409.12,Dahabia,returned,2025-06-01
+ORD0670,Omar,Mebarki,omar.mebarki18@email.com,39,Tlemcen,Mouse,Peripherals,6.0,21282.59,127695.54,Dahabia,returned,2025-09-25
+ORD0220,Ali,Khelifi,ali.khelifi960@email.com,31,Chlef,USB Cable,Electronics,1.0,121516.99,121516.99,Dahabia,returned,2025-01-08
+ORD0375,Omar,Taleb,omar.taleb851@email.com,56,Chlef,Smartphone,Networking,10.0,18101.32,181013.2,Cash,completed,2025-08-07
+ORD0470,Meriem,Bouzid,meriem.bouzid915@email.com,54,Tiaret,RAM 16GB,Networking,9.0,108223.77,974013.93,Dahabia,shipped,2025-05-18
+ORD0915,Youssef,Meziane,youssef.meziane501@email.com,62,Biskra,RAM 16GB,Networking,4.0,3942.5,15770.0,Credit Card,returned,2025-08-09
+ORD0886,Youssef,Ferhat,youssef.ferhat714@email.com,63,Batna,Printer,Storage,5.0,110089.81,550449.05,CIB,pending,2025-06-06
+ORD0735,Bilal,Mansouri,bilal.mansouri979@email.com,64,Setif,SSD,Electronics,6.0,145480.69,872884.14,Credit Card,cancelled,2025-06-24
+ORD0757,Lina,Ferhat,lina.ferhat484@email.com,30,Mostaganem,Router,Accessories,10.0,31477.68,314776.8,Cash,cancelled,2025-03-06
+ORD0195,Samira,Bouzid,samira.bouzid423@email.com,51,Sidi Bel Abbes,Monitor,Storage,9.0,116358.36,1047225.24,Dahabia,completed,2025-12-05
+ORD0890,Ahmed,Benali,ahmed.benali273@email.com,51,Mostaganem,Laptop,Networking,1.0,14977.86,14977.86,Credit Card,completed,2025-07-20
+ORD0900,Omar,Mebarki,omar.mebarki548@email.com,56,Biskra,USB Cable,Storage,2.0,119433.3,238866.6,BaridiMob,pending,2025-10-25
+ORD0504,Sara,Saidi,sara.saidi572@email.com,20,Sidi Bel Abbes,Smartwatch,Storage,6.0,119240.31,715441.86,Cash,returned,2025-05-17
+ORD0189,Mohamed,Cherif,mohamed.cherif962@email.com,20,Blida,Power Bank,Accessories,4.0,90568.21,362272.84,Dahabia,returned,2025-01-02
+ORD0865,Djamila,Saidi,djamila.saidi45@email.com,52,Alger,Smartwatch,Accessories,7.0,45579.37,319055.59,Credit Card,cancelled,2025-02-23
+ORD0580,Sara,Meziane,sara.meziane223@email.com,42,Tiaret,Tablet,Networking,1.0,113683.12,113683.12,CIB,cancelled,2025-09-10
+ORD0266,Bilal,Meziane,bilal.meziane269@email.com,43,Biskra,Router,Storage,9.0,144904.5,1304140.5,BaridiMob,returned,2025-07-20
+ORD0681,Meriem,Mansouri,meriem.mansouri377@email.com,43,Constantine,Laptop,Storage,2.0,59757.28,119514.56,Credit Card,completed,2025-02-05
+ORD0163,Khaled,Hamidi,khaled.hamidi366@email.com,46,Tiaret,Power Bank,Electronics,6.0,41345.88,-248075.28,BaridiMob,cancelled,2025-07-24
+ORD0733,Amine,Bouzid,amine.bouzid427@email.com,61,Chlef,Smartphone,Accessories,8.0,101697.82,813582.56,BaridiMob,completed,2025-05-22
+ORD0153,Sara,Taleb,sara.taleb515@email.com,63,Blida,Monitor,Storage,2.0,56549.44,113098.88,Cash,shipped,2025-02-27
+ORD0712,Fatima,Cherif,fatima.cherif888@email.com,33,Annaba,Router,Storage,7.0,1675.98,11731.86,Dahabia,shipped,2025-05-03
+ORD0731,Sara,Boudiaf,sara.boudiaf366@email.com,31,Sidi Bel Abbes,Printer,Storage,8.0,74201.79,593614.32,CIB,completed,2025-06-03
+ORD0787,Amine,Cherif,amine.cherif194@email.com,31,Mostaganem,Webcam,Networking,1.0,18482.33,18482.33,Credit Card,pending,2025-01-09
+ORD0112,Nour,Bouzid,nour.bouzid806@email.com,27,Djelfa,Monitor,Electronics,9.0,31470.03,283230.27,CIB,pending,2025-06-25
+ORD0227,Bilal,Zidane,bilal.zidane380@email.com,22,Alger,Printer,Accessories,1.0,40635.01,40635.01,Credit Card,returned,2025-01-28
+ORD0719,Amine,Khelifi,amine.khelifi22@email.com,62,Oran,Smartwatch,Networking,10.0,94180.79,941807.9,Cash,cancelled,2025-04-09
+ORD0104,Hana,Belkacem,hana.belkacem892@email.com,61,Blida,Power Bank,Electronics,8.0,144452.55,1155620.4,CIB,pending,2025-11-24
+ORD0422,Djamila,Zidane,djamila.zidane259@email.com,22,Annaba,Smartphone,Accessories,10.0,127911.54,1279115.4,Credit Card,cancelled,2025-11-18
+ORD0420,Lina,Benali,lina.benali567@email.com,53,Tiaret,Printer,Accessories,2.0,6745.08,13490.16,Credit Card,returned,2025-07-18
+ORD0782,Hana,Mebarki,,48,Annaba,Tablet,Storage,1.0,18788.02,18788.02,BaridiMob,completed,2025-01-14
+ORD0587,Karim,Taleb,karim.taleb566@email.com,49,Tiaret,Webcam,Storage,6.0,34248.27,205489.62,Dahabia,returned,2025-01-19
+ORD0812,Nour,Meziane,nour.meziane485@email.com,46,Annaba,Mouse,Electronics,6.0,78191.42,469148.52,CIB,completed,2025-10-20
+ORD0673,Sara,Ferhat,sara.ferhat676@email.com,60,Bejaia,SSD,Electronics,8.0,18278.87,146230.96,BaridiMob,completed,2025-02-10
+ORD0120,Rachid,Taleb,rachid.taleb748@email.com,22,Alger,Mouse,Storage,6.0,99933.63,599601.78,BaridiMob,pending,2025-11-16
+ORD0054,Mohamed,Mansouri,mohamed.mansouri696@email.com,55,Mostaganem,Headphones,Accessories,8.0,137971.47,1103771.76,Credit Card,returned,2025-01-13
+ORD0152,Ali,Boudiaf,ali.boudiaf928@email.com,44,Bejaia,Tablet,Storage,2.0,141988.78,283977.56,CIB,cancelled,2025-06-01
+ORD0404,Mohamed,Cherif,mohamed.cherif56@email.com,63,Oran,USB Cable,Peripherals,4.0,93273.97,373095.88,Dahabia,pending,2025-11-23
+ORD0985,Samira,Saidi,samira.saidi56@email.com,41,Sidi Bel Abbes,Smartphone,Networking,2.0,71785.57,143571.14,Credit Card,pending,2025-01-05
+ORD0208,Rachid,Mansouri,rachid.mansouri98@email.com,46,Constantine,Tablet,Storage,6.0,140405.9,842435.4,Cash,shipped,2025-07-08
+ORD0659,Mohamed,Meziane,mohamed.meziane956@email.com,47,Djelfa,Power Bank,Storage,2.0,1489.52,2979.04,BaridiMob,cancelled,2025-03-18
+ORD0925,Khaled,Belkacem,khaled.belkacem382@email.com,19,Djelfa,RAM 16GB,Networking,10.0,25024.44,250244.4,CIB,shipped,2025-07-13
+ORD0794,Nour,Mebarki,nour.mebarki908@email.com,26,Oran,Keyboard,Networking,10.0,101427.07,1014270.7,CIB,returned,2025-11-26
+ORD0009,Rachid,Hamidi,rachid.hamidi68@email.com,27,Annaba,Smartwatch,Networking,6.0,32287.67,-193726.02,Dahabia,cancelled,2025-11-15
+ORD0980,Amina,Ferhat,amina.ferhat395@email.com,26,Blida,Mouse,Storage,7.0,72452.64,507168.48,Dahabia,returned,2025-11-11
+ORD0037,Nour,Khelifi,nour.khelifi837@email.com,30,Chlef,Webcam,Peripherals,5.0,123170.19,615850.95,CIB,pending,2025-01-22
+ORD0453,Bilal,Benali,,32,Tiaret,RAM 16GB,Networking,5.0,29614.6,148073.0,Credit Card,returned,2025-09-23
+ORD0652,Yasmine,Cherif,yasmine.cherif340@email.com,46,Biskra,USB Cable,Peripherals,8.0,134448.63,1075589.04,Credit Card,pending,2025-10-24
+ORD0254,Lina,Meziane,lina.meziane955@email.com,63,Djelfa,Monitor,Networking,9.0,27399.12,246592.08,Credit Card,completed,2025-12-15
+ORD0304,Yasmine,Boudiaf,yasmine.boudiaf9@email.com,55,Blida,Monitor,Peripherals,10.0,117783.83,1177838.3,Credit Card,pending,2025-08-12
+ORD0778,Rachid,Zidane,rachid.zidane271@email.com,50,Djelfa,Webcam,Storage,8.0,103508.17,828065.36,Dahabia,cancelled,2025-03-05
+ORD0572,Khaled,Belkacem,khaled.belkacem777@email.com,62,Biskra,Power Bank,Networking,2.0,146065.44,292130.88,Dahabia,returned,2025-03-03
+ORD0624,Djamila,Saidi,djamila.saidi884@email.com,25,Mostaganem,Printer,Networking,4.0,69900.29,279601.16,CIB,shipped,2025-01-07
+ORD0741,Bilal,Mansouri,bilal.mansouri230@email.com,45,Biskra,RAM 16GB,Accessories,8.0,79328.17,634625.36,Credit Card,completed,2025-05-15
+ORD0751,Bilal,Boudiaf,bilal.boudiaf483@email.com,39,Oran,Router,Storage,10.0,36773.13,367731.3,BaridiMob,returned,2025-07-02
+ORD0263,Amina,Cherif,,60,Blida,Printer,Storage,8.0,35162.4,281299.2,Dahabia,pending,2025-03-21
+ORD0611,Lina,Cherif,lina.cherif874@email.com,60,Blida,Smartphone,Storage,5.0,97344.99,486724.95,CIB,returned,2025-01-13
+ORD0298,Karim,Cherif,karim.cherif802@email.com,45,Tiaret,USB Cable,Peripherals,3.0,56094.48,-168283.44,BaridiMob,completed,2025-01-11
+ORD0415,Youssef,Belkacem,youssef.belkacem703@email.com,34,Constantine,Laptop,Storage,6.0,6164.0,36984.0,Cash,completed,2025-03-26
+ORD0151,Sara,Mansouri,sara.mansouri493@email.com,28,Tiaret,Mouse,Networking,2.0,106854.45,213708.9,Credit Card,completed,2025-05-03
+ORD0820,Djamila,Saidi,djamila.saidi299@email.com,53,Blida,Laptop,Networking,10.0,98822.68,988226.8,CIB,completed,2025-04-17
+ORD0641,Fatima,Mansouri,fatima.mansouri490@email.com,50,Sidi Bel Abbes,Power Bank,Networking,4.0,113099.44,452397.76,CIB,shipped,2025-06-09
+ORD0926,Djamila,Khelifi,djamila.khelifi80@email.com,23,Setif,Smartphone,Networking,2.0,102754.9,205509.8,Dahabia,completed,2025-06-21
+ORD0551,Samira,Bouzid,samira.bouzid166@email.com,55,Biskra,Keyboard,Networking,10.0,86056.25,860562.5,Credit Card,pending,2025-08-24
+ORD0823,Ahmed,Mansouri,ahmed.mansouri229@email.com,31,Sidi Bel Abbes,Monitor,Storage,10.0,32364.21,323642.1,Dahabia,shipped,2025-12-13
+ORD0489,Mohamed,Meziane,mohamed.meziane864@email.com,30,Mostaganem,Tablet,Electronics,5.0,116460.11,582300.55,Cash,returned,2025-08-06
+ORD0711,Sara,Zidane,sara.zidane758@email.com,41,Biskra,Power Bank,Electronics,4.0,38320.94,153283.76,Dahabia,shipped,2025-11-23
+ORD0148,Amina,Bouzid,amina.bouzid852@email.com,64,Sidi Bel Abbes,Power Bank,Networking,3.0,108316.86,324950.58,Cash,cancelled,2025-06-22
+ORD0147,Karim,Ferhat,karim.ferhat553@email.com,27,Tiaret,USB Cable,Networking,1.0,99458.42,99458.42,Credit Card,pending,2025-10-13
+ORD0752,Ahmed,Meziane,ahmed.meziane646@email.com,36,Tiaret,USB Cable,Storage,7.0,127368.13,891576.91,Credit Card,returned,2025-12-18
+ORD0971,Sara,Bouzid,sara.bouzid255@email.com,24,Mostaganem,Smartphone,Peripherals,3.0,140820.46,422461.38,Credit Card,completed,2025-01-26
+ORD0771,Omar,Cherif,omar.cherif554@email.com,19,Setif,Monitor,Electronics,9.0,82991.98,746927.82,Credit Card,shipped,2025-11-06
+ORD0660,Amine,Ferhat,amine.ferhat937@email.com,55,,Monitor,Accessories,7.0,43774.74,306423.18,Dahabia,completed,2025-05-27
+ORD0349,Bilal,Ferhat,bilal.ferhat846@email.com,44,Blida,Keyboard,Storage,10.0,97010.44,970104.4,CIB,cancelled,2025-04-27
+ORD0464,Meriem,Bouzid,meriem.bouzid783@email.com,45,Chlef,Printer,Peripherals,7.0,33702.87,235920.09,Credit Card,pending,2025-01-17
+ORD0326,Lina,Meziane,lina.meziane383@email.com,64,Sidi Bel Abbes,RAM 16GB,Storage,10.0,15604.31,156043.1,BaridiMob,shipped,2025-03-06
+ORD0187,Lina,Ferhat,lina.ferhat413@email.com,22,Blida,Laptop,Storage,1.0,85757.11,85757.11,CIB,shipped,2025-09-10
+ORD0124,Amine,Khelifi,amine.khelifi827@email.com,62,Batna,Router,Networking,10.0,92229.21,922292.1,Credit Card,completed,2025-10-22
+ORD0889,Hana,Meziane,hana.meziane387@email.com,24,Alger,Keyboard,Electronics,6.0,4935.16,29610.96,CIB,cancelled,2025-08-22
+ORD0609,Amine,Benali,amine.benali528@email.com,42,Sidi Bel Abbes,Power Bank,Storage,8.0,65690.62,525524.96,Cash,returned,2025-04-01
+ORD0144,Omar,Mebarki,,59,Setif,RAM 16GB,Storage,3.0,89458.66,268375.98,Cash,shipped,2025-09-13
+ORD0306,Ahmed,Saidi,ahmed.saidi2@email.com,21,Mostaganem,RAM 16GB,Storage,5.0,16040.38,80201.9,Credit Card,pending,2025-07-16
+ORD0198,Hana,Ferhat,hana.ferhat296@email.com,54,Sidi Bel Abbes,Monitor,Storage,6.0,72230.61,433383.66,Credit Card,shipped,2025-05-04
+ORD0610,Meriem,Meziane,meriem.meziane581@email.com,23,Bejaia,Smartwatch,Peripherals,6.0,102434.44,614606.64,Dahabia,completed,2025-11-21
+ORD0280,Lina,Boudiaf,lina.boudiaf974@email.com,62,Tlemcen,Mouse,Networking,1.0,130401.71,130401.71,Cash,cancelled,2025-11-22
+ORD0294,Sara,Ferhat,,52,Bejaia,Keyboard,Networking,7.0,63824.5,446771.5,Dahabia,completed,2025-11-18
+ORD0401,Ahmed,Cherif,ahmed.cherif110@email.com,61,Oran,Headphones,Accessories,1.0,100703.0,100703.0,CIB,shipped,2025-03-10
+ORD0123,Karim,Khelifi,karim.khelifi159@email.com,35,Biskra,Webcam,Accessories,2.0,52842.04,105684.08,Credit Card,shipped,2025-02-25
+ORD0184,Rachid,Zidane,,50,Batna,Monitor,Accessories,6.0,140095.85,840575.1,BaridiMob,pending,2025-03-16
+ORD0203,Khaled,Ferhat,khaled.ferhat988@email.com,65,Setif,Mouse,Peripherals,1.0,136236.58,136236.58,Cash,returned,2025-04-18
+ORD0439,Karim,Taleb,karim.taleb614@email.com,48,Djelfa,RAM 16GB,Electronics,5.0,142114.45,710572.25,CIB,cancelled,2025-10-16
+ORD0247,Lina,Ferhat,lina.ferhat277@email.com,24,Alger,Tablet,Electronics,3.0,64931.44,194794.32,Credit Card,returned,2025-09-14
+ORD0416,Yasmine,Meziane,yasmine.meziane589@email.com,42,Tiaret,Monitor,Peripherals,7.0,58510.87,409576.09,Dahabia,cancelled,2025-06-01
+ORD0808,Yasmine,Mebarki,yasmine.mebarki465@email.com,51,Oran,Headphones,Electronics,6.0,65165.95,390995.7,Dahabia,shipped,2025-02-22
+ORD0797,Ahmed,Benali,ahmed.benali956@email.com,55,Chlef,Webcam,Peripherals,,38007.9,380079.0,Dahabia,shipped,2025-11-07
+ORD0960,Karim,Taleb,karim.taleb576@email.com,31,Mostaganem,Headphones,Storage,10.0,41088.38,410883.8,CIB,completed,2025-03-19
+ORD0800,Bilal,Hamidi,bilal.hamidi252@email.com,26,Biskra,Mouse,Peripherals,4.0,69240.0,276960.0,Credit Card,shipped,2025-01-23
+ORD0924,Amina,Taleb,amina.taleb468@email.com,59,Alger,Keyboard,Storage,3.0,80617.7,241853.1,Cash,shipped,2025-11-23
+ORD0130,Sara,Benali,sara.benali210@email.com,45,Setif,Monitor,Accessories,5.0,43772.35,218861.75,Cash,completed,2025-08-24
+ORD0638,Sara,Hamidi,sara.hamidi437@email.com,65,Mostaganem,Keyboard,Networking,9.0,86496.79,778471.11,CIB,completed,2025-10-11
+ORD0403,Yasmine,Zidane,yasmine.zidane230@email.com,44,Sidi Bel Abbes,RAM 16GB,Networking,7.0,36020.52,252143.64,BaridiMob,completed,2025-07-13
+ORD0937,Karim,Mebarki,karim.mebarki231@email.com,28,Constantine,Smartphone,Peripherals,3.0,77295.83,231887.49,Cash,cancelled,2025-08-13
+ORD0802,Youssef,Cherif,youssef.cherif32@email.com,29,Chlef,Router,Storage,2.0,53272.71,106545.42,Dahabia,returned,2025-06-13
+ORD0736,Amine,Bouzid,amine.bouzid217@email.com,23,Tiaret,Laptop,Peripherals,6.0,119822.97,718937.82,Cash,returned,2025-10-13
+ORD0950,Rachid,Benali,rachid.benali281@email.com,44,Annaba,Smartwatch,Accessories,7.0,3140.37,21982.59,CIB,completed,2025-01-13
+ORD0220,Ali,Khelifi,ali.khelifi960@email.com,31,Chlef,USB Cable,Electronics,1.0,121516.99,121516.99,Dahabia,returned,2025-01-08
+ORD0642,Samira,Hamidi,samira.hamidi56@email.com,52,Alger,Mouse,Peripherals,8.0,73190.92,585527.36,Credit Card,completed,2025-08-23
+ORD0952,Hana,Meziane,hana.meziane276@email.com,21,Blida,Keyboard,Peripherals,7.0,37421.81,261952.67,Cash,pending,2025-01-01
+ORD0784,Bilal,Ferhat,bilal.ferhat461@email.com,32,Biskra,Webcam,Accessories,6.0,13852.59,83115.54,Credit Card,returned,2025-07-13
+ORD0888,Amina,Ferhat,amina.ferhat778@email.com,23,Annaba,Keyboard,Storage,8.0,94212.19,753697.52,Credit Card,completed,2025-11-06
+ORD0957,Khaled,Cherif,,46,Constantine,Laptop,Accessories,4.0,63022.78,252091.12,BaridiMob,returned,2025-06-12
+ORD0625,Omar,Mansouri,omar.mansouri865@email.com,36,Chlef,Webcam,Storage,3.0,24384.06,73152.18,Cash,completed,2025-11-12
+ORD0873,Sara,Mansouri,sara.mansouri145@email.com,45,Annaba,Tablet,Electronics,3.0,89098.28,267294.84,CIB,pending,2025-09-03
+ORD0923,Yasmine,Khelifi,yasmine.khelifi606@email.com,59,Blida,Keyboard,Accessories,10.0,63591.24,635912.4,Credit Card,shipped,2025-05-13
+ORD0387,Ahmed,Mansouri,ahmed.mansouri957@email.com,39,Constantine,Printer,Storage,8.0,130477.64,1043821.12,Cash,cancelled,2025-06-08
+ORD0095,Fatima,Ferhat,fatima.ferhat649@email.com,21,Sidi Bel Abbes,Router,Electronics,8.0,25371.54,202972.32,BaridiMob,completed,2025-01-11
+ORD0510,Bilal,Boudiaf,bilal.boudiaf983@email.com,37,Batna,Laptop,Electronics,5.0,89566.54,447832.7,Credit Card,pending,2025-05-01
+ORD0268,Omar,Saidi,omar.saidi121@email.com,56,Annaba,Keyboard,Electronics,3.0,56309.26,168927.78,CIB,returned,2025-07-14
+ORD0853,Amina,Belkacem,amina.belkacem583@email.com,36,Alger,Headphones,Electronics,4.0,132888.5,531554.0,CIB,shipped,2025-11-18
+ORD0442,Ahmed,Khelifi,ahmed.khelifi536@email.com,57,Tiaret,Smartwatch,Networking,7.0,124063.87,868447.09,Credit Card,completed,2025-03-16
+ORD0497,Ali,Mebarki,ali.mebarki41@email.com,52,Tlemcen,USB Cable,Storage,9.0,44559.83,401038.47,Dahabia,pending,2025-10-06
+ORD0113,Djamila,Benali,djamila.benali284@email.com,19,Tiaret,Tablet,Accessories,9.0,37972.8,341755.2,CIB,completed,2025-11-28
+ORD0692,Lina,Ferhat,lina.ferhat760@email.com,21,Djelfa,Laptop,Peripherals,7.0,15053.83,105376.81,BaridiMob,shipped,2025-07-12
+ORD0233,Nour,Boudiaf,nour.boudiaf564@email.com,64,Biskra,RAM 16GB,Peripherals,5.0,114622.41,573112.05,Dahabia,cancelled,2025-08-06
+ORD0905,Nour,Boudiaf,nour.boudiaf697@email.com,50,Tlemcen,Tablet,Networking,5.0,22307.67,111538.35,Cash,returned,2025-06-10
+ORD0608,Bilal,Benali,bilal.benali919@email.com,43,Tlemcen,Tablet,Electronics,1.0,99858.57,99858.57,BaridiMob,pending,2025-12-11
+ORD0672,Omar,Meziane,omar.meziane436@email.com,24,Sidi Bel Abbes,Power Bank,Electronics,2.0,3311.56,6623.12,Dahabia,cancelled,2025-01-07
+ORD0374,Yasmine,Hamidi,yasmine.hamidi486@email.com,56,Sidi Bel Abbes,Tablet,Accessories,1.0,45516.91,45516.91,Cash,returned,2025-05-20
+ORD0204,Sara,Mebarki,sara.mebarki944@email.com,36,Constantine,Headphones,Accessories,1.0,149577.18,149577.18,Dahabia,cancelled,2025-03-24
+ORD0878,Youssef,Saidi,,64,Sidi Bel Abbes,Webcam,Accessories,3.0,137461.72,412385.16,Cash,completed,2025-09-24
+ORD0234,Lina,Bouzid,lina.bouzid144@email.com,22,Sidi Bel Abbes,Printer,Storage,3.0,137576.46,412729.38,Credit Card,completed,2025-09-02
+ORD0817,Khaled,Meziane,khaled.meziane106@email.com,50,Oran,SSD,Electronics,10.0,118517.76,1185177.6,CIB,returned,2025-03-21
+ORD0677,Ahmed,Belkacem,ahmed.belkacem102@email.com,24,Chlef,Monitor,Networking,8.0,55286.22,442289.76,Credit Card,pending,2025-08-22
+ORD0318,Rachid,Bouzid,rachid.bouzid430@email.com,63,Annaba,RAM 16GB,Networking,4.0,94797.78,379191.12,Credit Card,completed,2025-07-26
+ORD0649,Hana,Bouzid,hana.bouzid997@email.com,46,Constantine,Router,Accessories,,36066.85,108200.55,Cash,shipped,2025-10-05
+ORD0411,Ahmed,Meziane,,42,Blida,Webcam,Accessories,10.0,137831.79,1378317.9,CIB,completed,2025-11-11
+ORD0935,Omar,Boudiaf,omar.boudiaf510@email.com,63,Bejaia,RAM 16GB,Networking,2.0,61117.98,122235.96,Credit Card,pending,2025-12-01
+ORD0710,Nour,Hamidi,nour.hamidi901@email.com,56,Mostaganem,Smartwatch,Accessories,6.0,71545.66,429273.96,BaridiMob,shipped,2025-01-21
+ORD0359,Ali,Mansouri,ali.mansouri729@email.com,60,Chlef,RAM 16GB,Peripherals,4.0,22914.43,91657.72,CIB,completed,2025-10-13
+ORD0259,Ali,Khelifi,ali.khelifi523@email.com,47,Sidi Bel Abbes,Printer,Networking,10.0,103305.83,1033058.3,CIB,cancelled,2025-06-13
+ORD0745,Amina,Ferhat,amina.ferhat187@email.com,47,Tiaret,Headphones,Electronics,2.0,62729.61,125459.22,BaridiMob,shipped,2025-10-24
+ORD0628,Mohamed,Khelifi,mohamed.khelifi798@email.com,22,Alger,Mouse,Accessories,2.0,35949.2,71898.4,Dahabia,pending,2025-07-08
+ORD0633,Bilal,Hamidi,bilal.hamidi15@email.com,54,Sidi Bel Abbes,Headphones,Accessories,4.0,49430.74,197722.96,Credit Card,pending,2025-10-05
+ORD0283,Ahmed,Meziane,ahmed.meziane952@email.com,59,Tiaret,Tablet,Storage,8.0,601.05,4808.4,Dahabia,pending,2025-12-05
+ORD0377,Khaled,Belkacem,khaled.belkacem956@email.com,49,Tlemcen,Mouse,Accessories,1.0,2406.04,2406.04,Cash,completed,2025-10-22
+ORD0385,Karim,Ferhat,karim.ferhat762@email.com,62,Djelfa,USB Cable,Networking,4.0,146695.39,-586781.56,BaridiMob,returned,2025-09-23
+ORD0225,Samira,Bouzid,samira.bouzid308@email.com,47,Batna,Tablet,Networking,8.0,36524.74,292197.92,CIB,shipped,2025-12-05
+ORD0995,Rachid,Cherif,rachid.cherif200@email.com,50,Blida,Power Bank,Storage,6.0,146090.69,876544.14,Cash,shipped,2025-07-24
+ORD0848,Rachid,Bouzid,rachid.bouzid114@email.com,31,Constantine,Printer,Storage,8.0,111599.84,892798.72,Dahabia,pending,2025-03-28
+ORD0473,Amine,Larbi,amine.larbi666@email.com,23,Biskra,Printer,Accessories,5.0,53588.8,267944.0,Credit Card,cancelled,2025-12-15
+ORD0348,Ali,Mebarki,ali.mebarki382@email.com,37,Oran,Mouse,Peripherals,5.0,42411.82,212059.1,Dahabia,completed,2025-04-05
+ORD0506,Karim,Mansouri,karim.mansouri255@email.com,40,Djelfa,RAM 16GB,Accessories,9.0,112504.56,1012541.04,Dahabia,completed,2025-11-19
+ORD0640,Lina,Bouzid,lina.bouzid664@email.com,52,,USB Cable,Electronics,9.0,106545.9,958913.1,CIB,pending,2025-06-08
+ORD0494,Ahmed,Benali,ahmed.benali596@email.com,23,Mostaganem,USB Cable,Storage,10.0,23671.3,236713.0,Cash,pending,2025-03-16
+ORD0798,Karim,Hamidi,karim.hamidi47@email.com,26,Constantine,USB Cable,Networking,10.0,10955.32,109553.2,Cash,cancelled,2025-12-04
+ORD0968,Meriem,Bouzid,meriem.bouzid471@email.com,28,Constantine,Router,Accessories,4.0,85663.87,342655.48,CIB,shipped,2025-01-10
+ORD0942,Ahmed,Bouzid,ahmed.bouzid788@email.com,52,Biskra,Keyboard,Accessories,8.0,59606.14,476849.12,BaridiMob,shipped,2025-07-06
+ORD0620,Sara,Bouzid,sara.bouzid103@email.com,18,Mostaganem,Router,Networking,7.0,116760.41,817322.87,Cash,cancelled,2025-02-01
+ORD0891,Ali,Mebarki,ali.mebarki498@email.com,33,Tlemcen,Power Bank,Peripherals,10.0,64703.32,647033.2,BaridiMob,shipped,2025-06-27
+ORD0836,Amina,Boudiaf,amina.boudiaf240@email.com,59,Setif,RAM 16GB,Electronics,6.0,135270.64,811623.84,BaridiMob,returned,2025-09-18
+ORD0646,Nour,Zidane,nour.zidane971@email.com,62,Bejaia,RAM 16GB,Peripherals,7.0,87016.34,609114.38,BaridiMob,cancelled,2025-10-22
+ORD0882,Ahmed,Belkacem,ahmed.belkacem682@email.com,55,Biskra,Tablet,Peripherals,10.0,68592.88,685928.8,CIB,shipped,2025-04-20
+ORD0557,Sara,Saidi,sara.saidi359@email.com,37,Bejaia,Power Bank,Accessories,1.0,96272.44,96272.44,BaridiMob,shipped,2025-02-10
+ORD1000,Meriem,Meziane,meriem.meziane825@email.com,38,Oran,Tablet,Peripherals,9.0,130196.28,1171766.52,Cash,cancelled,2025-02-15
+ORD0578,Yasmine,Belkacem,yasmine.belkacem242@email.com,38,Constantine,RAM 16GB,Electronics,10.0,125593.85,1255938.5,Cash,returned,2025-10-15
+ORD0796,Yasmine,Taleb,yasmine.taleb985@email.com,28,Chlef,Printer,Storage,1.0,649.66,649.66,Dahabia,returned,2025-05-21
+ORD0086,Fatima,Boudiaf,fatima.boudiaf970@email.com,44,,RAM 16GB,Accessories,8.0,139931.63,1119453.04,BaridiMob,returned,2025-12-09
+ORD0243,Yasmine,Saidi,yasmine.saidi394@email.com,32,Mostaganem,USB Cable,Accessories,2.0,75368.53,150737.06,BaridiMob,completed,2025-02-14
+ORD0699,Lina,Ferhat,lina.ferhat79@email.com,44,,Router,Peripherals,9.0,120716.94,1086452.46,Dahabia,returned,2025-06-07
+ORD0910,Hana,Boudiaf,hana.boudiaf671@email.com,65,Constantine,SSD,Accessories,8.0,104545.35,836362.8,BaridiMob,pending,2025-04-07
+ORD0160,Fatima,Ferhat,fatima.ferhat596@email.com,61,Sidi Bel Abbes,Power Bank,Peripherals,,7128.19,21384.57,null,shipped,2025-11-06
+ORD0525,Omar,Belkacem,omar.belkacem716@email.com,21,,Laptop,Storage,10.0,135953.02,1359530.2,Credit Card,completed,2025-05-06
+ORD0036,Amina,Belkacem,amina.belkacem947@email.com,48,Blida,Power Bank,Storage,4.0,40387.45,161549.8,Cash,cancelled,2025-01-28
+ORD0541,Rachid,Belkacem,rachid.belkacem41@email.com,36,Bejaia,Headphones,Networking,1.0,28882.63,28882.63,Dahabia,cancelled,2025-05-25
+ORD0171,Bilal,Khelifi,bilal.khelifi627@email.com,46,Setif,USB Cable,Storage,4.0,18834.29,75337.16,Cash,cancelled,2025-03-23
+ORD0655,Khaled,Benali,khaled.benali86@email.com,56,Bejaia,Router,Storage,2.0,146388.01,292776.02,Dahabia,pending,2025-08-11
+ORD0927,Lina,Mebarki,lina.mebarki342@email.com,24,Mostaganem,Keyboard,Accessories,4.0,41410.19,165640.76,Cash,cancelled,2025-04-13
+ORD0893,Rachid,Belkacem,rachid.belkacem856@email.com,33,Chlef,Smartwatch,Accessories,1.0,90485.42,90485.42,Credit Card,shipped,2025-12-25
+ORD0883,Amina,Benali,amina.benali120@email.com,28,Mostaganem,Smartphone,Storage,7.0,106057.43,742402.01,Cash,returned,2025-04-14
+ORD0984,Samira,Khelifi,samira.khelifi216@email.com,62,Tiaret,Monitor,Electronics,3.0,18026.75,54080.25,CIB,cancelled,2025-12-01
+ORD0734,Fatima,Taleb,fatima.taleb383@email.com,48,Djelfa,Smartwatch,Electronics,6.0,23489.43,140936.58,Cash,cancelled,2025-12-22
+ORD0096,Hana,Saidi,hana.saidi384@email.com,-5,Batna,Tablet,Accessories,9.0,62101.74,558915.66,CIB,pending,2025-03-03
+ORD0564,Fatima,Saidi,fatima.saidi804@email.com,30,Oran,Power Bank,Accessories,2.0,66844.23,133688.46,Cash,cancelled,2025-09-05
+ORD0241,Amine,Boudiaf,amine.boudiaf278@email.com,38,Oran,Smartwatch,Electronics,5.0,134947.09,674735.45,Credit Card,completed,2025-03-28
+ORD0743,Amine,Benali,amine.benali565@email.com,60,Alger,Smartwatch,Electronics,9.0,16591.01,149319.09,Dahabia,cancelled,2025-02-15
+ORD0575,Meriem,Boudiaf,meriem.boudiaf867@email.com,63,,Keyboard,Peripherals,10.0,86414.4,864144.0,Credit Card,completed,2025-07-27
+ORD0691,Ali,Boudiaf,ali.boudiaf606@email.com,41,Batna,SSD,Peripherals,5.0,48412.18,242060.9,Cash,returned,2025-01-05
+ORD0461,Amine,Hamidi,amine.hamidi188@email.com,32,,RAM 16GB,Accessories,8.0,110698.28,885586.24,CIB,pending,2025-05-07
+ORD0554,Sara,Meziane,sara.meziane586@email.com,38,Sidi Bel Abbes,RAM 16GB,Networking,2.0,72807.62,145615.24,Credit Card,shipped,2025-07-20
+ORD0858,Amina,Bouzid,amina.bouzid859@email.com,60,Oran,SSD,Electronics,3.0,44474.63,133423.89,Credit Card,cancelled,2025-03-03
+ORD0914,Youssef,Ferhat,youssef.ferhat475@email.com,25,Tiaret,Router,Storage,5.0,95033.86,475169.3,Dahabia,shipped,2025-01-04
+ORD0207,Hana,Larbi,hana.larbi691@email.com,23,Mostaganem,Monitor,Accessories,10.0,128493.9,1284939.0,Dahabia,cancelled,2025-09-11
+ORD0393,Fatima,Benali,fatima.benali919@email.com,43,Constantine,Webcam,Accessories,7.0,16490.75,115435.25,Credit Card,pending,2025-04-04
+ORD0795,Hana,Larbi,hana.larbi417@email.com,33,Tlemcen,Smartphone,Networking,4.0,117540.8,470163.2,CIB,shipped,2025-09-06
+ORD0398,Bilal,Ferhat,bilal.ferhat137@email.com,53,Constantine,Headphones,Networking,9.0,45187.51,-406687.59,Credit Card,shipped,2025-12-24
+ORD0767,Rachid,Ferhat,rachid.ferhat169@email.com,63,Batna,Laptop,Storage,1.0,99196.34,99196.34,CIB,returned,2025-01-21
+ORD0884,Samira,Hamidi,samira.hamidi709@email.com,54,Setif,Printer,Networking,7.0,88118.93,616832.51,Dahabia,completed,2025-02-21
+ORD0218,Yasmine,Bouzid,yasmine.bouzid670@email.com,32,Tiaret,Mouse,Electronics,3.0,148930.59,446791.77,UNKNOWN,returned,2025-03-24
+ORD0005,Yasmine,Hamidi,yasmine.hamidi850@email.com,36,Biskra,SSD,Peripherals,10.0,29247.14,292471.4,Cash,completed,2025-11-08
+ORD0769,Karim,Larbi,karim.larbi943@email.com,46,Constantine,USB Cable,Storage,8.0,96759.96,774079.68,Credit Card,returned,2025-10-21
+ORD0643,Yasmine,Mebarki,yasmine.mebarki300@email.com,29,Tlemcen,SSD,Peripherals,2.0,28658.86,57317.72,Dahabia,completed,2025-02-13
+ORD0934,Amina,Larbi,amina.larbi59@email.com,64,Alger,USB Cable,Peripherals,9.0,139473.56,1255262.04,Cash,cancelled,2025-11-17
+ORD0613,Ahmed,Belkacem,ahmed.belkacem608@email.com,46,Annaba,Webcam,Storage,2.0,119014.51,238029.02,BaridiMob,cancelled,2025-09-27
+ORD0739,Lina,Mansouri,lina.mansouri99@email.com,56,Tiaret,Mouse,Networking,4.0,73698.64,294794.56,Dahabia,cancelled,2025-05-19
+ORD0547,Bilal,Hamidi,bilal.hamidi642@email.com,49,Constantine,Smartphone,Accessories,4.0,1028.17,4112.68,BaridiMob,completed,2025-08-16
+ORD0726,Sara,Benali,sara.benali260@email.com,55,Bejaia,SSD,Storage,5.0,146639.82,733199.1,BaridiMob,pending,2025-09-02
+ORD0954,Fatima,Meziane,fatima.meziane686@email.com,41,Oran,RAM 16GB,Networking,3.0,50016.15,150048.45,BaridiMob,returned,2025-09-20
+ORD0684,Rachid,Saidi,rachid.saidi488@email.com,34,Biskra,SSD,Storage,8.0,76956.47,615651.76,CIB,cancelled,2025-02-04
+ORD0099,Ali,Boudiaf,ali.boudiaf866@email.com,36,Setif,Monitor,Storage,8.0,16444.66,131557.28,Dahabia,returned,2025-06-19
+ORD0805,Djamila,Khelifi,djamila.khelifi8@email.com,53,Annaba,Router,Storage,2.0,130552.48,261104.96,Credit Card,returned,2025-08-06
+ORD0728,Fatima,Saidi,,34,Constantine,Webcam,Peripherals,6.0,138972.44,833834.64,BaridiMob,shipped,2025-10-27
+ORD0574,Rachid,Bouzid,rachid.bouzid717@email.com,40,Chlef,RAM 16GB,Peripherals,6.0,68265.82,409594.92,Cash,completed,2025-08-04
+ORD0407,Amina,Larbi,amina.larbi867@email.com,56,Setif,Laptop,Peripherals,,106598.55,852788.4,CIB,completed,2025-03-11
+ORD0503,Amine,Hamidi,amine.hamidi51@email.com,58,Blida,Monitor,Networking,2.0,2456.37,4912.74,CIB,cancelled,2025-02-15
+ORD0048,Bilal,Larbi,bilal.larbi835@email.com,48,Sidi Bel Abbes,Smartwatch,Networking,7.0,124670.09,872690.63,Credit Card,cancelled,2025-03-24
+ORD0033,Ali,Bouzid,ali.bouzid760@email.com,41,Tlemcen,Printer,Storage,9.0,1945.62,17510.58,Cash,pending,2025-09-02
+ORD0780,Amina,Cherif,amina.cherif379@email.com,51,Chlef,Smartphone,Networking,7.0,16995.26,118966.82,BaridiMob,returned,2025-05-02
+ORD0840,Rachid,Khelifi,rachid.khelifi233@email.com,47,Sidi Bel Abbes,USB Cable,Accessories,8.0,35441.62,283532.96,Credit Card,returned,2025-08-24
+ORD0201,Amine,Khelifi,amine.khelifi249@email.com,63,Oran,RAM 16GB,Networking,4.0,95872.71,383490.84,Cash,completed,2025-07-11
+ORD0135,Youssef,Cherif,youssef.cherif649@email.com,59,Alger,Printer,Networking,4.0,135935.45,543741.8,BaridiMob,shipped,2025-12-27
+ORD0028,Mohamed,Khelifi,mohamed.khelifi272@email.com,54,Batna,Tablet,Peripherals,8.0,47768.49,382147.92,Cash,completed,2025-08-20
+ORD0916,Fatima,Ferhat,fatima.ferhat608@email.com,63,Constantine,Headphones,Storage,7.0,45105.32,315737.24,CIB,completed,2025-06-03
+ORD0231,Meriem,Ferhat,meriem.ferhat860@email.com,27,Blida,Smartwatch,Accessories,6.0,47281.84,283691.04,Cash,returned,2025-04-24
+ORD0490,Ali,Zidane,ali.zidane391@email.com,30,Tiaret,Laptop,Electronics,4.0,58027.29,232109.16,Dahabia,pending,2025-12-02
+ORD0773,Sara,Zidane,sara.zidane382@email.com,65,Setif,RAM 16GB,Networking,6.0,19010.05,114060.3,Cash,cancelled,2025-05-19
+ORD0379,Fatima,Zidane,fatima.zidane179@email.com,24,Tiaret,Laptop,Peripherals,6.0,120338.62,722031.72,BaridiMob,cancelled,2025-12-04
+ORD0289,Bilal,Zidane,bilal.zidane223@email.com,38,Alger,Smartwatch,Electronics,3.0,112990.62,338971.86,Credit Card,cancelled,2025-06-14
+ORD0419,Ahmed,Boudiaf,,37,Bejaia,Monitor,Accessories,7.0,119617.18,837320.26,Credit Card,shipped,2025-11-05
+ORD0675,Youssef,Bouzid,youssef.bouzid867@email.com,54,Sidi Bel Abbes,Keyboard,Networking,6.0,53154.39,318926.34,Credit Card,returned,2025-04-17
+ORD0392,Lina,Belkacem,lina.belkacem464@email.com,62,Alger,Smartphone,Accessories,1.0,51532.89,51532.89,BaridiMob,returned,2025-09-12
+ORD0593,Hana,Ferhat,hana.ferhat756@email.com,26,Djelfa,Laptop,Peripherals,8.0,12835.27,102682.16,Credit Card,completed,2025-05-09
+ORD0499,Yasmine,Saidi,yasmine.saidi465@email.com,57,Oran,Power Bank,Networking,7.0,110181.83,771272.81,Cash,returned,2025-06-25
+ORD0139,Sara,Saidi,sara.saidi852@email.com,65,Setif,Smartphone,Electronics,10.0,89314.93,893149.3,Dahabia,cancelled,2025-10-18
+ORD0063,Meriem,Boudiaf,meriem.boudiaf447@email.com,33,Tiaret,USB Cable,Networking,5.0,48684.54,243422.7,CIB,completed,2025-05-15
+ORD0472,Ali,Saidi,,30,Bejaia,Printer,Peripherals,6.0,3465.38,20792.28,Cash,shipped,2025-11-20
+ORD0648,Lina,Hamidi,lina.hamidi789@email.com,52,Tiaret,Laptop,Accessories,6.0,43015.11,258090.66,CIB,returned,2025-03-23
+ORD0129,Samira,Meziane,samira.meziane291@email.com,56,Biskra,RAM 16GB,Networking,8.0,79276.65,634213.2,BaridiMob,completed,2025-04-13
+ORD0351,Omar,Ferhat,omar.ferhat872@email.com,47,Bejaia,Smartwatch,Networking,1.0,26473.73,26473.73,UNKNOWN,completed,2025-04-02
+ORD0521,Lina,Larbi,lina.larbi672@email.com,46,Oran,Power Bank,Peripherals,3.0,148153.96,444461.88,Credit Card,cancelled,2025-10-05
+ORD0839,Hana,Zidane,hana.zidane355@email.com,27,Mostaganem,Headphones,Storage,10.0,113792.01,1137920.1,Cash,cancelled,2025-11-17
+ORD0893,Rachid,Belkacem,rachid.belkacem856@email.com,33,Chlef,Smartwatch,Accessories,1.0,90485.42,90485.42,Credit Card,shipped,2025-12-25
+ORD0065,Ali,Saidi,ali.saidi287@email.com,44,Chlef,SSD,Peripherals,9.0,2017.59,18158.31,CIB,completed,2025-04-24
+ORD0813,Fatima,Mansouri,fatima.mansouri458@email.com,26,Djelfa,Smartphone,Electronics,1.0,137548.8,137548.8,Dahabia,shipped,2025-12-03
+ORD0015,Mohamed,Boudiaf,mohamed.boudiaf20@email.com,64,Alger,Smartwatch,Peripherals,5.0,36298.12,181490.6,CIB,returned,2025-02-03
+ORD0157,Karim,Larbi,karim.larbi248@email.com,29,Sidi Bel Abbes,Tablet,Peripherals,7.0,733.87,5137.09,BaridiMob,pending,2025-10-14
+ORD0041,Mohamed,Larbi,,36,Biskra,Router,Electronics,5.0,76314.81,381574.05,Dahabia,shipped,2025-07-23
+ORD0493,Khaled,Meziane,khaled.meziane242@email.com,33,Biskra,Headphones,Peripherals,1.0,25520.37,25520.37,BaridiMob,returned,2025-02-13
+ORD0380,Sara,Benali,sara.benali873@email.com,23,Constantine,RAM 16GB,Accessories,6.0,53950.35,323702.1,Dahabia,returned,2025-05-24
+ORD0188,Rachid,Cherif,rachid.cherif462@email.com,41,Mostaganem,Printer,Peripherals,10.0,102219.6,1022196.0,Cash,pending,2025-02-13
+ORD0764,Nour,Zidane,nour.zidane829@email.com,44,Tlemcen,Mouse,Peripherals,9.0,26103.64,234932.76,BaridiMob,shipped,2025-12-25
+ORD0217,Omar,Ferhat,omar.ferhat657@email.com,23,Sidi Bel Abbes,RAM 16GB,Storage,6.0,148932.06,893592.36,Dahabia,cancelled,2025-07-13
+ORD0922,Khaled,Belkacem,khaled.belkacem102@email.com,0,Biskra,Router,Electronics,4.0,5991.73,23966.92,CIB,shipped,2025-04-05
+ORD0792,Ali,Taleb,ali.taleb965@email.com,50,Tiaret,Smartwatch,Electronics,1.0,30782.64,30782.64,Credit Card,returned,2025-04-16
+ORD0053,Yasmine,Belkacem,yasmine.belkacem753@email.com,42,Bejaia,Power Bank,Networking,4.0,73490.31,293961.24,BaridiMob,cancelled,2025-08-01
+ORD0879,Lina,Boudiaf,lina.boudiaf415@email.com,20,Chlef,Headphones,Storage,6.0,57913.59,347481.54,BaridiMob,returned,2025-02-14
+ORD0338,Meriem,Boudiaf,meriem.boudiaf917@email.com,46,Biskra,Keyboard,Electronics,9.0,58435.3,525917.7,BaridiMob,cancelled,2025-06-06
+ORD0749,Fatima,Zidane,fatima.zidane17@email.com,58,Sidi Bel Abbes,Monitor,Electronics,4.0,72427.02,289708.08,CIB,pending,2025-07-27
+ORD0720,Amina,Benali,amina.benali411@email.com,18,Djelfa,Headphones,Networking,5.0,22813.05,114065.25,UNKNOWN,pending,2025-10-04
+ORD0725,Youssef,Meziane,youssef.meziane571@email.com,56,Oran,Laptop,Peripherals,4.0,70904.4,283617.6,BaridiMob,returned,2025-11-26
+ORD0296,Youssef,Hamidi,youssef.hamidi716@email.com,56,Batna,USB Cable,Accessories,1.0,37049.72,37049.72,Dahabia,completed,2025-08-20
+ORD0702,Omar,Khelifi,omar.khelifi155@email.com,36,Sidi Bel Abbes,RAM 16GB,Peripherals,7.0,61833.91,432837.37,Cash,pending,2025-07-09
+ORD0252,Bilal,Saidi,bilal.saidi441@email.com,29,Tiaret,Router,Networking,3.0,45415.08,136245.24,Credit Card,pending,2025-08-11
+ORD0727,Amina,Hamidi,amina.hamidi174@email.com,34,Bejaia,Webcam,Peripherals,,20221.97,161775.76,BaridiMob,returned,2025-07-05
+ORD0462,Khaled,Zidane,khaled.zidane256@email.com,49,Tiaret,SSD,Peripherals,3.0,116951.3,350853.9,Cash,completed,2025-11-22
+ORD0456,Amine,Saidi,amine.saidi356@email.com,34,Tiaret,Keyboard,Accessories,10.0,144477.04,1444770.4,Dahabia,cancelled,2025-10-01
+ORD0271,Yasmine,Cherif,yasmine.cherif669@email.com,54,Tlemcen,Headphones,Storage,7.0,106666.28,746663.96,Dahabia,cancelled,2025-03-03
+ORD0816,Bilal,Taleb,bilal.taleb476@email.com,55,Mostaganem,Headphones,Networking,10.0,15641.05,156410.5,Cash,cancelled,2025-09-11
+ORD0863,Mohamed,Cherif,mohamed.cherif642@email.com,24,Annaba,SSD,Accessories,9.0,59562.06,536058.54,Dahabia,completed,2025-04-07
+ORD0270,Omar,Bouzid,omar.bouzid323@email.com,42,,Webcam,Networking,1.0,129895.57,129895.57,Cash,cancelled,2025-03-07
+ORD0202,Meriem,Meziane,meriem.meziane698@email.com,48,Mostaganem,Tablet,Electronics,9.0,146697.65,1320278.85,CIB,cancelled,2025-11-16
+ORD0162,Khaled,Mebarki,khaled.mebarki43@email.com,59,Blida,Smartwatch,Peripherals,9.0,60034.5,540310.5,Credit Card,cancelled,2025-05-02
+ORD0556,Djamila,Khelifi,djamila.khelifi726@email.com,44,Setif,Monitor,Electronics,2.0,4086.03,8172.06,Cash,pending,2025-10-14
+ORD0730,Sara,Khelifi,sara.khelifi153@email.com,49,Oran,Monitor,Accessories,1.0,70802.01,70802.01,CIB,cancelled,2025-07-04
+ORD0402,Ali,Bouzid,ali.bouzid860@email.com,57,Oran,USB Cable,Peripherals,4.0,113162.3,452649.2,Cash,shipped,2025-08-04
+ORD0703,Amina,Hamidi,amina.hamidi704@email.com,37,Djelfa,Monitor,Storage,4.0,17477.01,69908.04,CIB,completed,2025-04-26
+ORD0477,Omar,Belkacem,omar.belkacem241@email.com,-5,Biskra,Keyboard,Electronics,4.0,25453.11,101812.44,Cash,completed,2025-02-16
+ORD0822,Amine,Larbi,amine.larbi987@email.com,32,Blida,SSD,Peripherals,7.0,49628.55,347399.85,Cash,cancelled,2025-01-16
+ORD0772,Ahmed,Mebarki,ahmed.mebarki816@email.com,64,Bejaia,SSD,Peripherals,4.0,124918.23,499672.92,BaridiMob,cancelled,2025-09-04
+ORD0106,Ali,Larbi,ali.larbi391@email.com,38,Tiaret,RAM 16GB,Peripherals,2.0,101388.07,202776.14,Dahabia,completed,2025-10-18
+ORD0566,Khaled,Belkacem,khaled.belkacem38@email.com,47,Tlemcen,Headphones,Networking,2.0,1114.43,2228.86,Cash,returned,2025-02-11
+ORD0390,Yasmine,Cherif,yasmine.cherif1@email.com,60,Tiaret,Smartphone,Networking,10.0,95811.95,958119.5,Credit Card,returned,2025-04-21
+ORD0002,Ahmed,Meziane,ahmed.meziane224@email.com,55,Annaba,Printer,Networking,1.0,84406.14,84406.14,Credit Card,cancelled,2025-04-15
+ORD0977,Amina,Mansouri,amina.mansouri436@email.com,60,Constantine,Smartwatch,Peripherals,10.0,122725.6,1227256.0,BaridiMob,completed,2025-05-16
+ORD0358,Yasmine,Mansouri,yasmine.mansouri609@email.com,-1,Djelfa,Keyboard,Peripherals,2.0,72519.89,145039.78,BaridiMob,shipped,2025-11-11
+ORD0562,Yasmine,Zidane,yasmine.zidane170@email.com,35,Djelfa,SSD,Storage,3.0,89481.18,268443.54,BaridiMob,shipped,2025-12-02
+ORD0932,Bilal,Bouzid,bilal.bouzid450@email.com,32,Blida,Power Bank,Storage,9.0,43379.54,390415.86,Dahabia,returned,2025-12-27
+ORD0081,Ali,Bouzid,ali.bouzid600@email.com,24,Batna,RAM 16GB,Storage,2.0,70766.55,141533.1,Dahabia,shipped,2025-06-22
+ORD0206,Bilal,Hamidi,bilal.hamidi198@email.com,39,Mostaganem,Smartphone,Peripherals,3.0,109802.33,329406.99,BaridiMob,pending,2025-01-24
+ORD0035,Fatima,Saidi,fatima.saidi799@email.com,19,Bejaia,Smartwatch,Storage,10.0,112546.9,1125469.0,CIB,pending,2025-03-14
+ORD0943,Ali,Meziane,ali.meziane450@email.com,63,Biskra,Router,Storage,3.0,21411.22,64233.66,Dahabia,completed,2025-06-28
+ORD0776,Amine,Khelifi,amine.khelifi843@email.com,21,Mostaganem,Mouse,Storage,2.0,22409.71,44819.42,Dahabia,cancelled,2025-02-03
+ORD0509,Samira,Zidane,samira.zidane744@email.com,41,Blida,SSD,Accessories,10.0,82071.12,820711.2,Dahabia,returned,2025-12-09
+ORD0428,Youssef,Mebarki,youssef.mebarki20@email.com,34,Tiaret,Printer,Electronics,10.0,87045.67,870456.7,Credit Card,pending,2025-01-18
+ORD0455,Rachid,Taleb,rachid.taleb601@email.com,53,Annaba,Printer,Electronics,2.0,137917.02,275834.04,Credit Card,shipped,2025-12-27
+ORD0851,Meriem,Boudiaf,meriem.boudiaf474@email.com,63,Djelfa,Laptop,Electronics,5.0,97121.72,485608.6,Dahabia,shipped,2025-12-27
+ORD0367,Bilal,Hamidi,bilal.hamidi215@email.com,45,Mostaganem,Power Bank,Accessories,10.0,114790.32,1147903.2,Dahabia,completed,2025-03-20
+ORD0092,Bilal,Meziane,,34,Chlef,Webcam,Electronics,3.0,61791.8,185375.4,CIB,completed,2025-08-26
+ORD0340,Yasmine,Taleb,yasmine.taleb995@email.com,61,Mostaganem,SSD,Accessories,9.0,9617.07,86553.63,Dahabia,returned,2025-07-18
+ORD0898,Amina,Mebarki,,63,Alger,Webcam,Networking,4.0,36881.72,147526.88,CIB,completed,2025-02-14
+ORD0565,Mohamed,Mebarki,mohamed.mebarki496@email.com,26,Sidi Bel Abbes,Router,Networking,5.0,116442.21,582211.05,CIB,completed,2025-09-22
+ORD0346,Hana,Zidane,hana.zidane549@email.com,20,Chlef,Mouse,Storage,5.0,57765.0,288825.0,Dahabia,returned,2025-10-16
+ORD0777,Samira,Mebarki,samira.mebarki134@email.com,51,Tlemcen,Monitor,Storage,2.0,55709.49,111418.98,Credit Card,cancelled,2025-10-18
+ORD0242,Ahmed,Khelifi,ahmed.khelifi602@email.com,42,Constantine,Power Bank,Storage,2.0,45241.89,90483.78,Credit Card,pending,2025-10-27
+ORD0014,Hana,Zidane,hana.zidane655@email.com,56,Bejaia,SSD,Accessories,3.0,56400.12,169200.36,CIB,returned,2025-09-01
+ORD0316,Rachid,Boudiaf,rachid.boudiaf31@email.com,27,Batna,RAM 16GB,Storage,3.0,53414.52,160243.56,CIB,shipped,2025-05-15
+ORD0601,Amina,Saidi,amina.saidi561@email.com,46,Oran,RAM 16GB,Electronics,2.0,2288.23,4576.46,Cash,returned,2025-02-22
+ORD0388,Ali,Benali,ali.benali520@email.com,54,Annaba,Printer,Storage,7.0,122656.94,858598.58,Cash,cancelled,2025-08-26
+ORD0274,Bilal,Cherif,bilal.cherif224@email.com,23,Batna,Smartphone,Accessories,5.0,131284.07,656420.35,Cash,cancelled,2025-05-12
+ORD0167,Sara,Meziane,sara.meziane688@email.com,56,Biskra,Headphones,Peripherals,9.0,120263.85,1082374.65,CIB,completed,2025-03-28
+ORD0841,Mohamed,Ferhat,mohamed.ferhat88@email.com,53,,Router,Accessories,7.0,115634.59,809442.13,Dahabia,pending,2025-08-15
+ORD0021,Bilal,Zidane,bilal.zidane747@email.com,30,Oran,RAM 16GB,Electronics,,60691.88,60691.88,BaridiMob,completed,2025-04-07
+ORD0647,Karim,Zidane,karim.zidane562@email.com,48,Tlemcen,Webcam,Peripherals,10.0,20227.16,202271.6,BaridiMob,pending,2025-05-08
+ORD0819,Amine,Taleb,amine.taleb526@email.com,37,Biskra,Power Bank,Peripherals,5.0,87758.06,438790.3,Credit Card,pending,2025-03-16
+ORD0485,Youssef,Taleb,,22,Annaba,Printer,Networking,5.0,43059.19,215295.95,Credit Card,shipped,2025-07-07
+ORD0169,Bilal,Saidi,bilal.saidi381@email.com,35,Tlemcen,Power Bank,Electronics,,21085.42,210854.2,BaridiMob,cancelled,2025-06-21
+ORD0505,Youssef,Zidane,youssef.zidane312@email.com,30,Alger,Monitor,Networking,2.0,15633.16,31266.32,CIB,returned,2025-07-07
+ORD0832,Amina,Saidi,amina.saidi730@email.com,55,Blida,Printer,Storage,8.0,71326.84,570614.72,Credit Card,cancelled,2025-11-26
+ORD0244,Youssef,Saidi,youssef.saidi620@email.com,46,Mostaganem,SSD,Networking,7.0,145353.62,1017475.34,BaridiMob,completed,2025-11-09
+ORD0567,Sara,Meziane,sara.meziane534@email.com,30,Mostaganem,RAM 16GB,Peripherals,1.0,86845.2,86845.2,BaridiMob,pending,2025-06-07
+ORD0876,Djamila,Belkacem,djamila.belkacem444@email.com,52,Mostaganem,Tablet,Storage,1.0,114408.43,114408.43,Dahabia,completed,2025-05-20
+ORD0563,Samira,Meziane,samira.meziane509@email.com,29,Chlef,Monitor,Peripherals,8.0,124503.89,996031.12,BaridiMob,pending,2025-09-10
+ORD0994,Amine,Benali,amine.benali578@email.com,36,Mostaganem,Webcam,Electronics,1.0,47529.75,47529.75,BaridiMob,completed,2025-06-25
+ORD0687,Khaled,Hamidi,khaled.hamidi678@email.com,20,Tlemcen,Webcam,Networking,5.0,81594.5,407972.5,Credit Card,returned,2025-01-25
+ORD0958,Fatima,Mebarki,fatima.mebarki447@email.com,35,Alger,Webcam,Storage,9.0,139734.18,1257607.62,Credit Card,completed,2025-03-20
+ORD0190,Omar,Belkacem,omar.belkacem342@email.com,38,Mostaganem,Webcam,Networking,8.0,22766.63,182133.04,Credit Card,pending,2025-06-20
+ORD0783,Amine,Hamidi,amine.hamidi580@email.com,58,Tlemcen,Smartwatch,Peripherals,7.0,71546.52,500825.64,Credit Card,pending,2025-03-17
+ORD0976,Youssef,Larbi,youssef.larbi342@email.com,56,Alger,Mouse,Electronics,1.0,90873.7,90873.7,CIB,cancelled,2025-09-11
+ORD0700,Rachid,Hamidi,rachid.hamidi640@email.com,31,Bejaia,Webcam,Networking,3.0,132194.04,396582.12,Credit Card,pending,2025-10-16
+ORD0476,Rachid,Hamidi,rachid.hamidi909@email.com,19,Tlemcen,Power Bank,Peripherals,10.0,78379.89,783798.9,Dahabia,cancelled,2025-03-06
+ORD0682,Rachid,Belkacem,rachid.belkacem605@email.com,43,Alger,USB Cable,Accessories,2.0,54874.64,109749.28,CIB,shipped,2025-04-20
+ORD0511,Nour,Khelifi,nour.khelifi877@email.com,20,Blida,Laptop,Peripherals,9.0,76935.09,692415.81,Credit Card,returned,2025-03-04
+ORD0059,Fatima,Ferhat,fatima.ferhat839@email.com,43,,Keyboard,Electronics,10.0,4338.92,43389.2,BaridiMob,returned,2025-11-13
+ORD0475,Rachid,Zidane,rachid.zidane929@email.com,56,Alger,Smartphone,Accessories,6.0,34618.58,207711.48,BaridiMob,shipped,2025-12-09
+ORD0561,Yasmine,Cherif,yasmine.cherif20@email.com,42,Annaba,SSD,Peripherals,6.0,10398.85,62393.1,CIB,shipped,2025-01-11
+ORD0857,Bilal,Boudiaf,bilal.boudiaf473@email.com,35,Alger,Smartphone,Networking,4.0,107180.44,428721.76,Dahabia,pending,2025-08-27
+ORD0748,Meriem,Hamidi,meriem.hamidi634@email.com,30,Tiaret,SSD,Peripherals,7.0,120793.79,845556.53,Cash,pending,2025-03-01
+ORD0253,Rachid,Saidi,rachid.saidi299@email.com,43,Sidi Bel Abbes,USB Cable,Storage,10.0,117405.17,1174051.7,BaridiMob,cancelled,2025-05-27
+ORD0022,Yasmine,Boudiaf,yasmine.boudiaf144@email.com,21,Batna,Tablet,Peripherals,8.0,37846.06,302768.48,Cash,cancelled,2025-09-04
+ORD0314,Omar,Khelifi,omar.khelifi844@email.com,59,Batna,Mouse,Electronics,10.0,88124.75,881247.5,Cash,completed,2025-02-07
+ORD0460,Ali,Khelifi,ali.khelifi295@email.com,31,Alger,Headphones,Peripherals,2.0,83405.45,166810.9,CIB,cancelled,2025-06-12
+ORD0161,Bilal,Belkacem,bilal.belkacem491@email.com,20,Biskra,Tablet,Accessories,2.0,107548.74,215097.48,Dahabia,completed,2025-05-07
+ORD0277,Yasmine,Bouzid,yasmine.bouzid332@email.com,44,Sidi Bel Abbes,Keyboard,Peripherals,10.0,40467.79,404677.9,Credit Card,completed,2025-03-25
+ORD0956,Khaled,Khelifi,khaled.khelifi722@email.com,48,Tlemcen,Smartwatch,Electronics,2.0,141301.79,282603.58,Credit Card,shipped,2025-05-24
+ORD0192,Hana,Boudiaf,hana.boudiaf836@email.com,62,Oran,Mouse,Peripherals,2.0,146994.76,293989.52,Credit Card,shipped,2025-12-28
+ORD0386,Djamila,Meziane,djamila.meziane444@email.com,21,Biskra,USB Cable,Accessories,8.0,52189.55,417516.4,Dahabia,pending,2025-09-20
+ORD0806,Khaled,Mansouri,khaled.mansouri757@email.com,26,Djelfa,RAM 16GB,Networking,10.0,26741.56,267415.6,Credit Card,pending,2025-12-03
+ORD0414,Youssef,Khelifi,youssef.khelifi687@email.com,45,Biskra,Power Bank,Accessories,7.0,125431.93,878023.51,CIB,returned,2025-12-24
+ORD0492,Sara,Belkacem,sara.belkacem960@email.com,60,Bejaia,Printer,Electronics,5.0,72443.82,362219.1,BaridiMob,pending,2025-06-02
+ORD0344,Yasmine,Saidi,yasmine.saidi878@email.com,44,Setif,Printer,Storage,1.0,118089.32,118089.32,Credit Card,returned,2025-09-26
+ORD0770,Lina,Mebarki,lina.mebarki832@email.com,42,Mostaganem,RAM 16GB,Storage,4.0,132205.72,528822.88,Cash,completed,2025-09-11
+ORD0309,Hana,Hamidi,hana.hamidi872@email.com,26,Blida,Smartwatch,Storage,,48049.63,288297.78,BaridiMob,pending,2025-02-07
+ORD0662,Meriem,Meziane,meriem.meziane670@email.com,35,Biskra,Smartwatch,Peripherals,7.0,27316.16,191213.12,CIB,completed,2025-02-25
+ORD0131,Amina,Bouzid,amina.bouzid390@email.com,65,Bejaia,USB Cable,Accessories,9.0,84029.17,756262.53,BaridiMob,completed,2025-07-28
+ORD0664,Lina,Cherif,lina.cherif751@email.com,26,Djelfa,Laptop,Peripherals,,87457.35,262372.05,CIB,shipped,2025-08-23
+ORD0872,Nour,Larbi,nour.larbi894@email.com,30,Batna,Printer,Peripherals,3.0,66632.95,199898.85,Cash,completed,2025-08-03
+ORD0088,Ali,Ferhat,ali.ferhat809@email.com,55,Tiaret,Headphones,Peripherals,9.0,40442.31,363980.79,Cash,shipped,2025-12-10
+ORD0331,Lina,Hamidi,lina.hamidi806@email.com,42,Alger,USB Cable,Electronics,1.0,58197.6,58197.6,Dahabia,pending,2025-07-16
+ORD0467,Nour,Hamidi,nour.hamidi483@email.com,41,Djelfa,Mouse,Peripherals,3.0,75066.12,225198.36,CIB,cancelled,2025-12-25
+ORD0122,Mohamed,Mansouri,mohamed.mansouri126@email.com,54,Batna,Mouse,Storage,1.0,145275.59,145275.59,Credit Card,shipped,2025-06-04
+ORD0861,Rachid,Ferhat,rachid.ferhat207@email.com,39,Chlef,Monitor,Peripherals,4.0,30397.86,121591.44,Cash,cancelled,2025-01-01

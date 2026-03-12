@@ -1,0 +1,42 @@
+sources:
+  - type: CSV
+    path: data/raw/ecommerce_orders.csv
+    delimiter: ","
+    encoding: utf-8
+
+cleaning:
+  null_strategy: fill
+  null_values: ["N/A", "n/a", "null", "NULL", "None", "", "-", "UNKNOWN"]
+  type_map:
+    age: int
+    quantity: int
+    unit_price: float
+    total_amount: float
+
+deduplication:
+  keep: first
+  use_hash: true
+
+validation_rules:
+  email:
+    required: true
+    regex: "^[\\w.+-]+@[\\w-]+\\.[a-zA-Z]{2,}$"
+  age:
+    required: true
+    min_value: 1
+    max_value: 120
+  quantity:
+    required: true
+    min_value: 1
+  total_amount:
+    min_value: 0
+  payment_method:
+    allowed_values: ["Cash", "CIB", "BaridiMob", "Dahabia", "Credit Card"]
+  status:
+    allowed_values: ["completed", "pending", "shipped", "cancelled", "returned"]
+
+output:
+  db_path: data/processed/ecommerce_output.db
+  table_name: ecommerce_orders
+  export_csv: true
+  export_json: false
