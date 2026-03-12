@@ -1,0 +1,67 @@
+# ======================================================
+# Custom ETL Engine – Configuration File
+# ======================================================
+
+# ---- DATA SOURCES -----
+sources:
+  - type: CSV
+    path: data/raw/customers.csv
+    delimiter: ","
+    encoding: utf-8
+
+  - type: JSON
+    path: data/raw/products.json
+
+# ---- CLEANING -----
+cleaning:
+  null_strategy: fill          # options: fill | drop_rows | report
+  null_values:
+    - "N/A"
+    - "n/a"
+    - "null"
+    - "NULL"
+    - "None"
+    - ""
+    - "-"
+  type_map:
+    age: int
+    total_purchases: float
+    price: float
+    stock: int
+    rating: float
+    signup_date: datetime
+    created_at: datetime
+
+# ---- DEDUPLICATION -----
+deduplication:
+  keep: first                  # options: first | last | false
+  use_hash: true
+  subset:                      # null = use all non-metadata columns
+    - customer_id
+    - email
+
+# ---- VALIDATION RULES (per column) -----
+validation_rules:
+  email:
+    required: false
+    regex: "^[\\w.+-]+@[\\w-]+\\.[\\w.]+$"
+  age:
+    min_value: 0
+    max_value: 120
+  status:
+    allowed_values:
+      - active
+      - inactive
+      - pending
+  price:
+    min_value: 0
+  rating:
+    min_value: 0
+    max_value: 5
+
+# ---- OUTPUT -----
+output:
+  db_path: data/processed/etl_output.db
+  table_name: etl_results
+  export_csv: true
+  export_json: true

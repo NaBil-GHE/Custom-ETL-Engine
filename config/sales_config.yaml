@@ -1,0 +1,66 @@
+# ======================================================
+# ETL Config – Sales Analysis Pipeline
+# ======================================================
+
+sources:
+  - type: CSV
+    path: data/raw/sales.csv
+    delimiter: ","
+    encoding: utf-8
+
+cleaning:
+  null_strategy: fill
+  null_values:
+    - "N/A"
+    - "n/a"
+    - "null"
+    - "NULL"
+    - "None"
+    - ""
+    - "-"
+  type_map:
+    quantity:     int
+    unit_price:   float
+    total_amount: float
+    order_date:   datetime
+
+deduplication:
+  keep: first
+  use_hash: true
+  subset:
+    - order_id
+
+validation_rules:
+  order_id:
+    required: true
+    regex: "^ORD\\d{3,}$"
+  quantity:
+    required: true
+    min_value: 1
+  unit_price:
+    min_value: 0
+  total_amount:
+    min_value: 0
+  payment_method:
+    allowed_values:
+      - credit_card
+      - cash
+      - paypal
+  status:
+    allowed_values:
+      - completed
+      - pending
+      - cancelled
+      - refunded
+  region:
+    allowed_values:
+      - North
+      - South
+      - East
+      - West
+
+output:
+  db_path: data/processed/sales_output.db
+  table_name: sales_results
+  export_csv: true
+  export_json: true

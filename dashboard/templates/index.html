@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Custom ETL Engine – Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --accent:  #10b981;
+      --danger:  #ef4444;
+      --bg:      #f1f5f9;
+      --card:    #ffffff;
+      --text:    #1e293b;
+      --muted:   #64748b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); }
+
+    /* ── Header ── */
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 { font-size: 1.4rem; }
+    header span { font-size: 0.85rem; opacity: 0.8; }
+
+    /* ── Main layout ── */
+    main { max-width: 1280px; margin: 2rem auto; padding: 0 1.5rem; }
+
+    /* ── KPI Cards ── */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .kpi-card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 1.2rem 1.5rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,.07);
+    }
+    .kpi-card .label { font-size: 0.78rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+    .kpi-card .value { font-size: 2rem; font-weight: 700; color: var(--primary); margin-top: .3rem; }
+
+    /* ── Action Bar ── */
+    .action-bar { display: flex; gap: 1rem; margin-bottom: 2rem; }
+    .btn {
+      padding: .6rem 1.4rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: .9rem;
+      font-weight: 600;
+      transition: opacity .2s;
+    }
+    .btn:hover { opacity: .85; }
+    .btn-primary { background: var(--primary); color: white; }
+    .btn-success { background: var(--accent);  color: white; }
+
+    /* ── Charts row ── */
+    .charts-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .chart-card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 1.2rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,.07);
+    }
+    .chart-card h3 { font-size: .95rem; color: var(--muted); margin-bottom: 1rem; }
+    canvas { max-height: 250px; }
+
+    /* ── Data Table ── */
+    .table-card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 1.2rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,.07);
+      overflow-x: auto;
+    }
+    .table-card h3 { font-size: .95rem; color: var(--muted); margin-bottom: 1rem; }
+    table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+    th { background: var(--bg); padding: .6rem .8rem; text-align: left; font-weight: 600; font-size: .78rem; text-transform: uppercase; color: var(--muted); }
+    td { padding: .55rem .8rem; border-bottom: 1px solid #e2e8f0; }
+    tr:hover td { background: #f8fafc; }
+
+    /* ── Pagination ── */
+    .pagination { display: flex; gap: .5rem; justify-content: center; margin-top: 1rem; }
+    .page-btn { padding: .4rem .9rem; border: 1px solid #e2e8f0; border-radius: 6px; cursor: pointer; background: white; font-size: .85rem; }
+    .page-btn.active { background: var(--primary); color: white; border-color: var(--primary); }
+
+    /* ── Status ── */
+    #status-bar { padding: .7rem 1rem; border-radius: 8px; margin-bottom: 1rem; display: none; font-size: .9rem; }
+    .status-ok   { background: #d1fae5; color: #065f46; }
+    .status-err  { background: #fee2e2; color: #991b1b; }
+    .status-info { background: #dbeafe; color: #1e40af; }
+
+    @media (max-width: 700px) {
+      .charts-row { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>⚙️ Custom ETL Engine – Dashboard</h1>
+  <span>Business Intelligence | USTO Oran</span>
+</header>
+
+<main>
+  <!-- Status bar -->
+  <div id="status-bar"></div>
+
+  <!-- Actions -->
+  <div class="action-bar">
+    <button class="btn btn-primary" onclick="loadStats()">🔄 Refresh Stats</button>
+    <button class="btn btn-success" onclick="runETL()">▶ Run ETL Pipeline</button>
+  </div>
+
+  <!-- KPI Cards -->
+  <div class="kpi-grid">
+    <div class="kpi-card">
+      <div class="label">Total Rows</div>
+      <div class="value" id="kpi-rows">—</div>
+    </div>
+    <div class="kpi-card">
+      <div class="label">Total Columns</div>
+      <div class="value" id="kpi-cols">—</div>
+    </div>
+    <div class="kpi-card">
+      <div class="label">Null Values</div>
+      <div class="value" id="kpi-nulls">—</div>
+    </div>
+    <div class="kpi-card">
+      <div class="label">Data Sources</div>
+      <div class="value" id="kpi-sources">—</div>
+    </div>
+  </div>
+
+  <!-- Charts -->
+  <div class="charts-row">
+    <div class="chart-card">
+      <h3>Null Values per Column</h3>
+      <canvas id="nullChart"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>Source Breakdown</h3>
+      <canvas id="sourceChart"></canvas>
+    </div>
+  </div>
+
+  <!-- Data Table -->
+  <div class="table-card">
+    <h3>ETL Results – Data Preview</h3>
+    <table id="data-table">
+      <thead id="table-head"></thead>
+      <tbody id="table-body"></tbody>
+    </table>
+    <div class="pagination" id="pagination"></div>
+  </div>
+</main>
+
+<script>
+  let currentPage = 1;
+  let nullChart, sourceChart;
+
+  function showStatus(msg, type = "info") {
+    const bar = document.getElementById("status-bar");
+    bar.textContent = msg;
+    bar.className = `status-${type}`;
+    bar.style.display = "block";
+    setTimeout(() => bar.style.display = "none", 5000);
+  }
+
+  async function loadStats() {
+    showStatus("Loading statistics...", "info");
+    try {
+      const res = await fetch("/api/stats");
+      if (!res.ok) { showStatus("No data found. Run the ETL pipeline first.", "err"); return; }
+      const data = await res.json();
+
+      document.getElementById("kpi-rows").textContent = data.total_rows.toLocaleString();
+      document.getElementById("kpi-cols").textContent = data.total_columns;
+
+      const totalNulls = Object.values(data.null_counts).reduce((a, b) => a + b, 0);
+      document.getElementById("kpi-nulls").textContent = totalNulls.toLocaleString();
+
+      renderNullChart(data.null_counts);
+      loadSourceBreakdown();
+      loadData(1);
+      showStatus("Statistics loaded successfully.", "ok");
+    } catch (e) {
+      showStatus("Error loading stats: " + e.message, "err");
+    }
+  }
+
+  async function loadSourceBreakdown() {
+    const res = await fetch("/api/source_breakdown");
+    const data = await res.json();
+    const keys = Object.keys(data);
+    document.getElementById("kpi-sources").textContent = keys.length || "—";
+    renderSourceChart(data);
+  }
+
+  function renderNullChart(nullCounts) {
+    const cols = Object.keys(nullCounts).filter(k => nullCounts[k] > 0);
+    const vals = cols.map(k => nullCounts[k]);
+    if (nullChart) nullChart.destroy();
+    nullChart = new Chart(document.getElementById("nullChart"), {
+      type: "bar",
+      data: {
+        labels: cols.length ? cols : ["No nulls found"],
+        datasets: [{ label: "Null Count", data: cols.length ? vals : [0],
+          backgroundColor: "#fb923c" }]
+      },
+      options: { responsive: true, plugins: { legend: { display: false } } }
+    });
+  }
+
+  function renderSourceChart(breakdown) {
+    if (sourceChart) sourceChart.destroy();
+    const keys = Object.keys(breakdown);
+    const vals = Object.values(breakdown);
+    sourceChart = new Chart(document.getElementById("sourceChart"), {
+      type: "doughnut",
+      data: {
+        labels: keys.length ? keys : ["No data"],
+        datasets: [{ data: keys.length ? vals : [1],
+          backgroundColor: ["#2563eb","#10b981","#f59e0b","#ef4444"] }]
+      },
+      options: { responsive: true }
+    });
+  }
+
+  async function loadData(page) {
+    currentPage = page;
+    const res = await fetch(`/api/data?page=${page}&per_page=15`);
+    if (!res.ok) return;
+    const result = await res.json();
+
+    const thead = document.getElementById("table-head");
+    const tbody = document.getElementById("table-body");
+    thead.innerHTML = "";
+    tbody.innerHTML = "";
+
+    if (!result.data || result.data.length === 0) {
+      tbody.innerHTML = "<tr><td colspan='100' style='text-align:center;color:#64748b'>No data</td></tr>";
+      return;
+    }
+
+    // Headers
+    const cols = Object.keys(result.data[0]).filter(c => !c.startsWith("_"));
+    const tr = document.createElement("tr");
+    cols.forEach(c => { const th = document.createElement("th"); th.textContent = c; tr.appendChild(th); });
+    thead.appendChild(tr);
+
+    // Rows
+    result.data.forEach(row => {
+      const tr = document.createElement("tr");
+      cols.forEach(c => {
+        const td = document.createElement("td");
+        td.textContent = row[c] !== null && row[c] !== undefined ? row[c] : "—";
+        tr.appendChild(td);
+      });
+      tbody.appendChild(tr);
+    });
+
+    // Pagination
+    renderPagination(result.total, result.per_page, page);
+  }
+
+  function renderPagination(total, perPage, current) {
+    const pages = Math.ceil(total / perPage);
+    const container = document.getElementById("pagination");
+    container.innerHTML = "";
+    for (let i = 1; i <= pages; i++) {
+      const btn = document.createElement("button");
+      btn.textContent = i;
+      btn.className = "page-btn" + (i === current ? " active" : "");
+      btn.onclick = () => loadData(i);
+      container.appendChild(btn);
+    }
+  }
+
+  async function runETL() {
+    showStatus("Running ETL pipeline... please wait.", "info");
+    try {
+      const res = await fetch("/api/run_etl", { method: "POST" });
+      const report = await res.json();
+      if (res.ok && report.status === "success") {
+        showStatus(
+          `✅ ETL Complete! ${report.rows_loaded} rows loaded in ${report.elapsed_seconds}s.`,
+          "ok"
+        );
+        loadStats();
+      } else {
+        showStatus("❌ ETL failed: " + (report.error || "Unknown error"), "err");
+      }
+    } catch (e) {
+      showStatus("Error: " + e.message, "err");
+    }
+  }
+
+  // Auto-load on page open
+  window.onload = loadStats;
+</script>
+</body>
+</html>
