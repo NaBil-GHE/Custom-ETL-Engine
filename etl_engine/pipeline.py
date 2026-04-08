@@ -96,9 +96,10 @@ class ETLPipeline:
             logger.info(f"✓ Loaded {rows_loaded:,} rows in {metrics['load_time']}s")
             
             # Calculate total metrics
-            total_time = round(time.time() - start_time, 2)
+            raw_total_time = time.time() - start_time
+            total_time = round(raw_total_time, 2)
             metrics['total_time'] = total_time
-            metrics['throughput'] = round(rows_loaded / total_time, 0) if total_time > 0 else 0
+            metrics['throughput'] = round(rows_loaded / raw_total_time, 0) if raw_total_time > 0 else 0
             
             # Calculate data size
             data_size_mb = round(df.memory_usage(deep=True).sum() / (1024 * 1024), 2)
@@ -109,11 +110,18 @@ class ETLPipeline:
             logger.info("✅ ETL PIPELINE COMPLETED SUCCESSFULLY")
             logger.info("=" * 70)
             logger.info(f"⏱  Total Time: {total_time}s")
-            logger.info(f"   ├─ Extract:      {metrics['extract_time']:>6}s ({metrics['extract_time']/total_time*100:>5.1f}%)")
-            logger.info(f"   ├─ Clean:        {metrics['clean_time']:>6}s ({metrics['clean_time']/total_time*100:>5.1f}%)")
-            logger.info(f"   ├─ Validate:     {metrics['validate_time']:>6}s ({metrics['validate_time']/total_time*100:>5.1f}%)")
-            logger.info(f"   ├─ Deduplicate:  {metrics['deduplicate_time']:>6}s ({metrics['deduplicate_time']/total_time*100:>5.1f}%)")
-            logger.info(f"   └─ Load:         {metrics['load_time']:>6}s ({metrics['load_time']/total_time*100:>5.1f}%)")
+            if raw_total_time > 0:
+                logger.info(f"   ├─ Extract:      {metrics['extract_time']:>6}s ({metrics['extract_time']/raw_total_time*100:>5.1f}%)")
+                logger.info(f"   ├─ Clean:        {metrics['clean_time']:>6}s ({metrics['clean_time']/raw_total_time*100:>5.1f}%)")
+                logger.info(f"   ├─ Validate:     {metrics['validate_time']:>6}s ({metrics['validate_time']/raw_total_time*100:>5.1f}%)")
+                logger.info(f"   ├─ Deduplicate:  {metrics['deduplicate_time']:>6}s ({metrics['deduplicate_time']/raw_total_time*100:>5.1f}%)")
+                logger.info(f"   └─ Load:         {metrics['load_time']:>6}s ({metrics['load_time']/raw_total_time*100:>5.1f}%)")
+            else:
+                logger.info(f"   ├─ Extract:      {metrics['extract_time']:>6}s")
+                logger.info(f"   ├─ Clean:        {metrics['clean_time']:>6}s")
+                logger.info(f"   ├─ Validate:     {metrics['validate_time']:>6}s")
+                logger.info(f"   ├─ Deduplicate:  {metrics['deduplicate_time']:>6}s")
+                logger.info(f"   └─ Load:         {metrics['load_time']:>6}s")
             logger.info(f"📊 Rows Loaded: {rows_loaded:,}")
             logger.info(f"🚀 Throughput: {metrics['throughput']:,.0f} rows/sec")
             logger.info(f"💾 Data Size: {data_size_mb} MB")

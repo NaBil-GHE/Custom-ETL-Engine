@@ -1,0 +1,355 @@
+----- PAGE 1 / 6 -----
+
+1. PAGE DE GARDE
+
+Titre : Custom ETL Engine avec Data Warehouse en étoile (SQLite) et tableau de bord Web  
+Projet : Business Intelligence Project (année universitaire 2025–2026) — description et périmètre dans [README.md](README.md)  
+Coordinateur de projet : [Your Name Here]  
+Auteur(s) : [Nom(s) et prénom(s)]  
+Encadrant : [Nom]  
+Date : 08/04/2026  
+Dépôt : [Nom du dépôt / lien interne]
+
+
+
+----- PAGE 2 / 6 -----
+
+2. TABLE DES MATIÈRES
+
+1. Page de garde ............................................................................. 1  
+2. Table des matières ...................................................................... 2  
+3. Contenu .......................................................................................... 2  
+3.1 Architecture du système .......................................................... 2  
+3.2 Implémentation du Data Warehouse (Star Schema) ............. 3  
+3.3 Traitement et qualité des données ......................................... 4  
+3.4 Exécution du pipeline ETL ........................................................ 4  
+3.5 Résultats obtenus ....................................................................... 5  
+3.6 Interface utilisateur (Dashboard) ............................................. 5  
+3.7 Tests et fiabilité ........................................................................... 6  
+3.8 Performance ................................................................................. 6  
+4. Conclusion ..................................................................................... 6
+
+
+
+3. CONTENU
+
+3.1 Architecture du système
+
+Organisation du code et responsabilités
+Le projet est structuré autour d’un point d’entrée CLI, d’un moteur ETL modulaire et d’une couche de présentation Web :
+
+- Point d’entrée et orchestration CLI : [main.py](main.py).  
+  - Modes d’exécution : exécution ETL via `--config`, lancement du dashboard via `--dashboard`, exécution des tests via `--test`.
+  - Gestion des chemins : insertion du répertoire projet dans `sys.path` pour permettre les imports internes.
+
+- Moteur ETL (package Python) : [etl_engine/__init__.py](etl_engine/__init__.py) et [etl_engine/pipeline.py](etl_engine/pipeline.py).  
+  - Classe centrale : `ETLPipeline`, responsable de l’exécution séquentielle des étapes Extract → Clean → Validate → Deduplicate → Load.
+  - Le pipeline manipule les données en mémoire via `pandas.DataFrame`, et construit un rapport d’exécution (dictionnaire) renvoyé à l’appelant.
+
+- Gestion de configuration : [etl_engine/utils/config.py](etl_engine/utils/config.py).  
+  - Classe `ETLConfig` : chargement YAML (via `yaml.safe_load`), accès typé aux sections `sources`, `cleaning`, `validation_rules`, `deduplication`, `output`, ainsi qu’aux clés génériques via `get()`.
+
+- Logging : [etl_engine/utils/logger.py](etl_engine/utils/logger.py).  
+  - Fonction `setup_logger()` : écrit sur la console et dans un fichier daté `logs/etl_YYYYMMDD.log`.
+  - Utilisée explicitement dans [main.py](main.py), [dashboard/app.py](dashboard/app.py) et [etl_engine/loader/dwh_loader.py](etl_engine/loader/dwh_loader.py). Les autres modules utilisent `logging.getLogger(__name__)`.
+
+- Dashboard (Flask) : [dashboard/app.py](dashboard/app.py) et [dashboard/templates/index.html](dashboard/templates/index.html).  
+  - API REST interne pour statistiques, preview des données, déclenchement de l’ETL.
+
+Flux d’exécution réel (dataflow)
+1) Extraction : [etl_engine/pipeline.py](etl_engine/pipeline.py) appelle `_extract_step()` et itère sur `ETLConfig.sources`.  
+   - Pour chaque source, sélection de l’extracteur selon `type` (CSV/JSON/SQL) :
+     - CSV : [etl_engine/extractor/csv_extractor.py](etl_engine/extractor/csv_extractor.py) (`CSVExtractor.extract()`).
+     - JSON : [etl_engine/extractor/json_extractor.py](etl_engine/extractor/json_extractor.py) (`JSONExtractor.extract()`).
+     - SQL (SQLite) : [etl_engine/extractor/sql_extractor.py](etl_engine/extractor/sql_extractor.py) (`SQLExtractor.extract_query()` / `extract_table()`).
+   - Les sources aboutissent à une concaténation `pandas.concat(frames)`.
+
+2) Transformation : le pipeline applique successivement :
+   - Nettoyage : [etl_engine/transformer/cleaner.py](etl_engine/transformer/cleaner.py) (`DataCleaner.clean()`).
+   - Validation : [etl_engine/transformer/validator.py](etl_engine/transformer/validator.py) (`DataValidator.validate()`).
+   - Déduplication : [etl_engine/transformer/deduplicator.py](etl_engine/transformer/deduplicator.py) (`Deduplicator.deduplicate()`).
+
+3) Chargement : selon `use_star_schema`, le pipeline bascule entre :
+   - Chargement “flat table” : [etl_engine/loader/db_loader.py](etl_engine/loader/db_loader.py) (`DBLoader.load()` + exports CSV/JSON optionnels).
+   - Chargement DWH en étoile : [etl_engine/loader/dwh_loader.py](etl_engine/loader/dwh_loader.py) (`DWHLoader.create_schema()`, `load_dimension()`, `load_dimension_date()`, `load_fact()`, `verify_referential_integrity()`).
+
+Gestion des erreurs d’extraction multi-sources
+Dans [etl_engine/pipeline.py](etl_engine/pipeline.py), `_extract_step()` accumule les sources échouées. Une clé de configuration `validation_mode` (valeurs observées : `strict` ou `permissive`) pilote le comportement en cas d’échec de source : arrêt immédiat en `strict`, poursuite en `permissive`.
+
+
+
+----- PAGE 3 / 6 -----
+
+3.2 Implémentation du Data Warehouse (Star Schema)
+
+DDL et objets physiques
+Le schéma est défini dans [config/star_schema.sql](config/star_schema.sql) et créé (ou reconstruit) par [etl_engine/loader/dwh_loader.py](etl_engine/loader/dwh_loader.py) via `executescript()`.
+
+Tables créées
+1) Table de faits : `fact_sales`  
+   - Clé technique : `sale_id` (INTEGER PRIMARY KEY AUTOINCREMENT).  
+   - Clés étrangères : `date_key` → `dim_date(date_key)`, `customer_key` → `dim_customer(customer_key)`, `product_key` → `dim_product(product_key)`.  
+   - Dimension dégénérée : `order_id` (TEXT NOT NULL).  
+   - Mesures : `quantity`, `unit_price`, `discount`, `total_amount`, avec contraintes CHECK (ex. `quantity > 0`, `discount BETWEEN 0 AND 100`).
+
+2) Dimensions :
+- `dim_date` (PK : `date_key` au format YYYYMMDD), attributs calendaires (jour/mois/année, trimestre, libellés, indicateurs week-end, fiscalité).
+- `dim_customer` (PK : `customer_key` AUTOINCREMENT, clé métier `customer_id` UNIQUE), attributs client et géographiques, segment, dates d’audit.
+- `dim_product` (PK : `product_key` AUTOINCREMENT, clé métier `product_id` UNIQUE), hiérarchie produit (catégorie, sous-catégorie, marque), coût (pour marge), statut actif, audit.
+
+Indexation
+Le script [config/star_schema.sql](config/star_schema.sql) définit des index pour les jointures et filtres fréquents :
+- Index sur clés de faits (`date_key`, `customer_key`, `product_key`, `order_id`).
+- Index sur clés métiers et attributs de filtrage (`customer_id`, `country`, `product_id`, `category`, `full_date`).
+
+Vue analytique
+Une vue `v_sales_analysis` est créée dans [config/star_schema.sql](config/star_schema.sql) : jointure complète `fact_sales` + `dim_date` + `dim_customer` + `dim_product`, enrichie de mesures calculées :
+- `profit = total_amount - COALESCE(cost_price, 0) * quantity`
+- `discount_amount = (discount/100) * unit_price * quantity`
+
+Construction des dimensions (transformations dédiées)
+Les dimensions ne sont pas chargées directement depuis les fichiers sources : elles sont construites depuis le DataFrame transactionnel dans [etl_engine/transformer/dimension_builder.py](etl_engine/transformer/dimension_builder.py) :
+- `build_customer_dimension(df)` :
+  - Colonnes attendues : `customer_id`, `customer_name`, `email`, `country`, `city`.
+  - Attribut dérivé `region` via table de mapping pays → région.
+  - Règle de segmentation : `customer_segment` vaut “B2B” pour un ensemble de pays (USA/UK/Allemagne/France), sinon “B2C”.
+  - Ajout de `first_purchase_date` si `order_date` est présent (min par `customer_id`).
+
+- `build_product_dimension(df)` :
+  - Colonnes attendues : `product_id`, `product_name`, `category`, `subcategory`, `brand`.
+  - Règle de coût : `cost_price = 0.6 * moyenne(unit_price)` par `product_id`.
+  - Ajout de `is_active = 1`.
+
+- `build_date_dimension(df=...)` :
+  - Plage de dates dérivée de `order_date`, puis étendue aux années complètes (du 1er janvier de l’année min au 31 décembre de l’année max).
+  - Ajout d’un calendrier fiscal (année fiscale et trimestre fiscal, année fiscale démarrant en juillet).
+
+Chargement et gestion des clés (surrogate keys)
+Le chargement Star Schema est géré par `DWHLoader` dans [etl_engine/loader/dwh_loader.py](etl_engine/loader/dwh_loader.py) :
+- `load_dimension(table_name, df, business_key)` :
+  - Déduplication préalable sur la clé métier.
+  - Chargement de type “SCD1” : si la clé métier existe, exécution d’un UPDATE (et mise à jour de `updated_at`), sinon INSERT.
+  - Retour d’un mapping {clé métier → clé substitut} utilisé pour résoudre les clés du fait.
+
+- `load_dimension_date(df)` :
+  - Insertion idempotente via INSERT OR IGNORE, tout en conservant les contraintes et index définis dans [config/star_schema.sql](config/star_schema.sql).
+
+- `load_fact(df, dimension_maps, order_id_col='order_id')` :
+  - Résolution des FK via mappings de dimensions (`customer_id` → `customer_key`, `product_id` → `product_key`).
+  - Génération de `date_key` via `order_date` (format YYYYMMDD).
+  - Chargement idempotent : suppression préalable des lignes existantes dont `order_id` est présent dans le lot entrant, puis insertion en append.
+  - Activation explicite des contraintes FK SQLite (`PRAGMA foreign_keys = ON`) après création/validation du schéma.
+
+
+
+----- PAGE 4 / 6 -----
+
+3.3 Traitement et Qualité des données
+
+Nettoyage (DataCleaner)
+Le module [etl_engine/transformer/cleaner.py](etl_engine/transformer/cleaner.py) implémente `DataCleaner` avec une pipeline de nettoyage déterministe :
+- Standardisation des noms de colonnes : minuscules, espaces → `_`, caractères non alphanumériques → `_`.
+- Normalisation des chaînes : strip sur colonnes de type objet.
+- Gestion des valeurs manquantes : remplacement de chaînes null-like (liste configurable) par NaN, puis stratégie selon `null_strategy` :
+  - `drop_rows` : suppression des lignes contenant des nulls.
+  - `fill` : remplissage selon `fill_values`, puis remplissage automatique (numérique par moyenne/médiane selon hints `type_map`, sinon “Unknown”).
+  - `report` : journalisation des colonnes affectées (sans modification).
+- Cast de types : via `type_map` (int/float/datetime/bool).
+- Suppression des lignes vides (toutes colonnes de données nulles).
+
+Un rapport de qualité `generate_quality_report()` est produit après nettoyage : nombre de doublons (au sens `df.duplicated()`), null_counts, null_percent, dtypes.
+
+Validation (DataValidator)
+Le validateur [etl_engine/transformer/validator.py](etl_engine/transformer/validator.py) applique des règles par colonne (structure provenant du YAML) :
+- `required`
+- `min_value` / `max_value`
+- `allowed_values`
+- `regex`
+- `min_length` / `max_length`
+
+Le résultat est un rapport structuré :
+- `passed` (bool),
+- `total_violations`,
+- `violations` : dictionnaire {colonne → liste de messages}.
+
+Déduplication (Deduplicator)
+Le module [etl_engine/transformer/deduplicator.py](etl_engine/transformer/deduplicator.py) implémente :
+- Déduplication `pandas.drop_duplicates()` avec `subset` configurable (ou toutes colonnes non-métadonnées si `subset` absent).
+- Stratégie `keep` : “first”, “last”, ou suppression complète.
+- Option `use_hash` : ajout d’une empreinte SHA-256 `_row_hash` calculée sur les colonnes non-métadonnées.
+
+Règles métier observables (dimension building)
+Au-delà du nettoyage/contrôle, des règles métier sont matérialisées dans [etl_engine/transformer/dimension_builder.py](etl_engine/transformer/dimension_builder.py) :
+- Classification géographique (pays → région) et segmentation B2B/B2C.
+- Estimation du coût produit (60% du prix moyen observé).
+- Calendrier fiscal (année fiscale et trimestre fiscal).
+
+3.4 Exécution du Pipeline ETL
+
+Déclenchement et modes
+Le déclenchement est centralisé dans [main.py](main.py) :
+- `run_pipeline(config_path)` : instancie `ETLConfig`, lance `ETLPipeline.run()`, puis imprime un résumé du rapport (statut, durée, lignes extraites/après nettoyage/chargées, synthèse validation, et rapport qualité si présent).
+- `run_dashboard(config_path)` : fixe la variable d’environnement `ETL_CONFIG_PATH`, puis lance l’application Flask de [dashboard/app.py](dashboard/app.py).
+- `run_tests()` : discovery des tests unitaires via `unittest` dans le répertoire tests.
+
+Configuration YAML
+La configuration Star Schema de référence est [config/ecommerce_dwh_config.yaml](config/ecommerce_dwh_config.yaml) :
+- `use_star_schema: true` et `schema_file` pointant vers [config/star_schema.sql](config/star_schema.sql).
+- Source : [data/raw/ecommerce_sales.csv](data/raw/ecommerce_sales.csv).
+- Nettoyage : `null_strategy: fill`, null_values et `type_map` (quantité, prix, remise, montant).
+- Validation : règles sur identifiants (`regex`), champs requis (`required`), bornes numériques (`min/max`), ensembles autorisés (`allowed_values`) sur pays et catégorie.
+- Déduplication : `subset: [order_id]` avec `keep: first`.
+- Sortie : base DWH [data/processed/ecommerce_dwh.db](data/processed/ecommerce_dwh.db).
+
+Traçabilité par logs
+Le projet écrit un journal d’exécution dans logs (exemples existants dans [logs/etl_20260408.log](logs/etl_20260408.log)). Les entrées incluent, de manière vérifiable :
+- la configuration chargée,
+- la création du schéma,
+- le nombre de lignes chargées dans chaque dimension et dans la table de faits,
+- des métriques “business” calculées lors du chargement (chiffre d’affaires total, panier moyen),
+- la vérification d’intégrité référentielle.
+
+Génération et reproductibilité du jeu de données
+Le dataset e-commerce utilisé par la configuration Star Schema peut être généré par [generate_sample_data.py](generate_sample_data.py), avec seed fixe (`np.random.seed(42)`) et une génération de 1000 transactions couvrant 2024–2025. Le fichier généré est [data/raw/ecommerce_sales.csv](data/raw/ecommerce_sales.csv).
+
+
+
+----- PAGE 5 / 6 -----
+
+3.5 Résultats obtenus
+
+Produits livrables (artefacts de sortie)
+Deux modes de sortie sont implémentés et observables dans le dépôt :
+
+- Mode DWH (Star Schema) :
+  - Base SQLite : [data/processed/ecommerce_dwh.db](data/processed/ecommerce_dwh.db)
+  - Objets : `dim_date`, `dim_customer`, `dim_product`, `fact_sales`, vue `v_sales_analysis` (définition dans [config/star_schema.sql](config/star_schema.sql))
+
+- Mode “flat table” avec exports :
+  - Base SQLite : [data/processed/etl_output.db](data/processed/etl_output.db) (configuration dans [config/etl_config.yaml](config/etl_config.yaml))
+  - Exports présents : [data/processed/etl_output.csv](data/processed/etl_output.csv) et [data/processed/etl_output.json](data/processed/etl_output.json)
+
+Volumes réellement chargés (Star Schema)
+Sur le dataset [data/raw/ecommerce_sales.csv](data/raw/ecommerce_sales.csv) et la base [data/processed/ecommerce_dwh.db](data/processed/ecommerce_dwh.db), les volumes sont :
+- `fact_sales` : 1000 lignes
+- `dim_customer` : 199 lignes
+- `dim_product` : 100 lignes
+- `dim_date` : 731 lignes, couvrant du 2024-01-01 au 2025-12-31
+
+Ces valeurs sont reproductibles par requêtes SQL et ont été observées via extraction directe depuis la base.
+
+Indicateurs analytiques (storytelling basé sur les objets livrés)
+Les requêtes suivantes ont été réalisées sur la vue `v_sales_analysis` (join étoile pré-calculé défini dans [config/star_schema.sql](config/star_schema.sql)) :
+
+- Chiffre d’affaires total (somme `total_amount`) : 2 855 059,14
+- Profit total (somme `profit`) : 1 091 577,58  
+  Remarque de traçabilité : `profit` dépend de `cost_price` (estimé par règle “60% du prix moyen”, cf. [etl_engine/transformer/dimension_builder.py](etl_engine/transformer/dimension_builder.py)).
+
+Performance par catégorie (Top 5 par CA)
+1) Electronics : 1 203 795,77 (414 transactions)  
+2) Fashion : 618 095,88 (223 transactions)  
+3) Furniture : 303 872,50 (105 transactions)  
+4) Sports : 267 362,75 (96 transactions)  
+5) Home : 235 056,15 (83 transactions)
+
+Top produits par CA (Top 5)
+- Gaming Console PS5 (Electronics) : 54 222,65 (43 unités)
+- Office Chair Ergonomic (Furniture) : 53 164,39 (52 unités)
+- Smartwatch Apple Watch (Electronics) : 51 502,50 (47 unités)
+- Camera Canon EOS R6 (Electronics) : 50 425,20 (47 unités)
+- Levis Jeans 501 (Fashion) : 49 879,77 (42 unités)
+
+Top clients par CA (Top 5)
+- John Smith (Germany) : 41 610,79 (11 transactions)
+- Leila Hamdi (Morocco) : 40 018,96 (10 transactions)
+- Omar Belkacem (Spain) : 39 848,59 (11 transactions)
+- Samira Djebar (Morocco) : 37 896,32 (8 transactions)
+- Youssef Mansour (Tunisia) : 36 491,33 (11 transactions)
+
+Tendance mensuelle (24 mois)
+La vue permet une agrégation mensuelle (année/mois) sur 24 périodes (2024-01 à 2025-12). Deux points extrêmes observés :
+- Mois le plus élevé : mai 2025, 166 103,38 (50 transactions)
+- Mois le plus faible : juin 2025, 60 075,50 (31 transactions)
+
+Week-end vs semaine
+En joignant `fact_sales` à `dim_date` (clé `date_key`), la ventilation est :
+- Jours de semaine (`is_weekend = 0`) : 2 062 488,73 (710 transactions)
+- Week-end (`is_weekend = 1`) : 792 570,41 (290 transactions)
+
+3.6 Interface utilisateur (Dashboard)
+
+Implémentation serveur
+L’application Flask est définie dans [dashboard/app.py](dashboard/app.py) :
+- Détermination du chemin base via `ETL_CONFIG_PATH` et lecture de la section `output.db_path` (via `ETLConfig`).
+- Sélection de la table :
+  - si `use_star_schema` est actif, la table cible est `fact_sales`,
+  - sinon, table issue de `output.table_name`.
+
+Endpoints exposés
+- `/api/stats` : charge la table cible dans pandas et renvoie `total_rows`, `total_columns`, `columns`, `null_counts`, `data_types`.
+- `/api/data` : pagination via LIMIT/OFFSET, renvoie `page`, `per_page`, `total`, `columns`, `data`.
+- `/api/run_etl` (POST) : exécute le pipeline via `ETLPipeline` et renvoie le rapport JSON.
+- `/api/source_breakdown` : renvoie un décompte par `_source_type` si la colonne est présente dans la table.
+
+Interface HTML
+La page [dashboard/templates/index.html](dashboard/templates/index.html) implémente :
+- Cartes de statistiques (lignes, colonnes, total nulls) alimentées par `/api/stats`.
+- Bouton “Run ETL” : POST sur `/api/run_etl`, puis rafraîchissement stats/graph/table.
+- Preview tabulaire : chargement des 50 premières lignes via `/api/data?page=1&per_page=50`.
+- Graphique : Chart.js (bar chart) alimenté par `/api/source_breakdown`. Sur la table `fact_sales` (Star Schema), `_source_type` n’est pas stocké ; le graphique se retrouve donc en état “sans données” (comportement prévu côté JS : fallback “No Data”).
+
+
+
+----- PAGE 6 / 6 -----
+
+3.7 Tests et fiabilité
+
+Structure et framework de test
+Les tests sont écrits avec `unittest` (exécution via `unittest.TestLoader().discover(...)` dans [main.py](main.py)). Le répertoire tests contient trois modules :
+- [tests/test_extractor.py](tests/test_extractor.py)
+- [tests/test_transformer.py](tests/test_transformer.py)
+- [tests/test_loader.py](tests/test_loader.py)
+
+Couverture fonctionnelle effectivement testée (26 tests)
+1) Extraction (8 tests)
+- CSV : création DataFrame, comptage lignes, ajout métadonnées `_source_type`, gestion d’erreur fichier manquant.
+- JSON : mêmes invariants (DataFrame, lignes, `_source_type`, fichier manquant).
+
+2) Transformation (12 tests)
+- Nettoyage : normalisation noms de colonnes, strip, remplacement des null-like, structure du quality report.
+- Déduplication : suppression doublons, stratégie “last”, présence `_row_hash`, rapport de doublons.
+- Validation : détection regex, bornes max, allowed_values, passage sans violations sur cas valide.
+
+3) Chargement “flat table” (6 tests)
+- Création de table SQLite, comptage des lignes, exclusion des colonnes métadonnées commençant par `_`, export CSV/JSON, append.
+
+Fiabilité et limites testées
+- Les invariants “métadonnées non persistées en base” sont explicitement validés pour `DBLoader`.
+- Aucun test unitaire ne couvre le chargement Star Schema (`DWHLoader`) ni le dashboard (API Flask). La documentation [README.md](README.md) mentionne des tests supplémentaires qui ne sont pas présents dans tests ; la fiabilité démontrée par la suite de tests correspond donc principalement à extraction/transformation/chargement flat.
+
+3.8 Performance
+
+Mesures instrumentées par le pipeline
+Le pipeline `ETLPipeline.run()` dans [etl_engine/pipeline.py](etl_engine/pipeline.py) mesure :
+- temps par phase (extraction, nettoyage, validation, déduplication, chargement),
+- temps total,
+- débit (lignes/s),
+- taille mémoire du DataFrame (MB),
+puis les place dans le rapport sous la clé `performance`.
+
+Optimisations concrètes implémentées
+- Chargement SQLite en lots : `DBLoader.load()` utilise `to_sql(..., chunksize=1000)` dans [etl_engine/loader/db_loader.py](etl_engine/loader/db_loader.py).
+- Index analytiques : créés dans [config/star_schema.sql](config/star_schema.sql).
+- Idempotence Star Schema : suppression des faits existants pour les `order_id` entrants avant insertion (réduction des doublons de rechargement), et insertion date dimension en “OR IGNORE”, dans [etl_engine/loader/dwh_loader.py](etl_engine/loader/dwh_loader.py).
+- Intégrité référentielle :
+  - activation des FK SQLite et contrôles d’orphelins via `verify_referential_integrity()`.
+
+Temps d’exécution observé (ordre de grandeur)
+Sur la configuration Star Schema [config/ecommerce_dwh_config.yaml](config/ecommerce_dwh_config.yaml) et le dataset [data/raw/ecommerce_sales.csv](data/raw/ecommerce_sales.csv), les exécutions consignées dans [logs/etl_20260408.log](logs/etl_20260408.log) chargent 1000 faits et calculent le CA total. Le temps exact dépend de l’environnement d’exécution ; le rapport CLI imprimé par [main.py](main.py) expose `elapsed_seconds`.
+
+Partitionnement (proposition d’optimisation, non implémentée)
+Le stockage cible étant SQLite, le partitionnement natif de table n’est pas disponible. Une optimisation proposée (compatible avec l’existant) consiste à partitionner physiquement la table de faits par période, par exemple `fact_sales_YYYY_MM`, et à exposer une vue `fact_sales` (UNION ALL) conservant la compatibilité avec `v_sales_analysis`. Les bénéfices attendus : réduction des scans lors des filtres temporels, maintenance facilitée (rebuild d’index par partition), et chargements incrémentaux plus rapides sur la partition active. Cette proposition s’appuie directement sur la présence de `date_key` et des index temporels définis dans [config/star_schema.sql](config/star_schema.sql).
+
+4. CONCLUSION
+
+Le dépôt implémente un moteur ETL paramétrable par YAML, avec extraction multi-sources (CSV/JSON/SQL SQLite), transformation orientée qualité (nettoyage, validation à règles, déduplication) et deux modes de chargement : table “flat” exportable et entrepôt en étoile SQLite. Le mode Star Schema produit une base analytiquement exploitable via une vue pré-jointe (`v_sales_analysis`) et des index dédiés. Sur le dataset e-commerce fourni, la solution charge 1000 transactions et permet de dériver immédiatement des narratifs BI chiffrés (répartition du chiffre d’affaires par catégorie, top produits/clients, saisonnalité mensuelle, week-end vs semaine), tout en conservant des mécanismes explicites d’intégrité référentielle et une traçabilité par logs et tests unitaires sur les composants essentiels (extract/transform/flat load).

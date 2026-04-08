@@ -68,6 +68,7 @@ class DataCleaner:
 
         null_strategy = self.config.get("null_strategy", "report")
         fill_values: Dict[str, Any] = self.config.get("fill_values", {})
+        type_map: Dict[str, str] = self.config.get("type_map", {})
 
         if null_strategy == "drop_rows":
             before = len(df)
@@ -79,13 +80,38 @@ class DataCleaner:
             for col, val in fill_values.items():
                 if col in df.columns:
                     df[col] = df[col].fillna(val)
-            # Fill remaining nulls with column mean (numeric) or "Unknown" (str)
+
+            # Fill remaining nulls using type_map hints when available.
+            # Note: sources are often read as strings; relying only on dtype can misclassify numeric columns.
             for col in df.columns:
-                if df[col].isnull().any():
-                    if pd.api.types.is_numeric_dtype(df[col]):
-                        df[col] = df[col].fillna(df[col].mean())
-                    else:
-                        df[col] = df[col].fillna("Unknown")
+                if not df[col].isnull().any():
+                    continue
+
+                desired = str(type_map.get(col, "")).lower()
+
+                if desired in ("int", "int64"):
+                    numeric = pd.to_numeric(df[col], errors="coerce")
+                    fill_val = numeric.median()
+                    fill_val = 0 if pd.isna(fill_val) else int(round(float(fill_val)))
+                    df[col] = df[col].fillna(fill_val)
+                    continue
+
+                if desired in ("float", "float64"):
+                    numeric = pd.to_numeric(df[col], errors="coerce")
+                    fill_val = numeric.mean()
+                    fill_val = 0.0 if pd.isna(fill_val) else float(fill_val)
+                    df[col] = df[col].fillna(fill_val)
+                    continue
+
+                if desired == "datetime":
+                    # Leave as null; casting will convert to NaT.
+                    continue
+
+                # Fallback behavior
+                if pd.api.types.is_numeric_dtype(df[col]):
+                    df[col] = df[col].fillna(df[col].mean())
+                else:
+                    df[col] = df[col].fillna("Unknown")
 
         else:  # "report" – just log
             null_summary = df.isnull().sum()
@@ -136,11 +162,16 @@ class DataCleaner:
     def generate_quality_report(df: pd.DataFrame) -> Dict[str, Any]:
         """Generate a data quality summary report."""
         total = len(df)
+        null_counts = df.isnull().sum()
         report = {
             "total_rows": total,
             "total_columns": len(df.columns),
-            "null_counts": df.isnull().sum().to_dict(),
-            "null_percent": (df.isnull().sum() / total * 100).round(2).to_dict(),
+            "null_counts": null_counts.to_dict(),
+            "null_percent": (
+                (null_counts / total * 100).round(2).to_dict()
+                if total > 0
+                else {col: 0.0 for col in df.columns}
+            ),
             "duplicate_rows": int(df.duplicated().sum()),
             "data_types": df.dtypes.astype(str).to_dict(),
         }

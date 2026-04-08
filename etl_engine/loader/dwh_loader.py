@@ -5,6 +5,9 @@ Loads data into Fact and Dimension tables with referential integrity
 
 import sqlite3
 import pandas as pd
+import os
+from datetime import date, datetime
+import numpy as np
 from typing import Dict, Optional
 from ..utils import setup_logger
 
@@ -27,11 +30,77 @@ class DWHLoader:
         """
         self.db_path = db_path
         self.conn = None
+        os.makedirs(os.path.dirname(db_path) if os.path.dirname(db_path) else ".", exist_ok=True)
+
+    @staticmethod
+    def _normalize_sqlite_value(value):
+        """Convert pandas/numpy/date values into SQLite-bindable Python types."""
+        if value is None:
+            return None
+        if pd.isna(value):
+            return None
+        if isinstance(value, pd.Timestamp):
+            return value.to_pydatetime().isoformat(sep=" ")
+        if isinstance(value, datetime):
+            return value.isoformat(sep=" ")
+        if isinstance(value, date):
+            return value.isoformat()
+        if isinstance(value, np.integer):
+            return int(value)
+        if isinstance(value, np.floating):
+            return float(value)
+        if isinstance(value, np.bool_):
+            return int(value)
+        if hasattr(value, "item") and not isinstance(value, (str, bytes)):
+            # numpy scalar fallback
+            try:
+                return value.item()
+            except Exception:
+                return value
+        return value
         
     def connect(self):
         """Establish database connection"""
         self.conn = sqlite3.connect(self.db_path)
+        # We'll enable FK enforcement after (re)creating a valid schema.
+        # This avoids "foreign key mismatch" errors if a previous run corrupted table constraints.
+        self.conn.execute("PRAGMA foreign_keys = OFF")
         logger.info(f"✓ Connected to Data Warehouse: {self.db_path}")
+
+    def _dim_date_has_primary_key(self) -> bool:
+        """Return True if dim_date.date_key is a PRIMARY KEY (required for valid FKs)."""
+        try:
+            cursor = self.conn.cursor()
+            cursor.execute("PRAGMA table_info(dim_date)")
+            rows = cursor.fetchall()
+            if not rows:
+                return False
+            for row in rows:
+                # (cid, name, type, notnull, dflt_value, pk)
+                if row[1] == "date_key" and int(row[5]) > 0:
+                    return True
+            return False
+        except Exception:
+            return False
+
+    def _rebuild_star_schema(self, schema_sql: str) -> None:
+        """Drop and recreate Star Schema objects to restore constraints/indexes."""
+        cursor = self.conn.cursor()
+        self.conn.execute("PRAGMA foreign_keys = OFF")
+        cursor.executescript(
+            "\n".join(
+                [
+                    "DROP VIEW IF EXISTS v_sales_analysis;",
+                    "DROP TABLE IF EXISTS fact_sales;",
+                    "DROP TABLE IF EXISTS dim_product;",
+                    "DROP TABLE IF EXISTS dim_customer;",
+                    "DROP TABLE IF EXISTS dim_date;",
+                ]
+            )
+        )
+        self.conn.commit()
+        self.conn.executescript(schema_sql)
+        self.conn.commit()
         
     def create_schema(self, schema_file: str):
         """
@@ -48,6 +117,16 @@ class DWHLoader:
             self.conn.executescript(schema_sql)
             self.conn.commit()
             logger.info(f"✓ Star Schema created from: {schema_file}")
+
+            # If a previous run used pandas to_sql(replace) on dim_date, SQLite FKs become invalid.
+            # Detect that case and rebuild the schema to restore PK/UNIQUE constraints.
+            if not self._dim_date_has_primary_key():
+                logger.warning("⚠ Detected invalid dim_date schema (missing PRIMARY KEY). Rebuilding Star Schema...")
+                self._rebuild_star_schema(schema_sql)
+                logger.info("✓ Star Schema rebuilt successfully")
+
+            # Enable FK enforcement now that schema is valid
+            self.conn.execute("PRAGMA foreign_keys = ON")
             
             # Log created tables
             cursor = self.conn.cursor()
@@ -70,12 +149,37 @@ class DWHLoader:
             Number of rows loaded
         """
         try:
-            # Date dimension uses date_key as natural key
-            # Use REPLACE to handle re-runs (idempotent)
-            df.to_sql('dim_date', self.conn, if_exists='replace', index=False)
-            rows_loaded = len(df)
-            logger.info(f"✓ Loaded {rows_loaded:,} rows into dim_date")
-            return rows_loaded
+            # Preserve schema/indexes created by star_schema.sql.
+            # Idempotent insert: ignore rows that already exist.
+            required_cols = [
+                'date_key', 'full_date', 'day', 'month', 'year', 'quarter',
+                'day_of_week', 'day_of_week_num', 'month_name',
+                'is_weekend', 'is_holiday', 'fiscal_year', 'fiscal_quarter'
+            ]
+            missing = [c for c in required_cols if c not in df.columns]
+            if missing:
+                raise ValueError(f"dim_date is missing required columns: {missing}")
+
+            cursor = self.conn.cursor()
+            cursor.execute("SELECT COUNT(*) FROM dim_date")
+            before_count = cursor.fetchone()[0]
+
+            placeholders = ", ".join(["?"] * len(required_cols))
+            cols_sql = ", ".join(required_cols)
+            insert_sql = f"INSERT OR IGNORE INTO dim_date ({cols_sql}) VALUES ({placeholders})"
+
+            records = [
+                tuple(self._normalize_sqlite_value(v) for v in row)
+                for row in df[required_cols].itertuples(index=False, name=None)
+            ]
+            cursor.executemany(insert_sql, records)
+            self.conn.commit()
+
+            cursor.execute("SELECT COUNT(*) FROM dim_date")
+            after_count = cursor.fetchone()[0]
+            inserted = after_count - before_count
+            logger.info(f"✓ dim_date: Inserted {inserted:,} new rows (total {after_count:,})")
+            return inserted
             
         except Exception as e:
             logger.error(f"❌ Failed to load dim_date: {e}")
@@ -195,7 +299,14 @@ class DWHLoader:
                 df_fact = df_fact[df_fact['product_key'].notna()]
             
             # Generate date_key from order_date (YYYYMMDD format)
-            df_fact['date_key'] = pd.to_datetime(df_fact['order_date']).dt.strftime('%Y%m%d').astype(int)
+            order_dates = pd.to_datetime(df_fact['order_date'], errors='coerce')
+            valid_dates = order_dates.notna()
+            invalid_date_count = int((~valid_dates).sum())
+            if invalid_date_count:
+                logger.warning(f"⚠ {invalid_date_count} rows with invalid order_date - dropping")
+                df_fact = df_fact.loc[valid_dates].copy()
+                order_dates = order_dates.loc[valid_dates]
+            df_fact['date_key'] = order_dates.dt.strftime('%Y%m%d').astype(int)
             
             # Select only fact table columns (remove dimension attributes)
             fact_cols = [
@@ -213,9 +324,26 @@ class DWHLoader:
             # Convert data types
             df_fact_final['customer_key'] = df_fact_final['customer_key'].astype(int)
             df_fact_final['product_key'] = df_fact_final['product_key'].astype(int)
+
+            # Idempotent load: remove any existing fact rows for incoming order_ids
+            order_ids = df_fact_final[order_id_col].dropna().astype(str).unique().tolist()
+            if order_ids:
+                cursor = self.conn.cursor()
+                deleted_total = 0
+                # SQLite has a default max of 999 parameters per statement
+                chunk_size = 900
+                for i in range(0, len(order_ids), chunk_size):
+                    chunk = order_ids[i:i + chunk_size]
+                    ph = ",".join(["?"] * len(chunk))
+                    cursor.execute(f"DELETE FROM fact_sales WHERE {order_id_col} IN ({ph})", chunk)
+                    if cursor.rowcount and cursor.rowcount > 0:
+                        deleted_total += cursor.rowcount
+                if deleted_total:
+                    logger.info(f"  Removed {deleted_total:,} existing fact rows for reload")
             
             # Load to database (append mode for facts)
             df_fact_final.to_sql('fact_sales', self.conn, if_exists='append', index=False)
+            self.conn.commit()
             rows_loaded = len(df_fact_final)
             
             logger.info(f"✓ Loaded {rows_loaded:,} rows into fact_sales")

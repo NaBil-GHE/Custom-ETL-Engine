@@ -17,11 +17,11 @@
     "category":"Unknown",
     "brand":"Unknown",
     "price":20575.0,
-    "stock":98.1428571429,
+    "stock":80,
     "supplier":"Unknown",
     "rating":4.375,
     "created_at":null,
-    "_row_hash":"93a7384bdb2bff66f26b5b25908ca99e6fa79221ad894c05124fe8d40f6d11c5"
+    "_row_hash":"8bbe4d2a5adb1a32569539ad34fecf19b925868bf207cd415bcd3a52ccd770e4"
   },
   {
     "customer_id":"2",
@@ -41,11 +41,11 @@
     "category":"Unknown",
     "brand":"Unknown",
     "price":20575.0,
-    "stock":98.1428571429,
+    "stock":80,
     "supplier":"Unknown",
     "rating":4.375,
     "created_at":null,
-    "_row_hash":"7ce0d6af950d9c8dac749cd71d599eafacf7a726d21a2febf32b866954c61519"
+    "_row_hash":"9b209ca9b62aabc04b088badc82fa1fd930e94c23f697df856be5b354aa95ca8"
   },
   {
     "customer_id":"3",
@@ -65,11 +65,11 @@
     "category":"Unknown",
     "brand":"Unknown",
     "price":20575.0,
-    "stock":98.1428571429,
+    "stock":80,
     "supplier":"Unknown",
     "rating":4.375,
     "created_at":null,
-    "_row_hash":"cfb1ac8b5ef1e8eb46a1e162c1689151b34d858010f9e95637e342cdee68425e"
+    "_row_hash":"308af7ab7a8f2ef8e1e6332ce0453ae638123ebdd9dca409119b4ce4bf800b66"
   },
   {
     "customer_id":"4",
@@ -89,11 +89,11 @@
     "category":"Unknown",
     "brand":"Unknown",
     "price":20575.0,
-    "stock":98.1428571429,
+    "stock":80,
     "supplier":"Unknown",
     "rating":4.375,
     "created_at":null,
-    "_row_hash":"5661256b585d2133bbf985d678eb9c61d75f38adbcd9bd0ce0eca9c18f17276c"
+    "_row_hash":"1dd5402768238be5e308f0bebb0f8deaffd8e3c727a7e2c53df07b1d7bbe2b9a"
   },
   {
     "customer_id":"5",
@@ -113,11 +113,11 @@
     "category":"Unknown",
     "brand":"Unknown",
     "price":20575.0,
-    "stock":98.1428571429,
+    "stock":80,
     "supplier":"Unknown",
     "rating":4.375,
     "created_at":null,
-    "_row_hash":"ec594752f72b359c4c5210cc5d2b9dc7ab9d025b36b0fbf847cd9740ee5da427"
+    "_row_hash":"37651465aedadea87cf036fb7c6a9f88351e34927894b029477a1df325f48b6b"
   },
   {
     "customer_id":"6",
@@ -137,11 +137,11 @@
     "category":"Unknown",
     "brand":"Unknown",
     "price":20575.0,
-    "stock":98.1428571429,
+    "stock":80,
     "supplier":"Unknown",
     "rating":4.375,
     "created_at":null,
-    "_row_hash":"4a91f4fba6e624c8d1dc29e5a28529717806f9f92539933d6bdd2532bf74d428"
+    "_row_hash":"daf3bd55b2eb65bcacea38f02d95556add40ed849d0161ba6169d2e759db8595"
   },
   {
     "customer_id":"7",
@@ -161,18 +161,18 @@
     "category":"Unknown",
     "brand":"Unknown",
     "price":20575.0,
-    "stock":98.1428571429,
+    "stock":80,
     "supplier":"Unknown",
     "rating":4.375,
     "created_at":null,
-    "_row_hash":"f3a46ccdb3f7991248d7871ee586dc95ffd15fa3a6fe48f864bb853debb1365b"
+    "_row_hash":"5d55fe24cd3a8a14e0b55ba616c3b47fd6d0168523a61bf1c2e382f3639ba6ff"
   },
   {
     "customer_id":"8",
     "first_name":"Nadia",
     "last_name":"Rahmani",
     "email":"nadia.r@mail.com",
-    "age":null,
+    "age":32,
     "city":"Setif",
     "country":"Algeria",
     "status":"active",
@@ -185,11 +185,11 @@
     "category":"Unknown",
     "brand":"Unknown",
     "price":20575.0,
-    "stock":98.1428571429,
+    "stock":80,
     "supplier":"Unknown",
     "rating":4.375,
     "created_at":null,
-    "_row_hash":"534c268b547c86f2899e93fc7bed748b7a661997da421b5c7dd7a6730f6f5215"
+    "_row_hash":"9042996d569f5cb97c3f7011a8d14287fb2b3d68ea118b188080b78c1e5cc8c5"
   },
   {
     "customer_id":"9",
@@ -209,11 +209,11 @@
     "category":"Unknown",
     "brand":"Unknown",
     "price":20575.0,
-    "stock":98.1428571429,
+    "stock":80,
     "supplier":"Unknown",
     "rating":4.375,
     "created_at":null,
-    "_row_hash":"706212dcdb7cf0b505ae957825625b7b69afe2c291641917fb217f101b9fa55d"
+    "_row_hash":"4ac173d374505597c8ec73a70c85592e7e01968be8c15a8a682235aa1d57314b"
   },
   {
     "customer_id":"10",
@@ -233,11 +233,11 @@
     "category":"Unknown",
     "brand":"Unknown",
     "price":20575.0,
-    "stock":98.1428571429,
+    "stock":80,
     "supplier":"Unknown",
     "rating":4.375,
     "created_at":null,
-    "_row_hash":"bb634982b0f7efe8b2108a6430933d338883d27e14971ab19479d70ebfbf6311"
+    "_row_hash":"fa6892d1ecbfca60fda1303e2e305e7c05ff2d93a3d2d335d9a48a58c4964848"
   },
   {
     "customer_id":"11",
@@ -257,11 +257,11 @@
     "category":"Unknown",
     "brand":"Unknown",
     "price":20575.0,
-    "stock":98.1428571429,
+    "stock":80,
     "supplier":"Unknown",
     "rating":4.375,
     "created_at":null,
-    "_row_hash":"6c7ef186103fa4d18dbfe3ab2f01b63179ec804e6aea21f8f5cebae94eeae855"
+    "_row_hash":"bcbdb2faaac7e388a6aa6be2beec1ed81333411a4f59f06c12649fd16ba33e73"
   },
   {
     "customer_id":"12",
@@ -281,11 +281,11 @@
     "category":"Unknown",
     "brand":"Unknown",
     "price":20575.0,
-    "stock":98.1428571429,
+    "stock":80,
     "supplier":"Unknown",
     "rating":4.375,
     "created_at":null,
-    "_row_hash":"a082904a8dc756e9e9c55541ead17881c377e22e19d893457c7c55849cffec3a"
+    "_row_hash":"2bd587fbc136aebef3d062d1cc09be58ef4be174d16e8629b668a62030357944"
   },
   {
     "customer_id":"13",
@@ -305,11 +305,11 @@
     "category":"Unknown",
     "brand":"Unknown",
     "price":20575.0,
-    "stock":98.1428571429,
+    "stock":80,
     "supplier":"Unknown",
     "rating":4.375,
     "created_at":null,
-    "_row_hash":"209dd1ccfea27611a379c524630d5f35eec3f3ace08bb5e8cb5bde0c829ce122"
+    "_row_hash":"b9f68cea06a636d00cee35b7d12c51254aa5e55ca16ba49a1fed623919e3e69a"
   },
   {
     "customer_id":"14",
@@ -329,11 +329,11 @@
     "category":"Unknown",
     "brand":"Unknown",
     "price":20575.0,
-    "stock":98.1428571429,
+    "stock":80,
     "supplier":"Unknown",
     "rating":4.375,
     "created_at":null,
-    "_row_hash":"897f5c04552e581d1a4ce3ea01cd41100732b4341289fe36fb688b93725eca56"
+    "_row_hash":"f7dc03221fbe7e133da96fae23e03466de896255b01d13c544b7ddc292b54458"
   },
   {
     "customer_id":"15",
@@ -353,23 +353,23 @@
     "category":"Unknown",
     "brand":"Unknown",
     "price":20575.0,
-    "stock":98.1428571429,
+    "stock":80,
     "supplier":"Unknown",
     "rating":4.375,
     "created_at":null,
-    "_row_hash":"603c9c7687a2f4020704326455533c3d7bd01dead588ef3deb476aa14afb398f"
+    "_row_hash":"01767b24d7d52bee185a81cb584b315eef22ed6edf7624c08eb347c4a1fccaf2"
   },
   {
     "customer_id":"Unknown",
     "first_name":"Unknown",
     "last_name":"Unknown",
     "email":"Unknown",
-    "age":null,
+    "age":32,
     "city":"Unknown",
     "country":"Unknown",
     "status":"Unknown",
     "signup_date":null,
-    "total_purchases":null,
+    "total_purchases":1276.9666666667,
     "_source_file":"products.json",
     "_source_type":"JSON",
     "product_id":"P001",
@@ -377,10 +377,10 @@
     "category":"Electronics",
     "brand":"TechPro",
     "price":85000.0,
-    "stock":42.0,
+    "stock":42,
     "supplier":"GlobalTech DZ",
     "rating":4.5,
     "created_at":1673308800000,
-    "_row_hash":"2499f4a5ddc34fbfcf5bd999647c33b7568f2f70f1c3445ccace761f5107477d"
+    "_row_hash":"0d153af2ed4bc03785c0a31f6d56a45b8616728deabe67fa53ee54f366a8d167"
   }
 ]
