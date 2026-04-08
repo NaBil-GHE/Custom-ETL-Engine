@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard Test</title>
+</head>
+<body>
+    <h1>API Test</h1>
+    <button onclick="testAPI()">Test API</button>
+    <pre id="output"></pre>
+
+    <script>
+        async function testAPI() {
+            const output = document.getElementById('output');
+            output.textContent = 'Testing...\n\n';
+            
+            try {
+                // Test /api/data
+                const response = await fetch('http://127.0.0.1:5000/api/data?page=1&per_page=5');
+                const data = await response.json();
+                
+                output.textContent += '=== /api/data Response ===\n';
+                output.textContent += JSON.stringify(data, null, 2);
+                output.textContent += '\n\n';
+                output.textContent += 'Columns: ' + (data.columns ? data.columns.join(', ') : 'MISSING!');
+                
+            } catch (error) {
+                output.textContent += 'Error: ' + error.message;
+            }
+        }
+    </script>
+</body>
+</html>

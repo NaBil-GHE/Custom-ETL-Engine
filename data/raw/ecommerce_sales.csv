@@ -1,0 +1,1001 @@
+order_id,order_date,customer_id,customer_name,email,country,city,product_id,product_name,category,subcategory,brand,quantity,unit_price,discount,total_amount
+ORD000001,2024-04-12,C0073,Bilal Cherif,bilal.cherif@email.com,USA,Chicago,P0015,Yoga Mat Premium,Sports,Fitness,Manduka,3,704.25,10,1901.48
+ORD000002,2025-03-11,C0062,Fatima Hassan,fatima.hassan@email.com,USA,Los Angeles,P0078,Kindle Paperwhite,Electronics,E-readers,Amazon,5,1464.43,10,6589.94
+ORD000003,2024-09-27,C0076,Zohra Benmoussa,zohra.benmoussa@email.com,France,Paris,P0040,Gaming Console PS5,Electronics,Gaming,Sony,4,1685.24,0,6740.96
+ORD000004,2024-04-16,C0105,Youssef Mansour,youssef.mansour@email.com,USA,Los Angeles,P0035,Yoga Mat Premium,Sports,Fitness,Manduka,5,380.95,0,1904.75
+ORD000005,2024-03-12,C0078,Emma Johnson,emma.johnson@email.com,Morocco,Casablanca,P0042,iPhone 15 Pro,Electronics,Phones,Apple,1,1369.13,0,1369.13
+ORD000006,2025-12-01,C0104,Sara Benali,sara.benali@email.com,France,Marseille,P0038,Kindle Paperwhite,Electronics,E-readers,Amazon,1,1497.74,0,1497.74
+ORD000007,2024-01-21,C0153,Bilal Cherif,bilal.cherif@email.com,France,Marseille,P0066,Adidas Running Shoes,Fashion,Shoes,Adidas,5,1813.88,0,9069.4
+ORD000008,2025-09-06,C0179,James Wilson,james.wilson@email.com,France,Marseille,P0007,Levis Jeans 501,Fashion,Clothing,Levis,3,676.46,0,2029.38
+ORD000009,2024-05-01,C0015,Tarek Ould,tarek.ould@email.com,UK,London,P0094,Standing Desk,Furniture,Office,IKEA,3,1579.31,0,4737.93
+ORD000010,2025-04-11,C0097,John Smith,john.smith@email.com,USA,Chicago,P0055,Yoga Mat Premium,Sports,Fitness,Manduka,1,76.73,0,76.73
+ORD000011,2024-08-02,C0010,Leila Hamdi,leila.hamdi@email.com,Morocco,Rabat,P0097,Smartwatch Apple Watch,Electronics,Wearables,Apple,5,230.16,5,1093.26
+ORD000012,2024-11-26,C0180,Olivia Brown,olivia.brown@email.com,France,Paris,P0008,Zara Jacket,Fashion,Clothing,Zara,5,977.85,0,4889.25
+ORD000013,2025-04-03,C0173,Bilal Cherif,bilal.cherif@email.com,USA,Chicago,P0036,Bicycle Mountain Bike,Sports,Cycling,Trek,4,1435.2,0,5740.8
+ORD000014,2024-03-28,C0148,Nadia Brahimi,nadia.brahimi@email.com,Algeria,Oran,P0038,Kindle Paperwhite,Electronics,E-readers,Amazon,2,1895.09,0,3790.18
+ORD000015,2025-01-07,C0141,Ahmed Ali,ahmed.ali@email.com,Algeria,Oran,P0089,Coffee Maker Deluxe,Home,Kitchen,Generic,1,46.04,5,43.74
+ORD000016,2024-04-09,C0100,Olivia Brown,olivia.brown@email.com,Germany,Berlin,P0037,Smartwatch Apple Watch,Electronics,Wearables,Apple,2,1544.78,0,3089.56
+ORD000017,2025-10-25,C0137,John Smith,john.smith@email.com,France,Paris,P0078,Kindle Paperwhite,Electronics,E-readers,Amazon,1,1851.88,0,1851.88
+ORD000018,2024-05-10,C0046,Amina Kaddour,amina.kaddour@email.com,Algeria,Oran,P0036,Bicycle Mountain Bike,Sports,Cycling,Trek,1,670.97,0,670.97
+ORD000019,2025-10-23,C0115,Tarek Ould,tarek.ould@email.com,Morocco,Casablanca,P0047,Levis Jeans 501,Fashion,Clothing,Levis,1,1491.06,0,1491.06
+ORD000020,2024-11-04,C0057,John Smith,john.smith@email.com,Algeria,Algiers,P0035,Yoga Mat Premium,Sports,Fitness,Manduka,4,1079.42,10,3885.91
+ORD000021,2024-12-09,C0130,Leila Hamdi,leila.hamdi@email.com,Morocco,Marrakech,P0034,Standing Desk,Furniture,Office,IKEA,3,909.91,0,2729.73
+ORD000022,2025-05-06,C0108,Nadia Brahimi,nadia.brahimi@email.com,Germany,Munich,P0024,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,1,1001.75,0,1001.75
+ORD000023,2025-02-17,C0088,Nadia Brahimi,nadia.brahimi@email.com,France,Paris,P0063,Samsung Galaxy S24,Electronics,Phones,Samsung,3,1268.21,0,3804.63
+ORD000024,2025-01-20,C0049,Karim Bouazza,karim.bouazza@email.com,Algeria,Tlemcen,P0049,Coffee Maker Deluxe,Home,Kitchen,Generic,4,835.1,0,3340.4
+ORD000025,2024-07-10,C0189,Karim Bouazza,karim.bouazza@email.com,Algeria,Constantine,P0001,Laptop Dell XPS 15,Electronics,Computers,Dell,5,800.66,0,4003.3
+ORD000026,2024-10-03,C0184,Sara Benali,sara.benali@email.com,Germany,Munich,P0029,Coffee Maker Deluxe,Home,Kitchen,Generic,1,82.73,0,82.73
+ORD000027,2024-06-09,C0168,Nadia Brahimi,nadia.brahimi@email.com,Morocco,Casablanca,P0078,Kindle Paperwhite,Electronics,E-readers,Amazon,3,912.04,0,2736.12
+ORD000028,2025-04-04,C0113,Bilal Cherif,bilal.cherif@email.com,France,Lyon,P0051,Harry Potter Book Set,Books,Fiction,Scholastic,4,372.04,5,1413.75
+ORD000029,2024-11-09,C0103,Mohamed Saidi,mohamed.saidi@email.com,USA,Los Angeles,P0074,Standing Desk,Furniture,Office,IKEA,3,1291.56,0,3874.68
+ORD000030,2024-01-22,C0087,Omar Belkacem,omar.belkacem@email.com,Spain,Barcelona,P0007,Levis Jeans 501,Fashion,Clothing,Levis,5,821.89,0,4109.45
+ORD000031,2024-09-09,C0067,Omar Belkacem,omar.belkacem@email.com,Algeria,Constantine,P0072,Python Programming Guide,Books,Tech,OReilly,1,1601.83,0,1601.83
+ORD000032,2025-07-14,C0097,John Smith,john.smith@email.com,Morocco,Rabat,P0035,Yoga Mat Premium,Sports,Fitness,Manduka,3,1925.67,10,5199.31
+ORD000033,2025-04-19,C0182,Fatima Hassan,fatima.hassan@email.com,Algeria,Constantine,P0055,Yoga Mat Premium,Sports,Fitness,Manduka,2,35.87,0,71.74
+ORD000034,2024-02-28,C0151,Rachid Slimani,rachid.slimani@email.com,UK,London,P0019,Camera Canon EOS R6,Electronics,Cameras,Canon,4,1289.42,0,5157.68
+ORD000035,2025-05-25,C0129,Karim Bouazza,karim.bouazza@email.com,UK,Birmingham,P0002,iPhone 15 Pro,Electronics,Phones,Apple,3,1184.69,0,3554.07
+ORD000036,2025-11-12,C0005,Youssef Mansour,youssef.mansour@email.com,France,Lyon,P0009,Coffee Maker Deluxe,Home,Kitchen,Generic,2,1723.53,0,3447.06
+ORD000037,2025-04-20,C0086,Amina Kaddour,amina.kaddour@email.com,USA,New York,P0074,Standing Desk,Furniture,Office,IKEA,3,1790.16,0,5370.48
+ORD000038,2025-11-30,C0114,Hanane Mekki,hanane.mekki@email.com,Algeria,Oran,P0009,Coffee Maker Deluxe,Home,Kitchen,Generic,2,1270.62,0,2541.24
+ORD000039,2024-07-08,C0022,Fatima Hassan,fatima.hassan@email.com,UK,Manchester,P0058,Kindle Paperwhite,Electronics,E-readers,Amazon,5,351.64,0,1758.2
+ORD000040,2025-11-17,C0075,Tarek Ould,tarek.ould@email.com,UK,London,P0042,iPhone 15 Pro,Electronics,Phones,Apple,4,1001.2,0,4004.8
+ORD000041,2025-07-16,C0165,Youssef Mansour,youssef.mansour@email.com,Tunisia,Sfax,P0076,Bicycle Mountain Bike,Sports,Cycling,Trek,5,31.88,0,159.4
+ORD000042,2025-07-20,C0057,John Smith,john.smith@email.com,Algeria,Constantine,P0040,Gaming Console PS5,Electronics,Gaming,Sony,2,1205.03,0,2410.06
+ORD000043,2024-08-31,C0199,James Wilson,james.wilson@email.com,Morocco,Casablanca,P0026,Adidas Running Shoes,Fashion,Shoes,Adidas,5,772.45,0,3862.25
+ORD000044,2025-05-19,C0064,Sara Benali,sara.benali@email.com,France,Lyon,P0065,Nike Air Max,Fashion,Shoes,Nike,3,189.77,0,569.31
+ORD000045,2024-05-10,C0029,Karim Bouazza,karim.bouazza@email.com,France,Marseille,P0036,Bicycle Mountain Bike,Sports,Cycling,Trek,1,1445.85,0,1445.85
+ORD000046,2025-04-29,C0054,Hanane Mekki,hanane.mekki@email.com,Morocco,Marrakech,P0024,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,5,972.67,0,4863.35
+ORD000047,2025-10-08,C0148,Nadia Brahimi,nadia.brahimi@email.com,Algeria,Tlemcen,P0081,Laptop Dell XPS 15,Electronics,Computers,Dell,3,1197.72,0,3593.16
+ORD000048,2024-01-21,C0154,Hanane Mekki,hanane.mekki@email.com,Morocco,Casablanca,P0073,Office Chair Ergonomic,Furniture,Office,Herman Miller,1,831.46,0,831.46
+ORD000049,2024-06-15,C0104,Sara Benali,sara.benali@email.com,France,Marseille,P0035,Yoga Mat Premium,Sports,Fitness,Manduka,3,164.75,0,494.25
+ORD000050,2024-09-30,C0179,James Wilson,james.wilson@email.com,Algeria,Oran,P0012,Python Programming Guide,Books,Tech,OReilly,3,636.05,5,1812.74
+ORD000051,2025-01-22,C0049,Karim Bouazza,karim.bouazza@email.com,Algeria,Oran,P0057,Smartwatch Apple Watch,Electronics,Wearables,Apple,1,378.41,0,378.41
+ORD000052,2025-08-23,C0083,Mohamed Saidi,mohamed.saidi@email.com,USA,New York,P0081,Laptop Dell XPS 15,Electronics,Computers,Dell,5,1387.63,5,6591.24
+ORD000053,2024-11-11,C0025,Youssef Mansour,youssef.mansour@email.com,Germany,Hamburg,P0059,Camera Canon EOS R6,Electronics,Cameras,Canon,2,112.68,0,225.36
+ORD000054,2024-01-14,C0032,Samira Djebar,samira.djebar@email.com,USA,Chicago,P0017,Smartwatch Apple Watch,Electronics,Wearables,Apple,2,1140.21,10,2052.38
+ORD000055,2024-08-29,C0014,Hanane Mekki,hanane.mekki@email.com,Algeria,Constantine,P0009,Coffee Maker Deluxe,Home,Kitchen,Generic,3,1849.55,15,4716.35
+ORD000056,2024-12-11,C0082,Fatima Hassan,fatima.hassan@email.com,USA,Chicago,P0099,Camera Canon EOS R6,Electronics,Cameras,Canon,2,1049.64,0,2099.28
+ORD000057,2025-07-18,C0014,Hanane Mekki,hanane.mekki@email.com,Morocco,Marrakech,P0060,Gaming Console PS5,Electronics,Gaming,Sony,5,163.14,0,815.7
+ORD000058,2024-12-05,C0168,Nadia Brahimi,nadia.brahimi@email.com,France,Marseille,P0039,Camera Canon EOS R6,Electronics,Cameras,Canon,1,1081.42,0,1081.42
+ORD000059,2024-04-01,C0141,Ahmed Ali,ahmed.ali@email.com,Tunisia,Tunis,P0042,iPhone 15 Pro,Electronics,Phones,Apple,4,473.59,0,1894.36
+ORD000060,2025-01-01,C0170,Leila Hamdi,leila.hamdi@email.com,Spain,Valencia,P0013,Office Chair Ergonomic,Furniture,Office,Herman Miller,5,774.09,10,3483.4
+ORD000061,2025-03-30,C0123,Mohamed Saidi,mohamed.saidi@email.com,Spain,Madrid,P0062,iPhone 15 Pro,Electronics,Phones,Apple,1,809.84,0,809.84
+ORD000062,2025-03-03,C0185,Youssef Mansour,youssef.mansour@email.com,Morocco,Marrakech,P0010,Vacuum Cleaner Robot,Home,Appliances,iRobot,1,679.38,0,679.38
+ORD000063,2025-05-23,C0065,Youssef Mansour,youssef.mansour@email.com,Algeria,Constantine,P0045,Nike Air Max,Fashion,Shoes,Nike,2,599.65,0,1199.3
+ORD000064,2024-02-04,C0153,Bilal Cherif,bilal.cherif@email.com,Algeria,Algiers,P0079,Camera Canon EOS R6,Electronics,Cameras,Canon,1,227.84,0,227.84
+ORD000065,2024-07-24,C0196,Zohra Benmoussa,zohra.benmoussa@email.com,Algeria,Oran,P0037,Smartwatch Apple Watch,Electronics,Wearables,Apple,5,525.38,0,2626.9
+ORD000066,2024-03-21,C0039,James Wilson,james.wilson@email.com,UK,Manchester,P0088,Zara Jacket,Fashion,Clothing,Zara,3,1808.41,20,4340.18
+ORD000067,2025-07-15,C0199,James Wilson,james.wilson@email.com,Spain,Valencia,P0072,Python Programming Guide,Books,Tech,OReilly,4,1677.27,0,6709.08
+ORD000068,2025-01-22,C0110,Leila Hamdi,leila.hamdi@email.com,Algeria,Oran,P0057,Smartwatch Apple Watch,Electronics,Wearables,Apple,2,83.1,15,141.27
+ORD000069,2024-01-02,C0120,Olivia Brown,olivia.brown@email.com,France,Paris,P0054,Standing Desk,Furniture,Office,IKEA,1,1041.34,0,1041.34
+ORD000070,2025-01-24,C0061,Ahmed Ali,ahmed.ali@email.com,Algeria,Constantine,P0050,Vacuum Cleaner Robot,Home,Appliances,iRobot,2,1395.08,0,2790.16
+ORD000071,2025-07-19,C0160,Olivia Brown,olivia.brown@email.com,Morocco,Casablanca,P0089,Coffee Maker Deluxe,Home,Kitchen,Generic,1,1790.89,5,1701.35
+ORD000072,2024-04-15,C0011,Rachid Slimani,rachid.slimani@email.com,UK,Birmingham,P0092,Python Programming Guide,Books,Tech,OReilly,5,1778.61,15,7559.09
+ORD000073,2025-04-21,C0076,Zohra Benmoussa,zohra.benmoussa@email.com,Algeria,Constantine,P0040,Gaming Console PS5,Electronics,Gaming,Sony,1,1106.21,0,1106.21
+ORD000074,2025-12-03,C0124,Sara Benali,sara.benali@email.com,France,Marseille,P0005,Nike Air Max,Fashion,Shoes,Nike,2,1069.88,15,1818.8
+ORD000075,2025-02-05,C0176,Zohra Benmoussa,zohra.benmoussa@email.com,Tunisia,Tunis,P0077,Smartwatch Apple Watch,Electronics,Wearables,Apple,1,132.42,10,119.18
+ORD000076,2025-12-30,C0062,Fatima Hassan,fatima.hassan@email.com,Morocco,Rabat,P0067,Levis Jeans 501,Fashion,Clothing,Levis,2,1092.12,5,2075.03
+ORD000077,2025-07-09,C0033,Bilal Cherif,bilal.cherif@email.com,UK,Birmingham,P0080,Gaming Console PS5,Electronics,Gaming,Sony,4,1702.66,5,6470.11
+ORD000078,2024-06-10,C0169,Karim Bouazza,karim.bouazza@email.com,France,Paris,P0089,Coffee Maker Deluxe,Home,Kitchen,Generic,5,1363.48,0,6817.4
+ORD000079,2024-07-20,C0166,Amina Kaddour,amina.kaddour@email.com,Algeria,Algiers,P0045,Nike Air Max,Fashion,Shoes,Nike,2,936.29,5,1778.95
+ORD000080,2024-09-26,C0170,Leila Hamdi,leila.hamdi@email.com,Algeria,Constantine,P0053,Office Chair Ergonomic,Furniture,Office,Herman Miller,2,1637.75,5,3111.72
+ORD000081,2024-09-27,C0012,Samira Djebar,samira.djebar@email.com,Algeria,Tlemcen,P0013,Office Chair Ergonomic,Furniture,Office,Herman Miller,3,1962.56,0,5887.68
+ORD000082,2025-03-31,C0098,Emma Johnson,emma.johnson@email.com,Tunisia,Tunis,P0035,Yoga Mat Premium,Sports,Fitness,Manduka,3,1524.45,0,4573.35
+ORD000083,2025-04-06,C0063,Mohamed Saidi,mohamed.saidi@email.com,France,Marseille,P0094,Standing Desk,Furniture,Office,IKEA,5,213.99,10,962.96
+ORD000084,2025-12-27,C0096,Zohra Benmoussa,zohra.benmoussa@email.com,USA,Chicago,P0064,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,1,1544.26,0,1544.26
+ORD000085,2024-09-08,C0118,Emma Johnson,emma.johnson@email.com,France,Lyon,P0082,iPhone 15 Pro,Electronics,Phones,Apple,2,1980.4,0,3960.8
+ORD000086,2025-12-02,C0164,Sara Benali,sara.benali@email.com,Tunisia,Tunis,P0076,Bicycle Mountain Bike,Sports,Cycling,Trek,5,54.03,0,270.15
+ORD000087,2024-10-22,C0079,James Wilson,james.wilson@email.com,UK,Birmingham,P0058,Kindle Paperwhite,Electronics,E-readers,Amazon,2,326.29,0,652.58
+ORD000088,2025-12-25,C0004,Sara Benali,sara.benali@email.com,France,Paris,P0039,Camera Canon EOS R6,Electronics,Cameras,Canon,5,1390.43,0,6952.15
+ORD000089,2025-12-20,C0130,Leila Hamdi,leila.hamdi@email.com,USA,Los Angeles,P0075,Yoga Mat Premium,Sports,Fitness,Manduka,3,1737.43,15,4430.45
+ORD000090,2024-12-03,C0184,Sara Benali,sara.benali@email.com,France,Paris,P0047,Levis Jeans 501,Fashion,Clothing,Levis,5,1280.67,0,6403.35
+ORD000091,2024-02-22,C0185,Youssef Mansour,youssef.mansour@email.com,France,Marseille,P0001,Laptop Dell XPS 15,Electronics,Computers,Dell,2,1789.26,0,3578.52
+ORD000092,2024-08-04,C0189,Karim Bouazza,karim.bouazza@email.com,Algeria,Algiers,P0025,Nike Air Max,Fashion,Shoes,Nike,4,1129.87,0,4519.48
+ORD000093,2024-07-06,C0027,Omar Belkacem,omar.belkacem@email.com,Spain,Barcelona,P0089,Coffee Maker Deluxe,Home,Kitchen,Generic,1,191.42,0,191.42
+ORD000094,2025-01-14,C0027,Omar Belkacem,omar.belkacem@email.com,UK,Birmingham,P0003,Samsung Galaxy S24,Electronics,Phones,Samsung,5,271.18,0,1355.9
+ORD000095,2025-05-07,C0060,Olivia Brown,olivia.brown@email.com,Spain,Barcelona,P0015,Yoga Mat Premium,Sports,Fitness,Manduka,1,12.45,0,12.45
+ORD000096,2024-02-10,C0126,Amina Kaddour,amina.kaddour@email.com,Tunisia,Tunis,P0038,Kindle Paperwhite,Electronics,E-readers,Amazon,1,330.04,0,330.04
+ORD000097,2024-06-05,C0117,John Smith,john.smith@email.com,Morocco,Marrakech,P0064,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,5,307.67,0,1538.35
+ORD000098,2024-01-15,C0064,Sara Benali,sara.benali@email.com,France,Marseille,P0095,Yoga Mat Premium,Sports,Fitness,Manduka,3,1393.01,5,3970.08
+ORD000099,2024-03-05,C0102,Fatima Hassan,fatima.hassan@email.com,Germany,Hamburg,P0086,Adidas Running Shoes,Fashion,Shoes,Adidas,3,218.81,0,656.43
+ORD000100,2025-06-04,C0121,Ahmed Ali,ahmed.ali@email.com,Morocco,Marrakech,P0080,Gaming Console PS5,Electronics,Gaming,Sony,4,1407.91,0,5631.64
+ORD000101,2024-12-09,C0160,Olivia Brown,olivia.brown@email.com,Germany,Berlin,P0002,iPhone 15 Pro,Electronics,Phones,Apple,1,184.85,0,184.85
+ORD000102,2024-05-08,C0161,Ahmed Ali,ahmed.ali@email.com,UK,Manchester,P0022,iPhone 15 Pro,Electronics,Phones,Apple,2,1955.16,0,3910.32
+ORD000103,2025-10-09,C0122,Fatima Hassan,fatima.hassan@email.com,UK,Manchester,P0044,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,1,1903.58,0,1903.58
+ORD000104,2025-04-16,C0123,Mohamed Saidi,mohamed.saidi@email.com,Algeria,Oran,P0073,Office Chair Ergonomic,Furniture,Office,Herman Miller,1,1421.03,5,1349.98
+ORD000105,2024-03-03,C0178,Emma Johnson,emma.johnson@email.com,Tunisia,Sfax,P0007,Levis Jeans 501,Fashion,Clothing,Levis,3,1790.69,0,5372.07
+ORD000106,2024-05-18,C0058,Emma Johnson,emma.johnson@email.com,USA,Chicago,P0003,Samsung Galaxy S24,Electronics,Phones,Samsung,1,336.36,0,336.36
+ORD000107,2025-05-13,C0012,Samira Djebar,samira.djebar@email.com,Algeria,Algiers,P0025,Nike Air Max,Fashion,Shoes,Nike,5,1235.33,0,6176.65
+ORD000108,2025-08-15,C0100,Olivia Brown,olivia.brown@email.com,USA,New York,P0053,Office Chair Ergonomic,Furniture,Office,Herman Miller,3,331.73,0,995.19
+ORD000109,2025-01-26,C0150,Leila Hamdi,leila.hamdi@email.com,France,Paris,P0059,Camera Canon EOS R6,Electronics,Cameras,Canon,3,172.24,0,516.72
+ORD000110,2025-11-05,C0189,Karim Bouazza,karim.bouazza@email.com,Algeria,Constantine,P0079,Camera Canon EOS R6,Electronics,Cameras,Canon,1,1682.5,0,1682.5
+ORD000111,2025-02-22,C0159,James Wilson,james.wilson@email.com,France,Paris,P0004,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,4,748.37,20,2394.78
+ORD000112,2024-10-15,C0152,Samira Djebar,samira.djebar@email.com,Morocco,Marrakech,P0096,Bicycle Mountain Bike,Sports,Cycling,Trek,1,882.84,0,882.84
+ORD000113,2025-01-13,C0066,Amina Kaddour,amina.kaddour@email.com,Morocco,Rabat,P0039,Camera Canon EOS R6,Electronics,Cameras,Canon,2,1984.35,0,3968.7
+ORD000114,2025-05-04,C0125,Youssef Mansour,youssef.mansour@email.com,Algeria,Algiers,P0018,Kindle Paperwhite,Electronics,E-readers,Amazon,5,1468.89,0,7344.45
+ORD000115,2024-08-18,C0008,Nadia Brahimi,nadia.brahimi@email.com,France,Lyon,P0087,Levis Jeans 501,Fashion,Clothing,Levis,2,482.71,15,820.61
+ORD000116,2024-02-10,C0119,James Wilson,james.wilson@email.com,France,Lyon,P0041,Laptop Dell XPS 15,Electronics,Computers,Dell,4,815.99,0,3263.96
+ORD000117,2024-01-28,C0084,Sara Benali,sara.benali@email.com,Morocco,Rabat,P0017,Smartwatch Apple Watch,Electronics,Wearables,Apple,3,631.17,0,1893.51
+ORD000118,2024-05-14,C0163,Mohamed Saidi,mohamed.saidi@email.com,Tunisia,Sousse,P0065,Nike Air Max,Fashion,Shoes,Nike,4,270.44,15,919.5
+ORD000119,2024-07-19,C0047,Omar Belkacem,omar.belkacem@email.com,Algeria,Oran,P0067,Levis Jeans 501,Fashion,Clothing,Levis,2,903.07,0,1806.14
+ORD000120,2024-02-02,C0105,Youssef Mansour,youssef.mansour@email.com,France,Marseille,P0076,Bicycle Mountain Bike,Sports,Cycling,Trek,1,512.53,0,512.53
+ORD000121,2024-02-17,C0028,Nadia Brahimi,nadia.brahimi@email.com,Algeria,Algiers,P0047,Levis Jeans 501,Fashion,Clothing,Levis,5,1071.69,0,5358.45
+ORD000122,2025-05-17,C0120,Olivia Brown,olivia.brown@email.com,UK,Birmingham,P0079,Camera Canon EOS R6,Electronics,Cameras,Canon,4,1084.41,0,4337.64
+ORD000123,2025-02-10,C0078,Emma Johnson,emma.johnson@email.com,Algeria,Constantine,P0037,Smartwatch Apple Watch,Electronics,Wearables,Apple,4,112.88,0,451.52
+ORD000124,2025-07-27,C0035,Tarek Ould,tarek.ould@email.com,Morocco,Casablanca,P0059,Camera Canon EOS R6,Electronics,Cameras,Canon,5,215.58,0,1077.9
+ORD000125,2025-12-28,C0012,Samira Djebar,samira.djebar@email.com,Algeria,Algiers,P0088,Zara Jacket,Fashion,Clothing,Zara,3,19.83,15,50.57
+ORD000126,2024-04-08,C0050,Leila Hamdi,leila.hamdi@email.com,Spain,Valencia,P0095,Yoga Mat Premium,Sports,Fitness,Manduka,3,982.8,0,2948.4
+ORD000127,2025-11-14,C0084,Sara Benali,sara.benali@email.com,Algeria,Oran,P0045,Nike Air Max,Fashion,Shoes,Nike,4,1412.31,0,5649.24
+ORD000128,2025-12-26,C0119,James Wilson,james.wilson@email.com,Algeria,Algiers,P0001,Laptop Dell XPS 15,Electronics,Computers,Dell,5,893.06,5,4242.03
+ORD000129,2025-06-30,C0086,Amina Kaddour,amina.kaddour@email.com,Algeria,Algiers,P0055,Yoga Mat Premium,Sports,Fitness,Manduka,2,754.85,0,1509.7
+ORD000130,2025-09-04,C0145,Youssef Mansour,youssef.mansour@email.com,UK,Birmingham,P0076,Bicycle Mountain Bike,Sports,Cycling,Trek,3,1862.59,0,5587.77
+ORD000131,2025-04-06,C0033,Bilal Cherif,bilal.cherif@email.com,Tunisia,Sousse,P0080,Gaming Console PS5,Electronics,Gaming,Sony,5,1337.27,0,6686.35
+ORD000132,2025-10-04,C0190,Leila Hamdi,leila.hamdi@email.com,Tunisia,Sfax,P0064,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,1,1734.21,20,1387.37
+ORD000133,2024-01-05,C0013,Bilal Cherif,bilal.cherif@email.com,USA,New York,P0031,Harry Potter Book Set,Books,Fiction,Scholastic,1,227.13,0,227.13
+ORD000134,2024-08-05,C0102,Fatima Hassan,fatima.hassan@email.com,France,Lyon,P0019,Camera Canon EOS R6,Electronics,Cameras,Canon,2,1526.95,0,3053.9
+ORD000135,2025-05-17,C0083,Mohamed Saidi,mohamed.saidi@email.com,UK,London,P0088,Zara Jacket,Fashion,Clothing,Zara,1,663.48,0,663.48
+ORD000136,2025-02-01,C0199,James Wilson,james.wilson@email.com,Morocco,Marrakech,P0060,Gaming Console PS5,Electronics,Gaming,Sony,5,902.9,0,4514.5
+ORD000137,2025-01-27,C0035,Tarek Ould,tarek.ould@email.com,Algeria,Oran,P0011,Harry Potter Book Set,Books,Fiction,Scholastic,3,345.2,0,1035.6
+ORD000138,2024-07-25,C0194,Hanane Mekki,hanane.mekki@email.com,Morocco,Marrakech,P0085,Nike Air Max,Fashion,Shoes,Nike,2,1903.44,5,3616.54
+ORD000139,2024-01-15,C0156,Zohra Benmoussa,zohra.benmoussa@email.com,Algeria,Oran,P0025,Nike Air Max,Fashion,Shoes,Nike,4,306.49,0,1225.96
+ORD000140,2025-07-07,C0044,Sara Benali,sara.benali@email.com,Morocco,Marrakech,P0048,Zara Jacket,Fashion,Clothing,Zara,2,1433.83,0,2867.66
+ORD000141,2025-04-05,C0021,Ahmed Ali,ahmed.ali@email.com,Algeria,Constantine,P0080,Gaming Console PS5,Electronics,Gaming,Sony,5,1797.08,0,8985.4
+ORD000142,2025-11-21,C0051,Rachid Slimani,rachid.slimani@email.com,Algeria,Algiers,P0013,Office Chair Ergonomic,Furniture,Office,Herman Miller,3,211.83,0,635.49
+ORD000143,2025-07-28,C0117,John Smith,john.smith@email.com,Algeria,Constantine,P0029,Coffee Maker Deluxe,Home,Kitchen,Generic,4,1082.93,0,4331.72
+ORD000144,2024-08-28,C0164,Sara Benali,sara.benali@email.com,USA,Los Angeles,P0049,Coffee Maker Deluxe,Home,Kitchen,Generic,5,832.96,0,4164.8
+ORD000145,2025-07-17,C0007,Omar Belkacem,omar.belkacem@email.com,Tunisia,Sfax,P0039,Camera Canon EOS R6,Electronics,Cameras,Canon,5,377.32,0,1886.6
+ORD000146,2024-04-05,C0170,Leila Hamdi,leila.hamdi@email.com,Algeria,Tlemcen,P0036,Bicycle Mountain Bike,Sports,Cycling,Trek,4,972.26,5,3694.59
+ORD000147,2025-04-29,C0129,Karim Bouazza,karim.bouazza@email.com,France,Paris,P0047,Levis Jeans 501,Fashion,Clothing,Levis,3,15.14,0,45.42
+ORD000148,2025-02-10,C0021,Ahmed Ali,ahmed.ali@email.com,Germany,Berlin,P0026,Adidas Running Shoes,Fashion,Shoes,Adidas,1,1296.75,0,1296.75
+ORD000149,2024-08-18,C0121,Ahmed Ali,ahmed.ali@email.com,UK,London,P0026,Adidas Running Shoes,Fashion,Shoes,Adidas,3,1563.25,0,4689.75
+ORD000150,2025-10-16,C0019,James Wilson,james.wilson@email.com,UK,Birmingham,P0074,Standing Desk,Furniture,Office,IKEA,1,200.12,0,200.12
+ORD000151,2024-06-19,C0183,Mohamed Saidi,mohamed.saidi@email.com,Morocco,Marrakech,P0049,Coffee Maker Deluxe,Home,Kitchen,Generic,3,1739.83,0,5219.49
+ORD000152,2025-06-24,C0149,Karim Bouazza,karim.bouazza@email.com,Algeria,Tlemcen,P0037,Smartwatch Apple Watch,Electronics,Wearables,Apple,3,1218.12,0,3654.36
+ORD000153,2024-02-05,C0138,Emma Johnson,emma.johnson@email.com,Algeria,Algiers,P0057,Smartwatch Apple Watch,Electronics,Wearables,Apple,1,1975.69,0,1975.69
+ORD000154,2025-06-08,C0085,Youssef Mansour,youssef.mansour@email.com,Tunisia,Sfax,P0039,Camera Canon EOS R6,Electronics,Cameras,Canon,1,1387.95,20,1110.36
+ORD000155,2024-06-08,C0188,Nadia Brahimi,nadia.brahimi@email.com,UK,Manchester,P0042,iPhone 15 Pro,Electronics,Phones,Apple,5,168.04,0,840.2
+ORD000156,2025-11-29,C0097,John Smith,john.smith@email.com,Morocco,Casablanca,P0008,Zara Jacket,Fashion,Clothing,Zara,1,461.05,0,461.05
+ORD000157,2024-08-30,C0196,Zohra Benmoussa,zohra.benmoussa@email.com,France,Lyon,P0060,Gaming Console PS5,Electronics,Gaming,Sony,5,149.16,0,745.8
+ORD000158,2024-03-26,C0008,Nadia Brahimi,nadia.brahimi@email.com,Germany,Munich,P0067,Levis Jeans 501,Fashion,Clothing,Levis,4,655.42,0,2621.68
+ORD000159,2025-07-31,C0070,Leila Hamdi,leila.hamdi@email.com,Algeria,Tlemcen,P0002,iPhone 15 Pro,Electronics,Phones,Apple,1,1991.01,0,1991.01
+ORD000160,2025-11-12,C0116,Zohra Benmoussa,zohra.benmoussa@email.com,Algeria,Tlemcen,P0058,Kindle Paperwhite,Electronics,E-readers,Amazon,4,1923.71,0,7694.84
+ORD000161,2025-07-10,C0047,Omar Belkacem,omar.belkacem@email.com,Algeria,Tlemcen,P0062,iPhone 15 Pro,Electronics,Phones,Apple,1,1645.39,0,1645.39
+ORD000162,2025-07-27,C0144,Sara Benali,sara.benali@email.com,Tunisia,Sousse,P0016,Bicycle Mountain Bike,Sports,Cycling,Trek,5,248.46,15,1055.96
+ORD000163,2025-10-07,C0118,Emma Johnson,emma.johnson@email.com,Spain,Madrid,P0030,Vacuum Cleaner Robot,Home,Appliances,iRobot,5,194.93,0,974.65
+ORD000164,2024-01-28,C0200,Olivia Brown,olivia.brown@email.com,USA,New York,P0016,Bicycle Mountain Bike,Sports,Cycling,Trek,4,1566.24,0,6264.96
+ORD000165,2025-09-11,C0142,Fatima Hassan,fatima.hassan@email.com,Algeria,Constantine,P0066,Adidas Running Shoes,Fashion,Shoes,Adidas,1,184.41,10,165.97
+ORD000166,2025-07-09,C0193,Bilal Cherif,bilal.cherif@email.com,France,Lyon,P0023,Samsung Galaxy S24,Electronics,Phones,Samsung,2,1205.18,0,2410.36
+ORD000167,2024-12-05,C0163,Mohamed Saidi,mohamed.saidi@email.com,USA,Chicago,P0086,Adidas Running Shoes,Fashion,Shoes,Adidas,4,1704.34,0,6817.36
+ORD000168,2024-11-26,C0049,Karim Bouazza,karim.bouazza@email.com,Algeria,Oran,P0045,Nike Air Max,Fashion,Shoes,Nike,3,1351.86,0,4055.58
+ORD000169,2025-10-01,C0134,Hanane Mekki,hanane.mekki@email.com,Algeria,Constantine,P0052,Python Programming Guide,Books,Tech,OReilly,1,651.83,0,651.83
+ORD000170,2025-05-20,C0091,Rachid Slimani,rachid.slimani@email.com,Tunisia,Sfax,P0078,Kindle Paperwhite,Electronics,E-readers,Amazon,4,1150.35,10,4141.26
+ORD000171,2024-12-13,C0194,Hanane Mekki,hanane.mekki@email.com,Algeria,Oran,P0033,Office Chair Ergonomic,Furniture,Office,Herman Miller,4,1216.68,0,4866.72
+ORD000172,2025-04-17,C0080,Olivia Brown,olivia.brown@email.com,USA,New York,P0052,Python Programming Guide,Books,Tech,OReilly,3,1906.07,5,5432.3
+ORD000173,2024-08-18,C0141,Ahmed Ali,ahmed.ali@email.com,France,Paris,P0098,Kindle Paperwhite,Electronics,E-readers,Amazon,4,278.98,15,948.53
+ORD000174,2024-07-08,C0188,Nadia Brahimi,nadia.brahimi@email.com,USA,New York,P0031,Harry Potter Book Set,Books,Fiction,Scholastic,4,884.63,0,3538.52
+ORD000175,2024-08-12,C0134,Hanane Mekki,hanane.mekki@email.com,Algeria,Constantine,P0002,iPhone 15 Pro,Electronics,Phones,Apple,4,735.95,0,2943.8
+ORD000176,2025-01-19,C0005,Youssef Mansour,youssef.mansour@email.com,USA,Los Angeles,P0089,Coffee Maker Deluxe,Home,Kitchen,Generic,2,974.36,0,1948.72
+ORD000177,2025-01-11,C0159,James Wilson,james.wilson@email.com,Tunisia,Tunis,P0087,Levis Jeans 501,Fashion,Clothing,Levis,3,349.62,0,1048.86
+ORD000178,2024-10-09,C0156,Zohra Benmoussa,zohra.benmoussa@email.com,France,Marseille,P0007,Levis Jeans 501,Fashion,Clothing,Levis,4,1239.92,0,4959.68
+ORD000179,2025-09-24,C0040,Olivia Brown,olivia.brown@email.com,UK,Birmingham,P0052,Python Programming Guide,Books,Tech,OReilly,5,1251.55,0,6257.75
+ORD000180,2025-09-19,C0178,Emma Johnson,emma.johnson@email.com,Algeria,Tlemcen,P0063,Samsung Galaxy S24,Electronics,Phones,Samsung,5,714.93,0,3574.65
+ORD000181,2024-09-15,C0014,Hanane Mekki,hanane.mekki@email.com,Algeria,Algiers,P0086,Adidas Running Shoes,Fashion,Shoes,Adidas,5,31.95,0,159.75
+ORD000182,2024-12-24,C0149,Karim Bouazza,karim.bouazza@email.com,Algeria,Constantine,P0021,Laptop Dell XPS 15,Electronics,Computers,Dell,2,1365.14,0,2730.28
+ORD000183,2025-12-10,C0133,Bilal Cherif,bilal.cherif@email.com,Algeria,Algiers,P0090,Vacuum Cleaner Robot,Home,Appliances,iRobot,2,1262.3,0,2524.6
+ORD000184,2025-03-31,C0173,Bilal Cherif,bilal.cherif@email.com,Algeria,Algiers,P0099,Camera Canon EOS R6,Electronics,Cameras,Canon,1,1100.44,0,1100.44
+ORD000185,2025-02-14,C0052,Samira Djebar,samira.djebar@email.com,Algeria,Algiers,P0026,Adidas Running Shoes,Fashion,Shoes,Adidas,4,1730.67,0,6922.68
+ORD000186,2025-10-10,C0082,Fatima Hassan,fatima.hassan@email.com,Morocco,Casablanca,P0093,Office Chair Ergonomic,Furniture,Office,Herman Miller,4,1720.53,0,6882.12
+ORD000187,2024-11-13,C0042,Fatima Hassan,fatima.hassan@email.com,Germany,Berlin,P0064,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,1,1320.8,10,1188.72
+ORD000188,2025-11-07,C0130,Leila Hamdi,leila.hamdi@email.com,France,Paris,P0097,Smartwatch Apple Watch,Electronics,Wearables,Apple,2,1861.33,0,3722.66
+ORD000189,2024-08-12,C0021,Ahmed Ali,ahmed.ali@email.com,UK,Birmingham,P0034,Standing Desk,Furniture,Office,IKEA,3,905.75,0,2717.25
+ORD000190,2024-08-21,C0145,Youssef Mansour,youssef.mansour@email.com,Algeria,Tlemcen,P0045,Nike Air Max,Fashion,Shoes,Nike,3,220.33,20,528.79
+ORD000191,2025-11-14,C0087,Omar Belkacem,omar.belkacem@email.com,Tunisia,Tunis,P0072,Python Programming Guide,Books,Tech,OReilly,1,1494.95,0,1494.95
+ORD000192,2025-10-25,C0179,James Wilson,james.wilson@email.com,Algeria,Tlemcen,P0017,Smartwatch Apple Watch,Electronics,Wearables,Apple,5,1022.07,0,5110.35
+ORD000193,2025-01-08,C0159,James Wilson,james.wilson@email.com,Algeria,Constantine,P0052,Python Programming Guide,Books,Tech,OReilly,3,1326.13,0,3978.39
+ORD000194,2025-11-02,C0186,Amina Kaddour,amina.kaddour@email.com,Algeria,Oran,P0096,Bicycle Mountain Bike,Sports,Cycling,Trek,2,51.68,0,103.36
+ORD000195,2025-08-30,C0081,Ahmed Ali,ahmed.ali@email.com,Algeria,Tlemcen,P0025,Nike Air Max,Fashion,Shoes,Nike,1,770.06,0,770.06
+ORD000196,2025-04-16,C0049,Karim Bouazza,karim.bouazza@email.com,Algeria,Tlemcen,P0078,Kindle Paperwhite,Electronics,E-readers,Amazon,1,1291.37,0,1291.37
+ORD000197,2024-08-20,C0190,Leila Hamdi,leila.hamdi@email.com,Germany,Munich,P0021,Laptop Dell XPS 15,Electronics,Computers,Dell,4,592.72,15,2015.25
+ORD000198,2025-11-22,C0118,Emma Johnson,emma.johnson@email.com,Morocco,Marrakech,P0016,Bicycle Mountain Bike,Sports,Cycling,Trek,4,321.71,0,1286.84
+ORD000199,2024-04-22,C0017,John Smith,john.smith@email.com,Germany,Hamburg,P0073,Office Chair Ergonomic,Furniture,Office,Herman Miller,1,758.23,0,758.23
+ORD000200,2025-05-11,C0114,Hanane Mekki,hanane.mekki@email.com,Germany,Munich,P0084,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,5,1355.2,0,6776.0
+ORD000201,2025-03-17,C0113,Bilal Cherif,bilal.cherif@email.com,Tunisia,Sousse,P0032,Python Programming Guide,Books,Tech,OReilly,1,524.28,0,524.28
+ORD000202,2025-07-17,C0149,Karim Bouazza,karim.bouazza@email.com,USA,New York,P0008,Zara Jacket,Fashion,Clothing,Zara,4,117.18,0,468.72
+ORD000203,2024-09-24,C0150,Leila Hamdi,leila.hamdi@email.com,Spain,Barcelona,P0092,Python Programming Guide,Books,Tech,OReilly,5,1458.61,0,7293.05
+ORD000204,2025-05-24,C0180,Olivia Brown,olivia.brown@email.com,UK,Birmingham,P0079,Camera Canon EOS R6,Electronics,Cameras,Canon,3,309.85,0,929.55
+ORD000205,2025-01-20,C0022,Fatima Hassan,fatima.hassan@email.com,Morocco,Casablanca,P0097,Smartwatch Apple Watch,Electronics,Wearables,Apple,3,602.12,0,1806.36
+ORD000206,2025-01-21,C0157,John Smith,john.smith@email.com,Algeria,Tlemcen,P0025,Nike Air Max,Fashion,Shoes,Nike,5,328.54,0,1642.7
+ORD000207,2024-04-22,C0144,Sara Benali,sara.benali@email.com,UK,London,P0003,Samsung Galaxy S24,Electronics,Phones,Samsung,1,563.03,0,563.03
+ORD000208,2025-09-04,C0064,Sara Benali,sara.benali@email.com,UK,Birmingham,P0089,Coffee Maker Deluxe,Home,Kitchen,Generic,2,1487.27,5,2825.81
+ORD000209,2025-09-16,C0155,Tarek Ould,tarek.ould@email.com,Tunisia,Tunis,P0009,Coffee Maker Deluxe,Home,Kitchen,Generic,4,1053.08,5,4001.7
+ORD000210,2024-03-21,C0058,Emma Johnson,emma.johnson@email.com,Algeria,Algiers,P0078,Kindle Paperwhite,Electronics,E-readers,Amazon,1,1916.57,0,1916.57
+ORD000211,2025-11-29,C0075,Tarek Ould,tarek.ould@email.com,USA,Chicago,P0070,Vacuum Cleaner Robot,Home,Appliances,iRobot,3,1992.71,0,5978.13
+ORD000212,2024-04-22,C0125,Youssef Mansour,youssef.mansour@email.com,Tunisia,Sfax,P0024,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,3,284.27,0,852.81
+ORD000213,2024-01-02,C0054,Hanane Mekki,hanane.mekki@email.com,Tunisia,Tunis,P0074,Standing Desk,Furniture,Office,IKEA,4,370.83,0,1483.32
+ORD000214,2025-10-03,C0017,John Smith,john.smith@email.com,Morocco,Casablanca,P0014,Standing Desk,Furniture,Office,IKEA,3,139.06,0,417.18
+ORD000215,2024-08-07,C0055,Tarek Ould,tarek.ould@email.com,USA,Los Angeles,P0024,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,2,1202.74,0,2405.48
+ORD000216,2025-07-19,C0188,Nadia Brahimi,nadia.brahimi@email.com,UK,London,P0063,Samsung Galaxy S24,Electronics,Phones,Samsung,3,126.52,0,379.56
+ORD000217,2024-08-12,C0030,Leila Hamdi,leila.hamdi@email.com,Spain,Madrid,P0031,Harry Potter Book Set,Books,Fiction,Scholastic,4,1039.37,0,4157.48
+ORD000218,2025-01-19,C0094,Hanane Mekki,hanane.mekki@email.com,France,Marseille,P0097,Smartwatch Apple Watch,Electronics,Wearables,Apple,2,749.13,0,1498.26
+ORD000219,2025-02-06,C0047,Omar Belkacem,omar.belkacem@email.com,Spain,Barcelona,P0045,Nike Air Max,Fashion,Shoes,Nike,1,848.28,0,848.28
+ORD000220,2025-09-29,C0047,Omar Belkacem,omar.belkacem@email.com,Algeria,Oran,P0047,Levis Jeans 501,Fashion,Clothing,Levis,4,773.83,0,3095.32
+ORD000221,2024-05-09,C0144,Sara Benali,sara.benali@email.com,Algeria,Tlemcen,P0061,Laptop Dell XPS 15,Electronics,Computers,Dell,2,675.68,0,1351.36
+ORD000222,2024-02-22,C0113,Bilal Cherif,bilal.cherif@email.com,Morocco,Rabat,P0070,Vacuum Cleaner Robot,Home,Appliances,iRobot,1,1859.94,0,1859.94
+ORD000223,2025-11-14,C0147,Omar Belkacem,omar.belkacem@email.com,Algeria,Oran,P0026,Adidas Running Shoes,Fashion,Shoes,Adidas,3,760.06,0,2280.18
+ORD000224,2025-12-30,C0049,Karim Bouazza,karim.bouazza@email.com,France,Paris,P0100,Gaming Console PS5,Electronics,Gaming,Sony,2,170.4,0,340.8
+ORD000225,2025-11-02,C0163,Mohamed Saidi,mohamed.saidi@email.com,France,Paris,P0100,Gaming Console PS5,Electronics,Gaming,Sony,1,326.23,0,326.23
+ORD000226,2025-12-10,C0188,Nadia Brahimi,nadia.brahimi@email.com,France,Paris,P0036,Bicycle Mountain Bike,Sports,Cycling,Trek,5,147.23,0,736.15
+ORD000227,2025-02-19,C0158,Emma Johnson,emma.johnson@email.com,Algeria,Constantine,P0035,Yoga Mat Premium,Sports,Fitness,Manduka,4,1576.38,15,5359.69
+ORD000228,2024-09-03,C0144,Sara Benali,sara.benali@email.com,USA,Los Angeles,P0089,Coffee Maker Deluxe,Home,Kitchen,Generic,5,543.6,0,2718.0
+ORD000229,2025-03-14,C0184,Sara Benali,sara.benali@email.com,Algeria,Oran,P0057,Smartwatch Apple Watch,Electronics,Wearables,Apple,5,1069.52,0,5347.6
+ORD000230,2024-07-21,C0007,Omar Belkacem,omar.belkacem@email.com,Algeria,Constantine,P0082,iPhone 15 Pro,Electronics,Phones,Apple,3,1927.15,0,5781.45
+ORD000231,2024-07-02,C0199,James Wilson,james.wilson@email.com,France,Lyon,P0014,Standing Desk,Furniture,Office,IKEA,1,994.02,15,844.92
+ORD000232,2024-05-02,C0069,Karim Bouazza,karim.bouazza@email.com,Tunisia,Sfax,P0037,Smartwatch Apple Watch,Electronics,Wearables,Apple,1,933.23,15,793.25
+ORD000233,2025-02-04,C0128,Nadia Brahimi,nadia.brahimi@email.com,Spain,Madrid,P0041,Laptop Dell XPS 15,Electronics,Computers,Dell,1,310.98,0,310.98
+ORD000234,2024-10-20,C0071,Rachid Slimani,rachid.slimani@email.com,Tunisia,Tunis,P0081,Laptop Dell XPS 15,Electronics,Computers,Dell,5,462.54,0,2312.7
+ORD000235,2024-10-06,C0043,Mohamed Saidi,mohamed.saidi@email.com,Algeria,Oran,P0049,Coffee Maker Deluxe,Home,Kitchen,Generic,1,1229.67,0,1229.67
+ORD000236,2025-09-01,C0098,Emma Johnson,emma.johnson@email.com,Morocco,Casablanca,P0005,Nike Air Max,Fashion,Shoes,Nike,2,1331.73,0,2663.46
+ORD000237,2024-07-16,C0074,Hanane Mekki,hanane.mekki@email.com,Morocco,Marrakech,P0039,Camera Canon EOS R6,Electronics,Cameras,Canon,4,133.92,0,535.68
+ORD000238,2025-05-25,C0188,Nadia Brahimi,nadia.brahimi@email.com,France,Marseille,P0064,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,3,1574.69,0,4724.07
+ORD000239,2024-05-23,C0135,Tarek Ould,tarek.ould@email.com,UK,Manchester,P0068,Zara Jacket,Fashion,Clothing,Zara,4,1043.58,0,4174.32
+ORD000240,2025-08-31,C0079,James Wilson,james.wilson@email.com,UK,Manchester,P0027,Levis Jeans 501,Fashion,Clothing,Levis,5,907.97,20,3631.88
+ORD000241,2024-07-19,C0026,Amina Kaddour,amina.kaddour@email.com,Morocco,Rabat,P0025,Nike Air Max,Fashion,Shoes,Nike,3,1819.35,0,5458.05
+ORD000242,2024-05-03,C0006,Amina Kaddour,amina.kaddour@email.com,France,Marseille,P0089,Coffee Maker Deluxe,Home,Kitchen,Generic,3,767.04,0,2301.12
+ORD000243,2024-07-05,C0051,Rachid Slimani,rachid.slimani@email.com,Algeria,Tlemcen,P0074,Standing Desk,Furniture,Office,IKEA,4,1587.78,0,6351.12
+ORD000244,2024-11-21,C0085,Youssef Mansour,youssef.mansour@email.com,France,Paris,P0047,Levis Jeans 501,Fashion,Clothing,Levis,2,324.33,0,648.66
+ORD000245,2025-04-08,C0012,Samira Djebar,samira.djebar@email.com,Algeria,Tlemcen,P0003,Samsung Galaxy S24,Electronics,Phones,Samsung,5,1813.23,0,9066.15
+ORD000246,2024-12-14,C0040,Olivia Brown,olivia.brown@email.com,Morocco,Casablanca,P0008,Zara Jacket,Fashion,Clothing,Zara,5,1467.94,5,6972.72
+ORD000247,2025-10-21,C0101,Ahmed Ali,ahmed.ali@email.com,France,Lyon,P0019,Camera Canon EOS R6,Electronics,Cameras,Canon,1,1609.17,0,1609.17
+ORD000248,2025-02-06,C0016,Zohra Benmoussa,zohra.benmoussa@email.com,Spain,Madrid,P0021,Laptop Dell XPS 15,Electronics,Computers,Dell,5,652.79,20,2611.16
+ORD000249,2024-12-11,C0059,James Wilson,james.wilson@email.com,Algeria,Constantine,P0069,Coffee Maker Deluxe,Home,Kitchen,Generic,1,195.13,0,195.13
+ORD000250,2025-05-25,C0148,Nadia Brahimi,nadia.brahimi@email.com,Germany,Munich,P0005,Nike Air Max,Fashion,Shoes,Nike,3,382.95,5,1091.41
+ORD000251,2024-05-26,C0116,Zohra Benmoussa,zohra.benmoussa@email.com,Germany,Munich,P0083,Samsung Galaxy S24,Electronics,Phones,Samsung,4,635.56,0,2542.24
+ORD000252,2024-05-27,C0175,Tarek Ould,tarek.ould@email.com,Tunisia,Tunis,P0085,Nike Air Max,Fashion,Shoes,Nike,2,1640.32,5,3116.61
+ORD000253,2025-12-11,C0030,Leila Hamdi,leila.hamdi@email.com,Algeria,Algiers,P0028,Zara Jacket,Fashion,Clothing,Zara,2,210.27,0,420.54
+ORD000254,2025-05-03,C0180,Olivia Brown,olivia.brown@email.com,Germany,Hamburg,P0047,Levis Jeans 501,Fashion,Clothing,Levis,2,1500.16,0,3000.32
+ORD000255,2025-10-01,C0176,Zohra Benmoussa,zohra.benmoussa@email.com,Morocco,Casablanca,P0069,Coffee Maker Deluxe,Home,Kitchen,Generic,4,947.86,15,3222.72
+ORD000256,2025-07-04,C0163,Mohamed Saidi,mohamed.saidi@email.com,Algeria,Algiers,P0016,Bicycle Mountain Bike,Sports,Cycling,Trek,2,656.96,0,1313.92
+ORD000257,2024-12-03,C0156,Zohra Benmoussa,zohra.benmoussa@email.com,Tunisia,Sfax,P0073,Office Chair Ergonomic,Furniture,Office,Herman Miller,4,462.09,5,1755.94
+ORD000258,2025-10-02,C0087,Omar Belkacem,omar.belkacem@email.com,Algeria,Constantine,P0004,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,2,1030.18,0,2060.36
+ORD000259,2025-04-17,C0191,Rachid Slimani,rachid.slimani@email.com,Algeria,Algiers,P0053,Office Chair Ergonomic,Furniture,Office,Herman Miller,4,1877.23,5,7133.47
+ORD000260,2024-05-30,C0039,James Wilson,james.wilson@email.com,UK,London,P0079,Camera Canon EOS R6,Electronics,Cameras,Canon,2,1305.03,5,2479.56
+ORD000261,2025-02-18,C0151,Rachid Slimani,rachid.slimani@email.com,Algeria,Oran,P0046,Adidas Running Shoes,Fashion,Shoes,Adidas,4,769.41,0,3077.64
+ORD000262,2024-10-24,C0147,Omar Belkacem,omar.belkacem@email.com,Spain,Barcelona,P0084,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,1,93.63,0,93.63
+ORD000263,2025-09-02,C0154,Hanane Mekki,hanane.mekki@email.com,Spain,Barcelona,P0048,Zara Jacket,Fashion,Clothing,Zara,1,591.51,10,532.36
+ORD000264,2024-09-19,C0170,Leila Hamdi,leila.hamdi@email.com,Tunisia,Tunis,P0071,Harry Potter Book Set,Books,Fiction,Scholastic,1,616.45,5,585.63
+ORD000265,2024-05-23,C0019,James Wilson,james.wilson@email.com,UK,Manchester,P0038,Kindle Paperwhite,Electronics,E-readers,Amazon,5,1085.99,0,5429.95
+ORD000266,2024-12-11,C0030,Leila Hamdi,leila.hamdi@email.com,Algeria,Algiers,P0052,Python Programming Guide,Books,Tech,OReilly,1,1650.82,0,1650.82
+ORD000267,2025-09-15,C0187,Omar Belkacem,omar.belkacem@email.com,USA,New York,P0068,Zara Jacket,Fashion,Clothing,Zara,3,1806.76,5,5149.27
+ORD000268,2025-07-25,C0105,Youssef Mansour,youssef.mansour@email.com,France,Lyon,P0041,Laptop Dell XPS 15,Electronics,Computers,Dell,5,1677.92,0,8389.6
+ORD000269,2024-01-02,C0012,Samira Djebar,samira.djebar@email.com,Morocco,Rabat,P0050,Vacuum Cleaner Robot,Home,Appliances,iRobot,5,1047.68,0,5238.4
+ORD000270,2024-10-30,C0020,Olivia Brown,olivia.brown@email.com,Algeria,Tlemcen,P0033,Office Chair Ergonomic,Furniture,Office,Herman Miller,5,196.78,10,885.51
+ORD000271,2024-09-10,C0068,Nadia Brahimi,nadia.brahimi@email.com,UK,Manchester,P0088,Zara Jacket,Fashion,Clothing,Zara,1,60.03,0,60.03
+ORD000272,2025-10-13,C0168,Nadia Brahimi,nadia.brahimi@email.com,France,Lyon,P0047,Levis Jeans 501,Fashion,Clothing,Levis,1,688.22,0,688.22
+ORD000273,2025-03-28,C0150,Leila Hamdi,leila.hamdi@email.com,Tunisia,Sousse,P0038,Kindle Paperwhite,Electronics,E-readers,Amazon,4,1579.72,0,6318.88
+ORD000274,2024-02-06,C0055,Tarek Ould,tarek.ould@email.com,Morocco,Rabat,P0076,Bicycle Mountain Bike,Sports,Cycling,Trek,5,1941.82,0,9709.1
+ORD000275,2024-06-08,C0162,Fatima Hassan,fatima.hassan@email.com,Morocco,Casablanca,P0001,Laptop Dell XPS 15,Electronics,Computers,Dell,1,15.81,0,15.81
+ORD000276,2024-01-09,C0006,Amina Kaddour,amina.kaddour@email.com,Algeria,Tlemcen,P0083,Samsung Galaxy S24,Electronics,Phones,Samsung,4,944.59,0,3778.36
+ORD000277,2024-08-20,C0109,Karim Bouazza,karim.bouazza@email.com,Morocco,Rabat,P0035,Yoga Mat Premium,Sports,Fitness,Manduka,5,953.83,0,4769.15
+ORD000278,2024-04-08,C0189,Karim Bouazza,karim.bouazza@email.com,Algeria,Oran,P0062,iPhone 15 Pro,Electronics,Phones,Apple,3,1689.41,0,5068.23
+ORD000279,2025-10-20,C0039,James Wilson,james.wilson@email.com,UK,London,P0064,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,2,594.04,10,1069.27
+ORD000280,2024-07-26,C0009,Karim Bouazza,karim.bouazza@email.com,UK,London,P0041,Laptop Dell XPS 15,Electronics,Computers,Dell,1,236.54,0,236.54
+ORD000281,2024-05-10,C0167,Omar Belkacem,omar.belkacem@email.com,Morocco,Marrakech,P0013,Office Chair Ergonomic,Furniture,Office,Herman Miller,3,99.26,0,297.78
+ORD000282,2025-02-07,C0127,Omar Belkacem,omar.belkacem@email.com,Algeria,Algiers,P0040,Gaming Console PS5,Electronics,Gaming,Sony,4,1462.42,10,5264.71
+ORD000283,2024-05-31,C0189,Karim Bouazza,karim.bouazza@email.com,USA,New York,P0033,Office Chair Ergonomic,Furniture,Office,Herman Miller,5,1439.67,15,6118.6
+ORD000284,2024-02-23,C0197,John Smith,john.smith@email.com,Algeria,Constantine,P0046,Adidas Running Shoes,Fashion,Shoes,Adidas,5,1660.88,0,8304.4
+ORD000285,2024-04-29,C0084,Sara Benali,sara.benali@email.com,Tunisia,Sfax,P0068,Zara Jacket,Fashion,Clothing,Zara,1,917.91,0,917.91
+ORD000286,2025-11-03,C0147,Omar Belkacem,omar.belkacem@email.com,Morocco,Casablanca,P0097,Smartwatch Apple Watch,Electronics,Wearables,Apple,4,169.56,0,678.24
+ORD000287,2025-09-19,C0167,Omar Belkacem,omar.belkacem@email.com,France,Paris,P0074,Standing Desk,Furniture,Office,IKEA,2,1777.2,0,3554.4
+ORD000288,2025-08-09,C0142,Fatima Hassan,fatima.hassan@email.com,Tunisia,Sfax,P0073,Office Chair Ergonomic,Furniture,Office,Herman Miller,1,317.1,0,317.1
+ORD000289,2025-09-16,C0198,Emma Johnson,emma.johnson@email.com,Algeria,Oran,P0093,Office Chair Ergonomic,Furniture,Office,Herman Miller,3,1072.6,0,3217.8
+ORD000290,2025-02-23,C0081,Ahmed Ali,ahmed.ali@email.com,Tunisia,Sousse,P0065,Nike Air Max,Fashion,Shoes,Nike,5,804.74,10,3621.33
+ORD000291,2025-02-25,C0062,Fatima Hassan,fatima.hassan@email.com,Morocco,Marrakech,P0025,Nike Air Max,Fashion,Shoes,Nike,1,144.1,0,144.1
+ORD000292,2024-04-13,C0107,Omar Belkacem,omar.belkacem@email.com,France,Marseille,P0045,Nike Air Max,Fashion,Shoes,Nike,1,619.56,0,619.56
+ORD000293,2024-09-10,C0188,Nadia Brahimi,nadia.brahimi@email.com,Algeria,Tlemcen,P0067,Levis Jeans 501,Fashion,Clothing,Levis,3,1716.55,10,4634.68
+ORD000294,2024-08-14,C0063,Mohamed Saidi,mohamed.saidi@email.com,Algeria,Constantine,P0048,Zara Jacket,Fashion,Clothing,Zara,2,746.4,0,1492.8
+ORD000295,2024-04-21,C0124,Sara Benali,sara.benali@email.com,Tunisia,Sousse,P0034,Standing Desk,Furniture,Office,IKEA,4,866.75,0,3467.0
+ORD000296,2025-05-24,C0056,Zohra Benmoussa,zohra.benmoussa@email.com,USA,Chicago,P0020,Gaming Console PS5,Electronics,Gaming,Sony,3,60.64,0,181.92
+ORD000297,2025-04-17,C0163,Mohamed Saidi,mohamed.saidi@email.com,France,Marseille,P0091,Harry Potter Book Set,Books,Fiction,Scholastic,3,629.32,0,1887.96
+ORD000298,2024-04-08,C0069,Karim Bouazza,karim.bouazza@email.com,Morocco,Rabat,P0065,Nike Air Max,Fashion,Shoes,Nike,4,343.05,15,1166.37
+ORD000299,2024-06-01,C0158,Emma Johnson,emma.johnson@email.com,Algeria,Constantine,P0067,Levis Jeans 501,Fashion,Clothing,Levis,3,280.22,0,840.66
+ORD000300,2024-12-03,C0174,Hanane Mekki,hanane.mekki@email.com,Algeria,Tlemcen,P0091,Harry Potter Book Set,Books,Fiction,Scholastic,2,796.91,0,1593.82
+ORD000301,2025-12-06,C0125,Youssef Mansour,youssef.mansour@email.com,Morocco,Rabat,P0042,iPhone 15 Pro,Electronics,Phones,Apple,5,1672.61,0,8363.05
+ORD000302,2024-06-11,C0124,Sara Benali,sara.benali@email.com,France,Marseille,P0006,Adidas Running Shoes,Fashion,Shoes,Adidas,4,1989.77,0,7959.08
+ORD000303,2025-12-20,C0029,Karim Bouazza,karim.bouazza@email.com,Algeria,Constantine,P0017,Smartwatch Apple Watch,Electronics,Wearables,Apple,5,1941.78,0,9708.9
+ORD000304,2025-11-11,C0069,Karim Bouazza,karim.bouazza@email.com,Algeria,Algiers,P0013,Office Chair Ergonomic,Furniture,Office,Herman Miller,2,344.99,0,689.98
+ORD000305,2024-06-09,C0087,Omar Belkacem,omar.belkacem@email.com,France,Lyon,P0098,Kindle Paperwhite,Electronics,E-readers,Amazon,5,397.3,0,1986.5
+ORD000306,2025-08-02,C0174,Hanane Mekki,hanane.mekki@email.com,Tunisia,Tunis,P0044,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,3,1119.84,0,3359.52
+ORD000307,2025-02-01,C0092,Samira Djebar,samira.djebar@email.com,Morocco,Casablanca,P0099,Camera Canon EOS R6,Electronics,Cameras,Canon,5,1256.21,0,6281.05
+ORD000308,2024-10-03,C0179,James Wilson,james.wilson@email.com,USA,Chicago,P0082,iPhone 15 Pro,Electronics,Phones,Apple,1,1587.12,0,1587.12
+ORD000309,2025-05-18,C0085,Youssef Mansour,youssef.mansour@email.com,Algeria,Algiers,P0017,Smartwatch Apple Watch,Electronics,Wearables,Apple,5,1090.62,0,5453.1
+ORD000310,2025-01-26,C0064,Sara Benali,sara.benali@email.com,Morocco,Rabat,P0011,Harry Potter Book Set,Books,Fiction,Scholastic,5,922.35,0,4611.75
+ORD000311,2024-05-14,C0139,James Wilson,james.wilson@email.com,Morocco,Casablanca,P0081,Laptop Dell XPS 15,Electronics,Computers,Dell,4,938.9,0,3755.6
+ORD000312,2024-07-13,C0070,Leila Hamdi,leila.hamdi@email.com,Algeria,Constantine,P0026,Adidas Running Shoes,Fashion,Shoes,Adidas,4,971.98,5,3693.52
+ORD000313,2025-02-04,C0183,Mohamed Saidi,mohamed.saidi@email.com,France,Lyon,P0075,Yoga Mat Premium,Sports,Fitness,Manduka,1,1129.8,0,1129.8
+ORD000314,2025-10-01,C0155,Tarek Ould,tarek.ould@email.com,Morocco,Casablanca,P0081,Laptop Dell XPS 15,Electronics,Computers,Dell,3,1789.96,0,5369.88
+ORD000315,2024-02-02,C0092,Samira Djebar,samira.djebar@email.com,UK,Birmingham,P0004,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,5,958.2,20,3832.8
+ORD000316,2025-11-18,C0072,Samira Djebar,samira.djebar@email.com,UK,London,P0081,Laptop Dell XPS 15,Electronics,Computers,Dell,1,603.89,0,603.89
+ORD000317,2025-04-04,C0063,Mohamed Saidi,mohamed.saidi@email.com,Germany,Hamburg,P0069,Coffee Maker Deluxe,Home,Kitchen,Generic,5,1943.35,0,9716.75
+ORD000318,2025-04-14,C0114,Hanane Mekki,hanane.mekki@email.com,Morocco,Casablanca,P0086,Adidas Running Shoes,Fashion,Shoes,Adidas,3,1745.38,0,5236.14
+ORD000319,2025-01-09,C0064,Sara Benali,sara.benali@email.com,Algeria,Tlemcen,P0076,Bicycle Mountain Bike,Sports,Cycling,Trek,2,673.48,0,1346.96
+ORD000320,2024-01-22,C0030,Leila Hamdi,leila.hamdi@email.com,Spain,Valencia,P0035,Yoga Mat Premium,Sports,Fitness,Manduka,3,409.3,20,982.32
+ORD000321,2025-10-31,C0071,Rachid Slimani,rachid.slimani@email.com,Algeria,Constantine,P0065,Nike Air Max,Fashion,Shoes,Nike,4,1669.95,0,6679.8
+ORD000322,2024-02-07,C0037,John Smith,john.smith@email.com,Algeria,Tlemcen,P0005,Nike Air Max,Fashion,Shoes,Nike,4,1320.5,0,5282.0
+ORD000323,2024-08-17,C0164,Sara Benali,sara.benali@email.com,USA,Chicago,P0023,Samsung Galaxy S24,Electronics,Phones,Samsung,1,1449.07,0,1449.07
+ORD000324,2024-12-30,C0004,Sara Benali,sara.benali@email.com,France,Lyon,P0075,Yoga Mat Premium,Sports,Fitness,Manduka,3,1102.77,0,3308.31
+ORD000325,2025-07-16,C0173,Bilal Cherif,bilal.cherif@email.com,Tunisia,Tunis,P0061,Laptop Dell XPS 15,Electronics,Computers,Dell,3,1049.93,0,3149.79
+ORD000326,2025-03-13,C0168,Nadia Brahimi,nadia.brahimi@email.com,Algeria,Oran,P0016,Bicycle Mountain Bike,Sports,Cycling,Trek,4,298.94,0,1195.76
+ORD000327,2024-10-09,C0184,Sara Benali,sara.benali@email.com,Algeria,Tlemcen,P0034,Standing Desk,Furniture,Office,IKEA,3,1608.93,10,4344.11
+ORD000328,2024-01-27,C0126,Amina Kaddour,amina.kaddour@email.com,Algeria,Oran,P0093,Office Chair Ergonomic,Furniture,Office,Herman Miller,5,1686.04,0,8430.2
+ORD000329,2024-08-13,C0158,Emma Johnson,emma.johnson@email.com,Spain,Madrid,P0019,Camera Canon EOS R6,Electronics,Cameras,Canon,5,838.08,0,4190.4
+ORD000330,2024-10-03,C0031,Rachid Slimani,rachid.slimani@email.com,Germany,Hamburg,P0032,Python Programming Guide,Books,Tech,OReilly,2,1175.87,0,2351.74
+ORD000331,2025-08-31,C0052,Samira Djebar,samira.djebar@email.com,Tunisia,Sfax,P0014,Standing Desk,Furniture,Office,IKEA,2,1430.77,5,2718.46
+ORD000332,2024-10-10,C0152,Samira Djebar,samira.djebar@email.com,Algeria,Oran,P0063,Samsung Galaxy S24,Electronics,Phones,Samsung,4,294.32,0,1177.28
+ORD000333,2025-04-25,C0012,Samira Djebar,samira.djebar@email.com,Morocco,Rabat,P0034,Standing Desk,Furniture,Office,IKEA,2,1649.32,0,3298.64
+ORD000334,2025-03-28,C0105,Youssef Mansour,youssef.mansour@email.com,USA,Chicago,P0057,Smartwatch Apple Watch,Electronics,Wearables,Apple,1,1027.15,0,1027.15
+ORD000335,2025-10-20,C0096,Zohra Benmoussa,zohra.benmoussa@email.com,Morocco,Casablanca,P0087,Levis Jeans 501,Fashion,Clothing,Levis,2,939.27,0,1878.54
+ORD000336,2025-05-30,C0172,Samira Djebar,samira.djebar@email.com,USA,New York,P0028,Zara Jacket,Fashion,Clothing,Zara,3,1655.16,0,4965.48
+ORD000337,2025-06-30,C0137,John Smith,john.smith@email.com,UK,Manchester,P0015,Yoga Mat Premium,Sports,Fitness,Manduka,3,873.3,10,2357.91
+ORD000338,2024-07-10,C0112,Samira Djebar,samira.djebar@email.com,Germany,Hamburg,P0037,Smartwatch Apple Watch,Electronics,Wearables,Apple,1,1377.17,0,1377.17
+ORD000339,2024-02-18,C0161,Ahmed Ali,ahmed.ali@email.com,Germany,Berlin,P0055,Yoga Mat Premium,Sports,Fitness,Manduka,2,286.84,0,573.68
+ORD000340,2025-05-26,C0013,Bilal Cherif,bilal.cherif@email.com,Algeria,Tlemcen,P0011,Harry Potter Book Set,Books,Fiction,Scholastic,1,1355.46,10,1219.91
+ORD000341,2024-01-17,C0021,Ahmed Ali,ahmed.ali@email.com,Morocco,Marrakech,P0012,Python Programming Guide,Books,Tech,OReilly,5,105.89,0,529.45
+ORD000342,2024-06-20,C0048,Nadia Brahimi,nadia.brahimi@email.com,France,Paris,P0099,Camera Canon EOS R6,Electronics,Cameras,Canon,2,1272.5,0,2545.0
+ORD000343,2024-08-07,C0105,Youssef Mansour,youssef.mansour@email.com,Algeria,Algiers,P0013,Office Chair Ergonomic,Furniture,Office,Herman Miller,2,1108.62,0,2217.24
+ORD000344,2024-06-06,C0130,Leila Hamdi,leila.hamdi@email.com,Algeria,Algiers,P0038,Kindle Paperwhite,Electronics,E-readers,Amazon,3,1463.69,0,4391.07
+ORD000345,2025-04-21,C0100,Olivia Brown,olivia.brown@email.com,Tunisia,Tunis,P0034,Standing Desk,Furniture,Office,IKEA,1,281.84,0,281.84
+ORD000346,2024-02-15,C0018,Emma Johnson,emma.johnson@email.com,USA,Los Angeles,P0044,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,5,1367.57,0,6837.85
+ORD000347,2025-01-07,C0065,Youssef Mansour,youssef.mansour@email.com,Germany,Hamburg,P0099,Camera Canon EOS R6,Electronics,Cameras,Canon,5,125.6,0,628.0
+ORD000348,2025-06-01,C0138,Emma Johnson,emma.johnson@email.com,Morocco,Marrakech,P0053,Office Chair Ergonomic,Furniture,Office,Herman Miller,2,39.24,0,78.48
+ORD000349,2024-04-08,C0024,Sara Benali,sara.benali@email.com,UK,London,P0100,Gaming Console PS5,Electronics,Gaming,Sony,2,72.53,0,145.06
+ORD000350,2024-02-06,C0102,Fatima Hassan,fatima.hassan@email.com,Morocco,Rabat,P0024,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,5,933.55,15,3967.59
+ORD000351,2024-10-06,C0188,Nadia Brahimi,nadia.brahimi@email.com,France,Paris,P0084,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,4,541.83,0,2167.32
+ORD000352,2024-12-14,C0092,Samira Djebar,samira.djebar@email.com,Spain,Valencia,P0053,Office Chair Ergonomic,Furniture,Office,Herman Miller,2,1542.61,5,2930.96
+ORD000353,2025-05-11,C0162,Fatima Hassan,fatima.hassan@email.com,Algeria,Constantine,P0096,Bicycle Mountain Bike,Sports,Cycling,Trek,5,690.19,0,3450.95
+ORD000354,2024-10-28,C0007,Omar Belkacem,omar.belkacem@email.com,France,Lyon,P0012,Python Programming Guide,Books,Tech,OReilly,3,1329.38,0,3988.14
+ORD000355,2024-06-29,C0111,Rachid Slimani,rachid.slimani@email.com,Tunisia,Sousse,P0008,Zara Jacket,Fashion,Clothing,Zara,1,1216.23,0,1216.23
+ORD000356,2025-08-29,C0045,Youssef Mansour,youssef.mansour@email.com,France,Marseille,P0029,Coffee Maker Deluxe,Home,Kitchen,Generic,1,1875.38,0,1875.38
+ORD000357,2024-04-08,C0079,James Wilson,james.wilson@email.com,Algeria,Tlemcen,P0090,Vacuum Cleaner Robot,Home,Appliances,iRobot,4,1916.0,10,6897.6
+ORD000358,2025-11-30,C0133,Bilal Cherif,bilal.cherif@email.com,Morocco,Rabat,P0075,Yoga Mat Premium,Sports,Fitness,Manduka,4,1556.09,0,6224.36
+ORD000359,2024-04-25,C0090,Leila Hamdi,leila.hamdi@email.com,Algeria,Oran,P0057,Smartwatch Apple Watch,Electronics,Wearables,Apple,2,1695.92,0,3391.84
+ORD000360,2024-07-09,C0083,Mohamed Saidi,mohamed.saidi@email.com,Algeria,Algiers,P0072,Python Programming Guide,Books,Tech,OReilly,4,782.45,0,3129.8
+ORD000361,2024-09-09,C0065,Youssef Mansour,youssef.mansour@email.com,France,Lyon,P0088,Zara Jacket,Fashion,Clothing,Zara,4,1082.24,0,4328.96
+ORD000362,2024-06-09,C0174,Hanane Mekki,hanane.mekki@email.com,Algeria,Algiers,P0005,Nike Air Max,Fashion,Shoes,Nike,4,1265.53,0,5062.12
+ORD000363,2024-09-12,C0054,Hanane Mekki,hanane.mekki@email.com,France,Lyon,P0027,Levis Jeans 501,Fashion,Clothing,Levis,2,491.37,0,982.74
+ORD000364,2024-11-18,C0021,Ahmed Ali,ahmed.ali@email.com,Spain,Barcelona,P0038,Kindle Paperwhite,Electronics,E-readers,Amazon,2,1098.25,0,2196.5
+ORD000365,2024-05-07,C0003,Mohamed Saidi,mohamed.saidi@email.com,Algeria,Algiers,P0008,Zara Jacket,Fashion,Clothing,Zara,4,1796.37,0,7185.48
+ORD000366,2024-01-18,C0075,Tarek Ould,tarek.ould@email.com,USA,Chicago,P0095,Yoga Mat Premium,Sports,Fitness,Manduka,4,1321.64,0,5286.56
+ORD000367,2025-07-19,C0068,Nadia Brahimi,nadia.brahimi@email.com,Spain,Valencia,P0090,Vacuum Cleaner Robot,Home,Appliances,iRobot,1,446.04,0,446.04
+ORD000368,2025-07-23,C0018,Emma Johnson,emma.johnson@email.com,Morocco,Marrakech,P0082,iPhone 15 Pro,Electronics,Phones,Apple,2,38.24,5,72.66
+ORD000369,2024-11-18,C0029,Karim Bouazza,karim.bouazza@email.com,Germany,Munich,P0017,Smartwatch Apple Watch,Electronics,Wearables,Apple,3,796.46,15,2030.97
+ORD000370,2025-11-16,C0162,Fatima Hassan,fatima.hassan@email.com,USA,New York,P0008,Zara Jacket,Fashion,Clothing,Zara,4,502.21,0,2008.84
+ORD000371,2025-09-17,C0039,James Wilson,james.wilson@email.com,USA,Los Angeles,P0086,Adidas Running Shoes,Fashion,Shoes,Adidas,5,1002.8,0,5014.0
+ORD000372,2024-10-14,C0074,Hanane Mekki,hanane.mekki@email.com,USA,Los Angeles,P0043,Samsung Galaxy S24,Electronics,Phones,Samsung,5,451.93,0,2259.65
+ORD000373,2025-10-24,C0066,Amina Kaddour,amina.kaddour@email.com,Morocco,Marrakech,P0022,iPhone 15 Pro,Electronics,Phones,Apple,5,499.16,0,2495.8
+ORD000374,2025-09-30,C0108,Nadia Brahimi,nadia.brahimi@email.com,Tunisia,Sfax,P0100,Gaming Console PS5,Electronics,Gaming,Sony,1,316.08,20,252.86
+ORD000375,2024-06-03,C0034,Hanane Mekki,hanane.mekki@email.com,Spain,Madrid,P0093,Office Chair Ergonomic,Furniture,Office,Herman Miller,1,1274.53,0,1274.53
+ORD000376,2025-05-04,C0094,Hanane Mekki,hanane.mekki@email.com,Germany,Berlin,P0091,Harry Potter Book Set,Books,Fiction,Scholastic,2,720.67,0,1441.34
+ORD000377,2025-01-20,C0116,Zohra Benmoussa,zohra.benmoussa@email.com,France,Paris,P0091,Harry Potter Book Set,Books,Fiction,Scholastic,2,1316.7,0,2633.4
+ORD000378,2024-04-13,C0058,Emma Johnson,emma.johnson@email.com,UK,Birmingham,P0010,Vacuum Cleaner Robot,Home,Appliances,iRobot,3,449.5,0,1348.5
+ORD000379,2025-01-27,C0122,Fatima Hassan,fatima.hassan@email.com,Spain,Barcelona,P0098,Kindle Paperwhite,Electronics,E-readers,Amazon,5,457.53,0,2287.65
+ORD000380,2024-09-02,C0139,James Wilson,james.wilson@email.com,Morocco,Casablanca,P0099,Camera Canon EOS R6,Electronics,Cameras,Canon,4,1519.96,0,6079.84
+ORD000381,2024-06-24,C0188,Nadia Brahimi,nadia.brahimi@email.com,France,Marseille,P0071,Harry Potter Book Set,Books,Fiction,Scholastic,2,1786.19,0,3572.38
+ORD000382,2024-02-08,C0132,Samira Djebar,samira.djebar@email.com,UK,Birmingham,P0093,Office Chair Ergonomic,Furniture,Office,Herman Miller,1,598.43,0,598.43
+ORD000383,2025-04-21,C0046,Amina Kaddour,amina.kaddour@email.com,Algeria,Algiers,P0091,Harry Potter Book Set,Books,Fiction,Scholastic,4,597.53,5,2270.61
+ORD000384,2025-11-12,C0129,Karim Bouazza,karim.bouazza@email.com,France,Marseille,P0040,Gaming Console PS5,Electronics,Gaming,Sony,5,1456.23,0,7281.15
+ORD000385,2025-06-21,C0024,Sara Benali,sara.benali@email.com,Tunisia,Sousse,P0034,Standing Desk,Furniture,Office,IKEA,1,931.95,0,931.95
+ORD000386,2025-02-11,C0116,Zohra Benmoussa,zohra.benmoussa@email.com,France,Paris,P0095,Yoga Mat Premium,Sports,Fitness,Manduka,5,1533.44,0,7667.2
+ORD000387,2025-06-08,C0188,Nadia Brahimi,nadia.brahimi@email.com,Morocco,Casablanca,P0057,Smartwatch Apple Watch,Electronics,Wearables,Apple,2,409.11,0,818.22
+ORD000388,2025-05-20,C0085,Youssef Mansour,youssef.mansour@email.com,France,Marseille,P0051,Harry Potter Book Set,Books,Fiction,Scholastic,4,1934.02,0,7736.08
+ORD000389,2024-02-05,C0164,Sara Benali,sara.benali@email.com,USA,New York,P0013,Office Chair Ergonomic,Furniture,Office,Herman Miller,2,612.83,0,1225.66
+ORD000390,2025-11-15,C0025,Youssef Mansour,youssef.mansour@email.com,Algeria,Constantine,P0078,Kindle Paperwhite,Electronics,E-readers,Amazon,1,748.17,10,673.35
+ORD000391,2024-01-20,C0118,Emma Johnson,emma.johnson@email.com,France,Lyon,P0085,Nike Air Max,Fashion,Shoes,Nike,5,307.71,0,1538.55
+ORD000392,2024-11-16,C0031,Rachid Slimani,rachid.slimani@email.com,USA,Chicago,P0034,Standing Desk,Furniture,Office,IKEA,1,545.01,0,545.01
+ORD000393,2025-05-26,C0017,John Smith,john.smith@email.com,Tunisia,Sousse,P0025,Nike Air Max,Fashion,Shoes,Nike,3,1520.42,0,4561.26
+ORD000394,2025-02-03,C0065,Youssef Mansour,youssef.mansour@email.com,USA,Chicago,P0036,Bicycle Mountain Bike,Sports,Cycling,Trek,1,1866.52,5,1773.19
+ORD000395,2025-10-15,C0104,Sara Benali,sara.benali@email.com,Algeria,Constantine,P0070,Vacuum Cleaner Robot,Home,Appliances,iRobot,1,252.84,0,252.84
+ORD000396,2025-04-15,C0126,Amina Kaddour,amina.kaddour@email.com,France,Lyon,P0041,Laptop Dell XPS 15,Electronics,Computers,Dell,5,292.92,0,1464.6
+ORD000397,2024-05-22,C0084,Sara Benali,sara.benali@email.com,Spain,Valencia,P0081,Laptop Dell XPS 15,Electronics,Computers,Dell,1,1456.84,0,1456.84
+ORD000398,2024-04-01,C0183,Mohamed Saidi,mohamed.saidi@email.com,Morocco,Casablanca,P0067,Levis Jeans 501,Fashion,Clothing,Levis,2,334.44,0,668.88
+ORD000399,2024-12-19,C0128,Nadia Brahimi,nadia.brahimi@email.com,Germany,Berlin,P0083,Samsung Galaxy S24,Electronics,Phones,Samsung,3,1679.6,0,5038.8
+ORD000400,2025-12-27,C0058,Emma Johnson,emma.johnson@email.com,Tunisia,Sfax,P0061,Laptop Dell XPS 15,Electronics,Computers,Dell,4,1122.37,0,4489.48
+ORD000401,2024-02-20,C0134,Hanane Mekki,hanane.mekki@email.com,Morocco,Casablanca,P0040,Gaming Console PS5,Electronics,Gaming,Sony,3,864.9,0,2594.7
+ORD000402,2025-10-26,C0080,Olivia Brown,olivia.brown@email.com,UK,London,P0064,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,3,1905.41,0,5716.23
+ORD000403,2025-11-28,C0043,Mohamed Saidi,mohamed.saidi@email.com,UK,Birmingham,P0068,Zara Jacket,Fashion,Clothing,Zara,4,587.19,5,2231.32
+ORD000404,2025-07-28,C0115,Tarek Ould,tarek.ould@email.com,Morocco,Marrakech,P0078,Kindle Paperwhite,Electronics,E-readers,Amazon,3,1702.85,20,4086.84
+ORD000405,2024-07-08,C0179,James Wilson,james.wilson@email.com,Algeria,Tlemcen,P0072,Python Programming Guide,Books,Tech,OReilly,4,381.96,0,1527.84
+ORD000406,2024-05-04,C0053,Bilal Cherif,bilal.cherif@email.com,France,Marseille,P0012,Python Programming Guide,Books,Tech,OReilly,1,1870.64,0,1870.64
+ORD000407,2024-05-29,C0156,Zohra Benmoussa,zohra.benmoussa@email.com,France,Lyon,P0059,Camera Canon EOS R6,Electronics,Cameras,Canon,1,578.66,0,578.66
+ORD000408,2024-11-09,C0019,James Wilson,james.wilson@email.com,Tunisia,Sousse,P0066,Adidas Running Shoes,Fashion,Shoes,Adidas,4,1964.28,0,7857.12
+ORD000409,2025-07-23,C0135,Tarek Ould,tarek.ould@email.com,Tunisia,Sfax,P0087,Levis Jeans 501,Fashion,Clothing,Levis,3,1572.68,0,4718.04
+ORD000410,2024-12-07,C0148,Nadia Brahimi,nadia.brahimi@email.com,Algeria,Oran,P0063,Samsung Galaxy S24,Electronics,Phones,Samsung,2,1830.31,0,3660.62
+ORD000411,2024-10-31,C0062,Fatima Hassan,fatima.hassan@email.com,Morocco,Casablanca,P0066,Adidas Running Shoes,Fashion,Shoes,Adidas,2,235.47,0,470.94
+ORD000412,2025-11-22,C0197,John Smith,john.smith@email.com,Algeria,Tlemcen,P0041,Laptop Dell XPS 15,Electronics,Computers,Dell,1,699.58,0,699.58
+ORD000413,2025-11-12,C0131,Rachid Slimani,rachid.slimani@email.com,Algeria,Algiers,P0035,Yoga Mat Premium,Sports,Fitness,Manduka,2,582.05,0,1164.1
+ORD000414,2024-02-23,C0022,Fatima Hassan,fatima.hassan@email.com,Algeria,Constantine,P0039,Camera Canon EOS R6,Electronics,Cameras,Canon,3,160.41,15,409.05
+ORD000415,2025-03-19,C0041,Ahmed Ali,ahmed.ali@email.com,Algeria,Tlemcen,P0019,Camera Canon EOS R6,Electronics,Cameras,Canon,4,193.27,0,773.08
+ORD000416,2025-09-04,C0053,Bilal Cherif,bilal.cherif@email.com,Algeria,Constantine,P0006,Adidas Running Shoes,Fashion,Shoes,Adidas,3,1355.29,0,4065.87
+ORD000417,2024-09-20,C0048,Nadia Brahimi,nadia.brahimi@email.com,Morocco,Marrakech,P0100,Gaming Console PS5,Electronics,Gaming,Sony,3,1199.36,5,3418.18
+ORD000418,2024-02-22,C0065,Youssef Mansour,youssef.mansour@email.com,Algeria,Algiers,P0010,Vacuum Cleaner Robot,Home,Appliances,iRobot,5,1890.03,0,9450.15
+ORD000419,2025-07-25,C0048,Nadia Brahimi,nadia.brahimi@email.com,Algeria,Tlemcen,P0022,iPhone 15 Pro,Electronics,Phones,Apple,4,1405.27,0,5621.08
+ORD000420,2025-09-11,C0028,Nadia Brahimi,nadia.brahimi@email.com,Tunisia,Tunis,P0068,Zara Jacket,Fashion,Clothing,Zara,1,1088.56,10,979.7
+ORD000421,2024-01-05,C0138,Emma Johnson,emma.johnson@email.com,France,Paris,P0046,Adidas Running Shoes,Fashion,Shoes,Adidas,2,1481.42,0,2962.84
+ORD000422,2024-04-12,C0166,Amina Kaddour,amina.kaddour@email.com,Algeria,Oran,P0027,Levis Jeans 501,Fashion,Clothing,Levis,2,194.32,0,388.64
+ORD000423,2024-07-14,C0127,Omar Belkacem,omar.belkacem@email.com,UK,Birmingham,P0015,Yoga Mat Premium,Sports,Fitness,Manduka,4,874.46,0,3497.84
+ORD000424,2024-12-15,C0154,Hanane Mekki,hanane.mekki@email.com,Spain,Madrid,P0043,Samsung Galaxy S24,Electronics,Phones,Samsung,1,1344.64,0,1344.64
+ORD000425,2024-02-16,C0168,Nadia Brahimi,nadia.brahimi@email.com,Tunisia,Tunis,P0023,Samsung Galaxy S24,Electronics,Phones,Samsung,4,37.35,0,149.4
+ORD000426,2025-10-17,C0110,Leila Hamdi,leila.hamdi@email.com,Algeria,Tlemcen,P0034,Standing Desk,Furniture,Office,IKEA,3,923.29,0,2769.87
+ORD000427,2024-09-25,C0058,Emma Johnson,emma.johnson@email.com,Morocco,Rabat,P0094,Standing Desk,Furniture,Office,IKEA,2,1771.08,0,3542.16
+ORD000428,2025-01-04,C0164,Sara Benali,sara.benali@email.com,Germany,Berlin,P0046,Adidas Running Shoes,Fashion,Shoes,Adidas,3,1237.4,0,3712.2
+ORD000429,2025-09-27,C0120,Olivia Brown,olivia.brown@email.com,Spain,Valencia,P0081,Laptop Dell XPS 15,Electronics,Computers,Dell,1,420.37,0,420.37
+ORD000430,2024-04-15,C0039,James Wilson,james.wilson@email.com,Algeria,Tlemcen,P0097,Smartwatch Apple Watch,Electronics,Wearables,Apple,5,1336.26,0,6681.3
+ORD000431,2025-10-31,C0085,Youssef Mansour,youssef.mansour@email.com,France,Lyon,P0060,Gaming Console PS5,Electronics,Gaming,Sony,2,1003.87,0,2007.74
+ORD000432,2025-10-20,C0107,Omar Belkacem,omar.belkacem@email.com,Germany,Munich,P0098,Kindle Paperwhite,Electronics,E-readers,Amazon,3,1201.7,0,3605.1
+ORD000433,2025-10-18,C0135,Tarek Ould,tarek.ould@email.com,Algeria,Oran,P0088,Zara Jacket,Fashion,Clothing,Zara,4,427.96,0,1711.84
+ORD000434,2024-04-29,C0003,Mohamed Saidi,mohamed.saidi@email.com,France,Lyon,P0001,Laptop Dell XPS 15,Electronics,Computers,Dell,5,329.32,0,1646.6
+ORD000435,2025-08-26,C0092,Samira Djebar,samira.djebar@email.com,Tunisia,Sousse,P0067,Levis Jeans 501,Fashion,Clothing,Levis,5,1654.71,0,8273.55
+ORD000436,2024-02-27,C0196,Zohra Benmoussa,zohra.benmoussa@email.com,Algeria,Tlemcen,P0012,Python Programming Guide,Books,Tech,OReilly,4,892.18,0,3568.72
+ORD000437,2024-12-11,C0153,Bilal Cherif,bilal.cherif@email.com,France,Marseille,P0052,Python Programming Guide,Books,Tech,OReilly,1,1657.95,0,1657.95
+ORD000438,2025-04-18,C0055,Tarek Ould,tarek.ould@email.com,Spain,Barcelona,P0049,Coffee Maker Deluxe,Home,Kitchen,Generic,2,550.28,0,1100.56
+ORD000439,2024-04-26,C0113,Bilal Cherif,bilal.cherif@email.com,Algeria,Algiers,P0006,Adidas Running Shoes,Fashion,Shoes,Adidas,3,1659.45,0,4978.35
+ORD000440,2024-05-06,C0169,Karim Bouazza,karim.bouazza@email.com,UK,Manchester,P0087,Levis Jeans 501,Fashion,Clothing,Levis,1,696.12,0,696.12
+ORD000441,2025-01-27,C0158,Emma Johnson,emma.johnson@email.com,France,Lyon,P0073,Office Chair Ergonomic,Furniture,Office,Herman Miller,5,923.79,0,4618.95
+ORD000442,2025-10-02,C0160,Olivia Brown,olivia.brown@email.com,Tunisia,Sousse,P0023,Samsung Galaxy S24,Electronics,Phones,Samsung,5,338.92,0,1694.6
+ORD000443,2024-02-27,C0194,Hanane Mekki,hanane.mekki@email.com,Morocco,Rabat,P0094,Standing Desk,Furniture,Office,IKEA,1,697.01,0,697.01
+ORD000444,2025-09-25,C0160,Olivia Brown,olivia.brown@email.com,Germany,Munich,P0010,Vacuum Cleaner Robot,Home,Appliances,iRobot,4,1168.47,0,4673.88
+ORD000445,2025-05-27,C0028,Nadia Brahimi,nadia.brahimi@email.com,France,Marseille,P0047,Levis Jeans 501,Fashion,Clothing,Levis,3,677.99,0,2033.97
+ORD000446,2024-04-05,C0152,Samira Djebar,samira.djebar@email.com,Tunisia,Tunis,P0009,Coffee Maker Deluxe,Home,Kitchen,Generic,1,863.6,0,863.6
+ORD000447,2025-09-29,C0074,Hanane Mekki,hanane.mekki@email.com,France,Lyon,P0065,Nike Air Max,Fashion,Shoes,Nike,5,1005.22,0,5026.1
+ORD000448,2024-04-27,C0129,Karim Bouazza,karim.bouazza@email.com,Tunisia,Sousse,P0077,Smartwatch Apple Watch,Electronics,Wearables,Apple,1,996.45,10,896.8
+ORD000449,2025-07-13,C0039,James Wilson,james.wilson@email.com,Algeria,Oran,P0017,Smartwatch Apple Watch,Electronics,Wearables,Apple,5,789.8,10,3554.1
+ORD000450,2025-08-23,C0007,Omar Belkacem,omar.belkacem@email.com,USA,Chicago,P0053,Office Chair Ergonomic,Furniture,Office,Herman Miller,1,46.07,0,46.07
+ORD000451,2025-05-02,C0025,Youssef Mansour,youssef.mansour@email.com,Tunisia,Sousse,P0079,Camera Canon EOS R6,Electronics,Cameras,Canon,5,1260.57,0,6302.85
+ORD000452,2024-08-24,C0124,Sara Benali,sara.benali@email.com,Germany,Munich,P0028,Zara Jacket,Fashion,Clothing,Zara,1,1075.96,5,1022.16
+ORD000453,2024-09-28,C0086,Amina Kaddour,amina.kaddour@email.com,UK,Birmingham,P0051,Harry Potter Book Set,Books,Fiction,Scholastic,1,1067.84,0,1067.84
+ORD000454,2024-07-07,C0147,Omar Belkacem,omar.belkacem@email.com,UK,London,P0015,Yoga Mat Premium,Sports,Fitness,Manduka,3,36.6,0,109.8
+ORD000455,2025-12-04,C0057,John Smith,john.smith@email.com,UK,Birmingham,P0048,Zara Jacket,Fashion,Clothing,Zara,2,143.28,5,272.23
+ORD000456,2025-03-22,C0185,Youssef Mansour,youssef.mansour@email.com,USA,Chicago,P0092,Python Programming Guide,Books,Tech,OReilly,4,1300.15,0,5200.6
+ORD000457,2025-08-03,C0066,Amina Kaddour,amina.kaddour@email.com,Morocco,Rabat,P0079,Camera Canon EOS R6,Electronics,Cameras,Canon,4,1994.39,0,7977.56
+ORD000458,2024-09-03,C0067,Omar Belkacem,omar.belkacem@email.com,Algeria,Oran,P0078,Kindle Paperwhite,Electronics,E-readers,Amazon,3,1416.2,0,4248.6
+ORD000459,2024-03-16,C0060,Olivia Brown,olivia.brown@email.com,USA,Los Angeles,P0095,Yoga Mat Premium,Sports,Fitness,Manduka,3,1859.28,0,5577.84
+ORD000460,2024-06-02,C0130,Leila Hamdi,leila.hamdi@email.com,Tunisia,Tunis,P0009,Coffee Maker Deluxe,Home,Kitchen,Generic,4,1267.66,0,5070.64
+ORD000461,2025-10-17,C0048,Nadia Brahimi,nadia.brahimi@email.com,Algeria,Tlemcen,P0073,Office Chair Ergonomic,Furniture,Office,Herman Miller,2,1100.58,0,2201.16
+ORD000462,2025-03-10,C0062,Fatima Hassan,fatima.hassan@email.com,UK,Manchester,P0081,Laptop Dell XPS 15,Electronics,Computers,Dell,3,1345.6,0,4036.8
+ORD000463,2024-03-26,C0029,Karim Bouazza,karim.bouazza@email.com,France,Paris,P0092,Python Programming Guide,Books,Tech,OReilly,5,325.77,0,1628.85
+ORD000464,2025-11-27,C0131,Rachid Slimani,rachid.slimani@email.com,France,Lyon,P0036,Bicycle Mountain Bike,Sports,Cycling,Trek,2,1161.83,0,2323.66
+ORD000465,2024-10-11,C0170,Leila Hamdi,leila.hamdi@email.com,France,Paris,P0013,Office Chair Ergonomic,Furniture,Office,Herman Miller,3,549.18,0,1647.54
+ORD000466,2024-08-07,C0059,James Wilson,james.wilson@email.com,Algeria,Algiers,P0059,Camera Canon EOS R6,Electronics,Cameras,Canon,2,855.45,10,1539.81
+ORD000467,2024-03-09,C0044,Sara Benali,sara.benali@email.com,USA,New York,P0090,Vacuum Cleaner Robot,Home,Appliances,iRobot,2,275.96,0,551.92
+ORD000468,2024-02-16,C0023,Mohamed Saidi,mohamed.saidi@email.com,Tunisia,Tunis,P0062,iPhone 15 Pro,Electronics,Phones,Apple,1,535.48,10,481.93
+ORD000469,2024-04-03,C0061,Ahmed Ali,ahmed.ali@email.com,France,Paris,P0096,Bicycle Mountain Bike,Sports,Cycling,Trek,4,931.6,0,3726.4
+ORD000470,2025-03-28,C0155,Tarek Ould,tarek.ould@email.com,Morocco,Rabat,P0074,Standing Desk,Furniture,Office,IKEA,5,1631.73,0,8158.65
+ORD000471,2024-07-22,C0023,Mohamed Saidi,mohamed.saidi@email.com,Spain,Barcelona,P0084,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,4,309.71,0,1238.84
+ORD000472,2024-08-05,C0165,Youssef Mansour,youssef.mansour@email.com,Algeria,Oran,P0021,Laptop Dell XPS 15,Electronics,Computers,Dell,3,1650.41,0,4951.23
+ORD000473,2025-04-18,C0046,Amina Kaddour,amina.kaddour@email.com,Tunisia,Sfax,P0089,Coffee Maker Deluxe,Home,Kitchen,Generic,3,1033.26,0,3099.78
+ORD000474,2025-03-07,C0199,James Wilson,james.wilson@email.com,Spain,Barcelona,P0018,Kindle Paperwhite,Electronics,E-readers,Amazon,2,1498.53,5,2847.21
+ORD000475,2024-12-06,C0125,Youssef Mansour,youssef.mansour@email.com,Algeria,Tlemcen,P0027,Levis Jeans 501,Fashion,Clothing,Levis,4,1807.16,10,6505.78
+ORD000476,2025-07-04,C0091,Rachid Slimani,rachid.slimani@email.com,UK,Manchester,P0067,Levis Jeans 501,Fashion,Clothing,Levis,5,936.99,0,4684.95
+ORD000477,2025-09-03,C0144,Sara Benali,sara.benali@email.com,France,Paris,P0035,Yoga Mat Premium,Sports,Fitness,Manduka,4,1784.5,5,6781.1
+ORD000478,2024-10-15,C0182,Fatima Hassan,fatima.hassan@email.com,Morocco,Marrakech,P0048,Zara Jacket,Fashion,Clothing,Zara,5,471.72,0,2358.6
+ORD000479,2024-09-10,C0152,Samira Djebar,samira.djebar@email.com,Tunisia,Sousse,P0079,Camera Canon EOS R6,Electronics,Cameras,Canon,3,20.64,10,55.73
+ORD000480,2024-12-22,C0197,John Smith,john.smith@email.com,UK,Manchester,P0083,Samsung Galaxy S24,Electronics,Phones,Samsung,1,147.96,0,147.96
+ORD000481,2024-01-23,C0019,James Wilson,james.wilson@email.com,France,Lyon,P0061,Laptop Dell XPS 15,Electronics,Computers,Dell,3,1161.89,0,3485.67
+ORD000482,2025-06-05,C0087,Omar Belkacem,omar.belkacem@email.com,Germany,Munich,P0098,Kindle Paperwhite,Electronics,E-readers,Amazon,4,1060.08,0,4240.32
+ORD000483,2024-04-09,C0051,Rachid Slimani,rachid.slimani@email.com,France,Lyon,P0004,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,1,927.72,10,834.95
+ORD000484,2024-06-28,C0014,Hanane Mekki,hanane.mekki@email.com,Algeria,Constantine,P0061,Laptop Dell XPS 15,Electronics,Computers,Dell,2,731.24,5,1389.36
+ORD000485,2024-08-10,C0120,Olivia Brown,olivia.brown@email.com,Germany,Berlin,P0044,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,5,118.24,0,591.2
+ORD000486,2025-10-20,C0089,Karim Bouazza,karim.bouazza@email.com,Tunisia,Sfax,P0022,iPhone 15 Pro,Electronics,Phones,Apple,3,1498.11,5,4269.61
+ORD000487,2025-03-17,C0193,Bilal Cherif,bilal.cherif@email.com,Algeria,Tlemcen,P0022,iPhone 15 Pro,Electronics,Phones,Apple,2,1338.84,5,2543.8
+ORD000488,2025-08-30,C0142,Fatima Hassan,fatima.hassan@email.com,Algeria,Oran,P0033,Office Chair Ergonomic,Furniture,Office,Herman Miller,3,1402.28,5,3996.5
+ORD000489,2024-11-20,C0118,Emma Johnson,emma.johnson@email.com,Tunisia,Sfax,P0003,Samsung Galaxy S24,Electronics,Phones,Samsung,4,982.11,0,3928.44
+ORD000490,2025-05-30,C0066,Amina Kaddour,amina.kaddour@email.com,Morocco,Rabat,P0066,Adidas Running Shoes,Fashion,Shoes,Adidas,4,166.33,0,665.32
+ORD000491,2024-01-16,C0108,Nadia Brahimi,nadia.brahimi@email.com,France,Lyon,P0020,Gaming Console PS5,Electronics,Gaming,Sony,5,852.44,0,4262.2
+ORD000492,2024-12-01,C0128,Nadia Brahimi,nadia.brahimi@email.com,Tunisia,Sousse,P0016,Bicycle Mountain Bike,Sports,Cycling,Trek,3,430.35,5,1226.5
+ORD000493,2024-09-14,C0184,Sara Benali,sara.benali@email.com,Algeria,Algiers,P0087,Levis Jeans 501,Fashion,Clothing,Levis,1,1994.5,0,1994.5
+ORD000494,2025-05-11,C0119,James Wilson,james.wilson@email.com,Tunisia,Sousse,P0095,Yoga Mat Premium,Sports,Fitness,Manduka,5,134.16,0,670.8
+ORD000495,2024-06-08,C0053,Bilal Cherif,bilal.cherif@email.com,Spain,Madrid,P0017,Smartwatch Apple Watch,Electronics,Wearables,Apple,2,1876.55,0,3753.1
+ORD000496,2025-04-19,C0011,Rachid Slimani,rachid.slimani@email.com,USA,Chicago,P0058,Kindle Paperwhite,Electronics,E-readers,Amazon,2,955.15,0,1910.3
+ORD000497,2025-10-25,C0138,Emma Johnson,emma.johnson@email.com,Algeria,Constantine,P0084,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,3,1970.75,0,5912.25
+ORD000498,2025-11-20,C0072,Samira Djebar,samira.djebar@email.com,France,Marseille,P0011,Harry Potter Book Set,Books,Fiction,Scholastic,5,472.69,0,2363.45
+ORD000499,2025-11-05,C0039,James Wilson,james.wilson@email.com,France,Paris,P0013,Office Chair Ergonomic,Furniture,Office,Herman Miller,4,428.91,5,1629.86
+ORD000500,2025-01-14,C0082,Fatima Hassan,fatima.hassan@email.com,France,Marseille,P0088,Zara Jacket,Fashion,Clothing,Zara,2,1660.34,0,3320.68
+ORD000501,2025-06-28,C0046,Amina Kaddour,amina.kaddour@email.com,UK,London,P0064,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,2,1015.96,0,2031.92
+ORD000502,2025-11-21,C0099,James Wilson,james.wilson@email.com,Algeria,Tlemcen,P0062,iPhone 15 Pro,Electronics,Phones,Apple,1,889.08,20,711.26
+ORD000503,2025-03-02,C0057,John Smith,john.smith@email.com,USA,New York,P0056,Bicycle Mountain Bike,Sports,Cycling,Trek,2,922.28,0,1844.56
+ORD000504,2025-09-04,C0176,Zohra Benmoussa,zohra.benmoussa@email.com,Morocco,Casablanca,P0015,Yoga Mat Premium,Sports,Fitness,Manduka,2,634.61,0,1269.22
+ORD000505,2024-09-24,C0167,Omar Belkacem,omar.belkacem@email.com,Morocco,Casablanca,P0040,Gaming Console PS5,Electronics,Gaming,Sony,4,41.49,0,165.96
+ORD000506,2025-07-30,C0077,John Smith,john.smith@email.com,USA,Chicago,P0076,Bicycle Mountain Bike,Sports,Cycling,Trek,4,1377.21,0,5508.84
+ORD000507,2025-02-20,C0048,Nadia Brahimi,nadia.brahimi@email.com,France,Marseille,P0039,Camera Canon EOS R6,Electronics,Cameras,Canon,4,838.13,0,3352.52
+ORD000508,2024-06-16,C0141,Ahmed Ali,ahmed.ali@email.com,Germany,Berlin,P0006,Adidas Running Shoes,Fashion,Shoes,Adidas,3,1475.12,0,4425.36
+ORD000509,2024-02-12,C0014,Hanane Mekki,hanane.mekki@email.com,Tunisia,Sousse,P0072,Python Programming Guide,Books,Tech,OReilly,1,1485.79,0,1485.79
+ORD000510,2025-07-09,C0191,Rachid Slimani,rachid.slimani@email.com,Morocco,Casablanca,P0094,Standing Desk,Furniture,Office,IKEA,3,445.23,0,1335.69
+ORD000511,2024-10-11,C0150,Leila Hamdi,leila.hamdi@email.com,Tunisia,Sfax,P0072,Python Programming Guide,Books,Tech,OReilly,1,1573.43,0,1573.43
+ORD000512,2025-01-31,C0138,Emma Johnson,emma.johnson@email.com,France,Marseille,P0076,Bicycle Mountain Bike,Sports,Cycling,Trek,1,1461.63,0,1461.63
+ORD000513,2024-01-12,C0069,Karim Bouazza,karim.bouazza@email.com,Algeria,Algiers,P0041,Laptop Dell XPS 15,Electronics,Computers,Dell,5,1749.4,0,8747.0
+ORD000514,2025-08-29,C0150,Leila Hamdi,leila.hamdi@email.com,USA,New York,P0042,iPhone 15 Pro,Electronics,Phones,Apple,2,116.49,0,232.98
+ORD000515,2024-10-28,C0081,Ahmed Ali,ahmed.ali@email.com,Algeria,Algiers,P0001,Laptop Dell XPS 15,Electronics,Computers,Dell,5,196.62,0,983.1
+ORD000516,2024-09-09,C0109,Karim Bouazza,karim.bouazza@email.com,Germany,Hamburg,P0090,Vacuum Cleaner Robot,Home,Appliances,iRobot,3,1184.0,0,3552.0
+ORD000517,2025-05-13,C0156,Zohra Benmoussa,zohra.benmoussa@email.com,USA,Chicago,P0002,iPhone 15 Pro,Electronics,Phones,Apple,2,1030.72,0,2061.44
+ORD000518,2024-02-04,C0013,Bilal Cherif,bilal.cherif@email.com,USA,New York,P0094,Standing Desk,Furniture,Office,IKEA,2,349.71,0,699.42
+ORD000519,2025-12-27,C0149,Karim Bouazza,karim.bouazza@email.com,Algeria,Algiers,P0040,Gaming Console PS5,Electronics,Gaming,Sony,3,1234.11,10,3332.1
+ORD000520,2024-03-30,C0108,Nadia Brahimi,nadia.brahimi@email.com,Morocco,Marrakech,P0052,Python Programming Guide,Books,Tech,OReilly,1,1707.43,10,1536.69
+ORD000521,2025-08-27,C0111,Rachid Slimani,rachid.slimani@email.com,Algeria,Constantine,P0075,Yoga Mat Premium,Sports,Fitness,Manduka,2,438.85,0,877.7
+ORD000522,2025-08-24,C0140,Olivia Brown,olivia.brown@email.com,USA,Los Angeles,P0057,Smartwatch Apple Watch,Electronics,Wearables,Apple,3,355.26,0,1065.78
+ORD000523,2025-02-21,C0042,Fatima Hassan,fatima.hassan@email.com,France,Marseille,P0043,Samsung Galaxy S24,Electronics,Phones,Samsung,1,429.46,0,429.46
+ORD000524,2024-04-24,C0085,Youssef Mansour,youssef.mansour@email.com,UK,Manchester,P0086,Adidas Running Shoes,Fashion,Shoes,Adidas,2,642.92,0,1285.84
+ORD000525,2025-09-08,C0054,Hanane Mekki,hanane.mekki@email.com,Algeria,Algiers,P0099,Camera Canon EOS R6,Electronics,Cameras,Canon,3,696.72,0,2090.16
+ORD000526,2024-07-14,C0115,Tarek Ould,tarek.ould@email.com,Algeria,Tlemcen,P0083,Samsung Galaxy S24,Electronics,Phones,Samsung,4,1198.61,0,4794.44
+ORD000527,2025-05-15,C0184,Sara Benali,sara.benali@email.com,France,Lyon,P0038,Kindle Paperwhite,Electronics,E-readers,Amazon,5,1770.86,0,8854.3
+ORD000528,2025-09-17,C0177,John Smith,john.smith@email.com,Algeria,Oran,P0013,Office Chair Ergonomic,Furniture,Office,Herman Miller,4,1359.45,0,5437.8
+ORD000529,2025-05-07,C0188,Nadia Brahimi,nadia.brahimi@email.com,Spain,Barcelona,P0099,Camera Canon EOS R6,Electronics,Cameras,Canon,3,1700.57,0,5101.71
+ORD000530,2024-03-15,C0048,Nadia Brahimi,nadia.brahimi@email.com,UK,Birmingham,P0076,Bicycle Mountain Bike,Sports,Cycling,Trek,2,1857.97,0,3715.94
+ORD000531,2025-02-16,C0137,John Smith,john.smith@email.com,Algeria,Tlemcen,P0076,Bicycle Mountain Bike,Sports,Cycling,Trek,5,898.96,0,4494.8
+ORD000532,2025-01-10,C0152,Samira Djebar,samira.djebar@email.com,Morocco,Rabat,P0073,Office Chair Ergonomic,Furniture,Office,Herman Miller,2,1298.56,0,2597.12
+ORD000533,2025-02-23,C0067,Omar Belkacem,omar.belkacem@email.com,Algeria,Constantine,P0058,Kindle Paperwhite,Electronics,E-readers,Amazon,3,120.65,0,361.95
+ORD000534,2025-12-29,C0105,Youssef Mansour,youssef.mansour@email.com,Tunisia,Sfax,P0047,Levis Jeans 501,Fashion,Clothing,Levis,2,1713.7,0,3427.4
+ORD000535,2024-10-03,C0140,Olivia Brown,olivia.brown@email.com,Germany,Hamburg,P0048,Zara Jacket,Fashion,Clothing,Zara,1,885.72,0,885.72
+ORD000536,2025-11-06,C0131,Rachid Slimani,rachid.slimani@email.com,France,Paris,P0084,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,1,1646.76,0,1646.76
+ORD000537,2025-01-28,C0116,Zohra Benmoussa,zohra.benmoussa@email.com,Algeria,Constantine,P0052,Python Programming Guide,Books,Tech,OReilly,1,337.17,0,337.17
+ORD000538,2025-04-01,C0133,Bilal Cherif,bilal.cherif@email.com,France,Marseille,P0047,Levis Jeans 501,Fashion,Clothing,Levis,4,1167.02,0,4668.08
+ORD000539,2024-07-10,C0104,Sara Benali,sara.benali@email.com,Tunisia,Sousse,P0040,Gaming Console PS5,Electronics,Gaming,Sony,2,1125.55,10,2025.99
+ORD000540,2025-11-19,C0200,Olivia Brown,olivia.brown@email.com,UK,London,P0064,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,5,206.49,0,1032.45
+ORD000541,2024-04-08,C0037,John Smith,john.smith@email.com,Algeria,Algiers,P0093,Office Chair Ergonomic,Furniture,Office,Herman Miller,5,143.8,0,719.0
+ORD000542,2025-07-01,C0193,Bilal Cherif,bilal.cherif@email.com,Tunisia,Sousse,P0030,Vacuum Cleaner Robot,Home,Appliances,iRobot,3,1069.26,0,3207.78
+ORD000543,2024-04-05,C0090,Leila Hamdi,leila.hamdi@email.com,USA,Chicago,P0064,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,5,500.03,0,2500.15
+ORD000544,2025-10-25,C0094,Hanane Mekki,hanane.mekki@email.com,Algeria,Constantine,P0058,Kindle Paperwhite,Electronics,E-readers,Amazon,5,487.74,0,2438.7
+ORD000545,2025-10-24,C0031,Rachid Slimani,rachid.slimani@email.com,Algeria,Tlemcen,P0001,Laptop Dell XPS 15,Electronics,Computers,Dell,5,1231.8,0,6159.0
+ORD000546,2024-07-08,C0191,Rachid Slimani,rachid.slimani@email.com,Tunisia,Sfax,P0021,Laptop Dell XPS 15,Electronics,Computers,Dell,1,162.12,10,145.91
+ORD000547,2024-02-06,C0008,Nadia Brahimi,nadia.brahimi@email.com,Algeria,Algiers,P0017,Smartwatch Apple Watch,Electronics,Wearables,Apple,2,320.51,5,608.97
+ORD000548,2025-01-03,C0078,Emma Johnson,emma.johnson@email.com,Germany,Hamburg,P0014,Standing Desk,Furniture,Office,IKEA,5,1157.18,0,5785.9
+ORD000549,2025-11-25,C0013,Bilal Cherif,bilal.cherif@email.com,Morocco,Casablanca,P0035,Yoga Mat Premium,Sports,Fitness,Manduka,4,246.1,10,885.96
+ORD000550,2025-06-08,C0049,Karim Bouazza,karim.bouazza@email.com,France,Lyon,P0026,Adidas Running Shoes,Fashion,Shoes,Adidas,5,630.49,0,3152.45
+ORD000551,2024-10-05,C0059,James Wilson,james.wilson@email.com,Tunisia,Sfax,P0004,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,1,1856.92,5,1764.07
+ORD000552,2024-08-04,C0135,Tarek Ould,tarek.ould@email.com,France,Marseille,P0015,Yoga Mat Premium,Sports,Fitness,Manduka,3,1549.41,0,4648.23
+ORD000553,2024-09-29,C0163,Mohamed Saidi,mohamed.saidi@email.com,Algeria,Constantine,P0020,Gaming Console PS5,Electronics,Gaming,Sony,4,1365.89,10,4917.2
+ORD000554,2024-03-02,C0044,Sara Benali,sara.benali@email.com,UK,London,P0017,Smartwatch Apple Watch,Electronics,Wearables,Apple,3,1924.9,0,5774.7
+ORD000555,2025-08-18,C0164,Sara Benali,sara.benali@email.com,France,Lyon,P0014,Standing Desk,Furniture,Office,IKEA,5,149.52,0,747.6
+ORD000556,2025-12-29,C0068,Nadia Brahimi,nadia.brahimi@email.com,Morocco,Rabat,P0004,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,5,447.98,0,2239.9
+ORD000557,2024-12-07,C0194,Hanane Mekki,hanane.mekki@email.com,Morocco,Rabat,P0008,Zara Jacket,Fashion,Clothing,Zara,3,532.06,0,1596.18
+ORD000558,2025-01-31,C0194,Hanane Mekki,hanane.mekki@email.com,Germany,Hamburg,P0057,Smartwatch Apple Watch,Electronics,Wearables,Apple,3,191.83,0,575.49
+ORD000559,2025-11-29,C0114,Hanane Mekki,hanane.mekki@email.com,Tunisia,Tunis,P0039,Camera Canon EOS R6,Electronics,Cameras,Canon,4,893.37,10,3216.13
+ORD000560,2024-01-19,C0151,Rachid Slimani,rachid.slimani@email.com,UK,Manchester,P0056,Bicycle Mountain Bike,Sports,Cycling,Trek,2,481.92,0,963.84
+ORD000561,2024-06-25,C0093,Bilal Cherif,bilal.cherif@email.com,Germany,Munich,P0018,Kindle Paperwhite,Electronics,E-readers,Amazon,2,1033.05,0,2066.1
+ORD000562,2025-09-03,C0006,Amina Kaddour,amina.kaddour@email.com,France,Marseille,P0063,Samsung Galaxy S24,Electronics,Phones,Samsung,3,1658.69,0,4976.07
+ORD000563,2025-01-30,C0096,Zohra Benmoussa,zohra.benmoussa@email.com,Spain,Madrid,P0041,Laptop Dell XPS 15,Electronics,Computers,Dell,3,698.15,0,2094.45
+ORD000564,2025-03-20,C0198,Emma Johnson,emma.johnson@email.com,France,Paris,P0084,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,3,914.26,0,2742.78
+ORD000565,2024-08-20,C0137,John Smith,john.smith@email.com,Tunisia,Sousse,P0014,Standing Desk,Furniture,Office,IKEA,1,867.66,0,867.66
+ORD000566,2024-03-16,C0073,Bilal Cherif,bilal.cherif@email.com,Algeria,Constantine,P0047,Levis Jeans 501,Fashion,Clothing,Levis,5,621.36,0,3106.8
+ORD000567,2024-09-21,C0030,Leila Hamdi,leila.hamdi@email.com,USA,Los Angeles,P0025,Nike Air Max,Fashion,Shoes,Nike,2,1796.95,0,3593.9
+ORD000568,2025-03-30,C0058,Emma Johnson,emma.johnson@email.com,France,Marseille,P0041,Laptop Dell XPS 15,Electronics,Computers,Dell,1,1326.82,0,1326.82
+ORD000569,2025-12-18,C0010,Leila Hamdi,leila.hamdi@email.com,Algeria,Constantine,P0085,Nike Air Max,Fashion,Shoes,Nike,5,1897.02,0,9485.1
+ORD000570,2025-01-18,C0192,Samira Djebar,samira.djebar@email.com,Algeria,Oran,P0076,Bicycle Mountain Bike,Sports,Cycling,Trek,1,845.06,0,845.06
+ORD000571,2025-07-17,C0075,Tarek Ould,tarek.ould@email.com,France,Marseille,P0018,Kindle Paperwhite,Electronics,E-readers,Amazon,3,67.02,0,201.06
+ORD000572,2025-05-20,C0006,Amina Kaddour,amina.kaddour@email.com,USA,Chicago,P0047,Levis Jeans 501,Fashion,Clothing,Levis,2,1180.82,0,2361.64
+ORD000573,2025-01-01,C0130,Leila Hamdi,leila.hamdi@email.com,Algeria,Constantine,P0027,Levis Jeans 501,Fashion,Clothing,Levis,4,857.98,5,3260.32
+ORD000574,2024-05-23,C0017,John Smith,john.smith@email.com,Algeria,Algiers,P0036,Bicycle Mountain Bike,Sports,Cycling,Trek,5,184.31,0,921.55
+ORD000575,2024-03-09,C0036,Zohra Benmoussa,zohra.benmoussa@email.com,Morocco,Casablanca,P0047,Levis Jeans 501,Fashion,Clothing,Levis,4,581.78,0,2327.12
+ORD000576,2024-04-08,C0014,Hanane Mekki,hanane.mekki@email.com,USA,New York,P0052,Python Programming Guide,Books,Tech,OReilly,4,1520.58,0,6082.32
+ORD000577,2025-01-30,C0143,Mohamed Saidi,mohamed.saidi@email.com,France,Lyon,P0052,Python Programming Guide,Books,Tech,OReilly,3,440.34,0,1321.02
+ORD000578,2024-01-25,C0165,Youssef Mansour,youssef.mansour@email.com,USA,New York,P0020,Gaming Console PS5,Electronics,Gaming,Sony,1,543.67,0,543.67
+ORD000579,2025-04-13,C0150,Leila Hamdi,leila.hamdi@email.com,Algeria,Oran,P0069,Coffee Maker Deluxe,Home,Kitchen,Generic,4,1173.83,0,4695.32
+ORD000580,2025-04-28,C0034,Hanane Mekki,hanane.mekki@email.com,Algeria,Oran,P0093,Office Chair Ergonomic,Furniture,Office,Herman Miller,4,1773.31,10,6383.92
+ORD000581,2025-07-18,C0164,Sara Benali,sara.benali@email.com,Algeria,Constantine,P0019,Camera Canon EOS R6,Electronics,Cameras,Canon,4,1348.04,5,5122.55
+ORD000582,2024-05-30,C0009,Karim Bouazza,karim.bouazza@email.com,Morocco,Rabat,P0082,iPhone 15 Pro,Electronics,Phones,Apple,5,321.07,0,1605.35
+ORD000583,2024-05-23,C0165,Youssef Mansour,youssef.mansour@email.com,Algeria,Tlemcen,P0093,Office Chair Ergonomic,Furniture,Office,Herman Miller,4,171.65,20,549.28
+ORD000584,2025-07-22,C0106,Amina Kaddour,amina.kaddour@email.com,Morocco,Marrakech,P0094,Standing Desk,Furniture,Office,IKEA,3,1159.84,5,3305.54
+ORD000585,2024-02-08,C0083,Mohamed Saidi,mohamed.saidi@email.com,Spain,Barcelona,P0059,Camera Canon EOS R6,Electronics,Cameras,Canon,4,898.42,0,3593.68
+ORD000586,2024-04-18,C0017,John Smith,john.smith@email.com,Morocco,Rabat,P0039,Camera Canon EOS R6,Electronics,Cameras,Canon,5,864.95,0,4324.75
+ORD000587,2025-11-23,C0139,James Wilson,james.wilson@email.com,Morocco,Marrakech,P0026,Adidas Running Shoes,Fashion,Shoes,Adidas,2,514.63,0,1029.26
+ORD000588,2024-02-11,C0092,Samira Djebar,samira.djebar@email.com,Algeria,Constantine,P0092,Python Programming Guide,Books,Tech,OReilly,5,1533.07,0,7665.35
+ORD000589,2024-07-04,C0024,Sara Benali,sara.benali@email.com,Morocco,Marrakech,P0026,Adidas Running Shoes,Fashion,Shoes,Adidas,3,1958.51,0,5875.53
+ORD000590,2025-02-01,C0195,Tarek Ould,tarek.ould@email.com,France,Lyon,P0027,Levis Jeans 501,Fashion,Clothing,Levis,1,1888.42,0,1888.42
+ORD000591,2024-08-10,C0130,Leila Hamdi,leila.hamdi@email.com,Morocco,Rabat,P0084,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,4,1539.48,0,6157.92
+ORD000592,2025-09-25,C0188,Nadia Brahimi,nadia.brahimi@email.com,Germany,Berlin,P0077,Smartwatch Apple Watch,Electronics,Wearables,Apple,1,1307.95,0,1307.95
+ORD000593,2024-05-12,C0022,Fatima Hassan,fatima.hassan@email.com,Algeria,Oran,P0027,Levis Jeans 501,Fashion,Clothing,Levis,1,1993.85,0,1993.85
+ORD000594,2024-06-11,C0089,Karim Bouazza,karim.bouazza@email.com,Germany,Berlin,P0076,Bicycle Mountain Bike,Sports,Cycling,Trek,2,37.23,0,74.46
+ORD000595,2024-08-02,C0176,Zohra Benmoussa,zohra.benmoussa@email.com,Algeria,Tlemcen,P0066,Adidas Running Shoes,Fashion,Shoes,Adidas,1,1348.97,0,1348.97
+ORD000596,2024-08-22,C0155,Tarek Ould,tarek.ould@email.com,Tunisia,Tunis,P0078,Kindle Paperwhite,Electronics,E-readers,Amazon,2,110.33,10,198.59
+ORD000597,2025-10-19,C0156,Zohra Benmoussa,zohra.benmoussa@email.com,Algeria,Constantine,P0024,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,5,148.09,0,740.45
+ORD000598,2025-08-10,C0146,Amina Kaddour,amina.kaddour@email.com,Algeria,Oran,P0058,Kindle Paperwhite,Electronics,E-readers,Amazon,4,309.87,5,1177.51
+ORD000599,2024-01-09,C0173,Bilal Cherif,bilal.cherif@email.com,Algeria,Oran,P0080,Gaming Console PS5,Electronics,Gaming,Sony,5,1801.53,0,9007.65
+ORD000600,2024-03-14,C0161,Ahmed Ali,ahmed.ali@email.com,UK,Manchester,P0038,Kindle Paperwhite,Electronics,E-readers,Amazon,3,514.73,0,1544.19
+ORD000601,2025-05-06,C0144,Sara Benali,sara.benali@email.com,Algeria,Tlemcen,P0021,Laptop Dell XPS 15,Electronics,Computers,Dell,3,1190.99,0,3572.97
+ORD000602,2024-09-09,C0198,Emma Johnson,emma.johnson@email.com,Tunisia,Tunis,P0087,Levis Jeans 501,Fashion,Clothing,Levis,5,692.03,0,3460.15
+ORD000603,2024-08-17,C0044,Sara Benali,sara.benali@email.com,Germany,Munich,P0044,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,2,643.34,10,1158.01
+ORD000604,2025-06-02,C0087,Omar Belkacem,omar.belkacem@email.com,USA,Chicago,P0078,Kindle Paperwhite,Electronics,E-readers,Amazon,3,10.06,0,30.18
+ORD000605,2024-06-22,C0017,John Smith,john.smith@email.com,Morocco,Rabat,P0054,Standing Desk,Furniture,Office,IKEA,5,1915.69,0,9578.45
+ORD000606,2025-10-14,C0029,Karim Bouazza,karim.bouazza@email.com,Algeria,Algiers,P0095,Yoga Mat Premium,Sports,Fitness,Manduka,2,1218.2,0,2436.4
+ORD000607,2024-06-16,C0089,Karim Bouazza,karim.bouazza@email.com,France,Paris,P0084,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,4,202.32,0,809.28
+ORD000608,2024-06-18,C0054,Hanane Mekki,hanane.mekki@email.com,France,Paris,P0054,Standing Desk,Furniture,Office,IKEA,2,140.97,10,253.75
+ORD000609,2025-01-27,C0195,Tarek Ould,tarek.ould@email.com,UK,Manchester,P0053,Office Chair Ergonomic,Furniture,Office,Herman Miller,1,811.38,0,811.38
+ORD000610,2025-09-25,C0070,Leila Hamdi,leila.hamdi@email.com,Morocco,Marrakech,P0033,Office Chair Ergonomic,Furniture,Office,Herman Miller,3,1479.63,0,4438.89
+ORD000611,2024-07-12,C0108,Nadia Brahimi,nadia.brahimi@email.com,Tunisia,Tunis,P0020,Gaming Console PS5,Electronics,Gaming,Sony,1,1610.15,0,1610.15
+ORD000612,2025-05-31,C0019,James Wilson,james.wilson@email.com,USA,New York,P0043,Samsung Galaxy S24,Electronics,Phones,Samsung,5,1350.67,0,6753.35
+ORD000613,2024-01-29,C0052,Samira Djebar,samira.djebar@email.com,Morocco,Casablanca,P0086,Adidas Running Shoes,Fashion,Shoes,Adidas,3,400.53,0,1201.59
+ORD000614,2024-06-13,C0042,Fatima Hassan,fatima.hassan@email.com,Morocco,Marrakech,P0026,Adidas Running Shoes,Fashion,Shoes,Adidas,3,562.91,0,1688.73
+ORD000615,2025-02-25,C0184,Sara Benali,sara.benali@email.com,Algeria,Constantine,P0051,Harry Potter Book Set,Books,Fiction,Scholastic,4,953.59,0,3814.36
+ORD000616,2024-12-04,C0011,Rachid Slimani,rachid.slimani@email.com,Tunisia,Sousse,P0011,Harry Potter Book Set,Books,Fiction,Scholastic,2,1001.28,0,2002.56
+ORD000617,2025-10-09,C0174,Hanane Mekki,hanane.mekki@email.com,Morocco,Casablanca,P0042,iPhone 15 Pro,Electronics,Phones,Apple,4,1796.89,5,6828.18
+ORD000618,2025-05-10,C0187,Omar Belkacem,omar.belkacem@email.com,Algeria,Constantine,P0007,Levis Jeans 501,Fashion,Clothing,Levis,3,1816.39,20,4359.34
+ORD000619,2024-12-30,C0140,Olivia Brown,olivia.brown@email.com,USA,Los Angeles,P0012,Python Programming Guide,Books,Tech,OReilly,3,1883.74,0,5651.22
+ORD000620,2024-12-07,C0053,Bilal Cherif,bilal.cherif@email.com,France,Paris,P0013,Office Chair Ergonomic,Furniture,Office,Herman Miller,1,1668.08,0,1668.08
+ORD000621,2025-05-14,C0116,Zohra Benmoussa,zohra.benmoussa@email.com,Tunisia,Sousse,P0096,Bicycle Mountain Bike,Sports,Cycling,Trek,1,1355.45,0,1355.45
+ORD000622,2025-10-18,C0092,Samira Djebar,samira.djebar@email.com,Germany,Hamburg,P0045,Nike Air Max,Fashion,Shoes,Nike,2,1173.24,15,1994.51
+ORD000623,2025-05-25,C0026,Amina Kaddour,amina.kaddour@email.com,UK,London,P0083,Samsung Galaxy S24,Electronics,Phones,Samsung,1,1016.8,0,1016.8
+ORD000624,2024-11-22,C0030,Leila Hamdi,leila.hamdi@email.com,Morocco,Marrakech,P0080,Gaming Console PS5,Electronics,Gaming,Sony,4,807.4,0,3229.6
+ORD000625,2024-08-04,C0179,James Wilson,james.wilson@email.com,Algeria,Constantine,P0047,Levis Jeans 501,Fashion,Clothing,Levis,5,889.65,0,4448.25
+ORD000626,2024-10-27,C0166,Amina Kaddour,amina.kaddour@email.com,Morocco,Casablanca,P0007,Levis Jeans 501,Fashion,Clothing,Levis,1,1909.59,0,1909.59
+ORD000627,2024-05-11,C0138,Emma Johnson,emma.johnson@email.com,Algeria,Tlemcen,P0050,Vacuum Cleaner Robot,Home,Appliances,iRobot,3,682.79,0,2048.37
+ORD000628,2024-03-10,C0181,Ahmed Ali,ahmed.ali@email.com,Tunisia,Tunis,P0004,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,3,1399.41,0,4198.23
+ORD000629,2024-09-08,C0071,Rachid Slimani,rachid.slimani@email.com,Morocco,Casablanca,P0061,Laptop Dell XPS 15,Electronics,Computers,Dell,3,241.79,0,725.37
+ORD000630,2025-02-18,C0036,Zohra Benmoussa,zohra.benmoussa@email.com,Morocco,Marrakech,P0043,Samsung Galaxy S24,Electronics,Phones,Samsung,3,1189.61,0,3568.83
+ORD000631,2025-03-20,C0156,Zohra Benmoussa,zohra.benmoussa@email.com,Algeria,Tlemcen,P0099,Camera Canon EOS R6,Electronics,Cameras,Canon,3,871.22,0,2613.66
+ORD000632,2024-06-30,C0017,John Smith,john.smith@email.com,Morocco,Rabat,P0090,Vacuum Cleaner Robot,Home,Appliances,iRobot,1,1658.59,0,1658.59
+ORD000633,2024-06-15,C0066,Amina Kaddour,amina.kaddour@email.com,Tunisia,Sfax,P0036,Bicycle Mountain Bike,Sports,Cycling,Trek,2,620.87,0,1241.74
+ORD000634,2024-03-31,C0001,Ahmed Ali,ahmed.ali@email.com,France,Lyon,P0087,Levis Jeans 501,Fashion,Clothing,Levis,2,362.54,0,725.08
+ORD000635,2025-12-14,C0200,Olivia Brown,olivia.brown@email.com,UK,Birmingham,P0018,Kindle Paperwhite,Electronics,E-readers,Amazon,5,30.88,10,138.96
+ORD000636,2025-06-14,C0012,Samira Djebar,samira.djebar@email.com,Spain,Valencia,P0039,Camera Canon EOS R6,Electronics,Cameras,Canon,1,1749.01,0,1749.01
+ORD000637,2024-02-08,C0029,Karim Bouazza,karim.bouazza@email.com,Algeria,Oran,P0015,Yoga Mat Premium,Sports,Fitness,Manduka,2,1291.47,0,2582.94
+ORD000638,2024-05-05,C0182,Fatima Hassan,fatima.hassan@email.com,Algeria,Constantine,P0043,Samsung Galaxy S24,Electronics,Phones,Samsung,2,772.6,0,1545.2
+ORD000639,2025-03-26,C0161,Ahmed Ali,ahmed.ali@email.com,UK,Birmingham,P0011,Harry Potter Book Set,Books,Fiction,Scholastic,4,406.83,0,1627.32
+ORD000640,2024-06-21,C0098,Emma Johnson,emma.johnson@email.com,USA,Los Angeles,P0066,Adidas Running Shoes,Fashion,Shoes,Adidas,4,1871.4,0,7485.6
+ORD000641,2025-10-14,C0185,Youssef Mansour,youssef.mansour@email.com,Algeria,Constantine,P0016,Bicycle Mountain Bike,Sports,Cycling,Trek,4,836.1,0,3344.4
+ORD000642,2024-08-07,C0177,John Smith,john.smith@email.com,Morocco,Casablanca,P0022,iPhone 15 Pro,Electronics,Phones,Apple,5,1212.68,0,6063.4
+ORD000643,2025-09-29,C0187,Omar Belkacem,omar.belkacem@email.com,Algeria,Constantine,P0015,Yoga Mat Premium,Sports,Fitness,Manduka,5,34.56,0,172.8
+ORD000644,2024-02-27,C0010,Leila Hamdi,leila.hamdi@email.com,Algeria,Constantine,P0035,Yoga Mat Premium,Sports,Fitness,Manduka,4,801.61,0,3206.44
+ORD000645,2025-10-21,C0147,Omar Belkacem,omar.belkacem@email.com,Germany,Hamburg,P0084,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,4,24.59,0,98.36
+ORD000646,2025-04-20,C0136,Zohra Benmoussa,zohra.benmoussa@email.com,Morocco,Casablanca,P0067,Levis Jeans 501,Fashion,Clothing,Levis,1,1120.17,15,952.14
+ORD000647,2025-03-31,C0071,Rachid Slimani,rachid.slimani@email.com,Algeria,Oran,P0098,Kindle Paperwhite,Electronics,E-readers,Amazon,1,1806.5,0,1806.5
+ORD000648,2024-12-26,C0172,Samira Djebar,samira.djebar@email.com,Algeria,Constantine,P0080,Gaming Console PS5,Electronics,Gaming,Sony,1,163.6,0,163.6
+ORD000649,2024-01-01,C0188,Nadia Brahimi,nadia.brahimi@email.com,Algeria,Tlemcen,P0078,Kindle Paperwhite,Electronics,E-readers,Amazon,1,340.49,0,340.49
+ORD000650,2025-01-21,C0134,Hanane Mekki,hanane.mekki@email.com,Tunisia,Sousse,P0025,Nike Air Max,Fashion,Shoes,Nike,2,1856.82,0,3713.64
+ORD000651,2024-12-13,C0028,Nadia Brahimi,nadia.brahimi@email.com,Algeria,Tlemcen,P0063,Samsung Galaxy S24,Electronics,Phones,Samsung,1,120.28,0,120.28
+ORD000652,2024-07-08,C0160,Olivia Brown,olivia.brown@email.com,Morocco,Casablanca,P0068,Zara Jacket,Fashion,Clothing,Zara,1,205.86,15,174.98
+ORD000653,2025-05-19,C0136,Zohra Benmoussa,zohra.benmoussa@email.com,Morocco,Marrakech,P0094,Standing Desk,Furniture,Office,IKEA,5,481.48,0,2407.4
+ORD000654,2024-07-09,C0118,Emma Johnson,emma.johnson@email.com,Tunisia,Sfax,P0066,Adidas Running Shoes,Fashion,Shoes,Adidas,2,1098.39,0,2196.78
+ORD000655,2025-05-22,C0063,Mohamed Saidi,mohamed.saidi@email.com,USA,New York,P0055,Yoga Mat Premium,Sports,Fitness,Manduka,3,1689.07,0,5067.21
+ORD000656,2025-01-03,C0026,Amina Kaddour,amina.kaddour@email.com,UK,Manchester,P0045,Nike Air Max,Fashion,Shoes,Nike,4,984.84,0,3939.36
+ORD000657,2025-02-12,C0171,Rachid Slimani,rachid.slimani@email.com,Spain,Valencia,P0056,Bicycle Mountain Bike,Sports,Cycling,Trek,3,675.04,0,2025.12
+ORD000658,2024-04-26,C0092,Samira Djebar,samira.djebar@email.com,USA,New York,P0019,Camera Canon EOS R6,Electronics,Cameras,Canon,4,1610.29,5,6119.1
+ORD000659,2024-05-13,C0177,John Smith,john.smith@email.com,Spain,Valencia,P0098,Kindle Paperwhite,Electronics,E-readers,Amazon,3,924.69,0,2774.07
+ORD000660,2024-02-27,C0126,Amina Kaddour,amina.kaddour@email.com,Morocco,Rabat,P0022,iPhone 15 Pro,Electronics,Phones,Apple,4,1354.16,0,5416.64
+ORD000661,2025-07-09,C0046,Amina Kaddour,amina.kaddour@email.com,Algeria,Constantine,P0086,Adidas Running Shoes,Fashion,Shoes,Adidas,5,873.76,0,4368.8
+ORD000662,2025-11-15,C0065,Youssef Mansour,youssef.mansour@email.com,France,Marseille,P0064,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,3,1404.44,0,4213.32
+ORD000663,2025-11-02,C0077,John Smith,john.smith@email.com,Morocco,Marrakech,P0079,Camera Canon EOS R6,Electronics,Cameras,Canon,1,1315.25,0,1315.25
+ORD000664,2024-06-21,C0091,Rachid Slimani,rachid.slimani@email.com,Morocco,Rabat,P0088,Zara Jacket,Fashion,Clothing,Zara,3,1656.72,0,4970.16
+ORD000665,2024-05-28,C0135,Tarek Ould,tarek.ould@email.com,USA,Chicago,P0006,Adidas Running Shoes,Fashion,Shoes,Adidas,3,1392.96,0,4178.88
+ORD000666,2024-03-20,C0031,Rachid Slimani,rachid.slimani@email.com,Algeria,Tlemcen,P0045,Nike Air Max,Fashion,Shoes,Nike,5,886.67,0,4433.35
+ORD000667,2024-07-31,C0117,John Smith,john.smith@email.com,Algeria,Tlemcen,P0041,Laptop Dell XPS 15,Electronics,Computers,Dell,2,583.49,0,1166.98
+ORD000668,2024-07-21,C0134,Hanane Mekki,hanane.mekki@email.com,Germany,Berlin,P0038,Kindle Paperwhite,Electronics,E-readers,Amazon,5,644.19,0,3220.95
+ORD000669,2024-08-16,C0003,Mohamed Saidi,mohamed.saidi@email.com,Algeria,Constantine,P0097,Smartwatch Apple Watch,Electronics,Wearables,Apple,3,1255.11,0,3765.33
+ORD000670,2025-11-06,C0125,Youssef Mansour,youssef.mansour@email.com,Algeria,Constantine,P0062,iPhone 15 Pro,Electronics,Phones,Apple,1,400.63,0,400.63
+ORD000671,2024-08-14,C0126,Amina Kaddour,amina.kaddour@email.com,Morocco,Casablanca,P0016,Bicycle Mountain Bike,Sports,Cycling,Trek,2,1257.67,5,2389.57
+ORD000672,2025-10-20,C0025,Youssef Mansour,youssef.mansour@email.com,USA,Chicago,P0073,Office Chair Ergonomic,Furniture,Office,Herman Miller,1,661.57,0,661.57
+ORD000673,2025-06-15,C0080,Olivia Brown,olivia.brown@email.com,Algeria,Constantine,P0018,Kindle Paperwhite,Electronics,E-readers,Amazon,2,877.63,0,1755.26
+ORD000674,2025-03-16,C0021,Ahmed Ali,ahmed.ali@email.com,France,Paris,P0048,Zara Jacket,Fashion,Clothing,Zara,3,184.7,0,554.1
+ORD000675,2025-02-05,C0030,Leila Hamdi,leila.hamdi@email.com,USA,Los Angeles,P0060,Gaming Console PS5,Electronics,Gaming,Sony,4,727.15,0,2908.6
+ORD000676,2024-02-16,C0004,Sara Benali,sara.benali@email.com,Tunisia,Tunis,P0009,Coffee Maker Deluxe,Home,Kitchen,Generic,2,1866.18,0,3732.36
+ORD000677,2024-08-20,C0099,James Wilson,james.wilson@email.com,Morocco,Casablanca,P0005,Nike Air Max,Fashion,Shoes,Nike,4,1617.36,10,5822.5
+ORD000678,2024-10-31,C0093,Bilal Cherif,bilal.cherif@email.com,Germany,Munich,P0074,Standing Desk,Furniture,Office,IKEA,5,581.57,5,2762.46
+ORD000679,2025-06-09,C0191,Rachid Slimani,rachid.slimani@email.com,Algeria,Algiers,P0094,Standing Desk,Furniture,Office,IKEA,5,11.85,10,53.32
+ORD000680,2024-05-22,C0042,Fatima Hassan,fatima.hassan@email.com,UK,London,P0012,Python Programming Guide,Books,Tech,OReilly,5,485.74,0,2428.7
+ORD000681,2025-02-18,C0052,Samira Djebar,samira.djebar@email.com,Morocco,Rabat,P0056,Bicycle Mountain Bike,Sports,Cycling,Trek,4,427.28,15,1452.75
+ORD000682,2025-05-27,C0085,Youssef Mansour,youssef.mansour@email.com,Germany,Munich,P0090,Vacuum Cleaner Robot,Home,Appliances,iRobot,3,1773.71,0,5321.13
+ORD000683,2025-01-07,C0031,Rachid Slimani,rachid.slimani@email.com,Spain,Valencia,P0081,Laptop Dell XPS 15,Electronics,Computers,Dell,5,1346.7,0,6733.5
+ORD000684,2025-07-19,C0103,Mohamed Saidi,mohamed.saidi@email.com,Tunisia,Sousse,P0070,Vacuum Cleaner Robot,Home,Appliances,iRobot,3,631.26,0,1893.78
+ORD000685,2024-09-15,C0118,Emma Johnson,emma.johnson@email.com,France,Paris,P0083,Samsung Galaxy S24,Electronics,Phones,Samsung,3,23.56,0,70.68
+ORD000686,2025-10-17,C0062,Fatima Hassan,fatima.hassan@email.com,USA,New York,P0068,Zara Jacket,Fashion,Clothing,Zara,1,654.22,0,654.22
+ORD000687,2025-04-15,C0014,Hanane Mekki,hanane.mekki@email.com,Algeria,Oran,P0100,Gaming Console PS5,Electronics,Gaming,Sony,3,1578.06,10,4260.76
+ORD000688,2024-01-12,C0179,James Wilson,james.wilson@email.com,Algeria,Tlemcen,P0080,Gaming Console PS5,Electronics,Gaming,Sony,4,976.44,0,3905.76
+ORD000689,2024-11-25,C0173,Bilal Cherif,bilal.cherif@email.com,UK,Birmingham,P0010,Vacuum Cleaner Robot,Home,Appliances,iRobot,2,554.66,10,998.39
+ORD000690,2024-12-23,C0146,Amina Kaddour,amina.kaddour@email.com,Germany,Berlin,P0025,Nike Air Max,Fashion,Shoes,Nike,1,1342.02,0,1342.02
+ORD000691,2025-02-11,C0127,Omar Belkacem,omar.belkacem@email.com,Algeria,Oran,P0028,Zara Jacket,Fashion,Clothing,Zara,3,362.48,0,1087.44
+ORD000692,2025-10-29,C0179,James Wilson,james.wilson@email.com,Spain,Madrid,P0054,Standing Desk,Furniture,Office,IKEA,3,1625.77,10,4389.58
+ORD000693,2025-01-07,C0059,James Wilson,james.wilson@email.com,UK,London,P0001,Laptop Dell XPS 15,Electronics,Computers,Dell,5,1486.54,0,7432.7
+ORD000694,2024-01-08,C0196,Zohra Benmoussa,zohra.benmoussa@email.com,Tunisia,Sousse,P0007,Levis Jeans 501,Fashion,Clothing,Levis,3,1919.35,0,5758.05
+ORD000695,2024-05-01,C0199,James Wilson,james.wilson@email.com,France,Paris,P0075,Yoga Mat Premium,Sports,Fitness,Manduka,2,1102.33,0,2204.66
+ORD000696,2024-12-13,C0165,Youssef Mansour,youssef.mansour@email.com,Morocco,Marrakech,P0081,Laptop Dell XPS 15,Electronics,Computers,Dell,3,1588.2,20,3811.68
+ORD000697,2025-11-06,C0003,Mohamed Saidi,mohamed.saidi@email.com,USA,Los Angeles,P0099,Camera Canon EOS R6,Electronics,Cameras,Canon,4,942.89,0,3771.56
+ORD000698,2024-03-30,C0061,Ahmed Ali,ahmed.ali@email.com,France,Paris,P0024,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,4,234.06,0,936.24
+ORD000699,2025-10-09,C0079,James Wilson,james.wilson@email.com,Algeria,Constantine,P0015,Yoga Mat Premium,Sports,Fitness,Manduka,2,1266.44,0,2532.88
+ORD000700,2025-11-28,C0131,Rachid Slimani,rachid.slimani@email.com,Tunisia,Tunis,P0098,Kindle Paperwhite,Electronics,E-readers,Amazon,5,287.12,0,1435.6
+ORD000701,2024-11-11,C0013,Bilal Cherif,bilal.cherif@email.com,Spain,Barcelona,P0079,Camera Canon EOS R6,Electronics,Cameras,Canon,4,1059.85,0,4239.4
+ORD000702,2024-06-26,C0082,Fatima Hassan,fatima.hassan@email.com,France,Paris,P0031,Harry Potter Book Set,Books,Fiction,Scholastic,5,837.56,0,4187.8
+ORD000703,2025-06-23,C0091,Rachid Slimani,rachid.slimani@email.com,Algeria,Algiers,P0078,Kindle Paperwhite,Electronics,E-readers,Amazon,1,1194.78,0,1194.78
+ORD000704,2024-02-10,C0085,Youssef Mansour,youssef.mansour@email.com,France,Lyon,P0035,Yoga Mat Premium,Sports,Fitness,Manduka,5,1642.3,0,8211.5
+ORD000705,2025-12-04,C0113,Bilal Cherif,bilal.cherif@email.com,Algeria,Tlemcen,P0058,Kindle Paperwhite,Electronics,E-readers,Amazon,2,1862.34,0,3724.68
+ORD000706,2025-05-16,C0094,Hanane Mekki,hanane.mekki@email.com,Morocco,Marrakech,P0089,Coffee Maker Deluxe,Home,Kitchen,Generic,5,526.61,0,2633.05
+ORD000707,2024-05-24,C0051,Rachid Slimani,rachid.slimani@email.com,Algeria,Tlemcen,P0073,Office Chair Ergonomic,Furniture,Office,Herman Miller,5,1725.53,0,8627.65
+ORD000708,2024-07-19,C0107,Omar Belkacem,omar.belkacem@email.com,Germany,Munich,P0022,iPhone 15 Pro,Electronics,Phones,Apple,2,343.95,0,687.9
+ORD000709,2025-12-24,C0110,Leila Hamdi,leila.hamdi@email.com,UK,Birmingham,P0065,Nike Air Max,Fashion,Shoes,Nike,1,1414.07,0,1414.07
+ORD000710,2025-04-05,C0125,Youssef Mansour,youssef.mansour@email.com,France,Marseille,P0059,Camera Canon EOS R6,Electronics,Cameras,Canon,1,1440.25,0,1440.25
+ORD000711,2025-07-11,C0188,Nadia Brahimi,nadia.brahimi@email.com,Spain,Barcelona,P0087,Levis Jeans 501,Fashion,Clothing,Levis,2,387.85,0,775.7
+ORD000712,2025-06-30,C0013,Bilal Cherif,bilal.cherif@email.com,Algeria,Oran,P0077,Smartwatch Apple Watch,Electronics,Wearables,Apple,1,893.92,0,893.92
+ORD000713,2024-09-09,C0170,Leila Hamdi,leila.hamdi@email.com,UK,Manchester,P0023,Samsung Galaxy S24,Electronics,Phones,Samsung,3,73.13,0,219.39
+ORD000714,2025-01-24,C0196,Zohra Benmoussa,zohra.benmoussa@email.com,Spain,Barcelona,P0007,Levis Jeans 501,Fashion,Clothing,Levis,2,1081.41,20,1730.26
+ORD000715,2025-08-16,C0052,Samira Djebar,samira.djebar@email.com,UK,London,P0021,Laptop Dell XPS 15,Electronics,Computers,Dell,2,697.7,0,1395.4
+ORD000716,2024-09-12,C0076,Zohra Benmoussa,zohra.benmoussa@email.com,Spain,Valencia,P0070,Vacuum Cleaner Robot,Home,Appliances,iRobot,4,1656.77,0,6627.08
+ORD000717,2025-12-09,C0065,Youssef Mansour,youssef.mansour@email.com,Spain,Madrid,P0024,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,3,862.03,0,2586.09
+ORD000718,2025-03-25,C0060,Olivia Brown,olivia.brown@email.com,France,Lyon,P0093,Office Chair Ergonomic,Furniture,Office,Herman Miller,3,1811.55,0,5434.65
+ORD000719,2024-01-10,C0169,Karim Bouazza,karim.bouazza@email.com,Morocco,Casablanca,P0031,Harry Potter Book Set,Books,Fiction,Scholastic,2,602.32,0,1204.64
+ORD000720,2024-08-29,C0142,Fatima Hassan,fatima.hassan@email.com,Tunisia,Sousse,P0056,Bicycle Mountain Bike,Sports,Cycling,Trek,3,1273.46,0,3820.38
+ORD000721,2024-09-07,C0172,Samira Djebar,samira.djebar@email.com,Algeria,Oran,P0001,Laptop Dell XPS 15,Electronics,Computers,Dell,4,1730.66,0,6922.64
+ORD000722,2024-01-05,C0065,Youssef Mansour,youssef.mansour@email.com,Spain,Valencia,P0021,Laptop Dell XPS 15,Electronics,Computers,Dell,5,286.61,0,1433.05
+ORD000723,2024-04-28,C0054,Hanane Mekki,hanane.mekki@email.com,Algeria,Tlemcen,P0092,Python Programming Guide,Books,Tech,OReilly,1,1674.48,0,1674.48
+ORD000724,2025-01-08,C0017,John Smith,john.smith@email.com,UK,Birmingham,P0007,Levis Jeans 501,Fashion,Clothing,Levis,4,1215.79,0,4863.16
+ORD000725,2024-03-05,C0162,Fatima Hassan,fatima.hassan@email.com,France,Lyon,P0078,Kindle Paperwhite,Electronics,E-readers,Amazon,3,1404.86,0,4214.58
+ORD000726,2024-05-25,C0081,Ahmed Ali,ahmed.ali@email.com,Morocco,Rabat,P0022,iPhone 15 Pro,Electronics,Phones,Apple,1,1294.61,0,1294.61
+ORD000727,2024-08-11,C0058,Emma Johnson,emma.johnson@email.com,Algeria,Oran,P0006,Adidas Running Shoes,Fashion,Shoes,Adidas,5,380.06,15,1615.26
+ORD000728,2024-08-26,C0135,Tarek Ould,tarek.ould@email.com,Algeria,Constantine,P0026,Adidas Running Shoes,Fashion,Shoes,Adidas,1,95.77,0,95.77
+ORD000729,2024-06-25,C0192,Samira Djebar,samira.djebar@email.com,Algeria,Algiers,P0061,Laptop Dell XPS 15,Electronics,Computers,Dell,2,1529.4,0,3058.8
+ORD000730,2024-10-08,C0087,Omar Belkacem,omar.belkacem@email.com,Tunisia,Sfax,P0029,Coffee Maker Deluxe,Home,Kitchen,Generic,2,1538.26,0,3076.52
+ORD000731,2024-03-03,C0157,John Smith,john.smith@email.com,Algeria,Algiers,P0041,Laptop Dell XPS 15,Electronics,Computers,Dell,3,1653.62,0,4960.86
+ORD000732,2024-08-04,C0043,Mohamed Saidi,mohamed.saidi@email.com,Algeria,Algiers,P0061,Laptop Dell XPS 15,Electronics,Computers,Dell,4,1274.93,0,5099.72
+ORD000733,2025-11-19,C0071,Rachid Slimani,rachid.slimani@email.com,UK,Manchester,P0100,Gaming Console PS5,Electronics,Gaming,Sony,5,770.43,0,3852.15
+ORD000734,2025-04-05,C0074,Hanane Mekki,hanane.mekki@email.com,Spain,Valencia,P0042,iPhone 15 Pro,Electronics,Phones,Apple,3,1289.16,0,3867.48
+ORD000735,2025-09-01,C0041,Ahmed Ali,ahmed.ali@email.com,Morocco,Rabat,P0027,Levis Jeans 501,Fashion,Clothing,Levis,4,416.13,0,1664.52
+ORD000736,2024-04-14,C0186,Amina Kaddour,amina.kaddour@email.com,Algeria,Tlemcen,P0071,Harry Potter Book Set,Books,Fiction,Scholastic,5,692.43,0,3462.15
+ORD000737,2024-04-08,C0022,Fatima Hassan,fatima.hassan@email.com,Algeria,Oran,P0097,Smartwatch Apple Watch,Electronics,Wearables,Apple,3,120.92,0,362.76
+ORD000738,2025-05-25,C0171,Rachid Slimani,rachid.slimani@email.com,Algeria,Algiers,P0045,Nike Air Max,Fashion,Shoes,Nike,1,188.62,10,169.76
+ORD000739,2025-01-19,C0130,Leila Hamdi,leila.hamdi@email.com,France,Lyon,P0088,Zara Jacket,Fashion,Clothing,Zara,1,692.25,0,692.25
+ORD000740,2025-02-08,C0050,Leila Hamdi,leila.hamdi@email.com,Spain,Barcelona,P0075,Yoga Mat Premium,Sports,Fitness,Manduka,5,1097.89,10,4940.51
+ORD000741,2025-06-01,C0152,Samira Djebar,samira.djebar@email.com,Algeria,Algiers,P0018,Kindle Paperwhite,Electronics,E-readers,Amazon,2,340.8,10,613.44
+ORD000742,2025-04-20,C0082,Fatima Hassan,fatima.hassan@email.com,Algeria,Oran,P0049,Coffee Maker Deluxe,Home,Kitchen,Generic,5,684.26,15,2908.1
+ORD000743,2025-12-09,C0148,Nadia Brahimi,nadia.brahimi@email.com,Morocco,Marrakech,P0009,Coffee Maker Deluxe,Home,Kitchen,Generic,5,521.55,0,2607.75
+ORD000744,2025-10-06,C0019,James Wilson,james.wilson@email.com,Algeria,Oran,P0089,Coffee Maker Deluxe,Home,Kitchen,Generic,2,690.84,15,1174.43
+ORD000745,2025-03-12,C0082,Fatima Hassan,fatima.hassan@email.com,UK,Birmingham,P0066,Adidas Running Shoes,Fashion,Shoes,Adidas,1,1820.0,0,1820.0
+ORD000746,2024-01-23,C0161,Ahmed Ali,ahmed.ali@email.com,France,Marseille,P0003,Samsung Galaxy S24,Electronics,Phones,Samsung,3,1594.64,5,4544.72
+ORD000747,2025-07-18,C0200,Olivia Brown,olivia.brown@email.com,USA,New York,P0007,Levis Jeans 501,Fashion,Clothing,Levis,4,1612.14,5,6126.13
+ORD000748,2025-11-07,C0062,Fatima Hassan,fatima.hassan@email.com,France,Paris,P0010,Vacuum Cleaner Robot,Home,Appliances,iRobot,2,1171.01,0,2342.02
+ORD000749,2025-12-14,C0134,Hanane Mekki,hanane.mekki@email.com,Tunisia,Sousse,P0078,Kindle Paperwhite,Electronics,E-readers,Amazon,3,234.56,0,703.68
+ORD000750,2025-04-02,C0161,Ahmed Ali,ahmed.ali@email.com,USA,New York,P0084,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,3,1934.87,0,5804.61
+ORD000751,2024-03-23,C0002,Fatima Hassan,fatima.hassan@email.com,France,Lyon,P0049,Coffee Maker Deluxe,Home,Kitchen,Generic,4,1924.58,0,7698.32
+ORD000752,2024-05-24,C0078,Emma Johnson,emma.johnson@email.com,Algeria,Oran,P0026,Adidas Running Shoes,Fashion,Shoes,Adidas,5,419.9,0,2099.5
+ORD000753,2024-03-25,C0066,Amina Kaddour,amina.kaddour@email.com,Algeria,Constantine,P0079,Camera Canon EOS R6,Electronics,Cameras,Canon,5,1329.99,5,6317.45
+ORD000754,2024-03-18,C0124,Sara Benali,sara.benali@email.com,USA,Chicago,P0046,Adidas Running Shoes,Fashion,Shoes,Adidas,3,989.8,0,2969.4
+ORD000755,2025-04-01,C0100,Olivia Brown,olivia.brown@email.com,France,Marseille,P0034,Standing Desk,Furniture,Office,IKEA,4,1300.44,0,5201.76
+ORD000756,2024-01-01,C0192,Samira Djebar,samira.djebar@email.com,Algeria,Oran,P0012,Python Programming Guide,Books,Tech,OReilly,4,1633.33,0,6533.32
+ORD000757,2024-02-20,C0051,Rachid Slimani,rachid.slimani@email.com,Algeria,Tlemcen,P0048,Zara Jacket,Fashion,Clothing,Zara,3,686.61,5,1956.84
+ORD000758,2025-11-15,C0107,Omar Belkacem,omar.belkacem@email.com,Algeria,Constantine,P0059,Camera Canon EOS R6,Electronics,Cameras,Canon,5,371.82,0,1859.1
+ORD000759,2025-12-17,C0122,Fatima Hassan,fatima.hassan@email.com,USA,New York,P0037,Smartwatch Apple Watch,Electronics,Wearables,Apple,1,1274.29,0,1274.29
+ORD000760,2025-03-21,C0017,John Smith,john.smith@email.com,Morocco,Casablanca,P0011,Harry Potter Book Set,Books,Fiction,Scholastic,2,1337.19,0,2674.38
+ORD000761,2025-03-24,C0014,Hanane Mekki,hanane.mekki@email.com,Algeria,Oran,P0012,Python Programming Guide,Books,Tech,OReilly,4,194.5,0,778.0
+ORD000762,2025-05-02,C0010,Leila Hamdi,leila.hamdi@email.com,USA,New York,P0067,Levis Jeans 501,Fashion,Clothing,Levis,3,969.73,0,2909.19
+ORD000763,2024-02-03,C0170,Leila Hamdi,leila.hamdi@email.com,Algeria,Oran,P0085,Nike Air Max,Fashion,Shoes,Nike,1,1939.94,0,1939.94
+ORD000764,2024-12-13,C0130,Leila Hamdi,leila.hamdi@email.com,Algeria,Oran,P0098,Kindle Paperwhite,Electronics,E-readers,Amazon,5,1336.7,0,6683.5
+ORD000765,2024-04-04,C0127,Omar Belkacem,omar.belkacem@email.com,Algeria,Oran,P0008,Zara Jacket,Fashion,Clothing,Zara,2,675.54,0,1351.08
+ORD000766,2024-03-12,C0010,Leila Hamdi,leila.hamdi@email.com,UK,London,P0076,Bicycle Mountain Bike,Sports,Cycling,Trek,5,1320.03,0,6600.15
+ORD000767,2025-07-04,C0086,Amina Kaddour,amina.kaddour@email.com,Morocco,Rabat,P0094,Standing Desk,Furniture,Office,IKEA,4,1846.06,0,7384.24
+ORD000768,2024-06-02,C0129,Karim Bouazza,karim.bouazza@email.com,USA,Los Angeles,P0061,Laptop Dell XPS 15,Electronics,Computers,Dell,4,638.83,5,2427.55
+ORD000769,2024-09-06,C0190,Leila Hamdi,leila.hamdi@email.com,Algeria,Algiers,P0051,Harry Potter Book Set,Books,Fiction,Scholastic,2,135.58,0,271.16
+ORD000770,2025-11-04,C0120,Olivia Brown,olivia.brown@email.com,Spain,Barcelona,P0085,Nike Air Max,Fashion,Shoes,Nike,1,480.85,0,480.85
+ORD000771,2025-03-13,C0187,Omar Belkacem,omar.belkacem@email.com,USA,New York,P0096,Bicycle Mountain Bike,Sports,Cycling,Trek,4,487.24,0,1948.96
+ORD000772,2024-04-27,C0110,Leila Hamdi,leila.hamdi@email.com,UK,Manchester,P0032,Python Programming Guide,Books,Tech,OReilly,2,1157.85,0,2315.7
+ORD000773,2024-11-01,C0057,John Smith,john.smith@email.com,Algeria,Oran,P0087,Levis Jeans 501,Fashion,Clothing,Levis,5,1440.96,0,7204.8
+ORD000774,2024-09-24,C0033,Bilal Cherif,bilal.cherif@email.com,UK,Manchester,P0047,Levis Jeans 501,Fashion,Clothing,Levis,1,792.59,0,792.59
+ORD000775,2024-02-23,C0179,James Wilson,james.wilson@email.com,Morocco,Rabat,P0018,Kindle Paperwhite,Electronics,E-readers,Amazon,5,1770.77,0,8853.85
+ORD000776,2024-08-23,C0087,Omar Belkacem,omar.belkacem@email.com,USA,Chicago,P0066,Adidas Running Shoes,Fashion,Shoes,Adidas,2,1133.63,0,2267.26
+ORD000777,2025-01-23,C0013,Bilal Cherif,bilal.cherif@email.com,USA,Los Angeles,P0019,Camera Canon EOS R6,Electronics,Cameras,Canon,2,916.74,0,1833.48
+ORD000778,2025-02-04,C0023,Mohamed Saidi,mohamed.saidi@email.com,Algeria,Tlemcen,P0065,Nike Air Max,Fashion,Shoes,Nike,4,1850.04,0,7400.16
+ORD000779,2025-09-15,C0136,Zohra Benmoussa,zohra.benmoussa@email.com,Algeria,Tlemcen,P0005,Nike Air Max,Fashion,Shoes,Nike,2,1097.35,0,2194.7
+ORD000780,2024-10-29,C0029,Karim Bouazza,karim.bouazza@email.com,Algeria,Tlemcen,P0058,Kindle Paperwhite,Electronics,E-readers,Amazon,2,1506.02,10,2710.84
+ORD000781,2024-07-25,C0108,Nadia Brahimi,nadia.brahimi@email.com,Spain,Madrid,P0086,Adidas Running Shoes,Fashion,Shoes,Adidas,4,168.63,0,674.52
+ORD000782,2024-08-16,C0026,Amina Kaddour,amina.kaddour@email.com,UK,Birmingham,P0040,Gaming Console PS5,Electronics,Gaming,Sony,4,1606.06,0,6424.24
+ORD000783,2025-07-31,C0141,Ahmed Ali,ahmed.ali@email.com,Tunisia,Sfax,P0052,Python Programming Guide,Books,Tech,OReilly,5,550.39,0,2751.95
+ORD000784,2024-03-15,C0143,Mohamed Saidi,mohamed.saidi@email.com,Algeria,Constantine,P0007,Levis Jeans 501,Fashion,Clothing,Levis,4,1356.03,0,5424.12
+ORD000785,2025-03-10,C0085,Youssef Mansour,youssef.mansour@email.com,France,Marseille,P0026,Adidas Running Shoes,Fashion,Shoes,Adidas,5,90.26,0,451.3
+ORD000786,2024-04-12,C0168,Nadia Brahimi,nadia.brahimi@email.com,Algeria,Constantine,P0016,Bicycle Mountain Bike,Sports,Cycling,Trek,5,1971.75,5,9365.81
+ORD000787,2025-02-25,C0159,James Wilson,james.wilson@email.com,Algeria,Algiers,P0044,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,4,770.44,0,3081.76
+ORD000788,2025-12-04,C0097,John Smith,john.smith@email.com,Algeria,Tlemcen,P0069,Coffee Maker Deluxe,Home,Kitchen,Generic,4,782.07,5,2971.87
+ORD000789,2024-11-01,C0197,John Smith,john.smith@email.com,Spain,Barcelona,P0077,Smartwatch Apple Watch,Electronics,Wearables,Apple,2,981.35,5,1864.56
+ORD000790,2024-04-07,C0075,Tarek Ould,tarek.ould@email.com,Germany,Berlin,P0033,Office Chair Ergonomic,Furniture,Office,Herman Miller,1,1532.98,10,1379.68
+ORD000791,2024-11-30,C0074,Hanane Mekki,hanane.mekki@email.com,Algeria,Constantine,P0038,Kindle Paperwhite,Electronics,E-readers,Amazon,5,804.26,0,4021.3
+ORD000792,2025-03-10,C0010,Leila Hamdi,leila.hamdi@email.com,France,Marseille,P0018,Kindle Paperwhite,Electronics,E-readers,Amazon,4,1953.47,0,7813.88
+ORD000793,2025-03-22,C0164,Sara Benali,sara.benali@email.com,Tunisia,Tunis,P0061,Laptop Dell XPS 15,Electronics,Computers,Dell,5,369.51,10,1662.8
+ORD000794,2024-11-03,C0063,Mohamed Saidi,mohamed.saidi@email.com,Tunisia,Sfax,P0078,Kindle Paperwhite,Electronics,E-readers,Amazon,4,983.56,0,3934.24
+ORD000795,2024-09-05,C0178,Emma Johnson,emma.johnson@email.com,USA,Los Angeles,P0080,Gaming Console PS5,Electronics,Gaming,Sony,4,468.47,0,1873.88
+ORD000796,2024-06-14,C0001,Ahmed Ali,ahmed.ali@email.com,Algeria,Oran,P0017,Smartwatch Apple Watch,Electronics,Wearables,Apple,3,124.21,0,372.63
+ORD000797,2025-04-25,C0170,Leila Hamdi,leila.hamdi@email.com,Tunisia,Sfax,P0049,Coffee Maker Deluxe,Home,Kitchen,Generic,4,1405.18,0,5620.72
+ORD000798,2024-11-30,C0199,James Wilson,james.wilson@email.com,Algeria,Algiers,P0088,Zara Jacket,Fashion,Clothing,Zara,3,1033.83,5,2946.42
+ORD000799,2025-06-25,C0177,John Smith,john.smith@email.com,USA,New York,P0077,Smartwatch Apple Watch,Electronics,Wearables,Apple,3,919.21,0,2757.63
+ORD000800,2024-04-15,C0158,Emma Johnson,emma.johnson@email.com,Spain,Barcelona,P0086,Adidas Running Shoes,Fashion,Shoes,Adidas,2,1727.29,0,3454.58
+ORD000801,2025-07-16,C0049,Karim Bouazza,karim.bouazza@email.com,Algeria,Algiers,P0056,Bicycle Mountain Bike,Sports,Cycling,Trek,4,1756.72,0,7026.88
+ORD000802,2024-03-21,C0087,Omar Belkacem,omar.belkacem@email.com,Algeria,Tlemcen,P0079,Camera Canon EOS R6,Electronics,Cameras,Canon,4,629.65,0,2518.6
+ORD000803,2024-05-12,C0145,Youssef Mansour,youssef.mansour@email.com,Morocco,Casablanca,P0019,Camera Canon EOS R6,Electronics,Cameras,Canon,5,393.43,0,1967.15
+ORD000804,2024-05-17,C0100,Olivia Brown,olivia.brown@email.com,USA,Chicago,P0044,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,1,340.71,0,340.71
+ORD000805,2024-07-02,C0034,Hanane Mekki,hanane.mekki@email.com,UK,Birmingham,P0010,Vacuum Cleaner Robot,Home,Appliances,iRobot,2,665.17,0,1330.34
+ORD000806,2025-02-04,C0122,Fatima Hassan,fatima.hassan@email.com,Morocco,Rabat,P0091,Harry Potter Book Set,Books,Fiction,Scholastic,4,1414.17,0,5656.68
+ORD000807,2024-11-25,C0193,Bilal Cherif,bilal.cherif@email.com,USA,Chicago,P0078,Kindle Paperwhite,Electronics,E-readers,Amazon,5,1534.08,0,7670.4
+ORD000808,2025-05-22,C0145,Youssef Mansour,youssef.mansour@email.com,USA,New York,P0062,iPhone 15 Pro,Electronics,Phones,Apple,4,1215.73,0,4862.92
+ORD000809,2024-03-09,C0063,Mohamed Saidi,mohamed.saidi@email.com,Algeria,Oran,P0033,Office Chair Ergonomic,Furniture,Office,Herman Miller,5,1526.16,10,6867.72
+ORD000810,2025-06-29,C0043,Mohamed Saidi,mohamed.saidi@email.com,Morocco,Rabat,P0010,Vacuum Cleaner Robot,Home,Appliances,iRobot,1,1788.93,0,1788.93
+ORD000811,2024-02-22,C0021,Ahmed Ali,ahmed.ali@email.com,Germany,Munich,P0087,Levis Jeans 501,Fashion,Clothing,Levis,4,911.12,0,3644.48
+ORD000812,2025-03-25,C0156,Zohra Benmoussa,zohra.benmoussa@email.com,Algeria,Algiers,P0018,Kindle Paperwhite,Electronics,E-readers,Amazon,1,565.23,0,565.23
+ORD000813,2024-07-23,C0193,Bilal Cherif,bilal.cherif@email.com,Morocco,Rabat,P0021,Laptop Dell XPS 15,Electronics,Computers,Dell,3,174.32,0,522.96
+ORD000814,2024-05-05,C0127,Omar Belkacem,omar.belkacem@email.com,France,Paris,P0055,Yoga Mat Premium,Sports,Fitness,Manduka,4,639.75,0,2559.0
+ORD000815,2024-02-12,C0184,Sara Benali,sara.benali@email.com,Spain,Valencia,P0070,Vacuum Cleaner Robot,Home,Appliances,iRobot,3,524.83,0,1574.49
+ORD000816,2024-04-20,C0081,Ahmed Ali,ahmed.ali@email.com,Tunisia,Sousse,P0083,Samsung Galaxy S24,Electronics,Phones,Samsung,2,1921.89,0,3843.78
+ORD000817,2025-10-24,C0017,John Smith,john.smith@email.com,Algeria,Oran,P0063,Samsung Galaxy S24,Electronics,Phones,Samsung,4,1499.91,0,5999.64
+ORD000818,2024-07-01,C0117,John Smith,john.smith@email.com,Spain,Valencia,P0081,Laptop Dell XPS 15,Electronics,Computers,Dell,4,202.99,0,811.96
+ORD000819,2024-04-04,C0153,Bilal Cherif,bilal.cherif@email.com,UK,London,P0073,Office Chair Ergonomic,Furniture,Office,Herman Miller,4,1092.14,0,4368.56
+ORD000820,2025-01-08,C0146,Amina Kaddour,amina.kaddour@email.com,Algeria,Constantine,P0012,Python Programming Guide,Books,Tech,OReilly,2,748.24,0,1496.48
+ORD000821,2025-06-03,C0099,James Wilson,james.wilson@email.com,Algeria,Algiers,P0079,Camera Canon EOS R6,Electronics,Cameras,Canon,4,486.9,0,1947.6
+ORD000822,2024-12-25,C0188,Nadia Brahimi,nadia.brahimi@email.com,USA,Los Angeles,P0027,Levis Jeans 501,Fashion,Clothing,Levis,3,682.58,0,2047.74
+ORD000823,2025-11-26,C0177,John Smith,john.smith@email.com,USA,Los Angeles,P0047,Levis Jeans 501,Fashion,Clothing,Levis,3,28.08,0,84.24
+ORD000824,2024-10-07,C0124,Sara Benali,sara.benali@email.com,Morocco,Rabat,P0032,Python Programming Guide,Books,Tech,OReilly,3,1416.84,0,4250.52
+ORD000825,2024-07-13,C0177,John Smith,john.smith@email.com,Morocco,Rabat,P0095,Yoga Mat Premium,Sports,Fitness,Manduka,2,750.37,0,1500.74
+ORD000826,2024-07-13,C0038,Emma Johnson,emma.johnson@email.com,Algeria,Algiers,P0073,Office Chair Ergonomic,Furniture,Office,Herman Miller,3,1916.69,0,5750.07
+ORD000827,2025-10-28,C0158,Emma Johnson,emma.johnson@email.com,Germany,Berlin,P0028,Zara Jacket,Fashion,Clothing,Zara,4,329.66,0,1318.64
+ORD000828,2024-04-02,C0159,James Wilson,james.wilson@email.com,Algeria,Tlemcen,P0038,Kindle Paperwhite,Electronics,E-readers,Amazon,4,1645.29,0,6581.16
+ORD000829,2025-11-02,C0135,Tarek Ould,tarek.ould@email.com,France,Lyon,P0005,Nike Air Max,Fashion,Shoes,Nike,4,392.59,0,1570.36
+ORD000830,2024-03-01,C0140,Olivia Brown,olivia.brown@email.com,Morocco,Rabat,P0074,Standing Desk,Furniture,Office,IKEA,4,1966.85,0,7867.4
+ORD000831,2025-09-25,C0062,Fatima Hassan,fatima.hassan@email.com,Algeria,Constantine,P0034,Standing Desk,Furniture,Office,IKEA,2,1196.32,0,2392.64
+ORD000832,2024-02-20,C0126,Amina Kaddour,amina.kaddour@email.com,France,Marseille,P0078,Kindle Paperwhite,Electronics,E-readers,Amazon,2,840.61,0,1681.22
+ORD000833,2025-02-06,C0003,Mohamed Saidi,mohamed.saidi@email.com,Algeria,Oran,P0051,Harry Potter Book Set,Books,Fiction,Scholastic,3,147.17,0,441.51
+ORD000834,2024-01-05,C0145,Youssef Mansour,youssef.mansour@email.com,Tunisia,Sfax,P0004,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,2,586.56,0,1173.12
+ORD000835,2025-04-10,C0134,Hanane Mekki,hanane.mekki@email.com,USA,Los Angeles,P0009,Coffee Maker Deluxe,Home,Kitchen,Generic,3,1023.18,0,3069.54
+ORD000836,2025-08-26,C0004,Sara Benali,sara.benali@email.com,UK,Birmingham,P0003,Samsung Galaxy S24,Electronics,Phones,Samsung,4,490.9,0,1963.6
+ORD000837,2025-11-12,C0054,Hanane Mekki,hanane.mekki@email.com,France,Paris,P0040,Gaming Console PS5,Electronics,Gaming,Sony,5,1718.06,5,8160.78
+ORD000838,2025-06-17,C0155,Tarek Ould,tarek.ould@email.com,Tunisia,Tunis,P0099,Camera Canon EOS R6,Electronics,Cameras,Canon,1,1406.11,0,1406.11
+ORD000839,2025-02-08,C0180,Olivia Brown,olivia.brown@email.com,Algeria,Tlemcen,P0043,Samsung Galaxy S24,Electronics,Phones,Samsung,3,1534.83,0,4604.49
+ORD000840,2025-05-27,C0183,Mohamed Saidi,mohamed.saidi@email.com,UK,Manchester,P0012,Python Programming Guide,Books,Tech,OReilly,5,1388.91,20,5555.64
+ORD000841,2025-10-06,C0041,Ahmed Ali,ahmed.ali@email.com,Algeria,Algiers,P0012,Python Programming Guide,Books,Tech,OReilly,5,1831.05,0,9155.25
+ORD000842,2024-08-20,C0040,Olivia Brown,olivia.brown@email.com,France,Paris,P0035,Yoga Mat Premium,Sports,Fitness,Manduka,3,528.81,0,1586.43
+ORD000843,2025-06-07,C0126,Amina Kaddour,amina.kaddour@email.com,Germany,Munich,P0034,Standing Desk,Furniture,Office,IKEA,3,111.82,0,335.46
+ORD000844,2024-12-11,C0071,Rachid Slimani,rachid.slimani@email.com,Algeria,Oran,P0041,Laptop Dell XPS 15,Electronics,Computers,Dell,4,652.39,0,2609.56
+ORD000845,2024-02-15,C0153,Bilal Cherif,bilal.cherif@email.com,Morocco,Marrakech,P0017,Smartwatch Apple Watch,Electronics,Wearables,Apple,5,1736.73,0,8683.65
+ORD000846,2025-06-29,C0091,Rachid Slimani,rachid.slimani@email.com,Tunisia,Sfax,P0002,iPhone 15 Pro,Electronics,Phones,Apple,4,236.79,0,947.16
+ORD000847,2024-03-18,C0093,Bilal Cherif,bilal.cherif@email.com,Morocco,Casablanca,P0052,Python Programming Guide,Books,Tech,OReilly,1,922.14,0,922.14
+ORD000848,2025-12-30,C0018,Emma Johnson,emma.johnson@email.com,Tunisia,Tunis,P0037,Smartwatch Apple Watch,Electronics,Wearables,Apple,3,592.38,0,1777.14
+ORD000849,2024-03-13,C0170,Leila Hamdi,leila.hamdi@email.com,France,Lyon,P0087,Levis Jeans 501,Fashion,Clothing,Levis,1,215.4,0,215.4
+ORD000850,2024-09-05,C0098,Emma Johnson,emma.johnson@email.com,UK,Manchester,P0013,Office Chair Ergonomic,Furniture,Office,Herman Miller,1,541.62,10,487.46
+ORD000851,2024-02-16,C0092,Samira Djebar,samira.djebar@email.com,UK,London,P0020,Gaming Console PS5,Electronics,Gaming,Sony,5,159.8,0,799.0
+ORD000852,2024-04-30,C0155,Tarek Ould,tarek.ould@email.com,Algeria,Constantine,P0042,iPhone 15 Pro,Electronics,Phones,Apple,5,275.73,0,1378.65
+ORD000853,2024-08-01,C0053,Bilal Cherif,bilal.cherif@email.com,UK,Manchester,P0048,Zara Jacket,Fashion,Clothing,Zara,3,1474.48,0,4423.44
+ORD000854,2024-08-26,C0125,Youssef Mansour,youssef.mansour@email.com,Algeria,Constantine,P0004,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,3,1580.3,0,4740.9
+ORD000855,2024-02-25,C0011,Rachid Slimani,rachid.slimani@email.com,Algeria,Oran,P0075,Yoga Mat Premium,Sports,Fitness,Manduka,3,453.79,0,1361.37
+ORD000856,2024-12-15,C0102,Fatima Hassan,fatima.hassan@email.com,Spain,Valencia,P0036,Bicycle Mountain Bike,Sports,Cycling,Trek,3,1365.1,5,3890.53
+ORD000857,2024-04-16,C0191,Rachid Slimani,rachid.slimani@email.com,Algeria,Constantine,P0028,Zara Jacket,Fashion,Clothing,Zara,1,1824.52,0,1824.52
+ORD000858,2024-02-17,C0195,Tarek Ould,tarek.ould@email.com,Algeria,Oran,P0082,iPhone 15 Pro,Electronics,Phones,Apple,4,1189.47,5,4519.99
+ORD000859,2025-07-26,C0009,Karim Bouazza,karim.bouazza@email.com,France,Lyon,P0061,Laptop Dell XPS 15,Electronics,Computers,Dell,2,557.59,0,1115.18
+ORD000860,2024-12-02,C0085,Youssef Mansour,youssef.mansour@email.com,Algeria,Oran,P0049,Coffee Maker Deluxe,Home,Kitchen,Generic,3,960.96,0,2882.88
+ORD000861,2024-01-26,C0189,Karim Bouazza,karim.bouazza@email.com,USA,Los Angeles,P0026,Adidas Running Shoes,Fashion,Shoes,Adidas,5,259.25,0,1296.25
+ORD000862,2024-09-13,C0001,Ahmed Ali,ahmed.ali@email.com,Algeria,Constantine,P0052,Python Programming Guide,Books,Tech,OReilly,5,903.59,0,4517.95
+ORD000863,2024-01-08,C0149,Karim Bouazza,karim.bouazza@email.com,UK,Birmingham,P0038,Kindle Paperwhite,Electronics,E-readers,Amazon,2,496.86,0,993.72
+ORD000864,2025-09-16,C0174,Hanane Mekki,hanane.mekki@email.com,Germany,Berlin,P0071,Harry Potter Book Set,Books,Fiction,Scholastic,5,515.98,0,2579.9
+ORD000865,2024-09-09,C0085,Youssef Mansour,youssef.mansour@email.com,USA,Los Angeles,P0046,Adidas Running Shoes,Fashion,Shoes,Adidas,2,691.37,0,1382.74
+ORD000866,2025-11-22,C0015,Tarek Ould,tarek.ould@email.com,Tunisia,Sfax,P0029,Coffee Maker Deluxe,Home,Kitchen,Generic,4,384.58,0,1538.32
+ORD000867,2025-12-19,C0086,Amina Kaddour,amina.kaddour@email.com,Germany,Berlin,P0093,Office Chair Ergonomic,Furniture,Office,Herman Miller,4,227.89,0,911.56
+ORD000868,2024-10-29,C0117,John Smith,john.smith@email.com,France,Paris,P0091,Harry Potter Book Set,Books,Fiction,Scholastic,5,62.95,0,314.75
+ORD000869,2025-09-30,C0171,Rachid Slimani,rachid.slimani@email.com,UK,Birmingham,P0093,Office Chair Ergonomic,Furniture,Office,Herman Miller,5,1787.3,0,8936.5
+ORD000870,2024-02-25,C0105,Youssef Mansour,youssef.mansour@email.com,Algeria,Oran,P0066,Adidas Running Shoes,Fashion,Shoes,Adidas,1,1520.89,0,1520.89
+ORD000871,2025-12-26,C0087,Omar Belkacem,omar.belkacem@email.com,Tunisia,Tunis,P0054,Standing Desk,Furniture,Office,IKEA,5,1627.57,0,8137.85
+ORD000872,2025-06-09,C0070,Leila Hamdi,leila.hamdi@email.com,USA,Los Angeles,P0082,iPhone 15 Pro,Electronics,Phones,Apple,2,121.87,0,243.74
+ORD000873,2025-04-18,C0103,Mohamed Saidi,mohamed.saidi@email.com,Spain,Madrid,P0065,Nike Air Max,Fashion,Shoes,Nike,1,869.66,0,869.66
+ORD000874,2024-01-28,C0105,Youssef Mansour,youssef.mansour@email.com,Algeria,Oran,P0055,Yoga Mat Premium,Sports,Fitness,Manduka,3,443.28,0,1329.84
+ORD000875,2024-03-18,C0045,Youssef Mansour,youssef.mansour@email.com,Germany,Berlin,P0024,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,2,1520.36,0,3040.72
+ORD000876,2024-08-03,C0016,Zohra Benmoussa,zohra.benmoussa@email.com,USA,Chicago,P0054,Standing Desk,Furniture,Office,IKEA,1,708.05,5,672.65
+ORD000877,2025-01-20,C0115,Tarek Ould,tarek.ould@email.com,Germany,Berlin,P0099,Camera Canon EOS R6,Electronics,Cameras,Canon,5,1968.34,0,9841.7
+ORD000878,2024-12-30,C0103,Mohamed Saidi,mohamed.saidi@email.com,Germany,Munich,P0087,Levis Jeans 501,Fashion,Clothing,Levis,3,921.03,0,2763.09
+ORD000879,2025-10-27,C0049,Karim Bouazza,karim.bouazza@email.com,Germany,Berlin,P0048,Zara Jacket,Fashion,Clothing,Zara,2,1814.9,0,3629.8
+ORD000880,2025-06-09,C0132,Samira Djebar,samira.djebar@email.com,Morocco,Casablanca,P0036,Bicycle Mountain Bike,Sports,Cycling,Trek,4,1046.56,0,4186.24
+ORD000881,2025-11-29,C0035,Tarek Ould,tarek.ould@email.com,France,Lyon,P0036,Bicycle Mountain Bike,Sports,Cycling,Trek,1,1153.42,0,1153.42
+ORD000882,2024-11-07,C0083,Mohamed Saidi,mohamed.saidi@email.com,USA,Chicago,P0022,iPhone 15 Pro,Electronics,Phones,Apple,3,1469.95,5,4189.36
+ORD000883,2024-01-07,C0100,Olivia Brown,olivia.brown@email.com,Algeria,Tlemcen,P0052,Python Programming Guide,Books,Tech,OReilly,5,338.22,0,1691.1
+ORD000884,2024-01-03,C0146,Amina Kaddour,amina.kaddour@email.com,Morocco,Casablanca,P0100,Gaming Console PS5,Electronics,Gaming,Sony,4,1261.18,0,5044.72
+ORD000885,2025-09-14,C0054,Hanane Mekki,hanane.mekki@email.com,Algeria,Algiers,P0080,Gaming Console PS5,Electronics,Gaming,Sony,4,1143.3,5,4344.54
+ORD000886,2024-12-28,C0049,Karim Bouazza,karim.bouazza@email.com,Algeria,Tlemcen,P0048,Zara Jacket,Fashion,Clothing,Zara,3,1374.45,0,4123.35
+ORD000887,2025-05-22,C0186,Amina Kaddour,amina.kaddour@email.com,Algeria,Tlemcen,P0002,iPhone 15 Pro,Electronics,Phones,Apple,3,454.99,5,1296.72
+ORD000888,2024-09-30,C0082,Fatima Hassan,fatima.hassan@email.com,France,Paris,P0007,Levis Jeans 501,Fashion,Clothing,Levis,4,627.64,0,2510.56
+ORD000889,2025-05-20,C0106,Amina Kaddour,amina.kaddour@email.com,France,Marseille,P0081,Laptop Dell XPS 15,Electronics,Computers,Dell,5,1750.74,0,8753.7
+ORD000890,2024-01-15,C0161,Ahmed Ali,ahmed.ali@email.com,Morocco,Rabat,P0009,Coffee Maker Deluxe,Home,Kitchen,Generic,1,17.37,0,17.37
+ORD000891,2024-07-10,C0153,Bilal Cherif,bilal.cherif@email.com,Algeria,Tlemcen,P0042,iPhone 15 Pro,Electronics,Phones,Apple,5,1364.32,0,6821.6
+ORD000892,2025-09-22,C0185,Youssef Mansour,youssef.mansour@email.com,Algeria,Constantine,P0080,Gaming Console PS5,Electronics,Gaming,Sony,3,1308.04,0,3924.12
+ORD000893,2025-04-29,C0062,Fatima Hassan,fatima.hassan@email.com,Algeria,Oran,P0045,Nike Air Max,Fashion,Shoes,Nike,2,1820.03,0,3640.06
+ORD000894,2024-01-28,C0058,Emma Johnson,emma.johnson@email.com,Algeria,Algiers,P0077,Smartwatch Apple Watch,Electronics,Wearables,Apple,4,833.28,0,3333.12
+ORD000895,2025-12-14,C0052,Samira Djebar,samira.djebar@email.com,Germany,Munich,P0005,Nike Air Max,Fashion,Shoes,Nike,5,1955.1,15,8309.17
+ORD000896,2024-02-08,C0032,Samira Djebar,samira.djebar@email.com,USA,Chicago,P0030,Vacuum Cleaner Robot,Home,Appliances,iRobot,2,550.72,5,1046.37
+ORD000897,2024-09-29,C0185,Youssef Mansour,youssef.mansour@email.com,Algeria,Algiers,P0026,Adidas Running Shoes,Fashion,Shoes,Adidas,2,1962.95,0,3925.9
+ORD000898,2024-08-18,C0025,Youssef Mansour,youssef.mansour@email.com,USA,Chicago,P0044,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,3,1643.49,0,4930.47
+ORD000899,2024-03-26,C0189,Karim Bouazza,karim.bouazza@email.com,Algeria,Tlemcen,P0064,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,4,1575.15,0,6300.6
+ORD000900,2025-04-18,C0077,John Smith,john.smith@email.com,UK,Manchester,P0044,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,2,1466.43,0,2932.86
+ORD000901,2024-05-05,C0162,Fatima Hassan,fatima.hassan@email.com,Tunisia,Sousse,P0070,Vacuum Cleaner Robot,Home,Appliances,iRobot,3,1992.49,0,5977.47
+ORD000902,2025-06-20,C0126,Amina Kaddour,amina.kaddour@email.com,UK,Manchester,P0043,Samsung Galaxy S24,Electronics,Phones,Samsung,4,1194.88,10,4301.57
+ORD000903,2024-05-24,C0194,Hanane Mekki,hanane.mekki@email.com,Algeria,Oran,P0090,Vacuum Cleaner Robot,Home,Appliances,iRobot,2,297.18,0,594.36
+ORD000904,2025-06-08,C0046,Amina Kaddour,amina.kaddour@email.com,Tunisia,Tunis,P0059,Camera Canon EOS R6,Electronics,Cameras,Canon,2,697.08,0,1394.16
+ORD000905,2024-07-30,C0030,Leila Hamdi,leila.hamdi@email.com,Morocco,Casablanca,P0073,Office Chair Ergonomic,Furniture,Office,Herman Miller,3,1704.65,5,4858.25
+ORD000906,2024-01-25,C0005,Youssef Mansour,youssef.mansour@email.com,France,Marseille,P0087,Levis Jeans 501,Fashion,Clothing,Levis,3,49.75,0,149.25
+ORD000907,2025-08-02,C0190,Leila Hamdi,leila.hamdi@email.com,Morocco,Rabat,P0042,iPhone 15 Pro,Electronics,Phones,Apple,5,851.15,0,4255.75
+ORD000908,2025-01-28,C0097,John Smith,john.smith@email.com,Algeria,Constantine,P0007,Levis Jeans 501,Fashion,Clothing,Levis,2,363.99,0,727.98
+ORD000909,2024-03-07,C0106,Amina Kaddour,amina.kaddour@email.com,Tunisia,Tunis,P0049,Coffee Maker Deluxe,Home,Kitchen,Generic,2,1199.29,0,2398.58
+ORD000910,2024-08-20,C0156,Zohra Benmoussa,zohra.benmoussa@email.com,Tunisia,Sousse,P0097,Smartwatch Apple Watch,Electronics,Wearables,Apple,3,1405.28,0,4215.84
+ORD000911,2024-04-18,C0026,Amina Kaddour,amina.kaddour@email.com,France,Marseille,P0033,Office Chair Ergonomic,Furniture,Office,Herman Miller,2,888.59,0,1777.18
+ORD000912,2024-05-25,C0130,Leila Hamdi,leila.hamdi@email.com,Germany,Munich,P0050,Vacuum Cleaner Robot,Home,Appliances,iRobot,2,1440.21,0,2880.42
+ORD000913,2024-04-20,C0072,Samira Djebar,samira.djebar@email.com,Tunisia,Tunis,P0062,iPhone 15 Pro,Electronics,Phones,Apple,5,508.18,5,2413.86
+ORD000914,2024-08-15,C0006,Amina Kaddour,amina.kaddour@email.com,Morocco,Marrakech,P0014,Standing Desk,Furniture,Office,IKEA,3,267.47,0,802.41
+ORD000915,2024-04-20,C0178,Emma Johnson,emma.johnson@email.com,Germany,Berlin,P0010,Vacuum Cleaner Robot,Home,Appliances,iRobot,5,611.77,0,3058.85
+ORD000916,2025-04-14,C0052,Samira Djebar,samira.djebar@email.com,France,Paris,P0098,Kindle Paperwhite,Electronics,E-readers,Amazon,3,1865.88,0,5597.64
+ORD000917,2024-02-03,C0131,Rachid Slimani,rachid.slimani@email.com,Algeria,Tlemcen,P0059,Camera Canon EOS R6,Electronics,Cameras,Canon,1,1432.65,0,1432.65
+ORD000918,2025-09-14,C0073,Bilal Cherif,bilal.cherif@email.com,Algeria,Algiers,P0067,Levis Jeans 501,Fashion,Clothing,Levis,3,585.98,0,1757.94
+ORD000919,2025-01-03,C0129,Karim Bouazza,karim.bouazza@email.com,Tunisia,Sousse,P0029,Coffee Maker Deluxe,Home,Kitchen,Generic,2,209.91,0,419.82
+ORD000920,2025-08-17,C0037,John Smith,john.smith@email.com,Algeria,Tlemcen,P0024,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,3,1071.28,20,2571.07
+ORD000921,2025-07-07,C0058,Emma Johnson,emma.johnson@email.com,Algeria,Constantine,P0015,Yoga Mat Premium,Sports,Fitness,Manduka,4,421.53,10,1517.51
+ORD000922,2025-02-28,C0074,Hanane Mekki,hanane.mekki@email.com,Algeria,Tlemcen,P0064,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,3,683.63,0,2050.89
+ORD000923,2025-09-04,C0166,Amina Kaddour,amina.kaddour@email.com,UK,Manchester,P0029,Coffee Maker Deluxe,Home,Kitchen,Generic,3,1303.73,0,3911.19
+ORD000924,2025-06-01,C0048,Nadia Brahimi,nadia.brahimi@email.com,Algeria,Constantine,P0090,Vacuum Cleaner Robot,Home,Appliances,iRobot,2,743.76,0,1487.52
+ORD000925,2025-11-22,C0065,Youssef Mansour,youssef.mansour@email.com,France,Lyon,P0070,Vacuum Cleaner Robot,Home,Appliances,iRobot,4,972.92,10,3502.51
+ORD000926,2024-10-08,C0127,Omar Belkacem,omar.belkacem@email.com,Tunisia,Sfax,P0003,Samsung Galaxy S24,Electronics,Phones,Samsung,4,1629.28,0,6517.12
+ORD000927,2024-11-15,C0046,Amina Kaddour,amina.kaddour@email.com,UK,Manchester,P0069,Coffee Maker Deluxe,Home,Kitchen,Generic,1,1882.34,0,1882.34
+ORD000928,2025-03-18,C0091,Rachid Slimani,rachid.slimani@email.com,Algeria,Tlemcen,P0031,Harry Potter Book Set,Books,Fiction,Scholastic,1,554.35,0,554.35
+ORD000929,2024-11-10,C0115,Tarek Ould,tarek.ould@email.com,Spain,Valencia,P0011,Harry Potter Book Set,Books,Fiction,Scholastic,1,37.89,0,37.89
+ORD000930,2025-01-11,C0002,Fatima Hassan,fatima.hassan@email.com,Tunisia,Tunis,P0058,Kindle Paperwhite,Electronics,E-readers,Amazon,5,1907.1,10,8581.95
+ORD000931,2024-10-15,C0020,Olivia Brown,olivia.brown@email.com,Morocco,Rabat,P0020,Gaming Console PS5,Electronics,Gaming,Sony,2,259.91,0,519.82
+ORD000932,2025-03-12,C0026,Amina Kaddour,amina.kaddour@email.com,Morocco,Casablanca,P0067,Levis Jeans 501,Fashion,Clothing,Levis,1,1077.69,5,1023.81
+ORD000933,2025-10-23,C0147,Omar Belkacem,omar.belkacem@email.com,Tunisia,Tunis,P0057,Smartwatch Apple Watch,Electronics,Wearables,Apple,3,1289.69,0,3869.07
+ORD000934,2024-10-03,C0022,Fatima Hassan,fatima.hassan@email.com,Algeria,Algiers,P0047,Levis Jeans 501,Fashion,Clothing,Levis,3,1248.38,10,3370.63
+ORD000935,2025-12-10,C0069,Karim Bouazza,karim.bouazza@email.com,Morocco,Rabat,P0033,Office Chair Ergonomic,Furniture,Office,Herman Miller,2,1341.84,5,2549.5
+ORD000936,2025-08-04,C0116,Zohra Benmoussa,zohra.benmoussa@email.com,France,Paris,P0039,Camera Canon EOS R6,Electronics,Cameras,Canon,1,207.48,0,207.48
+ORD000937,2025-05-17,C0112,Samira Djebar,samira.djebar@email.com,UK,London,P0087,Levis Jeans 501,Fashion,Clothing,Levis,2,1250.04,0,2500.08
+ORD000938,2025-09-15,C0015,Tarek Ould,tarek.ould@email.com,Algeria,Constantine,P0069,Coffee Maker Deluxe,Home,Kitchen,Generic,1,1528.67,5,1452.24
+ORD000939,2025-05-30,C0146,Amina Kaddour,amina.kaddour@email.com,UK,Manchester,P0069,Coffee Maker Deluxe,Home,Kitchen,Generic,4,585.38,0,2341.52
+ORD000940,2024-12-15,C0029,Karim Bouazza,karim.bouazza@email.com,USA,Los Angeles,P0079,Camera Canon EOS R6,Electronics,Cameras,Canon,1,167.07,0,167.07
+ORD000941,2025-03-21,C0023,Mohamed Saidi,mohamed.saidi@email.com,Morocco,Casablanca,P0058,Kindle Paperwhite,Electronics,E-readers,Amazon,5,794.44,5,3773.59
+ORD000942,2024-12-15,C0103,Mohamed Saidi,mohamed.saidi@email.com,France,Lyon,P0023,Samsung Galaxy S24,Electronics,Phones,Samsung,1,1665.56,0,1665.56
+ORD000943,2025-08-29,C0161,Ahmed Ali,ahmed.ali@email.com,Germany,Munich,P0017,Smartwatch Apple Watch,Electronics,Wearables,Apple,3,484.29,0,1452.87
+ORD000944,2025-10-25,C0101,Ahmed Ali,ahmed.ali@email.com,Morocco,Casablanca,P0068,Zara Jacket,Fashion,Clothing,Zara,2,485.3,10,873.54
+ORD000945,2024-05-16,C0091,Rachid Slimani,rachid.slimani@email.com,USA,New York,P0094,Standing Desk,Furniture,Office,IKEA,1,79.97,0,79.97
+ORD000946,2024-08-30,C0016,Zohra Benmoussa,zohra.benmoussa@email.com,Morocco,Marrakech,P0021,Laptop Dell XPS 15,Electronics,Computers,Dell,2,664.23,0,1328.46
+ORD000947,2025-06-26,C0032,Samira Djebar,samira.djebar@email.com,Algeria,Tlemcen,P0027,Levis Jeans 501,Fashion,Clothing,Levis,4,1464.71,0,5858.84
+ORD000948,2024-02-09,C0181,Ahmed Ali,ahmed.ali@email.com,Algeria,Constantine,P0084,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,1,1448.31,10,1303.48
+ORD000949,2024-08-16,C0045,Youssef Mansour,youssef.mansour@email.com,USA,Chicago,P0026,Adidas Running Shoes,Fashion,Shoes,Adidas,1,404.41,5,384.19
+ORD000950,2025-07-01,C0046,Amina Kaddour,amina.kaddour@email.com,UK,Birmingham,P0088,Zara Jacket,Fashion,Clothing,Zara,3,1812.76,0,5438.28
+ORD000951,2024-08-10,C0017,John Smith,john.smith@email.com,Morocco,Rabat,P0024,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,5,1170.72,0,5853.6
+ORD000952,2024-01-06,C0187,Omar Belkacem,omar.belkacem@email.com,Germany,Munich,P0018,Kindle Paperwhite,Electronics,E-readers,Amazon,5,1407.77,0,7038.85
+ORD000953,2024-11-17,C0064,Sara Benali,sara.benali@email.com,Algeria,Oran,P0086,Adidas Running Shoes,Fashion,Shoes,Adidas,3,412.14,0,1236.42
+ORD000954,2025-04-12,C0191,Rachid Slimani,rachid.slimani@email.com,UK,London,P0100,Gaming Console PS5,Electronics,Gaming,Sony,3,311.02,0,933.06
+ORD000955,2024-03-15,C0101,Ahmed Ali,ahmed.ali@email.com,Algeria,Algiers,P0026,Adidas Running Shoes,Fashion,Shoes,Adidas,4,45.88,0,183.52
+ORD000956,2024-01-04,C0132,Samira Djebar,samira.djebar@email.com,Tunisia,Sfax,P0023,Samsung Galaxy S24,Electronics,Phones,Samsung,3,1605.63,0,4816.89
+ORD000957,2025-10-07,C0194,Hanane Mekki,hanane.mekki@email.com,Algeria,Algiers,P0011,Harry Potter Book Set,Books,Fiction,Scholastic,5,1515.51,0,7577.55
+ORD000958,2024-04-27,C0142,Fatima Hassan,fatima.hassan@email.com,Morocco,Marrakech,P0009,Coffee Maker Deluxe,Home,Kitchen,Generic,3,358.02,0,1074.06
+ORD000959,2025-08-28,C0067,Omar Belkacem,omar.belkacem@email.com,Algeria,Oran,P0056,Bicycle Mountain Bike,Sports,Cycling,Trek,4,1363.14,0,5452.56
+ORD000960,2025-05-18,C0138,Emma Johnson,emma.johnson@email.com,USA,Chicago,P0048,Zara Jacket,Fashion,Clothing,Zara,5,318.02,0,1590.1
+ORD000961,2025-07-27,C0050,Leila Hamdi,leila.hamdi@email.com,USA,New York,P0004,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,4,983.01,0,3932.04
+ORD000962,2025-03-16,C0115,Tarek Ould,tarek.ould@email.com,Morocco,Casablanca,P0058,Kindle Paperwhite,Electronics,E-readers,Amazon,2,115.12,0,230.24
+ORD000963,2024-07-12,C0081,Ahmed Ali,ahmed.ali@email.com,UK,Manchester,P0006,Adidas Running Shoes,Fashion,Shoes,Adidas,3,1765.99,0,5297.97
+ORD000964,2025-12-15,C0066,Amina Kaddour,amina.kaddour@email.com,France,Marseille,P0029,Coffee Maker Deluxe,Home,Kitchen,Generic,1,1003.23,0,1003.23
+ORD000965,2025-01-26,C0142,Fatima Hassan,fatima.hassan@email.com,Algeria,Algiers,P0032,Python Programming Guide,Books,Tech,OReilly,3,188.75,0,566.25
+ORD000966,2024-01-26,C0088,Nadia Brahimi,nadia.brahimi@email.com,Tunisia,Sfax,P0034,Standing Desk,Furniture,Office,IKEA,3,1280.96,0,3842.88
+ORD000967,2025-03-10,C0018,Emma Johnson,emma.johnson@email.com,UK,London,P0028,Zara Jacket,Fashion,Clothing,Zara,4,12.52,10,45.07
+ORD000968,2024-06-21,C0139,James Wilson,james.wilson@email.com,Tunisia,Sousse,P0093,Office Chair Ergonomic,Furniture,Office,Herman Miller,2,524.53,0,1049.06
+ORD000969,2024-10-26,C0024,Sara Benali,sara.benali@email.com,Tunisia,Sfax,P0053,Office Chair Ergonomic,Furniture,Office,Herman Miller,4,707.91,0,2831.64
+ORD000970,2025-10-06,C0049,Karim Bouazza,karim.bouazza@email.com,Algeria,Tlemcen,P0063,Samsung Galaxy S24,Electronics,Phones,Samsung,2,311.31,0,622.62
+ORD000971,2024-11-21,C0127,Omar Belkacem,omar.belkacem@email.com,France,Marseille,P0062,iPhone 15 Pro,Electronics,Phones,Apple,4,103.98,0,415.92
+ORD000972,2025-02-13,C0132,Samira Djebar,samira.djebar@email.com,Algeria,Tlemcen,P0025,Nike Air Max,Fashion,Shoes,Nike,4,17.88,0,71.52
+ORD000973,2024-04-27,C0111,Rachid Slimani,rachid.slimani@email.com,France,Marseille,P0011,Harry Potter Book Set,Books,Fiction,Scholastic,3,787.48,0,2362.44
+ORD000974,2025-12-24,C0199,James Wilson,james.wilson@email.com,Algeria,Oran,P0019,Camera Canon EOS R6,Electronics,Cameras,Canon,2,1005.58,0,2011.16
+ORD000975,2024-08-12,C0041,Ahmed Ali,ahmed.ali@email.com,Algeria,Oran,P0025,Nike Air Max,Fashion,Shoes,Nike,4,191.94,0,767.76
+ORD000976,2025-06-15,C0039,James Wilson,james.wilson@email.com,Algeria,Tlemcen,P0027,Levis Jeans 501,Fashion,Clothing,Levis,2,806.66,0,1613.32
+ORD000977,2024-04-22,C0028,Nadia Brahimi,nadia.brahimi@email.com,Tunisia,Sousse,P0078,Kindle Paperwhite,Electronics,E-readers,Amazon,1,1766.82,0,1766.82
+ORD000978,2024-05-19,C0022,Fatima Hassan,fatima.hassan@email.com,Algeria,Algiers,P0082,iPhone 15 Pro,Electronics,Phones,Apple,3,1807.03,0,5421.09
+ORD000979,2025-07-12,C0006,Amina Kaddour,amina.kaddour@email.com,Algeria,Tlemcen,P0093,Office Chair Ergonomic,Furniture,Office,Herman Miller,3,706.51,10,1907.58
+ORD000980,2024-01-01,C0002,Fatima Hassan,fatima.hassan@email.com,Morocco,Rabat,P0098,Kindle Paperwhite,Electronics,E-readers,Amazon,4,1308.93,0,5235.72
+ORD000981,2024-03-30,C0188,Nadia Brahimi,nadia.brahimi@email.com,Tunisia,Sfax,P0019,Camera Canon EOS R6,Electronics,Cameras,Canon,3,134.26,0,402.78
+ORD000982,2025-10-15,C0040,Olivia Brown,olivia.brown@email.com,Algeria,Algiers,P0008,Zara Jacket,Fashion,Clothing,Zara,1,179.44,0,179.44
+ORD000983,2024-11-15,C0087,Omar Belkacem,omar.belkacem@email.com,France,Marseille,P0079,Camera Canon EOS R6,Electronics,Cameras,Canon,5,1985.32,0,9926.6
+ORD000984,2025-07-03,C0067,Omar Belkacem,omar.belkacem@email.com,France,Marseille,P0046,Adidas Running Shoes,Fashion,Shoes,Adidas,2,629.91,0,1259.82
+ORD000985,2024-05-18,C0008,Nadia Brahimi,nadia.brahimi@email.com,Algeria,Constantine,P0049,Coffee Maker Deluxe,Home,Kitchen,Generic,5,758.62,0,3793.1
+ORD000986,2025-05-25,C0096,Zohra Benmoussa,zohra.benmoussa@email.com,Tunisia,Sousse,P0017,Smartwatch Apple Watch,Electronics,Wearables,Apple,1,1053.27,0,1053.27
+ORD000987,2024-09-15,C0009,Karim Bouazza,karim.bouazza@email.com,France,Paris,P0093,Office Chair Ergonomic,Furniture,Office,Herman Miller,5,1158.6,0,5793.0
+ORD000988,2025-11-03,C0010,Leila Hamdi,leila.hamdi@email.com,Tunisia,Sousse,P0013,Office Chair Ergonomic,Furniture,Office,Herman Miller,1,162.68,0,162.68
+ORD000989,2025-11-20,C0136,Zohra Benmoussa,zohra.benmoussa@email.com,Algeria,Algiers,P0067,Levis Jeans 501,Fashion,Clothing,Levis,3,938.7,0,2816.1
+ORD000990,2024-01-10,C0177,John Smith,john.smith@email.com,Spain,Barcelona,P0036,Bicycle Mountain Bike,Sports,Cycling,Trek,5,493.82,0,2469.1
+ORD000991,2024-09-17,C0104,Sara Benali,sara.benali@email.com,France,Lyon,P0004,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,5,579.7,0,2898.5
+ORD000992,2025-10-11,C0077,John Smith,john.smith@email.com,Tunisia,Sfax,P0087,Levis Jeans 501,Fashion,Clothing,Levis,4,1652.24,5,6278.51
+ORD000993,2024-06-20,C0075,Tarek Ould,tarek.ould@email.com,Tunisia,Sfax,P0093,Office Chair Ergonomic,Furniture,Office,Herman Miller,3,358.92,0,1076.76
+ORD000994,2024-01-13,C0055,Tarek Ould,tarek.ould@email.com,USA,Los Angeles,P0090,Vacuum Cleaner Robot,Home,Appliances,iRobot,1,921.83,10,829.65
+ORD000995,2024-06-16,C0183,Mohamed Saidi,mohamed.saidi@email.com,Algeria,Algiers,P0024,Sony Headphones WH-1000XM5,Electronics,Audio,Sony,4,488.09,0,1952.36
+ORD000996,2025-10-03,C0093,Bilal Cherif,bilal.cherif@email.com,Algeria,Tlemcen,P0027,Levis Jeans 501,Fashion,Clothing,Levis,1,1662.1,0,1662.1
+ORD000997,2025-08-18,C0023,Mohamed Saidi,mohamed.saidi@email.com,Germany,Munich,P0091,Harry Potter Book Set,Books,Fiction,Scholastic,1,88.44,0,88.44
+ORD000998,2024-11-16,C0031,Rachid Slimani,rachid.slimani@email.com,Germany,Munich,P0054,Standing Desk,Furniture,Office,IKEA,5,355.61,0,1778.05
+ORD000999,2024-11-14,C0115,Tarek Ould,tarek.ould@email.com,Algeria,Constantine,P0071,Harry Potter Book Set,Books,Fiction,Scholastic,3,1983.75,0,5951.25
+ORD001000,2025-09-04,C0119,James Wilson,james.wilson@email.com,Morocco,Rabat,P0008,Zara Jacket,Fashion,Clothing,Zara,1,1457.26,0,1457.26

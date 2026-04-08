@@ -1,0 +1,112 @@
+2026-04-04 17:07:40 | INFO     | main | Loading config from: config/ecommerce_dwh_config.yaml
+2026-04-04 17:07:40 | INFO     | dwh_loader | ✓ Connected to Data Warehouse: data/processed/ecommerce_dwh.db
+2026-04-04 17:07:40 | INFO     | dwh_loader | ✓ Star Schema created from: config/star_schema.sql
+2026-04-04 17:07:40 | INFO     | dwh_loader |   Tables: dim_customer, dim_date, dim_product, fact_sales, sqlite_sequence
+2026-04-04 17:07:40 | INFO     | dwh_loader | ✓ dim_customer: Loaded 199 new, updated 0 existing rows
+2026-04-04 17:07:40 | INFO     | dwh_loader |   Total unique keys: 199
+2026-04-04 17:07:40 | INFO     | dwh_loader | ✓ dim_product: Loaded 100 new, updated 0 existing rows
+2026-04-04 17:07:40 | INFO     | dwh_loader |   Total unique keys: 100
+2026-04-04 17:07:40 | INFO     | dwh_loader | ✓ Loaded 731 rows into dim_date
+2026-04-04 17:07:40 | INFO     | dwh_loader | ✓ Loaded 1,000 rows into fact_sales
+2026-04-04 17:07:40 | INFO     | dwh_loader |   Total Revenue: $2,855,059.14
+2026-04-04 17:07:40 | INFO     | dwh_loader |   Average Order: $2,855.06
+2026-04-04 17:07:40 | INFO     | dwh_loader | ✓ Referential integrity verified - all foreign keys valid
+2026-04-04 17:07:40 | INFO     | dwh_loader | ✓ Data Warehouse connection closed
+2026-04-04 17:12:26 | INFO     | main | Loading config from: config\ecommerce_dwh_config.yaml
+2026-04-04 17:12:26 | INFO     | dwh_loader | ✓ Connected to Data Warehouse: data/processed/ecommerce_dwh.db
+2026-04-04 17:12:26 | INFO     | dwh_loader | ✓ Star Schema created from: config/star_schema.sql
+2026-04-04 17:12:26 | INFO     | dwh_loader |   Tables: dim_customer, dim_date, dim_product, fact_sales, sqlite_sequence
+2026-04-04 17:12:26 | INFO     | dwh_loader | ✓ dim_customer: Loaded 199 new, updated 0 existing rows
+2026-04-04 17:12:26 | INFO     | dwh_loader |   Total unique keys: 199
+2026-04-04 17:12:26 | INFO     | dwh_loader | ✓ dim_product: Loaded 100 new, updated 0 existing rows
+2026-04-04 17:12:26 | INFO     | dwh_loader |   Total unique keys: 100
+2026-04-04 17:12:26 | INFO     | dwh_loader | ✓ Loaded 731 rows into dim_date
+2026-04-04 17:12:26 | INFO     | dwh_loader | ✓ Loaded 1,000 rows into fact_sales
+2026-04-04 17:12:26 | INFO     | dwh_loader |   Total Revenue: $2,855,059.14
+2026-04-04 17:12:26 | INFO     | dwh_loader |   Average Order: $2,855.06
+2026-04-04 17:12:26 | INFO     | dwh_loader | ✓ Referential integrity verified - all foreign keys valid
+2026-04-04 17:12:26 | INFO     | dwh_loader | ✓ Data Warehouse connection closed
+2026-04-04 17:21:32 | INFO     | main | Loading config from: config\ecommerce_dwh_config.yaml
+2026-04-04 17:21:32 | INFO     | dwh_loader | ✓ Connected to Data Warehouse: data/processed/ecommerce_dwh.db
+2026-04-04 17:21:32 | INFO     | dwh_loader | ✓ Star Schema created from: config/star_schema.sql
+2026-04-04 17:21:32 | INFO     | dwh_loader |   Tables: dim_customer, dim_date, dim_product, fact_sales, sqlite_sequence
+2026-04-04 17:21:33 | INFO     | dwh_loader | ✓ dim_customer: Loaded 0 new, updated 199 existing rows
+2026-04-04 17:21:33 | INFO     | dwh_loader |   Total unique keys: 199
+2026-04-04 17:21:33 | INFO     | dwh_loader | ✓ dim_product: Loaded 0 new, updated 100 existing rows
+2026-04-04 17:21:33 | INFO     | dwh_loader |   Total unique keys: 100
+2026-04-04 17:21:33 | INFO     | dwh_loader | ✓ Loaded 731 rows into dim_date
+2026-04-04 17:21:33 | INFO     | dwh_loader | ✓ Loaded 1,000 rows into fact_sales
+2026-04-04 17:21:33 | INFO     | dwh_loader |   Total Revenue: $2,855,059.14
+2026-04-04 17:21:33 | INFO     | dwh_loader |   Average Order: $2,855.06
+2026-04-04 17:21:33 | INFO     | dwh_loader | ✓ Referential integrity verified - all foreign keys valid
+2026-04-04 17:21:33 | INFO     | dwh_loader | ✓ Data Warehouse connection closed
+2026-04-04 17:25:05 | INFO     | main | Loading config from: config\ecommerce_dwh_config.yaml
+2026-04-04 17:25:06 | INFO     | dwh_loader | ✓ Connected to Data Warehouse: data/processed/ecommerce_dwh.db
+2026-04-04 17:25:06 | INFO     | dwh_loader | ✓ Star Schema created from: config/star_schema.sql
+2026-04-04 17:25:06 | INFO     | dwh_loader |   Tables: dim_customer, dim_date, dim_product, fact_sales, sqlite_sequence
+2026-04-04 17:25:06 | INFO     | dwh_loader | ✓ dim_customer: Loaded 0 new, updated 199 existing rows
+2026-04-04 17:25:06 | INFO     | dwh_loader |   Total unique keys: 199
+2026-04-04 17:25:06 | INFO     | dwh_loader | ✓ dim_product: Loaded 0 new, updated 100 existing rows
+2026-04-04 17:25:06 | INFO     | dwh_loader |   Total unique keys: 100
+2026-04-04 17:25:06 | INFO     | dwh_loader | ✓ Loaded 731 rows into dim_date
+2026-04-04 17:25:06 | INFO     | dwh_loader | ✓ Loaded 1,000 rows into fact_sales
+2026-04-04 17:25:06 | INFO     | dwh_loader |   Total Revenue: $2,855,059.14
+2026-04-04 17:25:06 | INFO     | dwh_loader |   Average Order: $2,855.06
+2026-04-04 17:25:06 | INFO     | dwh_loader | ✓ Referential integrity verified - all foreign keys valid
+2026-04-04 17:25:06 | INFO     | dwh_loader | ✓ Data Warehouse connection closed
+2026-04-04 17:26:35 | INFO     | main | Loading config from: config\ecommerce_dwh_config.yaml
+2026-04-04 17:26:36 | INFO     | dwh_loader | ✓ Connected to Data Warehouse: data/processed/ecommerce_dwh.db
+2026-04-04 17:26:36 | INFO     | dwh_loader | ✓ Star Schema created from: config/star_schema.sql
+2026-04-04 17:26:36 | INFO     | dwh_loader |   Tables: dim_customer, dim_date, dim_product, fact_sales, sqlite_sequence
+2026-04-04 17:26:36 | INFO     | dwh_loader | ✓ dim_customer: Loaded 0 new, updated 199 existing rows
+2026-04-04 17:26:36 | INFO     | dwh_loader |   Total unique keys: 199
+2026-04-04 17:26:36 | INFO     | dwh_loader | ✓ dim_product: Loaded 0 new, updated 100 existing rows
+2026-04-04 17:26:36 | INFO     | dwh_loader |   Total unique keys: 100
+2026-04-04 17:26:36 | INFO     | dwh_loader | ✓ Loaded 731 rows into dim_date
+2026-04-04 17:26:36 | INFO     | dwh_loader | ✓ Loaded 1,000 rows into fact_sales
+2026-04-04 17:26:36 | INFO     | dwh_loader |   Total Revenue: $2,855,059.14
+2026-04-04 17:26:36 | INFO     | dwh_loader |   Average Order: $2,855.06
+2026-04-04 17:26:36 | INFO     | dwh_loader | ✓ Referential integrity verified - all foreign keys valid
+2026-04-04 17:26:36 | INFO     | dwh_loader | ✓ Data Warehouse connection closed
+2026-04-04 17:35:24 | INFO     | main | Loading config from: config\ecommerce_dwh_config.yaml
+2026-04-04 17:35:24 | INFO     | dwh_loader | ✓ Connected to Data Warehouse: data/processed/ecommerce_dwh.db
+2026-04-04 17:35:24 | INFO     | dwh_loader | ✓ Star Schema created from: config/star_schema.sql
+2026-04-04 17:35:24 | INFO     | dwh_loader |   Tables: dim_customer, dim_date, dim_product, fact_sales, sqlite_sequence
+2026-04-04 17:35:24 | INFO     | dwh_loader | ✓ dim_customer: Loaded 0 new, updated 199 existing rows
+2026-04-04 17:35:24 | INFO     | dwh_loader |   Total unique keys: 199
+2026-04-04 17:35:24 | INFO     | dwh_loader | ✓ dim_product: Loaded 0 new, updated 100 existing rows
+2026-04-04 17:35:24 | INFO     | dwh_loader |   Total unique keys: 100
+2026-04-04 17:35:24 | INFO     | dwh_loader | ✓ Loaded 731 rows into dim_date
+2026-04-04 17:35:24 | INFO     | dwh_loader | ✓ Loaded 1,000 rows into fact_sales
+2026-04-04 17:35:24 | INFO     | dwh_loader |   Total Revenue: $2,855,059.14
+2026-04-04 17:35:24 | INFO     | dwh_loader |   Average Order: $2,855.06
+2026-04-04 17:35:24 | INFO     | dwh_loader | ✓ Referential integrity verified - all foreign keys valid
+2026-04-04 17:35:24 | INFO     | dwh_loader | ✓ Data Warehouse connection closed
+2026-04-04 17:37:22 | INFO     | main | Loading config from: config\ecommerce_dwh_config.yaml
+2026-04-04 17:37:22 | INFO     | dwh_loader | ✓ Connected to Data Warehouse: data/processed/ecommerce_dwh.db
+2026-04-04 17:37:22 | INFO     | dwh_loader | ✓ Star Schema created from: config/star_schema.sql
+2026-04-04 17:37:22 | INFO     | dwh_loader |   Tables: dim_customer, dim_date, dim_product, fact_sales, sqlite_sequence
+2026-04-04 17:37:22 | INFO     | dwh_loader | ✓ dim_customer: Loaded 199 new, updated 0 existing rows
+2026-04-04 17:37:22 | INFO     | dwh_loader |   Total unique keys: 199
+2026-04-04 17:37:22 | INFO     | dwh_loader | ✓ dim_product: Loaded 100 new, updated 0 existing rows
+2026-04-04 17:37:22 | INFO     | dwh_loader |   Total unique keys: 100
+2026-04-04 17:37:22 | INFO     | dwh_loader | ✓ Loaded 731 rows into dim_date
+2026-04-04 17:37:22 | INFO     | dwh_loader | ✓ Loaded 1,000 rows into fact_sales
+2026-04-04 17:37:22 | INFO     | dwh_loader |   Total Revenue: $2,855,059.14
+2026-04-04 17:37:22 | INFO     | dwh_loader |   Average Order: $2,855.06
+2026-04-04 17:37:22 | INFO     | dwh_loader | ✓ Referential integrity verified - all foreign keys valid
+2026-04-04 17:37:22 | INFO     | dwh_loader | ✓ Data Warehouse connection closed
+2026-04-04 19:21:06 | INFO     | main | Loading config from: config\ecommerce_dwh_config.yaml
+2026-04-04 19:21:06 | INFO     | dwh_loader | ✓ Connected to Data Warehouse: data/processed/ecommerce_dwh.db
+2026-04-04 19:21:06 | INFO     | dwh_loader | ✓ Star Schema created from: config/star_schema.sql
+2026-04-04 19:21:06 | INFO     | dwh_loader |   Tables: dim_customer, dim_date, dim_product, fact_sales, sqlite_sequence
+2026-04-04 19:21:06 | INFO     | dwh_loader | ✓ dim_customer: Loaded 0 new, updated 199 existing rows
+2026-04-04 19:21:06 | INFO     | dwh_loader |   Total unique keys: 199
+2026-04-04 19:21:06 | INFO     | dwh_loader | ✓ dim_product: Loaded 0 new, updated 100 existing rows
+2026-04-04 19:21:06 | INFO     | dwh_loader |   Total unique keys: 100
+2026-04-04 19:21:06 | INFO     | dwh_loader | ✓ Loaded 731 rows into dim_date
+2026-04-04 19:21:06 | INFO     | dwh_loader | ✓ Loaded 1,000 rows into fact_sales
+2026-04-04 19:21:06 | INFO     | dwh_loader |   Total Revenue: $2,855,059.14
+2026-04-04 19:21:06 | INFO     | dwh_loader |   Average Order: $2,855.06
+2026-04-04 19:21:06 | INFO     | dwh_loader | ✓ Referential integrity verified - all foreign keys valid
+2026-04-04 19:21:06 | INFO     | dwh_loader | ✓ Data Warehouse connection closed

@@ -1,0 +1,142 @@
+# ================================================================
+# ETL CONFIGURATION - E-COMMERCE DATA WAREHOUSE (Star Schema)
+# ================================================================
+# This configuration loads e-commerce sales data into a Star Schema
+# with Fact and Dimension tables for BI analytics
+# ================================================================
+
+# Enable Star Schema mode (uses DWHLoader instead of DBLoader)
+use_star_schema: true
+
+# Path to Star Schema DDL file
+schema_file: config/star_schema.sql
+
+# ----------------------------------------------------------------
+# DATA SOURCES
+# ----------------------------------------------------------------
+sources:
+  - type: CSV
+    path: data/raw/ecommerce_sales.csv
+    delimiter: ","
+    encoding: utf-8
+
+# ----------------------------------------------------------------
+# DATA CLEANING
+# ----------------------------------------------------------------
+cleaning:
+  # How to handle null values: fill | drop_rows | report
+  null_strategy: fill
+  
+  # Strings to treat as null
+  null_values:
+    - "N/A"
+    - "NULL"
+    - "null"
+    - ""
+  
+  # Column type casting (optional - can let Pandas infer)
+  type_map:
+    quantity: int
+    unit_price: float
+    discount: float
+    total_amount: float
+
+# ----------------------------------------------------------------
+# DATA VALIDATION RULES
+# ----------------------------------------------------------------
+validation_rules:
+  order_id:
+    required: true
+    
+  order_date:
+    required: true
+    
+  customer_id:
+    required: true
+    regex: "^C\\d{4}$"  # Format: C0001, C0002, etc.
+    
+  customer_name:
+    required: true
+    min_length: 2
+    
+  email:
+    regex: "^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}$"
+    
+  country:
+    required: true
+    allowed_values:
+      - Algeria
+      - France
+      - Morocco
+      - Tunisia
+      - USA
+      - UK
+      - Germany
+      - Spain
+      
+  product_id:
+    required: true
+    regex: "^P\\d{4}$"  # Format: P0001, P0002, etc.
+    
+  product_name:
+    required: true
+    
+  category:
+    required: true
+    allowed_values:
+      - Electronics
+      - Fashion
+      - Home
+      - Books
+      - Furniture
+      - Sports
+      
+  quantity:
+    required: true
+    min_value: 1
+    max_value: 100
+    
+  unit_price:
+    required: true
+    min_value: 0.01
+    max_value: 100000
+    
+  discount:
+    min_value: 0
+    max_value: 100
+    
+  total_amount:
+    required: true
+    min_value: 0
+
+# ----------------------------------------------------------------
+# DEDUPLICATION
+# ----------------------------------------------------------------
+deduplication:
+  # Which duplicate to keep: first | last | false (keep all)
+  keep: first
+  
+  # Add SHA-256 row hash column
+  use_hash: true
+  
+  # Columns to check for duplicates (null = all columns)
+  # For transactions, deduplicate on order_id
+  subset:
+    - order_id
+
+# ----------------------------------------------------------------
+# OUTPUT CONFIGURATION
+# ----------------------------------------------------------------
+output:
+  # Data Warehouse database path
+  db_path: data/processed/ecommerce_dwh.db
+  
+  # Note: When use_star_schema=true, these are ignored:
+  # table_name: (creates fact_sales + dim_* tables instead)
+  # export_csv: (Star Schema exports handled separately)
+  # export_json: (Star Schema exports handled separately)
+  
+  # For traditional flat loading (when use_star_schema=false):
+  table_name: ecommerce_sales
+  export_csv: false
+  export_json: false

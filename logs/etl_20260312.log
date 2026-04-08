@@ -7,3 +7,11 @@
 2026-03-12 11:34:54 | INFO     | dashboard | Config generated and activated: config\my_pipeline.yaml
 2026-03-12 11:35:04 | INFO     | dashboard | Config generated and activated: config\my_pipeline.yaml
 2026-03-12 11:49:50 | INFO     | dashboard | Config generated and activated: config\my_pipeline.yaml
+2026-03-12 12:02:17 | INFO     | dashboard | File uploaded: data\raw\ecommerce_orders.csv
+2026-03-12 12:02:17 | INFO     | dashboard | File uploaded: data\raw\ecommerce_output.csv
+2026-03-12 12:02:18 | INFO     | dashboard | File uploaded: data\raw\ecommerce_output.db
+2026-03-12 12:02:35 | INFO     | dashboard | Config generated and activated: config\my_pipeline.yaml
+2026-03-12 12:03:57 | INFO     | dashboard | Config generated and activated: config\my_pipeline.yaml
+2026-03-12 12:05:56 | INFO     | dashboard | Config generated and activated: config\my_pipeline.yaml
+2026-03-12 12:06:05 | INFO     | dashboard | Config generated and activated: config\my_pipeline.yaml
+2026-03-12 12:07:11 | INFO     | dashboard | Config generated and activated: config\my_pipeline.yaml
