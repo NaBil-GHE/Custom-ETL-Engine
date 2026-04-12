@@ -4,6 +4,8 @@
 > A production-ready ETL pipeline implementing dimensional modeling for analytics
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-2.0+-black.svg)](https://flask.palletsprojects.com/)
+[![SQLite](https://img.shields.io/badge/Database-SQLite-blue.svg)](https://www.sqlite.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Tests](https://img.shields.io/badge/Tests-21%20passing-success.svg)](tests/)
 [![Coverage](https://img.shields.io/badge/Coverage-95%25-brightgreen.svg)](tests/)
@@ -119,23 +121,24 @@ ORDER BY d.year, d.month;
 
 Get up and running in 3 minutes:
 
-```bash
+```powershell
 # 1. Clone the repository
 git clone <repository-url>
 cd "BI PROJECT"
 
 # 2. Create virtual environment
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1  # Windows
-# source .venv/bin/activate    # Linux/Mac
 
-# 3. Install dependencies
+# 3. Activate virtual environment (Windows PowerShell)
+& ".venv\Scripts\Activate.ps1"
+
+# 4. Install dependencies
 pip install -r requirements.txt
 
-# 4. Run Star Schema ETL pipeline
+# 5. Run Star Schema ETL pipeline
 python main.py --config config\ecommerce_dwh_config.yaml
 
-# 5. Launch web dashboard
+# 6. Launch web dashboard
 python main.py --dashboard
 # Open browser: http://127.0.0.1:5000
 ```
@@ -173,9 +176,9 @@ python main.py --dashboard
    ```
 
 3. **Activate Virtual Environment**
-   - **Windows (PowerShell)**:
+   - **Windows (PowerShell)** ⭐ Recommended:
      ```powershell
-     .\.venv\Scripts\Activate.ps1
+     & ".venv\Scripts\Activate.ps1"
      ```
    - **Windows (CMD)**:
      ```cmd
@@ -204,8 +207,8 @@ python main.py --dashboard
 ### Running ETL Pipelines
 
 #### Star Schema Mode (Recommended for BI)
-```bash
-python main.py --config config\ecommerce_dwh_config.yaml
+```powershell
+& ".venv\Scripts\python.exe" main.py --config config\ecommerce_dwh_config.yaml
 ```
 
 Creates data warehouse with:
@@ -215,16 +218,16 @@ Creates data warehouse with:
 - `dim_date`: 731 dates (2024-2025)
 
 #### Flat Table Mode (Traditional ETL)
-```bash
-python main.py --config config\etl_config.yaml
+```powershell
+& ".venv\Scripts\python.exe" main.py --config config\etl_config.yaml
 ```
 
 Creates single denormalized table.
 
 ### Launching Dashboard
 
-```bash
-python main.py --dashboard
+```powershell
+& ".venv\Scripts\python.exe" main.py --dashboard
 ```
 
 Access at: http://127.0.0.1:5000
@@ -237,15 +240,15 @@ Features:
 
 ### Running Tests
 
-```bash
+```powershell
 # All tests
-python main.py --test
+& ".venv\Scripts\python.exe" main.py --test
 
 # Specific test module
-python -m pytest tests/test_dwh_loader.py -v
+& ".venv\Scripts\python.exe" -m pytest tests/test_dwh_loader.py -v
 
 # With coverage report
-python -m pytest --cov=etl_engine tests/
+& ".venv\Scripts\python.exe" -m pytest --cov=etl_engine tests/
 ```
 
 ---
@@ -388,18 +391,18 @@ tests/
 
 ### Running Tests
 
-```bash
+```powershell
 # All tests
-python -m pytest tests/ -v
+& ".venv\Scripts\python.exe" -m pytest tests/ -v
 
 # Specific module
-python -m pytest tests/test_dwh_loader.py -v
+& ".venv\Scripts\python.exe" -m pytest tests/test_dwh_loader.py -v
 
 # With coverage
-python -m pytest --cov=etl_engine --cov-report=html tests/
+& ".venv\Scripts\python.exe" -m pytest --cov=etl_engine --cov-report=html tests/
 
 # Integration test only
-python -m pytest tests/test_integration.py -v
+& ".venv\Scripts\python.exe" -m pytest tests/test_integration.py -v
 ```
 
 ---
