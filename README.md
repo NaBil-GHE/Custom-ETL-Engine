@@ -123,7 +123,7 @@ Get up and running in 3 minutes:
 
 ```powershell
 # 1. Clone the repository
-git clone <repository-url>
+git clone https://github.com/NaBil-GHE/Custom-ETL-Engine
 cd "BI PROJECT"
 
 # 2. Create virtual environment
